@@ -201,7 +201,7 @@ function card(r, ghost){
       <div class="id">
         <div class="sym">${esc(r.symbol)}</div>
         <div class="name">${esc(r.name)}</div>
-        <span class="chip">${r.index==="midcap150"?"Midcap 150":"Smallcap 250"}</span>
+        <span class="chip">${r.index==="midcap150"?"Midcap 150":"Smallcap 250"}</span>${r.sector?` <span class="chip">${esc(r.sector)}</span>`:""}
       </div>
       <div class="px"><div class="cmp">${fmtINR(r.cmp)}</div>${chg}</div>
     </div>
@@ -214,6 +214,8 @@ function card(r, ghost){
     </div>
     <div class="badges">${badges}</div>
     <div class="fact">${facts}</div>
+    ${r.event_warning?`<div class="noplan">⚠ ${esc(r.event_warning)}</div>`:""}
+    ${((r.fund_detail||{}).quality_flags||[]).map(q=>`<div class="noplan">⚠ ${esc(q)}</div>`).join("")}
     ${planHtml}
     ${r.stage_html||""}
     ${rationale}
@@ -245,6 +247,16 @@ async function main(){
   let banners = "";
   if(d.sample) banners += `<div class="banner sample"><b>SAMPLE DATA</b> — this is placeholder output shipped with the repo so you can preview the design. It is not real market data. Run the Action to replace it.</div>`;
   for(const f of (d.run_flags||[])) banners += `<div class="banner amber">⚠ ${esc(f)}</div>`;
+  if(d.sector_summary && d.sector_summary.warning) banners += `<div class="banner amber">⚠ ${esc(d.sector_summary.warning)}</div>`;
+  const ev = d.evidence;
+  if(ev && ev.total_transitions_logged > 0){
+    const b = ev.ready_to_confirmed, c2 = ev.direct_to_confirmed;
+    let line = `System evidence (out-of-sample, ${ev.total_transitions_logged} transitions logged`;
+    if(b.n) line += ` · Ready→Confirmed: n=${b.n}, avg 20d ${b.avg_ret20_pct>0?"+":""}${b.avg_ret20_pct}%, win ${b.win_rate_pct}%`;
+    if(c2.n) line += ` · direct Confirmed: n=${c2.n}, avg 20d ${c2.avg_ret20_pct>0?"+":""}${c2.avg_ret20_pct}%`;
+    line += `) — treat as insufficient until n≥30 per bucket.`;
+    banners += `<div class="banner" style="background:rgba(91,141,217,.1);border:1px solid rgba(91,141,217,.4);color:#9FBCE8">${line}</div>`;
+  }
   document.getElementById("banners").innerHTML = banners;
 
   let html = "";

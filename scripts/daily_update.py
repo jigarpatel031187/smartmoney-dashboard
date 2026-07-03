@@ -360,6 +360,18 @@ def refresh_fundamentals(symbols: list[str]) -> dict:
             log(f"  fundamentals {n}/{len(symbols)}")
         try:
             t = yf.Ticker(f"{sym}.NS")
+            sector = next_earn = None
+            try:
+                sector = (t.info or {}).get("sector")
+            except Exception:
+                pass
+            try:
+                cal = t.calendar
+                ed = cal.get("Earnings Date") if isinstance(cal, dict) else None
+                if ed:
+                    next_earn = str(pd.Timestamp(ed[0]).date())
+            except Exception:
+                pass
             q = t.quarterly_income_stmt
             if q is None or q.empty:
                 cache[sym] = {"available": False, "reason": "no quarterly data"}
@@ -380,7 +392,8 @@ def refresh_fundamentals(symbols: list[str]) -> dict:
             if len(rows) < 2:
                 cache[sym] = {"available": False, "reason": "insufficient quarters"}
             else:
-                cache[sym] = {"available": True, "quarters": rows[-6:]}
+                cache[sym] = {"available": True, "quarters": rows[-6:],
+                              "sector": sector, "next_earnings": next_earn}
         except Exception as e:
             cache[sym] = {"available": False, "reason": f"fetch error: {type(e).__name__}"}
         time.sleep(0.4)  # be polite
@@ -460,10 +473,18 @@ def score_fundamental(f: dict) -> tuple[float | None, dict]:
     s_mgn = clamp(5 + (m_now - m_then) * 100) if (m_now is not None and m_then is not None) else 5.0
 
     score = 0.35 * s_rev + 0.35 * s_pat + 0.15 * s_acc + 0.15 * s_mgn
+    quality = []
+    if (pat_yoy is not None and pat_yoy * 100 > 100
+            and pat_yoy > 3 * max(rev_yoy, 0.01)):
+        quality.append("PAT growth far outpaces revenue - verify one-off income / "
+                       "exceptional items before trusting the number")
+    if m_then is not None and abs(m_then) < 0.01:
+        quality.append("tiny PAT base a year ago - growth % inflated by base effect")
     return round(score, 2), {
         "rev_yoy": round(rev_yoy * 100, 1),
         "pat_yoy": round(pat_yoy * 100, 1) if pat_yoy is not None else None,
         "latest_quarter": latest["q"],
+        "quality_flags": quality,
     }
 
 
@@ -728,11 +749,14 @@ def classify_stage(r: dict, plan: dict, hist: pd.DataFrame | None,
     return "NEUTRAL", {}
 
 
-def apply_stage_hysteresis(raw: dict, trade_date: str) -> dict:
+def apply_stage_hysteresis(raw: dict, trade_date: str, prices: dict) -> dict:
     """A stock transitions only after qualifying for the new stage on
-    STAGE_HYSTERESIS consecutive sessions. Idempotent per trade date."""
+    STAGE_HYSTERESIS consecutive sessions. Idempotent per trade date.
+    Real transitions are recorded with price for forward-return evidence."""
     path = STATE_DIR / "stage_history.json"
+    tpath = STATE_DIR / "transitions.json"
     hist = load_json(path, {})
+    trans = load_json(tpath, {"transitions": []})
     out = {}
     for sym, (stage, info) in raw.items():
         h = hist.get(sym)
@@ -745,6 +769,9 @@ def apply_stage_hysteresis(raw: dict, trade_date: str) -> dict:
             elif stage == h.get("cand"):
                 h["streak"] += 1
                 if h["streak"] >= STAGE_HYSTERESIS:
+                    trans["transitions"].append(
+                        {"sym": sym, "from": h["stage"], "to": stage,
+                         "date": trade_date, "price": prices.get(sym)})
                     h.update({"stage": stage, "since": trade_date,
                               "cand": None, "streak": 0})
             else:
@@ -758,7 +785,61 @@ def apply_stage_hysteresis(raw: dict, trade_date: str) -> dict:
                     "time_stop_left": (TIME_STOP_DAYS - days) if h["stage"] == "READY" else None,
                     "info": info if h["stage"] == raw[sym][0] else {}}
     save_json(path, hist)
+    save_json(tpath, trans)
     return out
+
+
+def evaluate_transitions(hists: dict) -> dict:
+    """Fill 5d/20d forward returns on past transitions; aggregate the evidence.
+    This accumulates real out-of-sample statistics - it is not a backtest."""
+    tpath = STATE_DIR / "transitions.json"
+    data = load_json(tpath, {"transitions": []})
+    for t in data["transitions"]:
+        if "ret20" in t or t.get("price") is None:
+            continue
+        h = hists.get(t["sym"])
+        if h is None:
+            continue
+        c = h["Close"].dropna()
+        dates = [d.strftime("%Y-%m-%d") for d in c.index]
+        pos = next((i for i, dd in enumerate(dates) if dd >= t["date"]), None)
+        if pos is None:
+            continue
+        for k in (5, 20):
+            if f"ret{k}" not in t and pos + k < len(c):
+                t[f"ret{k}"] = round(float(c.iloc[pos + k] / c.iloc[pos] - 1) * 100, 2)
+    save_json(tpath, data)
+
+    def agg(frm, to):
+        rs = [t["ret20"] for t in data["transitions"]
+              if t["from"] == frm and t["to"] == to and "ret20" in t]
+        if not rs:
+            return {"n": 0}
+        wins = sum(1 for r in rs if r > 0)
+        return {"n": len(rs), "avg_ret20_pct": round(sum(rs) / len(rs), 2),
+                "win_rate_pct": round(wins / len(rs) * 100, 0)}
+
+    return {"ready_to_confirmed": agg("READY", "CONFIRMED"),
+            "direct_to_confirmed": agg("NEUTRAL", "CONFIRMED"),
+            "to_red_flag": agg("CONFIRMED", "RED"),
+            "total_transitions_logged": len(data["transitions"]),
+            "note": ("20-session forward returns of past stage transitions. "
+                     "Accumulating out-of-sample evidence - NOT a backtest; "
+                     "treat as insufficient until n >= 30 per bucket.")}
+
+
+def sector_summary(entry_lists: list, funds: dict) -> dict:
+    from collections import Counter
+    syms = [r["symbol"] for lst in entry_lists for r in lst]
+    c = Counter((funds.get(s) or {}).get("sector") or "Unknown" for s in syms)
+    total = sum(c.values())
+    warning = None
+    if total >= 5:
+        top, n = c.most_common(1)[0]
+        if top != "Unknown" and n / total > 0.4:
+            warning = (f"Sector concentration: {top} is {n} of {total} staged entry "
+                       f"names - the board is one sector call, size accordingly")
+    return {"counts": dict(c), "warning": warning}
 
 
 def build_rationale(r: dict) -> str:
@@ -924,6 +1005,18 @@ def main() -> int:
             "liquid": liquid, "in_uptrend": in_uptrend,
             "avg_turnover_cr": round(turnover / 1e7, 2) if turnover else None,
         }
+        fmeta = funds.get(sym) or {}
+        row["sector"] = fmeta.get("sector")
+        ne = fmeta.get("next_earnings")
+        if ne:
+            try:
+                dd = (datetime.fromisoformat(ne).date()
+                      - datetime.fromisoformat(trade_date).date()).days
+                if 0 <= dd <= 7:
+                    row["event_warning"] = (f"results due {ne} ({dd}d away) - event "
+                                            f"risk; avoid fresh entries 2 days prior")
+            except ValueError:
+                pass
         row["rationale"] = build_rationale(row)
         rows.append(row)
 
@@ -947,7 +1040,10 @@ def main() -> int:
         plans[r["symbol"]] = p
         raw_stages[r["symbol"]] = classify_stage(
             r, p, hists.get(r["symbol"]), deals_agg.get(r["symbol"]))
-    staged = apply_stage_hysteresis(raw_stages, trade_date)
+    staged = apply_stage_hysteresis(
+        raw_stages, trade_date,
+        {r["symbol"]: r["cmp"] for r in rows})
+    evidence = evaluate_transitions(hists)
 
     def with_stage(r, want, include_plan=True):
         s = staged.get(r["symbol"])
@@ -1017,6 +1113,8 @@ def main() -> int:
                      f"{STAGE_HYSTERESIS} consecutive qualifying sessions."),
         },
         "momentum_watch": momentum[:5],
+        "evidence": evidence,
+        "sector_summary": sector_summary([ready_list, confirmed_list], funds),
         "broken_watch": broken[:5],
         "methodology_note": ("Fundamental score uses TRAILING reported growth "
                              "(latest quarter YoY, date-aligned), not forward "
