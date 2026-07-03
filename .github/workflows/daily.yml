@@ -12,6 +12,10 @@ on:
         description: "Backfill delivery history (calendar days, 0 = off)"
         required: false
         default: "0"
+      weekly:
+        description: "Force fundamentals refresh (true/false)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -37,7 +41,7 @@ jobs:
       - name: Decide mode (weekly on Saturday cron or manual choice)
         id: mode
         run: |
-          if [ "${{ github.event.schedule }}" = "30 3 * * 6" ]; then
+          if [ "${{ github.event.schedule }}" = "30 3 * * 6" ] || [ "${{ github.event.inputs.weekly }}" = "true" ]; then
             echo "flag=--weekly" >> "$GITHUB_OUTPUT"
           else
             echo "flag=" >> "$GITHUB_OUTPUT"
