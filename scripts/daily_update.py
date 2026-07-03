@@ -732,7 +732,7 @@ def main() -> int:
         import yfinance as yf
         ndf = yf.download("^NSEI", period="6mo", interval="1d",
                           auto_adjust=True, progress=False)
-        nc = ndf["Close"].dropna()
+        nc = ndf["Close"].squeeze().dropna()   # single ticker may return MultiIndex cols
         if len(nc) >= 63:
             nifty_ret3m = float(nc.iloc[-1] / nc.iloc[-63] - 1)
     except Exception as e:
