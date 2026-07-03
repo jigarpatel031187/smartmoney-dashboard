@@ -125,6 +125,7 @@ footer .disc{margin-top:10px;color:#6E7688}
 </div>
 
 <script>
+let W = {smart:"",technical:"",fundamental:""};
 const fmtINR = n => "₹" + Number(n).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
@@ -194,9 +195,9 @@ function card(r, ghost){
     <div class="scoreRow"><span class="big">${r.composite==null?"—":r.composite.toFixed(2)}</span><span class="of">/ 10 composite</span></div>
     <div class="bar"><i style="width:${(r.composite||0)*10}%"></i></div>
     <div class="comps">
-      ${compBar("Fundamental 50%", r.scores.fundamental)}
-      ${compBar("Smart money 40%", r.scores.smart)}
-      ${compBar("Technical 10%", r.scores.technical)}
+      ${compBar("Smart money " + W.smart, r.scores.smart)}
+      ${compBar("Technical " + W.technical, r.scores.technical)}
+      ${compBar("Fundamental " + W.fundamental, r.scores.fundamental)}
     </div>
     <div class="badges">${badges}</div>
     <div class="fact">${facts}</div>
@@ -219,6 +220,7 @@ async function main(){
   }
 
   const gen = new Date(d.generated_at);
+  W = {smart:(d.weights.smart*100)+"%", technical:(d.weights.technical*100)+"%", fundamental:(d.weights.fundamental*100)+"%"};
   document.getElementById("prov").innerHTML = `
     <span>Trade date <b class="mono">${esc(d.trade_date)}</b></span>
     <span>Prices <b>${esc(d.price_source)}</b></span>

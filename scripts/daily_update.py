@@ -52,7 +52,7 @@ HIST_DIR = OUT_DIR / "history"
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
-WEIGHTS = {"fundamental": 0.50, "smart": 0.40, "technical": 0.10}
+WEIGHTS = {"fundamental": 0.20, "smart": 0.50, "technical": 0.30}
 SMART_SUB = {"bulk": 15.0, "delivery": 10.0, "rvol": 10.0, "ud": 5.0}  # sums to 40
 
 RVOL_HIGH, RVOL_MOD = 0.50, 0.25          # +50% / +25% vs 20d avg volume
@@ -191,20 +191,47 @@ def get_universe() -> tuple[dict, str]:
 
 # ---------------------------------------------------------------- 2. bhavcopy (EOD + delivery %)
 
+def fetch_bhavcopy_for(day: datetime) -> pd.DataFrame | None:
+    """Bhavcopy for one specific date (None on holidays/weekends)."""
+    dstr = day.strftime("%d%m%Y")
+    r = http_get([u.format(d=dstr) for u in BHAV_URLS], retries=1)
+    if r is None:
+        return None
+    df = pd.read_csv(io.StringIO(r.text))
+    df.columns = [c.strip().upper() for c in df.columns]
+    for col in df.select_dtypes(include="object").columns:
+        df[col] = df[col].str.strip()
+    df = df[df["SERIES"] == "EQ"].copy()
+    for col in ("CLOSE_PRICE", "PREV_CLOSE", "TTL_TRD_QNTY", "DELIV_PER"):
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+    return df
+
+
+def backfill_delivery(universe: dict, days_back: int = 35) -> None:
+    """One-time: fill the 20-session delivery window from NSE's dated archives."""
+    log(f"Backfilling delivery history from last {days_back} calendar days...")
+    start = datetime.now(IST) - timedelta(days=days_back)
+    got = 0
+    for i in range(days_back):
+        day = start + timedelta(days=i)
+        if day.weekday() >= 5:
+            continue
+        df = fetch_bhavcopy_for(day)
+        if df is None:
+            continue  # holiday or archive miss - skipped, never invented
+        update_delivery_history(df, universe, day.strftime("%Y-%m-%d"))
+        got += 1
+        log(f"  {day.strftime('%Y-%m-%d')} ok ({got} sessions)")
+        time.sleep(1)
+    log(f"Backfill complete: {got} sessions loaded.")
+
+
 def fetch_bhavcopy(max_back=7) -> tuple[pd.DataFrame | None, str | None]:
     """Latest available sec_bhavdata_full, walking back up to max_back days."""
     day = datetime.now(IST)
     for _ in range(max_back):
-        dstr = day.strftime("%d%m%Y")
-        r = http_get([u.format(d=dstr) for u in BHAV_URLS], retries=2)
-        if r is not None:
-            df = pd.read_csv(io.StringIO(r.text))
-            df.columns = [c.strip().upper() for c in df.columns]
-            for col in df.select_dtypes(include="object").columns:
-                df[col] = df[col].str.strip()
-            df = df[df["SERIES"] == "EQ"].copy()  # EQ only: BE (trade-to-trade) untradeable for swing entries
-            for col in ("CLOSE_PRICE", "PREV_CLOSE", "TTL_TRD_QNTY", "DELIV_PER"):
-                df[col] = pd.to_numeric(df[col], errors="coerce")
+        df = fetch_bhavcopy_for(day)
+        if df is not None:
             return df, day.strftime("%Y-%m-%d")
         day -= timedelta(days=1)
     return None, None
@@ -671,6 +698,8 @@ def six_month_return(hist: pd.DataFrame | None) -> float | None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--weekly", action="store_true", help="refresh fundamentals cache")
+    ap.add_argument("--backfill", type=int, default=0,
+                    help="one-time: backfill delivery history from N calendar days of NSE archives")
     args = ap.parse_args()
 
     run_flags = []
@@ -678,6 +707,9 @@ def main() -> int:
     log("1/6 Universe...")
     universe, usrc = get_universe()
     log(f"    {len(universe)} symbols ({usrc})")
+
+    if args.backfill:
+        backfill_delivery(universe, args.backfill)
 
     log("2/6 Bhavcopy...")
     bhav, trade_date = fetch_bhavcopy()

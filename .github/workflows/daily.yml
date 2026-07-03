@@ -7,6 +7,11 @@ on:
     # 03:30 UTC Saturday = 09:00 IST - weekly fundamentals refresh + full re-rank
     - cron: "30 3 * * 6"
   workflow_dispatch:        # manual "Run workflow" button for testing
+    inputs:
+      backfill:
+        description: "Backfill delivery history (calendar days, 0 = off)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -39,7 +44,11 @@ jobs:
           fi
 
       - name: Run pipeline
-        run: python scripts/daily_update.py ${{ steps.mode.outputs.flag }}
+        run: |
+          BF="${{ github.event.inputs.backfill || '0' }}"
+          EXTRA=""
+          if [ "$BF" != "0" ] && [ -n "$BF" ]; then EXTRA="--backfill $BF"; fi
+          python scripts/daily_update.py ${{ steps.mode.outputs.flag }} $EXTRA
 
       - name: Commit results
         run: |
