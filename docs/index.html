@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Money Ledger — Midcap 150 · Smallcap 250</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0B1020; --card:#111930; --card2:#0E1528;
+  --gold:#C8A24B; --gold-dim:rgba(200,162,75,.28); --gold-faint:rgba(200,162,75,.12);
+  --cream:#EFE7D2; --muted:#8B93A7; --up:#4CAF8D; --down:#C96A5B; --amber:#D9A441;
+  --hair:1px solid rgba(200,162,75,.22);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--ink);color:var(--cream);font-family:'Archivo',sans-serif;
+     font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px 60px}
+
+/* ---------- masthead ---------- */
+header{padding:34px 0 18px;border-bottom:var(--hair)}
+.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600}
+h1{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(30px,5vw,44px);
+   letter-spacing:.01em;margin:6px 0 2px}
+.sub{color:var(--muted);font-size:13px}
+.prov{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 0;border-bottom:var(--hair);
+      font-size:12px;color:var(--muted)}
+.prov b{color:var(--cream);font-weight:600}
+.prov .mono{font-family:'IBM Plex Mono',monospace}
+
+/* ---------- banners ---------- */
+.banner{margin:14px 0 0;padding:10px 14px;border-radius:8px;font-size:12.5px;line-height:1.5}
+.banner.amber{background:rgba(217,164,65,.12);border:1px solid rgba(217,164,65,.45);color:var(--amber)}
+.banner.sample{background:rgba(201,106,91,.12);border:1px solid rgba(201,106,91,.5);color:#E2A79C}
+
+/* ---------- cards ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;margin-top:22px}
+.card{background:linear-gradient(160deg,var(--card),var(--card2));border:var(--hair);
+      border-radius:12px;padding:16px 16px 14px;position:relative;overflow:hidden}
+.card::after{content:"";position:absolute;inset:0 0 auto 0;height:2px;
+      background:linear-gradient(90deg,transparent,var(--gold-dim),transparent)}
+.rank{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:56px;line-height:.9;
+      color:var(--gold);opacity:.92;min-width:52px;text-align:center}
+.move{display:block;font-family:'Archivo';font-size:10px;letter-spacing:.08em;margin-top:4px;text-align:center}
+.move.up{color:var(--up)} .move.dn{color:var(--down)} .move.new{color:var(--gold)} .move.flat{color:var(--muted)}
+.top{display:flex;gap:14px;align-items:flex-start}
+.id{flex:1;min-width:0}
+.sym{font-weight:700;font-size:17px;letter-spacing:.02em}
+.name{color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip{display:inline-block;margin-top:5px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+      color:var(--gold);border:1px solid var(--gold-dim);border-radius:999px;padding:2px 8px}
+.px{text-align:right;font-family:'IBM Plex Mono',monospace}
+.cmp{font-size:17px;font-weight:600}
+.chg{font-size:12.5px;margin-top:2px}
+.chg.up{color:var(--up)} .chg.dn{color:var(--down)}
+
+.scoreRow{display:flex;align-items:baseline;gap:10px;margin:13px 0 4px}
+.big{font-family:'IBM Plex Mono',monospace;font-size:22px;font-weight:600;color:var(--gold)}
+.of{color:var(--muted);font-size:11px}
+.bar{height:5px;background:rgba(255,255,255,.07);border-radius:3px;overflow:hidden;margin:2px 0 10px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,#9c7c33,var(--gold));border-radius:3px}
+
+.comps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:11px}
+.comp label{display:block;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.comp .v{font-family:'IBM Plex Mono',monospace;font-size:12.5px}
+.mini{height:3px;background:rgba(255,255,255,.07);border-radius:2px;margin-top:3px}
+.mini i{display:block;height:100%;border-radius:2px;background:var(--gold-dim)}
+.mini i.hi{background:var(--gold)}
+
+.badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:9px}
+.badge{font-size:10px;font-weight:600;letter-spacing:.08em;border-radius:4px;padding:2px 7px;
+       background:var(--gold-faint);color:var(--gold);border:1px solid var(--gold-dim)}
+.badge.neg{background:rgba(201,106,91,.12);color:var(--down);border-color:rgba(201,106,91,.4)}
+.fact{font-size:11.5px;color:var(--muted)}
+.fact b{color:var(--cream);font-weight:600}
+
+/* ---------- momentum watch ---------- */
+h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin:36px 0 4px}
+.h2sub{color:var(--muted);font-size:12.5px;margin-bottom:14px}
+.card.ghost{opacity:.62;filter:saturate(.6)}
+.veto{margin-top:8px;font-size:11.5px;color:var(--amber)}
+.veto b{letter-spacing:.05em}
+
+/* ---------- footer ---------- */
+footer{margin-top:44px;border-top:var(--hair);padding-top:16px;color:var(--muted);font-size:11.5px;line-height:1.6}
+footer .disc{margin-top:10px;color:#6E7688}
+.empty{margin:60px auto;max-width:520px;text-align:center;color:var(--muted)}
+.empty h2{margin-bottom:8px}
+@media(max-width:420px){.rank{font-size:44px;min-width:44px}}
+@media(prefers-reduced-motion:no-preference){
+  .card{animation:rise .4s ease both}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Nifty Midcap 150 · Nifty Smallcap 250</div>
+  <h1>Smart Money Ledger</h1>
+  <div class="sub">Rule-based composite of trailing fundamental growth (50%), smart-money accumulation (40%) and technical context (10%). EOD data, auto-refreshed after market close.</div>
+</header>
+<div class="prov" id="prov"></div>
+<div id="banners"></div>
+<div id="app"><div class="empty"><h2>Loading…</h2></div></div>
+<footer id="foot"></footer>
+</div>
+
+<script>
+const fmtINR = n => "₹" + Number(n).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function moveTag(r){
+  if(r.prev_rank == null) return '<span class="move new">NEW</span>';
+  const d = r.prev_rank - r.rank;
+  if(d>0) return `<span class="move up">▲ ${d}</span>`;
+  if(d<0) return `<span class="move dn">▼ ${-d}</span>`;
+  return '<span class="move flat">—</span>';
+}
+
+function compBar(label,val){
+  const v = val==null ? null : Number(val);
+  const w = v==null ? 0 : v*10;
+  return `<div class="comp"><label>${label}</label>
+    <span class="v">${v==null?"n/a":v.toFixed(2)}</span>
+    <div class="mini"><i class="${v>=7?'hi':''}" style="width:${w}%"></i></div></div>`;
+}
+
+function card(r, ghost){
+  const chg = r.chg_pct==null?"" :
+    `<div class="chg ${r.chg_pct>=0?'up':'dn'}">${r.chg_pct>=0?"+":""}${r.chg_pct.toFixed(2)}%</div>`;
+  const badges = (r.badges||[]).map(b =>
+    `<span class="badge ${b.includes("SELL")?"neg":""}">${b==="BULK+"?"BULK ⚡":esc(b)}</span>`).join("");
+  const fd = r.fund_detail||{};
+  const facts = fd.rev_yoy!=null
+    ? `Rev YoY <b>${fd.rev_yoy>0?"+":""}${fd.rev_yoy}%</b> · PAT YoY <b>${fd.pat_yoy==null?"n/a":(fd.pat_yoy>0?"+":"")+fd.pat_yoy+"%"}</b> · Qtr ${esc(fd.latest_quarter||"")}`
+    : esc(fd.reason||"");
+  const vetoes = (r.vetoes||[]).map(v=>`<div class="veto"><b>${v.code}</b> · ${esc(v.text)}</div>`).join("");
+  return `<div class="card ${ghost?"ghost":""}">
+    <div class="top">
+      <div><div class="rank">${ghost?"·":r.rank}</div>${ghost?"":moveTag(r)}</div>
+      <div class="id">
+        <div class="sym">${esc(r.symbol)}</div>
+        <div class="name">${esc(r.name)}</div>
+        <span class="chip">${r.index==="midcap150"?"Midcap 150":"Smallcap 250"}</span>
+      </div>
+      <div class="px"><div class="cmp">${fmtINR(r.cmp)}</div>${chg}</div>
+    </div>
+    <div class="scoreRow"><span class="big">${r.composite==null?"—":r.composite.toFixed(2)}</span><span class="of">/ 10 composite</span></div>
+    <div class="bar"><i style="width:${(r.composite||0)*10}%"></i></div>
+    <div class="comps">
+      ${compBar("Fundamental 50%", r.scores.fundamental)}
+      ${compBar("Smart money 40%", r.scores.smart)}
+      ${compBar("Technical 10%", r.scores.technical)}
+    </div>
+    <div class="badges">${badges}</div>
+    <div class="fact">${facts}</div>
+    ${vetoes}
+  </div>`;
+}
+
+async function main(){
+  let d;
+  try{
+    const res = await fetch("./data/latest.json?t="+Date.now());
+    if(!res.ok) throw new Error(res.status);
+    d = await res.json();
+  }catch(e){
+    document.getElementById("app").innerHTML =
+      `<div class="empty"><h2>No data yet</h2><p>Run the GitHub Action once (Actions → Daily smart-money update → Run workflow), wait for it to finish, then refresh this page.</p></div>`;
+    return;
+  }
+
+  const gen = new Date(d.generated_at);
+  document.getElementById("prov").innerHTML = `
+    <span>Trade date <b class="mono">${esc(d.trade_date)}</b></span>
+    <span>Prices <b>${esc(d.price_source)}</b></span>
+    <span>Fundamentals <b>${esc(d.fundamentals_source)}</b></span>
+    <span>Universe <b class="mono">${d.universe_size}</b> · scored <b class="mono">${d.scored}</b> · excluded (no fundamentals) <b class="mono">${d.excluded_no_fundamentals}</b></span>
+    <span>Generated <b class="mono">${gen.toLocaleString("en-IN")}</b></span>`;
+
+  let banners = "";
+  if(d.sample) banners += `<div class="banner sample"><b>SAMPLE DATA</b> — this is placeholder output shipped with the repo so you can preview the design. It is not real market data. Run the Action to replace it.</div>`;
+  for(const f of (d.run_flags||[])) banners += `<div class="banner amber">⚠ ${esc(f)}</div>`;
+  document.getElementById("banners").innerHTML = banners;
+
+  let html = `<div class="grid">` + d.top10.map(r=>card(r,false)).join("") + `</div>`;
+  if((d.momentum_watch||[]).length){
+    html += `<h2>Momentum watch — V1 flagged</h2>
+      <div class="h2sub">Signal arrived after a 100%+ six-month run: momentum confirmation, not fresh entry. Excluded from the entry list by rule.</div>
+      <div class="grid">` + d.momentum_watch.map(r=>card(r,true)).join("") + `</div>`;
+  }
+  document.getElementById("app").innerHTML = html;
+
+  document.getElementById("foot").innerHTML = `
+    <div><b style="color:var(--cream)">Method.</b> ${esc(d.methodology_note)}
+    Weights: fundamental ${d.weights.fundamental*100}% · smart money ${d.weights.smart*100}%
+    (bulk/block ${d.smart_subweights.bulk}, delivery spike ${d.smart_subweights.delivery},
+    RVol+price-confirm ${d.smart_subweights.rvol}, U/D ${d.smart_subweights.ud})
+    · technical ${d.weights.technical*100}%. Vetoes: V1 momentum run, V2 missing fundamentals, V3 net bulk selling.</div>
+    <div class="disc">Educational purposes only. Not investment advice. Not SEBI-registered research.
+    Data from public NSE archives and Yahoo Finance; verify independently before acting.</div>`;
+}
+main();
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+name: Daily smart-money update
+
+on:
+  schedule:
+    # 13:30 UTC = 19:00 IST, Mon-Fri (bhavcopy + delivery data published by evening)
+    - cron: "30 13 * * 1-5"
+    # 03:30 UTC Saturday = 09:00 IST - weekly fundamentals refresh + full re-rank
+    - cron: "30 3 * * 6"
+  workflow_dispatch:        # manual "Run workflow" button for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Decide mode (weekly on Saturday cron or manual choice)
+        id: mode
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 3 * * 6" ]; then
+            echo "flag=--weekly" >> "$GITHUB_OUTPUT"
+          else
+            echo "flag=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run pipeline
+        run: python scripts/daily_update.py ${{ steps.mode.outputs.flag }}
+
+      - name: Commit results
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs/data
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Data update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
