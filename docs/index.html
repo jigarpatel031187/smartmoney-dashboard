@@ -75,6 +75,23 @@ h1{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(30px,5
 .fact{font-size:11.5px;color:var(--muted)}
 .fact b{color:var(--cream);font-weight:600}
 
+/* ---------- trade plan ---------- */
+.plan{border:1px solid rgba(255,255,255,.09);border-radius:8px;padding:10px 12px;margin:10px 0 9px;background:rgba(255,255,255,.02)}
+.planHead{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px}
+.planTitle{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.status{font-size:10px;font-weight:700;letter-spacing:.1em;border-radius:4px;padding:2px 8px}
+.status.CONFIRMED{background:rgba(76,175,141,.15);color:var(--up);border:1px solid rgba(76,175,141,.4)}
+.status.WAIT{background:rgba(139,147,167,.12);color:var(--muted);border:1px solid rgba(139,147,167,.3)}
+.status.PULLBACK{background:var(--gold-faint);color:var(--gold);border:1px solid var(--gold-dim)}
+.lv{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center}
+.lv div label{display:block;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.lv div span{font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600}
+.lv .slv span{color:var(--down)} .lv .tgt span{color:var(--up)}
+.planNote{font-size:10.5px;color:var(--muted);margin-top:7px;line-height:1.5}
+.planNote .warn{color:var(--amber)}
+.rationale{font-size:11.5px;color:#B9C0D0;line-height:1.55;margin-top:9px;padding-top:8px;border-top:1px dashed rgba(255,255,255,.1)}
+.rationale b{color:var(--gold);font-weight:600;font-size:10px;letter-spacing:.12em;text-transform:uppercase;display:block;margin-bottom:2px}
+.noplan{font-size:11px;color:var(--amber);margin:10px 0 6px}
 /* ---------- momentum watch ---------- */
 h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin:36px 0 4px}
 .h2sub{color:var(--muted);font-size:12.5px;margin-bottom:14px}
@@ -137,6 +154,33 @@ function card(r, ghost){
     ? `Rev YoY <b>${fd.rev_yoy>0?"+":""}${fd.rev_yoy}%</b> · PAT YoY <b>${fd.pat_yoy==null?"n/a":(fd.pat_yoy>0?"+":"")+fd.pat_yoy+"%"}</b> · Qtr ${esc(fd.latest_quarter||"")}`
     : esc(fd.reason||"");
   const vetoes = (r.vetoes||[]).map(v=>`<div class="veto"><b>${v.code}</b> · ${esc(v.text)}</div>`).join("");
+
+  let planHtml = "";
+  const p = r.plan;
+  if(p && p.valid){
+    const st = p.entry_status==="PULLBACK OK" ? "PULLBACK" : p.entry_status;
+    const notes = [];
+    if(p.zone_note) notes.push(`<span class="warn">${esc(p.zone_note)}</span>`);
+    notes.push(esc(p.vol_note));
+    if(p.vol_trend) notes.push(esc(p.vol_trend));
+    if(p.resistance_52w) notes.push(`52w-high resistance ${fmtINR(p.resistance_52w)} before T2`);
+    for(const f of (p.flags||[])) notes.push(`<span class="warn">${esc(f)}</span>`);
+    planHtml = `<div class="plan">
+      <div class="planHead"><span class="planTitle">Trade plan · R:R ${p.rr_at_cmp} · risk ${p.risk_pct}%</span>
+        <span class="status ${st}">${esc(p.entry_status)}</span></div>
+      <div class="lv">
+        <div><label>Buy zone</label><span>${fmtINR(p.buy_lo)}–${fmtINR(p.buy_hi)}</span></div>
+        <div class="slv"><label>Stop loss</label><span>${fmtINR(p.sl)}</span></div>
+        <div class="tgt"><label>T1 (1.5R)</label><span>${fmtINR(p.t1)}</span></div>
+        <div class="tgt"><label>T2 (2.5R)</label><span>${fmtINR(p.t2)}</span></div>
+      </div>
+      <div class="planNote">${notes.join(" · ")}</div>
+    </div>`;
+  } else if(p && !p.valid){
+    planHtml = `<div class="noplan">⚠ ${esc(p.reason)} — ranked on merit; no levels invented for it.</div>`;
+  }
+  const rationale = r.rationale ? `<div class="rationale"><b>Why selected</b>${esc(r.rationale)}</div>` : "";
+
   return `<div class="card ${ghost?"ghost":""}">
     <div class="top">
       <div><div class="rank">${ghost?"·":r.rank}</div>${ghost?"":moveTag(r)}</div>
@@ -156,6 +200,8 @@ function card(r, ghost){
     </div>
     <div class="badges">${badges}</div>
     <div class="fact">${facts}</div>
+    ${planHtml}
+    ${rationale}
     ${vetoes}
   </div>`;
 }
@@ -177,7 +223,7 @@ async function main(){
     <span>Trade date <b class="mono">${esc(d.trade_date)}</b></span>
     <span>Prices <b>${esc(d.price_source)}</b></span>
     <span>Fundamentals <b>${esc(d.fundamentals_source)}</b></span>
-    <span>Universe <b class="mono">${d.universe_size}</b> · scored <b class="mono">${d.scored}</b> · excluded (no fundamentals) <b class="mono">${d.excluded_no_fundamentals}</b></span>
+    <span>Universe <b class="mono">${d.universe_size}</b> · scored <b class="mono">${d.scored}</b> · excluded: no fundamentals <b class="mono">${d.excluded_no_fundamentals}</b>${d.excluded_illiquid!=null?` · illiquid (&lt;₹${d.liquidity_floor_cr} cr) <b class="mono">${d.excluded_illiquid}</b> · below 200 DMA <b class="mono">${d.excluded_downtrend}</b>`:""}</span>
     <span>Generated <b class="mono">${gen.toLocaleString("en-IN")}</b></span>`;
 
   let banners = "";
@@ -190,6 +236,11 @@ async function main(){
     html += `<h2>Momentum watch — V1 flagged</h2>
       <div class="h2sub">Signal arrived after a 100%+ six-month run: momentum confirmation, not fresh entry. Excluded from the entry list by rule.</div>
       <div class="grid">` + d.momentum_watch.map(r=>card(r,true)).join("") + `</div>`;
+  }
+  if((d.broken_watch||[]).length){
+    html += `<h2>Fundamentally strong, technically broken</h2>
+      <div class="h2sub">High composite but trading below the 200 DMA — excluded from the entry list by the trend filter. Watch for base formation; no levels given.</div>
+      <div class="grid">` + d.broken_watch.map(r=>card(r,true)).join("") + `</div>`;
   }
   document.getElementById("app").innerHTML = html;
 

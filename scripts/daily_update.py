@@ -59,6 +59,15 @@ RVOL_HIGH, RVOL_MOD = 0.50, 0.25          # +50% / +25% vs 20d avg volume
 UD_STRONG, UD_MOD = 4.0, 2.0              # Jigar's standing thresholds
 DELIV_SPIKE_STRONG, DELIV_SPIKE_MOD = 1.5, 1.2   # x own 20d avg delivery %
 V1_RUN_THRESHOLD = 1.00                   # 100% six-month run
+LIQ_FLOOR = 3e7                           # Rs 3 crore avg 20d turnover (hard filter)
+ATR_PERIOD = 14
+ENTRY_ATR, EXT_ATR, SL_BUF_ATR = 0.5, 2.0, 0.25
+T1_R, T2_R = 1.5, 2.5                     # R-multiple targets
+MIN_RR = 1.5                              # min reward:risk at CMP for a valid setup
+WIDE_STOP_PCT = 0.08                      # >8% risk -> size-down flag
+HIGH_ATR_PCT = 0.05                       # ATR >5% of price -> volatility flag
+VOL_CONFIRM_X = 1.5                       # up day on >=1.5x avg volume = CONFIRMED
+NEAR_HIGH_PCT = 0.97                      # within 3% of 52w high = breakout context
 FUND_STALE_DAYS = 8
 BULK_LOOKBACK_SESSIONS = 5
 MIN_DELIV_SESSIONS = 5                    # min sessions before delivery spike scored
@@ -193,7 +202,7 @@ def fetch_bhavcopy(max_back=7) -> tuple[pd.DataFrame | None, str | None]:
             df.columns = [c.strip().upper() for c in df.columns]
             for col in df.select_dtypes(include="object").columns:
                 df[col] = df[col].str.strip()
-            df = df[df["SERIES"].isin(["EQ", "BE"])].copy()
+            df = df[df["SERIES"] == "EQ"].copy()  # EQ only: BE (trade-to-trade) untradeable for swing entries
             for col in ("CLOSE_PRICE", "PREV_CLOSE", "TTL_TRD_QNTY", "DELIV_PER"):
                 df[col] = pd.to_numeric(df[col], errors="coerce")
             return df, day.strftime("%Y-%m-%d")
@@ -377,6 +386,18 @@ def yoy(curr, prev):
     return (curr - prev) / abs(prev)
 
 
+def aligned_yoy_quarter(qs: list, ref: dict) -> dict | None:
+    """The quarter 330-400 days older than ref (true same-quarter-last-year).
+    Prevents broken YoY when yfinance has gaps in quarterly history."""
+    ref_d = datetime.fromisoformat(ref["q"]).date()
+    best = None
+    for q in qs:
+        dd = (ref_d - datetime.fromisoformat(q["q"]).date()).days
+        if 330 <= dd <= 400:
+            best = q
+    return best
+
+
 def score_fundamental(f: dict) -> tuple[float | None, dict]:
     """0-10 from trailing growth. None => unavailable (V2)."""
     if not f or not f.get("available"):
@@ -384,11 +405,15 @@ def score_fundamental(f: dict) -> tuple[float | None, dict]:
     qs = f["quarters"]
     if len(qs) < 5:
         return None, {"reason": f"only {len(qs)} quarters (need 5 for YoY)"}
-    latest, prior_q, yoy_q = qs[-1], qs[-2], qs[-5]
+    latest, prior_q = qs[-1], qs[-2]
+    yoy_q = aligned_yoy_quarter(qs, latest)
+    if yoy_q is None:
+        return None, {"reason": "no date-aligned YoY quarter (gap in quarterly history)"}
 
     rev_yoy = yoy(latest["rev"], yoy_q["rev"])
     pat_yoy = yoy(latest["pat"], yoy_q["pat"])
-    prev_rev_yoy = yoy(prior_q["rev"], qs[-6]["rev"]) if len(qs) >= 6 else None
+    prior_yoy_q = aligned_yoy_quarter(qs, prior_q)
+    prev_rev_yoy = yoy(prior_q["rev"], prior_yoy_q["rev"]) if prior_yoy_q else None
 
     if rev_yoy is None:
         return None, {"reason": "revenue YoY not computable"}
@@ -476,19 +501,160 @@ def score_smart(sym: str, deals_agg: dict, deliv: dict, hist: pd.DataFrame | Non
     return round(pts / maxpts * 10, 2), detail, badges
 
 
-def score_technical(hist: pd.DataFrame | None) -> tuple[float, dict]:
+def score_technical(hist: pd.DataFrame | None,
+                    nifty_ret3m: float | None) -> tuple[float, dict]:
+    """Stage-2 alignment (40%) + distance from 52w high (30%) + RS vs Nifty (30%)."""
     if hist is None or len(hist) < 60:
         return 5.0, {"note": "insufficient history; neutral 5.0"}
     close = hist["Close"].dropna()
     last = close.iloc[-1]
+    dma50 = close.iloc[-50:].mean()
     dma200 = close.iloc[-200:].mean() if len(close) >= 200 else close.mean()
     hi52 = close.max()
-    s_dma = clamp(5 + ((last / dma200) - 1) * 25)          # +/-20% band
-    s_hi = clamp(10 - ((hi52 - last) / hi52) * 25)         # 0% off high=10, 40% off=0
-    return round(0.6 * s_dma + 0.4 * s_hi, 2), {
-        "vs_200dma_pct": round(((last / dma200) - 1) * 100, 1),
-        "off_52w_high_pct": round(((hi52 - last) / hi52) * 100, 1),
+
+    if last > dma50 > dma200:
+        s_stage, stage = 10.0, "Stage 2 (P>50>200 DMA)"
+    elif last > dma200:
+        s_stage, stage = 6.0, "above 200 DMA"
+    elif last > dma50:
+        s_stage, stage = 4.0, "above 50 DMA only"
+    else:
+        s_stage, stage = 2.0, "below both DMAs"
+
+    s_hi = clamp(10 - ((hi52 - last) / hi52) * 25)
+
+    rs = None
+    if nifty_ret3m is not None and len(close) >= 63:
+        rs = float(close.iloc[-1] / close.iloc[-63] - 1) - nifty_ret3m
+        s_rs = clamp(5 + rs * 25)
+    else:
+        s_rs = 5.0
+
+    return round(0.4 * s_stage + 0.3 * s_hi + 0.3 * s_rs, 2), {
+        "stage": stage,
+        "above_200dma": bool(last > dma200),
+        "vs_200dma_pct": round(float(last / dma200 - 1) * 100, 1),
+        "off_52w_high_pct": round(float((hi52 - last) / hi52) * 100, 1),
+        "rs_vs_nifty_3m_pct": round(rs * 100, 1) if rs is not None else None,
     }
+
+
+def atr14(hist: pd.DataFrame) -> float | None:
+    h, l, c = hist["High"], hist["Low"], hist["Close"]
+    pc = c.shift(1)
+    tr = pd.concat([h - l, (h - pc).abs(), (l - pc).abs()], axis=1).max(axis=1)
+    tr = tr.dropna()
+    return float(tr.iloc[-ATR_PERIOD:].mean()) if len(tr) >= ATR_PERIOD else None
+
+
+def avg_turnover_20d(hist: pd.DataFrame) -> float | None:
+    t = (hist["Close"] * hist["Volume"]).dropna()
+    return float(t.iloc[-20:].mean()) if len(t) >= 20 else None
+
+
+def build_trade_plan(hist: pd.DataFrame | None, cmp_: float,
+                     chg_pct: float | None) -> dict:
+    """Deterministic entry zone / SL / targets / volume state. All from price structure."""
+    if hist is None or len(hist) < 60:
+        return {"valid": False, "reason": "insufficient price history"}
+    atr = atr14(hist)
+    if not atr or atr <= 0:
+        return {"valid": False, "reason": "ATR unavailable"}
+    close = hist["Close"].dropna()
+    vols = hist["Volume"].dropna()
+    dma20 = float(close.iloc[-20:].mean())
+    hi52 = float(close.max())
+    swing_low = float(hist["Low"].dropna().iloc[-20:].min())
+
+    extended = cmp_ > dma20 + EXT_ATR * atr
+    if extended:
+        zone_lo, zone_hi = dma20, dma20 + 1.0 * atr
+        zone_note = "extended - wait for pullback to zone"
+    else:
+        zone_lo, zone_hi = cmp_ - ENTRY_ATR * atr, cmp_
+        zone_note = None
+    entry_mid = (zone_lo + zone_hi) / 2
+
+    sl = swing_low - SL_BUF_ATR * atr
+    risk = entry_mid - sl
+    if risk <= 0:
+        return {"valid": False, "reason": "no valid setup (SL above entry zone)"}
+    t1, t2 = entry_mid + T1_R * risk, entry_mid + T2_R * risk
+
+    # R:R measured where you would actually buy: CMP normally, the zone if extended
+    ref = entry_mid if extended else cmp_
+    rr_at_cmp = (t2 - ref) / (ref - sl) if ref > sl else None
+    if rr_at_cmp is None or rr_at_cmp < MIN_RR:
+        return {"valid": False,
+                "reason": f"no valid setup ({'at zone' if extended else 'at CMP'}: R:R "
+                          f"{'n/a' if rr_at_cmp is None else round(rr_at_cmp, 2)} < {MIN_RR})"}
+
+    flags = []
+    if risk / entry_mid > WIDE_STOP_PCT:
+        flags.append(f"wide stop ({risk / entry_mid * 100:.1f}% risk) - size down")
+    if atr / cmp_ > HIGH_ATR_PCT:
+        flags.append(f"high volatility (ATR {atr / cmp_ * 100:.1f}% of price) - reduce size")
+    resistance = round(hi52, 2) if entry_mid < hi52 < t2 else None
+
+    # ---- volume confirmation (entry-validity, distinct from smart-money score) ----
+    status, vol_note = "WAIT", "no volume trigger yet"
+    v_today = float(vols.iloc[-1]) if len(vols) else None
+    v_avg20 = float(vols.iloc[-21:-1].mean()) if len(vols) >= 21 else None
+    near_high = cmp_ >= NEAR_HIGH_PCT * hi52
+    in_zone = zone_lo <= cmp_ <= zone_hi
+    if v_today and v_avg20:
+        up_day = chg_pct is not None and chg_pct > 0
+        if up_day and v_today >= VOL_CONFIRM_X * v_avg20:
+            status = "CONFIRMED"
+            vol_note = f"up day on {v_today / v_avg20:.1f}x avg volume"
+        elif (not up_day) and in_zone and (not extended) and v_today < v_avg20:
+            status = "PULLBACK OK"
+            vol_note = f"pullback into zone on dry volume ({v_today / v_avg20:.1f}x avg)"
+        elif near_high:
+            vol_note = "near 52w high - breakout needs >=1.5x volume; not present"
+    v20, v50 = (float(vols.iloc[-20:].mean()) if len(vols) >= 20 else None,
+                float(vols.iloc[-50:].mean()) if len(vols) >= 50 else None)
+    vol_trend = None
+    if v20 and v50:
+        vol_trend = "rising interest (20d vol > 50d)" if v20 > v50 * 1.05 else \
+                    "fading interest (20d vol < 50d)" if v20 < v50 * 0.95 else "steady volume"
+
+    return {"valid": True,
+            "buy_lo": round(zone_lo, 2), "buy_hi": round(zone_hi, 2),
+            "zone_note": zone_note, "sl": round(sl, 2),
+            "t1": round(t1, 2), "t2": round(t2, 2),
+            "risk_pct": round(risk / entry_mid * 100, 1),
+            "rr_at_cmp": round(rr_at_cmp, 2), "resistance_52w": resistance,
+            "entry_status": status, "vol_note": vol_note, "vol_trend": vol_trend,
+            "atr": round(atr, 2), "flags": flags}
+
+
+def build_rationale(r: dict) -> str:
+    """Assembled strictly from computed facts - no invented conviction."""
+    p, fd, td, sd = [], r["fund_detail"], r["tech_detail"], r["smart_detail"]
+    if fd.get("rev_yoy") is not None:
+        p.append(f"Revenue {fd['rev_yoy']:+.1f}% / PAT "
+                 f"{'n/a' if fd.get('pat_yoy') is None else format(fd['pat_yoy'], '+.1f') + '%'} "
+                 f"YoY (qtr {fd.get('latest_quarter', '')})")
+    sig = []
+    if "BULK+" in r["badges"]:
+        sig.append(sd.get("bulk", "bulk buying"))
+    if any(b.startswith("DELIV") for b in r["badges"]):
+        sig.append("delivery spike " + sd.get("delivery", ""))
+    if any(b.startswith("RVOL") for b in r["badges"]):
+        sig.append("volume surge " + sd.get("rvol", ""))
+    if any(b.startswith("U/D") for b in r["badges"]):
+        sig.append(f"U/D ratio {sd.get('ud', '')}")
+    p.append("Accumulation: " + "; ".join(sig) if sig
+             else "No smart-money signal fired yet (history warming up)")
+    if td.get("stage"):
+        t = td["stage"]
+        if td.get("rs_vs_nifty_3m_pct") is not None:
+            t += f", {td['rs_vs_nifty_3m_pct']:+.1f}% vs Nifty over 3m"
+        if td.get("off_52w_high_pct") is not None:
+            t += f", {td['off_52w_high_pct']:.1f}% off 52w high"
+        p.append(t)
+    return ". ".join(p) + "."
 
 
 def six_month_return(hist: pd.DataFrame | None) -> float | None:
@@ -560,8 +726,23 @@ def main() -> int:
                 eod[sym] = {"close": round(float(c.iloc[-1]), 2),
                             "chg_pct": round(float(c.iloc[-1] / c.iloc[-2] - 1) * 100, 2)}
 
+    # Nifty 50 three-month return for relative strength
+    nifty_ret3m = None
+    try:
+        import yfinance as yf
+        ndf = yf.download("^NSEI", period="6mo", interval="1d",
+                          auto_adjust=True, progress=False)
+        nc = ndf["Close"].dropna()
+        if len(nc) >= 63:
+            nifty_ret3m = float(nc.iloc[-1] / nc.iloc[-63] - 1)
+    except Exception as e:
+        log(f"  Nifty benchmark unavailable ({type(e).__name__}); RS neutral")
+    if nifty_ret3m is None:
+        run_flags.append("Nifty benchmark unavailable - relative strength scored neutral")
+
     log("Scoring...")
     rows, excluded_v2 = [], 0
+    excluded_illiquid = excluded_downtrend = 0
     for sym, meta in universe.items():
         if sym not in eod:
             continue
@@ -569,7 +750,7 @@ def main() -> int:
         f_score, f_det = score_fundamental(funds.get(sym))
         s_score, s_det, badges = score_smart(sym, deals_agg, deliv, h,
                                              eod[sym]["chg_pct"])
-        t_score, t_det = score_technical(h)
+        t_score, t_det = score_technical(h, nifty_ret3m)
 
         vetoes = []
         r6 = six_month_return(h)
@@ -586,7 +767,16 @@ def main() -> int:
                               + WEIGHTS["smart"] * s_score
                               + WEIGHTS["technical"] * t_score, 2)
 
-        rows.append({
+        # hard filters (tracked, not silently dropped)
+        turnover = avg_turnover_20d(h) if h is not None else None
+        liquid = turnover is not None and turnover >= LIQ_FLOOR
+        in_uptrend = bool(t_det.get("above_200dma", False))
+        if not liquid:
+            excluded_illiquid += 1
+        elif not in_uptrend:
+            excluded_downtrend += 1
+
+        row = {
             "symbol": sym, "name": meta["name"], "index": meta["index"],
             "cmp": eod[sym]["close"], "chg_pct": eod[sym]["chg_pct"],
             "composite": composite,
@@ -594,13 +784,26 @@ def main() -> int:
             "fund_detail": f_det, "smart_detail": s_det, "tech_detail": t_det,
             "badges": badges, "vetoes": vetoes,
             "ret_6m_pct": round(r6 * 100, 1) if r6 is not None else None,
-        })
+            "liquid": liquid, "in_uptrend": in_uptrend,
+            "avg_turnover_cr": round(turnover / 1e7, 2) if turnover else None,
+        }
+        row["rationale"] = build_rationale(row)
+        rows.append(row)
 
-    eligible = [r for r in rows if r["composite"] is not None and not r["vetoes"]]
-    eligible.sort(key=lambda r: r["composite"], reverse=True)
-    momentum = sorted((r for r in rows if r["composite"] is not None
-                       and any(v["code"] == "V1" for v in r["vetoes"])),
+    scored_ok = [r for r in rows if r["composite"] is not None]
+    eligible = sorted((r for r in scored_ok if not r["vetoes"]
+                       and r["liquid"] and r["in_uptrend"]),
                       key=lambda r: r["composite"], reverse=True)
+    momentum = sorted((r for r in scored_ok
+                       if any(v["code"] == "V1" for v in r["vetoes"])),
+                      key=lambda r: r["composite"], reverse=True)
+    broken = sorted((r for r in scored_ok if not r["vetoes"]
+                     and r["liquid"] and not r["in_uptrend"]),
+                    key=lambda r: r["composite"], reverse=True)
+
+    # trade plans only for entry candidates; momentum/broken get facts, no levels
+    for r in eligible[:10]:
+        r["plan"] = build_trade_plan(hists.get(r["symbol"]), r["cmp"], r["chg_pct"])
 
     # rank movement vs last published output
     prev = load_json(OUT_DIR / "latest.json", None)
@@ -621,14 +824,22 @@ def main() -> int:
         "universe_size": len(universe),
         "scored": len([r for r in rows if r["composite"] is not None]),
         "excluded_no_fundamentals": excluded_v2,
+        "excluded_illiquid": excluded_illiquid,
+        "excluded_downtrend": excluded_downtrend,
+        "liquidity_floor_cr": LIQ_FLOOR / 1e7,
         "run_flags": run_flags,
         "weights": WEIGHTS, "smart_subweights": SMART_SUB,
         "top10": top10,
         "momentum_watch": momentum[:5],
+        "broken_watch": broken[:5],
         "methodology_note": ("Fundamental score uses TRAILING reported growth "
-                             "(latest quarter YoY), not forward projections. "
-                             "Forward analyst estimates are not freely available "
-                             "for this universe and are never fabricated."),
+                             "(latest quarter YoY, date-aligned), not forward "
+                             "projections - forward analyst estimates are not "
+                             "freely available for this universe and are never "
+                             "fabricated. Hard filters: EQ series only, avg 20d "
+                             "turnover >= Rs 3 cr, price above 200 DMA. Trade "
+                             "plans are ATR/structure-derived levels with "
+                             "volume-state entry validity, not advice."),
     }
     save_json(OUT_DIR / "latest.json", out)
     save_json(HIST_DIR / f"{trade_date}.json", out)
