@@ -92,6 +92,19 @@ h1{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(30px,5
 .rationale{font-size:11.5px;color:#B9C0D0;line-height:1.55;margin-top:9px;padding-top:8px;border-top:1px dashed rgba(255,255,255,.1)}
 .rationale b{color:var(--gold);font-weight:600;font-size:10px;letter-spacing:.12em;text-transform:uppercase;display:block;margin-bottom:2px}
 .noplan{font-size:11px;color:var(--amber);margin:10px 0 6px}
+/* ---------- stages ---------- */
+.stageHead{display:flex;align-items:baseline;gap:10px;margin:34px 0 4px}
+.stageDot{width:10px;height:10px;border-radius:50%;flex:none;position:relative;top:-1px}
+.dot-ready{background:var(--up)} .dot-conf{background:#5B8DD9} .dot-red{background:var(--down)}
+.tier{font-size:10px;font-weight:700;letter-spacing:.1em;border-radius:4px;padding:2px 8px;margin-right:5px}
+.tier.strong{background:rgba(76,175,141,.15);color:var(--up);border:1px solid rgba(76,175,141,.4)}
+.tier.single{background:rgba(139,147,167,.12);color:var(--muted);border:1px solid rgba(139,147,167,.3)}
+.stageMeta{font-size:10.5px;color:var(--muted);margin:8px 0 2px}
+.stageMeta .tsw{color:var(--amber);font-weight:600}
+.guide{font-size:10.5px;color:var(--gold);background:var(--gold-faint);border:1px dashed var(--gold-dim);border-radius:6px;padding:6px 9px;margin-top:8px;line-height:1.5}
+.evid{margin-top:9px;font-size:11.5px;color:var(--down);line-height:1.55}
+.evid b{font-size:10px;letter-spacing:.12em;text-transform:uppercase;display:block;margin-bottom:2px}
+.pendingTag{font-size:9.5px;color:var(--muted);letter-spacing:.06em}
 /* ---------- momentum watch ---------- */
 h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;margin:36px 0 4px}
 .h2sub{color:var(--muted);font-size:12.5px;margin-bottom:14px}
@@ -202,6 +215,7 @@ function card(r, ghost){
     <div class="badges">${badges}</div>
     <div class="fact">${facts}</div>
     ${planHtml}
+    ${r.stage_html||""}
     ${rationale}
     ${vetoes}
   </div>`;
@@ -233,7 +247,42 @@ async function main(){
   for(const f of (d.run_flags||[])) banners += `<div class="banner amber">⚠ ${esc(f)}</div>`;
   document.getElementById("banners").innerHTML = banners;
 
-  let html = `<div class="grid">` + d.top10.map(r=>card(r,false)).join("") + `</div>`;
+  let html = "";
+  const stg = d.stages;
+  if(stg){
+    const stageHead = (dot,title,sub)=>`<div class="stageHead"><span class="stageDot ${dot}"></span><h2 style="margin:0">${title}</h2></div><div class="h2sub">${sub}</div>`;
+    const prepReady = r=>{ const i=r.stage.info||{}; const sig=(i.signals||[]);
+      let m=`<div class="stageMeta">`;
+      m+=`<span class="tier ${i.tier==="strong"?"strong":"single"}">${i.tier==="strong"?"STRONG ACCUMULATION · "+sig.length+" SIGNALS":"SINGLE SIGNAL — needs confluence"}</span>`;
+      m+=` in stage ${r.stage.days_in_stage}d`;
+      if(r.stage.time_stop_left!=null) m+=` · <span class="tsw">time stop in ${Math.max(r.stage.time_stop_left,0)}d${r.stage.time_stop_left<=0?" — REACHED, exit flat per rule":""}</span>`;
+      if(r.stage.pending) m+=` · <span class="pendingTag">pending → ${r.stage.pending} (needs 1 more session)</span>`;
+      m+=`</div>`;
+      if(sig.length) m+=`<div class="stageMeta">${sig.map(esc).join(" · ")}</div>`;
+      for(const f of (i.flags||[])) m+=`<div class="noplan">⚠ ${esc(f)}</div>`;
+      m+=`<div class="guide">Entry discipline: ½ position in buy zone (best fill: PULLBACK OK on dry volume) · ½ on transition to Confirmed with volume trigger · time stop ${stg.time_stop_days}d.</div>`;
+      r.stage_html=m; return r; };
+    const prepConf = r=>{ const late=(r.stage.info||{}).late_stage_v1;
+      let m=`<div class="stageMeta">in stage ${r.stage.days_in_stage}d${r.stage.pending?` · <span class="pendingTag">pending → ${r.stage.pending}</span>`:""}</div>`;
+      if(late) m+=`<div class="noplan">⚠ V1: 100%+ six-month run — momentum confirmation, NOT fresh entry. No levels.</div>`;
+      r.stage_html=m; return r; };
+    const prepRed = r=>{ const ev=(r.stage.info||{}).evidence||[];
+      r.stage_html=`<div class="stageMeta">in stage ${r.stage.days_in_stage}d</div>`+
+        (ev.length?`<div class="evid"><b>Exit evidence</b>${ev.map(esc).join("<br>")}</div>`:"");
+      return r; };
+    if((stg.ready||[]).length){
+      html += stageHead("dot-ready","Ready to Move","Smart money accumulating, price still in base. Visible accumulation — not a guarantee; bases can fail. Full trade plans given.");
+      html += `<div class="grid">`+stg.ready.map(r=>card(prepReady(r),false)).join("")+`</div>`; }
+    if((stg.confirmed||[]).length){
+      html += stageHead("dot-conf","Confirmed Momentum","Move underway — volume-confirmed breakout or at highs with strength. Enter per plan only: pullback into zone or volume-trigger day. Never chase extended.");
+      html += `<div class="grid">`+stg.confirmed.map(r=>card(prepConf(r),false)).join("")+`</div>`; }
+    if((stg.red_flags||[]).length){
+      html += stageHead("dot-red","Red Flag — Distribution / Exhaustion","Smart money exiting by the evidence below. Inference from delivery, deals and volume — per-stock FII/DII data is not public. No levels. Check client holdings against this list.");
+      html += `<div class="grid">`+stg.red_flags.map(r=>card(prepRed(r),true)).join("")+`</div>`; }
+    if(!html) html = `<div class="empty"><h2>No stocks staged today</h2><p>All names are neutral — no accumulation, breakout, or distribution signals met the rules.</p></div>`;
+  } else {
+    html = `<div class="grid">` + d.top10.map(r=>card(r,false)).join("") + `</div>`;
+  }
   if((d.momentum_watch||[]).length){
     html += `<h2>Momentum watch — V1 flagged</h2>
       <div class="h2sub">Signal arrived after a 100%+ six-month run: momentum confirmation, not fresh entry. Excluded from the entry list by rule.</div>

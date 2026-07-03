@@ -495,6 +495,7 @@ def score_smart(sym: str, deals_agg: dict, deliv: dict, hist: pd.DataFrame | Non
         elif ratio >= DELIV_SPIKE_MOD:
             pts += SMART_SUB["delivery"] * 0.5; badges.append("DELIV+")
         detail["delivery"] = f"{dv['today']:.1f}% vs avg {dv['avg20']:.1f}% ({dv['n']}s)"
+        detail["deliv_ratio"] = round(ratio, 2)
     else:
         detail["delivery"] = f"warming up ({dv['n'] if dv else 0}/{MIN_DELIV_SESSIONS}s history)"
 
@@ -520,6 +521,7 @@ def score_smart(sym: str, deals_agg: dict, deliv: dict, hist: pd.DataFrame | Non
         if dn > 0:
             ud = up / dn
             detail["ud"] = f"{ud:.2f}"
+            detail["ud_val"] = round(float(ud), 2)
             if ud >= UD_STRONG:
                 pts += SMART_SUB["ud"]; badges.append("U/D>4")
             elif ud >= UD_MOD:
@@ -646,7 +648,7 @@ def build_trade_plan(hist: pd.DataFrame | None, cmp_: float,
         vol_trend = "rising interest (20d vol > 50d)" if v20 > v50 * 1.05 else \
                     "fading interest (20d vol < 50d)" if v20 < v50 * 0.95 else "steady volume"
 
-    return {"valid": True,
+    return {"valid": True, "dma20": round(dma20, 2),
             "buy_lo": round(zone_lo, 2), "buy_hi": round(zone_hi, 2),
             "zone_note": zone_note, "sl": round(sl, 2),
             "t1": round(t1, 2), "t2": round(t2, 2),
@@ -654,6 +656,109 @@ def build_trade_plan(hist: pd.DataFrame | None, cmp_: float,
             "rr_at_cmp": round(rr_at_cmp, 2), "resistance_52w": resistance,
             "entry_status": status, "vol_note": vol_note, "vol_trend": vol_trend,
             "atr": round(atr, 2), "flags": flags}
+
+
+# ------------------------------------------------------- stage lifecycle engine
+
+STAGE_HYSTERESIS = 2          # sessions a new stage must hold before transition
+TIME_STOP_DAYS = 42           # ~6 weeks: exit-flat rule for READY positions
+READY_BASE_ATR = 1.5          # "in base" = within this many ATRs of the 20 DMA
+READY_MAX_RUN = 40.0          # 6m return ceiling for accumulation stage
+READY_MIN_OFF_HIGH = 5.0      # must be >5% below 52w high
+
+
+def distribution_days(hist: pd.DataFrame | None, lookback=10) -> int:
+    """Down days on above-50d-average volume within the lookback window."""
+    if hist is None or len(hist) < 55:
+        return 0
+    vols = hist["Volume"].dropna()
+    avg50 = vols.iloc[-50:].mean()
+    tail = hist.iloc[-lookback:]
+    chg = tail["Close"].diff()
+    return int(((chg < 0) & (tail["Volume"] > avg50)).sum())
+
+
+def classify_stage(r: dict, plan: dict, hist: pd.DataFrame | None,
+                   deal: dict | None) -> tuple[str, dict]:
+    """RED > CONFIRMED > READY > NEUTRAL. All thresholds deterministic."""
+    ud = r["smart_detail"].get("ud_val")
+    dist = distribution_days(hist)
+    r6 = r.get("ret_6m_pct")
+
+    evidence = []
+    if deal and deal["net_qty"] < 0:
+        evidence.append(f"net bulk/block SELLING {abs(int(deal['net_qty'])):,} sh over "
+                        f"{BULK_LOOKBACK_SESSIONS} sessions")
+    if ud is not None and ud < 1 and dist >= 3:
+        evidence.append(f"U/D {ud} with {dist} distribution days in 10 sessions")
+    if r6 is not None and r6 >= 100 and (ud is None or ud < 2):
+        evidence.append(f"+{r6:.0f}% six-month run with fading U/D "
+                        f"({'n/a' if ud is None else ud}) - exhaustion pattern")
+    if evidence:
+        return "RED", {"evidence": evidence, "dist_days": dist}
+
+    v1 = any(v["code"] == "V1" for v in r["vetoes"])
+    off_hi = r["tech_detail"].get("off_52w_high_pct")
+    rs = r["tech_detail"].get("rs_vs_nifty_3m_pct")
+    breakout_ctx = off_hi is not None and off_hi <= 3 and (ud or 0) >= 2 and (rs or 0) > 0
+    if v1 or plan.get("entry_status") == "CONFIRMED" or breakout_ctx:
+        return "CONFIRMED", {"late_stage_v1": v1}
+
+    signals, flags = [], []
+    if deal and deal["net_qty"] > 0:
+        signals.append(f"bulk/block net buy {int(deal['net_qty']):,} sh")
+        if deal.get("buys", 0) == 1 and deal.get("sells", 0) == 0:
+            flags.append("single-deal driven - verify buyer name on NSE "
+                         "(could be promoter/inter-se, not fresh institutional money)")
+    if any(b.startswith("DELIV") for b in r["badges"]):
+        signals.append(f"delivery spike ({r['smart_detail'].get('deliv_ratio')}x own avg)")
+    if ud is not None and ud >= UD_MOD:
+        signals.append(f"U/D {ud}")
+    if any(b.startswith("RVOL") for b in r["badges"]):
+        signals.append("volume surge w/ price confirm")
+
+    in_base = (plan.get("valid")
+               and plan.get("dma20") and plan.get("atr")
+               and abs(r["cmp"] - plan["dma20"]) <= READY_BASE_ATR * plan["atr"]
+               and (off_hi or 0) > READY_MIN_OFF_HIGH
+               and (r6 is None or r6 < READY_MAX_RUN))
+    if signals and in_base:
+        return "READY", {"signals": signals, "flags": flags,
+                         "tier": "strong" if len(signals) >= 2 else "single"}
+    return "NEUTRAL", {}
+
+
+def apply_stage_hysteresis(raw: dict, trade_date: str) -> dict:
+    """A stock transitions only after qualifying for the new stage on
+    STAGE_HYSTERESIS consecutive sessions. Idempotent per trade date."""
+    path = STATE_DIR / "stage_history.json"
+    hist = load_json(path, {})
+    out = {}
+    for sym, (stage, info) in raw.items():
+        h = hist.get(sym)
+        if h is None:
+            h = {"stage": stage, "since": trade_date, "cand": None,
+                 "streak": 0, "last": trade_date}
+        elif h.get("last") != trade_date:          # advance streaks once per session
+            if stage == h["stage"]:
+                h["cand"], h["streak"] = None, 0
+            elif stage == h.get("cand"):
+                h["streak"] += 1
+                if h["streak"] >= STAGE_HYSTERESIS:
+                    h.update({"stage": stage, "since": trade_date,
+                              "cand": None, "streak": 0})
+            else:
+                h["cand"], h["streak"] = stage, 1
+            h["last"] = trade_date
+        hist[sym] = h
+        days = (datetime.fromisoformat(trade_date)
+                - datetime.fromisoformat(h["since"])).days
+        out[sym] = {"stage": h["stage"], "since": h["since"], "days_in_stage": days,
+                    "pending": h.get("cand"),
+                    "time_stop_left": (TIME_STOP_DAYS - days) if h["stage"] == "READY" else None,
+                    "info": info if h["stage"] == raw[sym][0] else {}}
+    save_json(path, hist)
+    return out
 
 
 def build_rationale(r: dict) -> str:
@@ -833,9 +938,46 @@ def main() -> int:
                      and r["liquid"] and not r["in_uptrend"]),
                     key=lambda r: r["composite"], reverse=True)
 
-    # trade plans only for entry candidates; momentum/broken get facts, no levels
+    # trade plans for the entry candidates plus stage classification for all liquid names
+    raw_stages, plans = {}, {}
+    for r in scored_ok + [x for x in rows if x["composite"] is None]:
+        if not r["liquid"]:
+            continue
+        p = build_trade_plan(hists.get(r["symbol"]), r["cmp"], r["chg_pct"])
+        plans[r["symbol"]] = p
+        raw_stages[r["symbol"]] = classify_stage(
+            r, p, hists.get(r["symbol"]), deals_agg.get(r["symbol"]))
+    staged = apply_stage_hysteresis(raw_stages, trade_date)
+
+    def with_stage(r, want, include_plan=True):
+        s = staged.get(r["symbol"])
+        if not s or s["stage"] != want:
+            return None
+        r = dict(r)
+        r["stage"] = s
+        if include_plan and not (want == "CONFIRMED" and s["info"].get("late_stage_v1")):
+            r["plan"] = plans.get(r["symbol"])
+        return r
+
+    def comp_key(r):
+        return r["composite"] if r["composite"] is not None else -1
+
+    ready_list = sorted(filter(None, (with_stage(r, "READY") for r in scored_ok
+                                      if r["in_uptrend"])),
+                        key=comp_key, reverse=True)[:10]
+    confirmed_list = sorted(filter(None, (with_stage(r, "CONFIRMED") for r in scored_ok
+                                          if r["in_uptrend"])),
+                            key=comp_key, reverse=True)[:10]
+    red_list = sorted(filter(None, (with_stage(r, "RED", include_plan=False)
+                                    for r in rows if r["liquid"])),
+                      key=comp_key, reverse=True)[:10]
+    for lst in (ready_list, confirmed_list, red_list):
+        for i, r in enumerate(lst, 1):
+            r["rank"] = i
+
     for r in eligible[:10]:
-        r["plan"] = build_trade_plan(hists.get(r["symbol"]), r["cmp"], r["chg_pct"])
+        r["plan"] = plans.get(r["symbol"], build_trade_plan(
+            hists.get(r["symbol"]), r["cmp"], r["chg_pct"]))
 
     # rank movement vs last published output
     prev = load_json(OUT_DIR / "latest.json", None)
@@ -862,6 +1004,18 @@ def main() -> int:
         "run_flags": run_flags,
         "weights": WEIGHTS, "smart_subweights": SMART_SUB,
         "top10": top10,
+        "stages": {
+            "ready": ready_list,
+            "confirmed": confirmed_list,
+            "red_flags": red_list,
+            "hysteresis_sessions": STAGE_HYSTERESIS,
+            "time_stop_days": TIME_STOP_DAYS,
+            "note": ("READY = accumulation visible, price still in base - not a "
+                     "guarantee of movement; bases can fail. RED = evidence-based "
+                     "inference from delivery/deals/volume, not per-stock FII/DII "
+                     "data (which is not public). Stage changes require "
+                     f"{STAGE_HYSTERESIS} consecutive qualifying sessions."),
+        },
         "momentum_watch": momentum[:5],
         "broken_watch": broken[:5],
         "methodology_note": ("Fundamental score uses TRAILING reported growth "
