@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-03T09:55:45.790759+05:30",
+ "asof": "2026-07-03T11:52:14.102123+05:30",
  "data": {
   "360ONE": {
    "available": true,
@@ -29,7 +29,9 @@
      "rev": 8106800000.0,
      "pat": 2887400000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-16"
   },
   "3MINDIA": {
    "available": true,
@@ -59,7 +61,9 @@
      "rev": 13992400000.0,
      "pat": 2153400000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "ACC": {
    "available": true,
@@ -89,7 +93,9 @@
      "rev": 71244700000.0,
      "pat": 2382500000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-04-30"
   },
   "AIAENG": {
    "available": true,
@@ -119,7 +125,9 @@
      "rev": 12510587000.0,
      "pat": 3932745000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-12"
   },
   "APLAPOLLO": {
    "available": true,
@@ -149,7 +157,9 @@
      "rev": 60759800000.0,
      "pat": 3543500000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-23"
   },
   "AUBANK": {
    "available": true,
@@ -179,7 +189,9 @@
      "rev": 33132799000.0,
      "pat": 8318695000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-16"
   },
   "AWL": {
    "available": true,
@@ -209,7 +221,9 @@
      "rev": 214647800000.0,
      "pat": 2920800000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "ABBOTINDIA": {
    "available": true,
@@ -239,7 +253,9 @@
      "rev": 17095100000.0,
      "pat": 3949300000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-11"
   },
   "ATGL": {
    "available": true,
@@ -269,7 +285,9 @@
      "rev": 15572200000.0,
      "pat": 1683400000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": "2026-07-27"
   },
   "ABCAPITAL": {
    "available": true,
@@ -299,7 +317,9 @@
      "rev": 130775400000.0,
      "pat": 11291600000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-08-04"
   },
   "AJANTPHARM": {
    "available": true,
@@ -329,7 +349,9 @@
      "rev": 14216400000.0,
      "pat": 2667000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "ALKEM": {
    "available": true,
@@ -359,7 +381,9 @@
      "rev": 36033200000.0,
      "pat": 2364600000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-12"
   },
   "ANTHEM": {
    "available": true,
@@ -389,7 +413,9 @@
      "rev": 6109430000.0,
      "pat": 1897580000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "APARINDS": {
    "available": true,
@@ -419,7 +445,9 @@
      "rev": 65711900000.0,
      "pat": 2534400000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "APOLLOTYRE": {
    "available": true,
@@ -449,7 +477,9 @@
      "rev": 73356740000.0,
      "pat": 6309730000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-06"
   },
   "ASHOKLEY": {
    "available": true,
@@ -479,7 +509,9 @@
      "rev": 171389000000.0,
      "pat": 12907000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-20"
   },
   "ASTRAL": {
    "available": true,
@@ -509,7 +541,9 @@
      "rev": 20885000000.0,
      "pat": 2130000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-17"
   },
   "AUROPHARMA": {
    "available": true,
@@ -539,7 +573,9 @@
      "rev": 87515000000.0,
      "pat": 9212600000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-04"
   },
   "AIIL": {
    "available": true,
@@ -569,7 +605,9 @@
      "rev": 3107100000.0,
      "pat": 597500000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "BSE": {
    "available": true,
@@ -599,7 +637,9 @@
      "rev": 15635100000.0,
      "pat": 7973300000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "BAJAJHFL": {
    "available": true,
@@ -629,7 +669,9 @@
      "rev": 28836600000.0,
      "pat": 6691900000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "BALKRISIND": {
    "available": true,
@@ -659,7 +701,9 @@
      "rev": 29328200000.0,
      "pat": 2994600000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-07-23"
   },
   "BANKINDIA": {
    "available": true,
@@ -689,7 +733,9 @@
      "rev": 100683000000.0,
      "pat": 30877600000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "MAHABANK": {
    "available": true,
@@ -719,7 +765,9 @@
      "rev": 46411800000.0,
      "pat": 20448800000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "BERGEPAINT": {
    "available": true,
@@ -749,7 +797,9 @@
      "rev": 28680300000.0,
      "pat": 3347700000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-04"
   },
   "BDL": {
    "available": true,
@@ -779,7 +829,9 @@
      "rev": 4886234000.0,
      "pat": 1131821000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-11"
   },
   "BHARATFORG": {
    "available": true,
@@ -809,7 +861,9 @@
      "rev": 45280430000.0,
      "pat": 2325650000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-05"
   },
   "BHEL": {
    "available": true,
@@ -839,7 +893,9 @@
      "rev": 123103700000.0,
      "pat": 12904700000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-30"
   },
   "BHARTIHEXA": {
    "available": true,
@@ -869,7 +925,9 @@
      "rev": 24137000000.0,
      "pat": 4467000000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": null
   },
   "GROWW": {
    "available": true,
@@ -894,7 +952,9 @@
      "rev": 15053670000.0,
      "pat": 6863540000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "BIOCON": {
    "available": true,
@@ -924,7 +984,9 @@
      "rev": 44843000000.0,
      "pat": 1259000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-06"
   },
   "BLUESTARCO": {
    "available": true,
@@ -954,7 +1016,9 @@
      "rev": 40720600000.0,
      "pat": 2270500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-05"
   },
   "CRISIL": {
    "available": true,
@@ -984,7 +1048,9 @@
      "rev": 10576600000.0,
      "pat": 2332600000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "COCHINSHIP": {
    "available": true,
@@ -1014,7 +1080,9 @@
      "rev": 14842781000.0,
      "pat": 2764844000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "COFORGE": {
    "available": true,
@@ -1044,7 +1112,9 @@
      "rev": 44504000000.0,
      "pat": 6123000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-27"
   },
   "COLPAL": {
    "available": true,
@@ -1074,7 +1144,9 @@
      "rev": 15827700000.0,
      "pat": 3533200000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": "2026-07-22"
   },
   "CONCOR": {
    "available": true,
@@ -1104,7 +1176,9 @@
      "rev": 22633000000.0,
      "pat": 2626500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-04"
   },
   "COROMANDEL": {
    "available": true,
@@ -1134,7 +1208,9 @@
      "rev": 60036600000.0,
      "pat": 1399300000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-30"
   },
   "DABUR": {
    "available": true,
@@ -1164,7 +1240,9 @@
      "rev": 30380200000.0,
      "pat": 3686000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": "2026-07-30"
   },
   "DALBHARAT": {
    "available": true,
@@ -1194,7 +1272,9 @@
      "rev": 42450000000.0,
      "pat": 3870000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-22"
   },
   "DIXON": {
    "available": true,
@@ -1224,7 +1304,9 @@
      "rev": 105105100000.0,
      "pat": 2564100000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-22"
   },
   "ENDURANCE": {
    "available": true,
@@ -1254,7 +1336,9 @@
      "rev": 40859500000.0,
      "pat": 2764500000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "ESCORTS": {
    "available": true,
@@ -1284,7 +1368,9 @@
      "rev": 29681600000.0,
      "pat": 3205300000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-03"
   },
   "EXIDEIND": {
    "available": true,
@@ -1314,7 +1400,9 @@
      "rev": 47351300000.0,
      "pat": 2152500000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-04"
   },
   "NYKAA": {
    "available": true,
@@ -1344,7 +1432,9 @@
      "rev": 26481700000.0,
      "pat": 783800000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-12"
   },
   "FEDERALBNK": {
    "available": true,
@@ -1374,7 +1464,9 @@
      "rev": 47308100000.0,
      "pat": 13409700000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-30"
   },
   "FORTIS": {
    "available": true,
@@ -1404,7 +1496,9 @@
      "rev": 23646700000.0,
      "pat": 2658500000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-06"
   },
   "GVT&D": {
    "available": true,
@@ -1434,7 +1528,9 @@
      "rev": 16370800000.0,
      "pat": 3517700000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "GMRAIRPORT": {
    "available": true,
@@ -1464,7 +1560,9 @@
      "rev": 39381600000.0,
      "pat": 3023500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-29"
   },
   "GICRE": {
    "available": true,
@@ -1494,7 +1592,9 @@
      "rev": 134586300000.0,
      "pat": 25325900000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "GLAXO": {
    "available": true,
@@ -1524,7 +1624,9 @@
      "rev": 9953000000.0,
      "pat": 2778600000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "GLENMARK": {
    "available": true,
@@ -1554,7 +1656,9 @@
      "rev": 37602770000.0,
      "pat": 3014140000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-13"
   },
   "MEDANTA": {
    "available": true,
@@ -1584,7 +1688,9 @@
      "rev": 11590470000.0,
      "pat": 1439880000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "GODFRYPHLP": {
    "available": true,
@@ -1614,7 +1720,9 @@
      "rev": 17811600000.0,
      "pat": 5214300000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "GODREJIND": {
    "available": true,
@@ -1644,7 +1752,9 @@
      "rev": 76937200000.0,
      "pat": 4442800000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-12"
   },
   "GODREJPROP": {
    "available": true,
@@ -1674,7 +1784,9 @@
      "rev": 34581300000.0,
      "pat": 6498800000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": "2026-07-30"
   },
   "FLUOROCHEM": {
    "available": true,
@@ -1704,7 +1816,9 @@
      "rev": 13690000000.0,
      "pat": 1120000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-04"
   },
   "HDBFS": {
    "available": true,
@@ -1729,7 +1843,9 @@
      "rev": 47386000000.0,
      "pat": 7506000000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "HAVELLS": {
    "available": true,
@@ -1759,7 +1875,9 @@
      "rev": 67052000000.0,
      "pat": 7230600000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-21"
   },
   "HEROMOTOCO": {
    "available": true,
@@ -1789,7 +1907,9 @@
      "rev": 129782800000.0,
      "pat": 14600000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-05"
   },
   "HEXT": {
    "available": true,
@@ -1814,7 +1934,9 @@
      "rev": 36130000000.0,
      "pat": 3516000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "HINDPETRO": {
    "available": true,
@@ -1844,7 +1966,9 @@
      "rev": 1144078500000.0,
      "pat": 60652600000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": "2026-08-06"
   },
   "POWERINDIA": {
    "available": true,
@@ -1874,7 +1998,9 @@
      "rev": 27073500000.0,
      "pat": 3304600000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "HONAUT": {
    "available": true,
@@ -1904,7 +2030,9 @@
      "rev": 11807000000.0,
      "pat": 1597000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-06"
   },
   "HUDCO": {
    "available": true,
@@ -1934,7 +2062,9 @@
      "rev": 7445400000.0,
      "pat": 19813100000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "ICICIGI": {
    "available": true,
@@ -1964,7 +2094,9 @@
      "rev": 67757900000.0,
      "pat": 5465600000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-15"
   },
   "ICICIAMC": {
    "available": true,
@@ -1989,7 +2121,9 @@
      "rev": 15170100000.0,
      "pat": 7634200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "ICICIPRULI": {
    "available": true,
@@ -2019,7 +2153,9 @@
      "rev": 31303500000.0,
      "pat": 6239100000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-15"
   },
   "IDFCFIRSTB": {
    "available": true,
@@ -2049,7 +2185,9 @@
      "rev": 73074700000.0,
      "pat": 3306400000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-25"
   },
   "ITCHOTELS": {
    "available": true,
@@ -2079,7 +2217,9 @@
      "rev": 12438800000.0,
      "pat": 3158900000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "INDIANB": {
    "available": true,
@@ -2109,7 +2249,9 @@
      "rev": 98892700000.0,
      "pat": 31730500000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-23"
   },
   "IRCTC": {
    "available": true,
@@ -2139,7 +2281,9 @@
      "rev": 14597195000.0,
      "pat": 3263963000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-13"
   },
   "IREDA": {
    "available": true,
@@ -2169,7 +2313,9 @@
      "rev": 21508500000.0,
      "pat": 4926300000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "INDUSTOWER": {
    "available": true,
@@ -2199,7 +2345,9 @@
      "rev": 81010000000.0,
      "pat": 17929000000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": "2026-07-30"
   },
   "INDUSINDBK": {
    "available": true,
@@ -2229,7 +2377,9 @@
      "rev": 60851400000.0,
      "pat": 5941700000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-04-24"
   },
   "NAUKRI": {
    "available": true,
@@ -2259,7 +2409,9 @@
      "rev": 8690050000.0,
      "pat": 5657970000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": "2026-08-07"
   },
   "IPCALAB": {
    "available": true,
@@ -2289,7 +2441,9 @@
      "rev": 23884800000.0,
      "pat": 2990700000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-10"
   },
   "JKCEMENT": {
    "available": true,
@@ -2319,7 +2473,9 @@
      "rev": 38875000000.0,
      "pat": 3329100000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-18"
   },
   "JSWENERGY": {
    "available": true,
@@ -2349,7 +2505,9 @@
      "rev": 44985800000.0,
      "pat": 3715700000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": "2026-07-30"
   },
   "JSWINFRA": {
    "available": true,
@@ -2379,7 +2537,9 @@
      "rev": 15223400000.0,
      "pat": 4182900000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "JSL": {
    "available": true,
@@ -2409,7 +2569,9 @@
      "rev": 113371900000.0,
      "pat": 8435600000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-05"
   },
   "JUBLFOOD": {
    "available": true,
@@ -2439,7 +2601,9 @@
      "rev": 24994660000.0,
      "pat": 797910000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-19"
   },
   "KPRMILL": {
    "available": true,
@@ -2469,7 +2633,9 @@
      "rev": 17159300000.0,
      "pat": 2271700000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-06"
   },
   "KEI": {
    "available": true,
@@ -2499,7 +2665,9 @@
      "rev": 34763960000.0,
      "pat": 2843120000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-21"
   },
   "KPITTECH": {
    "available": true,
@@ -2529,7 +2697,9 @@
      "rev": 17110000000.0,
      "pat": 1630490000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-29"
   },
   "KALYANKJIL": {
    "available": true,
@@ -2559,7 +2729,9 @@
      "rev": 102749420000.0,
      "pat": 4095030000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "LTF": {
    "available": true,
@@ -2589,7 +2761,9 @@
      "rev": 28213900000.0,
      "pat": 8066300000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-10"
   },
   "LTTS": {
    "available": true,
@@ -2619,7 +2793,9 @@
      "rev": 28579000000.0,
      "pat": 3321000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-14"
   },
   "LGEINDIA": {
    "available": true,
@@ -2644,7 +2820,9 @@
      "rev": 80535520000.0,
      "pat": 6927310000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "LICHSGFIN": {
    "available": true,
@@ -2674,7 +2852,9 @@
      "rev": 23621800000.0,
      "pat": 14925400000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-31"
   },
   "LAURUSLABS": {
    "available": true,
@@ -2704,7 +2884,9 @@
      "rev": 17199000000.0,
      "pat": 2791400000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-07-24"
   },
   "LENSKART": {
    "available": true,
@@ -2729,7 +2911,9 @@
      "rev": 25157090000.0,
      "pat": 2002850000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "LICI": {
    "available": true,
@@ -2759,7 +2943,9 @@
      "rev": 2766683900000.0,
      "pat": 234671800000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-08-06"
   },
   "LINDEINDIA": {
    "available": true,
@@ -2789,7 +2975,9 @@
      "rev": 6143330000.0,
      "pat": 774460000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-06"
   },
   "LLOYDSME": {
    "available": true,
@@ -2819,7 +3007,9 @@
      "rev": 59953700000.0,
      "pat": 14195000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "LUPIN": {
    "available": true,
@@ -2849,7 +3039,9 @@
      "rev": 73919100000.0,
      "pat": 14603400000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-05"
   },
   "MRF": {
    "available": true,
@@ -2879,7 +3071,9 @@
      "rev": 80442200000.0,
      "pat": 7022500000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-05-07"
   },
   "M&MFIN": {
    "available": true,
@@ -2909,7 +3103,9 @@
      "rev": 29628600000.0,
      "pat": 9380200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-21"
   },
   "MANKIND": {
    "available": true,
@@ -2939,7 +3135,9 @@
      "rev": 34429300000.0,
      "pat": 5543500000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-06"
   },
   "MARICO": {
    "available": true,
@@ -2969,7 +3167,9 @@
      "rev": 33330000000.0,
      "pat": 3910000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": "2026-08-04"
   },
   "MFSL": {
    "available": true,
@@ -2999,7 +3199,9 @@
      "rev": 108012800000.0,
      "pat": -263500000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-08-13"
   },
   "MOTILALOFS": {
    "available": true,
@@ -3029,7 +3231,9 @@
      "rev": 33659400000.0,
      "pat": -2212800000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "MPHASIS": {
    "available": true,
@@ -3059,7 +3263,9 @@
      "rev": 42426680000.0,
      "pat": 5096400000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-23"
   },
   "MCX": {
    "available": true,
@@ -3089,7 +3295,9 @@
      "rev": 8889400000.0,
      "pat": 5297700000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-30"
   },
   "NHPC": {
    "available": true,
@@ -3119,7 +3327,9 @@
      "rev": 28155300000.0,
      "pat": 14601600000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": "2026-08-12"
   },
   "NLCINDIA": {
    "available": true,
@@ -3149,7 +3359,9 @@
      "rev": 50424600000.0,
      "pat": 13934600000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": null
   },
   "NMDC": {
    "available": true,
@@ -3179,7 +3391,9 @@
      "rev": 113431300000.0,
      "pat": 20272300000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-12"
   },
   "NTPCGREEN": {
    "available": true,
@@ -3209,7 +3423,9 @@
      "rev": 9126300000.0,
      "pat": 1970500000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": null
   },
   "NATIONALUM": {
    "available": true,
@@ -3239,7 +3455,9 @@
      "rev": 47309500000.0,
      "pat": 15951500000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-30"
   },
   "NAM-INDIA": {
    "available": true,
@@ -3269,7 +3487,9 @@
      "rev": 7387300000.0,
      "pat": 3847200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "OBEROIRLTY": {
    "available": true,
@@ -3299,7 +3519,9 @@
      "rev": 17498300000.0,
      "pat": 7032800000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": "2026-07-20"
   },
   "OIL": {
    "available": true,
@@ -3329,7 +3551,9 @@
      "rev": 92932700000.0,
      "pat": 20996100000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": "2026-08-12"
   },
   "PAYTM": {
    "available": true,
@@ -3359,7 +3583,9 @@
      "rev": 22640000000.0,
      "pat": 1840000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-21"
   },
   "OFSS": {
    "available": true,
@@ -3389,7 +3615,9 @@
      "rev": 20652000000.0,
      "pat": 8417000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-04-27"
   },
   "POLICYBZR": {
    "available": true,
@@ -3419,7 +3647,9 @@
      "rev": 20613300000.0,
      "pat": 2611100000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-30"
   },
   "PIIND": {
    "available": true,
@@ -3449,7 +3679,9 @@
      "rev": 15652000000.0,
      "pat": 2002000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-18"
   },
   "PAGEIND": {
    "available": true,
@@ -3479,7 +3711,9 @@
      "rev": 12525994000.0,
      "pat": 1787304000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-13"
   },
   "PATANJALI": {
    "available": true,
@@ -3509,7 +3743,9 @@
      "rev": 111556031000.0,
      "pat": 5239755000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": "2026-07-16"
   },
   "PERSISTENT": {
    "available": true,
@@ -3539,7 +3775,9 @@
      "rev": 40559370000.0,
      "pat": 5292600000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-04-21"
   },
   "PETRONET": {
    "available": true,
@@ -3569,7 +3807,9 @@
      "rev": 94420900000.0,
      "pat": 13707400000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": "2026-07-23"
   },
   "PHOENIXLTD": {
    "available": true,
@@ -3599,7 +3839,9 @@
      "rev": 12331985000.0,
      "pat": 4033455000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": "2026-07-23"
   },
   "POLYCAB": {
    "available": true,
@@ -3629,7 +3871,9 @@
      "rev": 88644770000.0,
      "pat": 7727660000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-16"
   },
   "PREMIERENE": {
    "available": true,
@@ -3659,7 +3903,9 @@
      "rev": 22303030000.0,
      "pat": 4568250000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "PRESTIGE": {
    "available": true,
@@ -3689,7 +3935,9 @@
      "rev": 40738000000.0,
      "pat": 2501000000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": "2026-08-05"
   },
   "RADICO": {
    "available": true,
@@ -3719,7 +3967,9 @@
      "rev": 15037127000.0,
      "pat": 1794643000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": "2026-07-30"
   },
   "RVNL": {
    "available": true,
@@ -3749,7 +3999,9 @@
      "rev": 66959100000.0,
      "pat": 1870700000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "SBICARD": {
    "available": true,
@@ -3779,7 +4031,9 @@
      "rev": 40639800000.0,
      "pat": 6093000000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-24"
   },
   "SJVN": {
    "available": true,
@@ -3809,7 +4063,9 @@
      "rev": 14964700000.0,
      "pat": -1179800000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": null
   },
   "SRF": {
    "available": true,
@@ -3839,7 +4095,9 @@
      "rev": 45318300000.0,
      "pat": 5820200000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-22"
   },
   "SCHAEFFLER": {
    "available": true,
@@ -3869,7 +4127,9 @@
      "rev": 25856400000.0,
      "pat": 3160700000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-07-23"
   },
   "SAIL": {
    "available": true,
@@ -3899,7 +4159,9 @@
      "rev": 308134900000.0,
      "pat": 18354700000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-23"
   },
   "SUNDARMFIN": {
    "available": true,
@@ -3929,7 +4191,9 @@
      "rev": 13417700000.0,
      "pat": 5541700000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-08-03"
   },
   "SUPREMEIND": {
    "available": true,
@@ -3959,7 +4223,9 @@
      "rev": 35276600000.0,
      "pat": 4335700000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-23"
   },
   "SUZLON": {
    "available": true,
@@ -3989,7 +4255,9 @@
      "rev": 54680600000.0,
      "pat": 11143500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-12"
   },
   "SWIGGY": {
    "available": true,
@@ -4019,7 +4287,9 @@
      "rev": 63830000000.0,
      "pat": -8000000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "TATACOMM": {
    "available": true,
@@ -4049,7 +4319,9 @@
      "rev": 65541500000.0,
      "pat": 2632500000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": "2026-07-16"
   },
   "TATAELXSI": {
    "available": true,
@@ -4079,7 +4351,9 @@
      "rev": 9937512000.0,
      "pat": 2203513000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-09"
   },
   "TATAINVEST": {
    "available": true,
@@ -4109,7 +4383,9 @@
      "rev": 692800000.0,
      "pat": 638300000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "NIACL": {
    "available": true,
@@ -4139,7 +4415,9 @@
      "rev": 125182600000.0,
      "pat": 5779200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-29"
   },
   "THERMAX": {
    "available": true,
@@ -4169,7 +4447,9 @@
      "rev": 34280400000.0,
      "pat": 2442800000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-30"
   },
   "TORNTPOWER": {
    "available": true,
@@ -4199,7 +4479,9 @@
      "rev": 64060700000.0,
      "pat": 3182000000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": "2026-08-04"
   },
   "TIINDIA": {
    "available": true,
@@ -4229,7 +4511,9 @@
      "rev": 60188200000.0,
      "pat": 854500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-30"
   },
   "UNOMINDA": {
    "available": true,
@@ -4259,7 +4543,9 @@
      "rev": 53364100000.0,
      "pat": 3258100000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-06"
   },
   "UPL": {
    "available": true,
@@ -4289,7 +4575,9 @@
      "rev": 183350000000.0,
      "pat": 10610000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-31"
   },
   "UBL": {
    "available": true,
@@ -4319,7 +4607,9 @@
      "rev": 22500700000.0,
      "pat": 1017800000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": "2026-07-22"
   },
   "VMM": {
    "available": true,
@@ -4349,7 +4639,9 @@
      "rev": 31141030000.0,
      "pat": 1679190000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "IDEA": {
    "available": true,
@@ -4379,7 +4671,9 @@
      "rev": 113030000000.0,
      "pat": 519700000000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": "2026-08-13"
   },
   "VOLTAS": {
    "available": true,
@@ -4409,7 +4703,9 @@
      "rev": 48435400000.0,
      "pat": 1161800000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-13"
   },
   "WAAREEENER": {
    "available": true,
@@ -4439,7 +4735,9 @@
      "rev": 84802500000.0,
      "pat": 10611000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "YESBANK": {
    "available": true,
@@ -4469,7 +4767,9 @@
      "rev": 44484400000.0,
      "pat": 10821900000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-18"
   },
   "ACMESOLAR": {
    "available": true,
@@ -4499,7 +4799,9 @@
      "rev": 5477680000.0,
      "pat": 1393170000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": null
   },
   "AADHARHFC": {
    "available": true,
@@ -4529,7 +4831,9 @@
      "rev": 9105600000.0,
      "pat": 3109200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "AARTIIND": {
    "available": true,
@@ -4559,7 +4863,9 @@
      "rev": 22050000000.0,
      "pat": 1370000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-30"
   },
   "AAVAS": {
    "available": true,
@@ -4589,7 +4895,9 @@
      "rev": 6270102000.0,
      "pat": 1816680000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-05-05"
   },
   "ACE": {
    "available": true,
@@ -4619,7 +4927,9 @@
      "rev": 10294900000.0,
      "pat": 1109100000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "ACUTAAS": {
    "available": true,
@@ -4644,7 +4954,9 @@
      "rev": 3931833000.0,
      "pat": 1079605000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "ABFRL": {
    "available": true,
@@ -4674,7 +4986,9 @@
      "rev": 19901300000.0,
      "pat": -1484000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-13"
   },
   "ABLBL": {
    "available": true,
@@ -4704,7 +5018,9 @@
      "rev": 21741600000.0,
      "pat": 545200000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "ABREL": {
    "available": true,
@@ -4734,7 +5050,9 @@
      "rev": 820000000.0,
      "pat": 108400000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": null
   },
   "ABSLAMC": {
    "available": true,
@@ -4764,7 +5082,9 @@
      "rev": 4582300000.0,
      "pat": 1871100000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "CPPLUS": {
    "available": true,
@@ -4794,7 +5114,9 @@
      "rev": 14220290000.0,
      "pat": 1691280000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "AEGISLOG": {
    "available": true,
@@ -4824,7 +5146,9 @@
      "rev": 25943900000.0,
      "pat": 4103700000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": null
   },
   "AEGISVOPAK": {
    "available": true,
@@ -4854,7 +5178,9 @@
      "rev": 2434517000.0,
      "pat": 686430000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": null
   },
   "AFCONS": {
    "available": true,
@@ -4884,7 +5210,9 @@
      "rev": 26138400000.0,
      "pat": -884000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "AFFLE": {
    "available": true,
@@ -4914,7 +5242,9 @@
      "rev": 7243770000.0,
      "pat": 1195140000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": null
   },
   "ABDL": {
    "available": true,
@@ -4944,7 +5274,9 @@
      "rev": 10068872000.0,
      "pat": 409736000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "ARE&M": {
    "available": true,
@@ -4974,7 +5306,9 @@
      "rev": 35357500000.0,
      "pat": 3143300000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "AMBER": {
    "available": true,
@@ -5004,7 +5338,9 @@
      "rev": 41475199000.0,
      "pat": 1338780000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "ANANDRATHI": {
    "available": true,
@@ -5034,7 +5370,9 @@
      "rev": 2878182000.0,
      "pat": 1030858000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "ANANTRAJ": {
    "available": true,
@@ -5064,7 +5402,9 @@
      "rev": 6468100000.0,
      "pat": 1466000000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": null
   },
   "ANGELONE": {
    "available": true,
@@ -5094,7 +5434,9 @@
      "rev": 14549650000.0,
      "pat": 3202370000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "ANURAS": {
    "available": true,
@@ -5119,7 +5461,9 @@
      "rev": 5124470000.0,
      "pat": 490410000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "APTUS": {
    "available": true,
@@ -5149,7 +5493,9 @@
      "rev": 4326067000.0,
      "pat": 2609549000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "ASAHIINDIA": {
    "available": true,
@@ -5179,7 +5525,9 @@
      "rev": 13254700000.0,
      "pat": 1324800000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "ASTERDM": {
    "available": true,
@@ -5204,7 +5552,9 @@
      "rev": 11857600000.0,
      "pat": 524500000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "ATHERENERG": {
    "available": true,
@@ -5234,7 +5584,9 @@
      "rev": 11746600000.0,
      "pat": -1002300000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "ATUL": {
    "available": true,
@@ -5264,7 +5616,9 @@
      "rev": 16700000000.0,
      "pat": 2101500000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-24"
   },
   "BEML": {
    "available": true,
@@ -5294,7 +5648,9 @@
      "rev": 17941700000.0,
      "pat": 1798200000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "BLS": {
    "available": true,
@@ -5324,7 +5680,9 @@
      "rev": 8145642000.0,
      "pat": 1777956000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "BALRAMCHIN": {
    "available": true,
@@ -5354,7 +5712,9 @@
      "rev": 16039906000.0,
      "pat": 1595683000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "BANDHANBNK": {
    "available": true,
@@ -5384,7 +5744,9 @@
      "rev": 35662861000.0,
      "pat": 5341384000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-17"
   },
   "BATAINDIA": {
    "available": true,
@@ -5414,7 +5776,9 @@
      "rev": 8276260000.0,
      "pat": 22080000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-10"
   },
   "BAYERCROP": {
    "available": true,
@@ -5444,7 +5808,9 @@
      "rev": 11008000000.0,
      "pat": 1621000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-06"
   },
   "BELRISE": {
    "available": true,
@@ -5474,7 +5840,9 @@
      "rev": 25528300000.0,
      "pat": 1302250000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "BIKAJI": {
    "available": true,
@@ -5504,7 +5872,9 @@
      "rev": 7069943000.0,
      "pat": 564111000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "BSOFT": {
    "available": true,
@@ -5534,7 +5904,9 @@
      "rev": 13486250000.0,
      "pat": 1759320000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-08-06"
   },
   "BLUEDART": {
    "available": true,
@@ -5564,7 +5936,9 @@
      "rev": 15334700000.0,
      "pat": 488500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "BLUEJET": {
    "available": true,
@@ -5594,7 +5968,9 @@
      "rev": 2346680000.0,
      "pat": 643440000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "BBTC": {
    "available": true,
@@ -5624,7 +6000,9 @@
      "rev": 47853400000.0,
      "pat": 4439600000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "FIRSTCRY": {
    "available": true,
@@ -5654,7 +6032,9 @@
      "rev": 21626680000.0,
      "pat": -303080000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "BRIGADE": {
    "available": true,
@@ -5684,7 +6064,9 @@
      "rev": 14576000000.0,
      "pat": 1454900000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": "2026-05-06"
   },
   "MAPMYINDIA": {
    "available": true,
@@ -5714,7 +6096,9 @@
      "rev": 1450400000.0,
      "pat": 507700000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "CCL": {
    "available": true,
@@ -5744,7 +6128,9 @@
      "rev": 12244438000.0,
      "pat": 1145250000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "CESC": {
    "available": true,
@@ -5774,7 +6160,9 @@
      "rev": 40960000000.0,
      "pat": 4390000000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": "2026-07-29"
   },
   "CIEINDIA": {
    "available": true,
@@ -5804,7 +6192,9 @@
      "rev": 26119520000.0,
      "pat": 2493660000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "CANFINHOME": {
    "available": true,
@@ -5834,7 +6224,9 @@
      "rev": 4375547000.0,
      "pat": 3456714000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "CANHLIFE": {
    "available": true,
@@ -5859,7 +6251,9 @@
      "rev": 12905700000.0,
      "pat": 347300000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "CAPLIPOINT": {
    "available": true,
@@ -5889,7 +6283,9 @@
      "rev": 6001600000.0,
      "pat": 1701100000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "CGCL": {
    "available": true,
@@ -5919,7 +6315,9 @@
      "rev": 12969560000.0,
      "pat": 2828150000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "CARBORUNIV": {
    "available": true,
@@ -5949,7 +6347,9 @@
      "rev": 13831900000.0,
      "pat": -175900000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-06"
   },
   "CARTRADE": {
    "available": true,
@@ -5979,7 +6379,9 @@
      "rev": 2031431000.0,
      "pat": 646067000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "CASTROLIND": {
    "available": true,
@@ -6009,7 +6411,9 @@
      "rev": 15452400000.0,
      "pat": 2421800000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": "2026-04-28"
   },
   "CEATLTD": {
    "available": true,
@@ -6039,7 +6443,9 @@
      "rev": 42188900000.0,
      "pat": 2438500000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "CEMPRO": {
    "available": true,
@@ -6069,7 +6475,9 @@
      "rev": 29734900000.0,
      "pat": 2421700000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "CENTRALBK": {
    "available": true,
@@ -6099,7 +6507,9 @@
      "rev": 51825900000.0,
      "pat": 7457200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "CDSL": {
    "available": true,
@@ -6129,7 +6539,9 @@
      "rev": 2628480000.0,
      "pat": 802196000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "CHALET": {
    "available": true,
@@ -6159,7 +6571,9 @@
      "rev": 5582170000.0,
      "pat": 1630250000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "CHAMBLFERT": {
    "available": true,
@@ -6189,7 +6603,9 @@
      "rev": 27850300000.0,
      "pat": 1692600000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-06"
   },
   "CHENNPETRO": {
    "available": true,
@@ -6219,7 +6635,9 @@
      "rev": 168173200000.0,
      "pat": 14218500000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": null
   },
   "CHOICEIN": {
    "available": true,
@@ -6249,7 +6667,9 @@
      "rev": 3067106000.0,
      "pat": 603072000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "CHOLAHLDNG": {
    "available": true,
@@ -6279,7 +6699,9 @@
      "rev": 108405100000.0,
      "pat": 6871400000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-08-07"
   },
   "CUB": {
    "available": true,
@@ -6309,7 +6731,9 @@
      "rev": 10763094000.0,
      "pat": 3595649000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-04-27"
   },
   "CLEAN": {
    "available": true,
@@ -6339,7 +6763,9 @@
      "rev": 2492530000.0,
      "pat": 582720000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-16"
   },
   "COHANCE": {
    "available": true,
@@ -6369,7 +6795,9 @@
      "rev": 6191200000.0,
      "pat": 195500000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "CAMS": {
    "available": true,
@@ -6399,7 +6827,9 @@
      "rev": 3952202000.0,
      "pat": 1264333000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-30"
   },
   "CONCORDBIO": {
    "available": true,
@@ -6429,7 +6859,9 @@
      "rev": 3260796000.0,
      "pat": 887905000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "CRAFTSMAN": {
    "available": true,
@@ -6459,7 +6891,9 @@
      "rev": 22264000000.0,
      "pat": 1164200000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "CREDITACC": {
    "available": true,
@@ -6489,7 +6923,9 @@
      "rev": 15732900000.0,
      "pat": 3395500000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "CROMPTON": {
    "available": true,
@@ -6519,7 +6955,9 @@
      "rev": 22832700000.0,
      "pat": -5339300000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-06"
   },
   "CYIENT": {
    "available": true,
@@ -6549,7 +6987,9 @@
      "rev": 19269000000.0,
      "pat": 548000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-23"
   },
   "DCMSHRIRAM": {
    "available": true,
@@ -6579,7 +7019,9 @@
      "rev": 31711600000.0,
      "pat": 3699200000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "DOMS": {
    "available": true,
@@ -6609,7 +7051,9 @@
      "rev": 6039832000.0,
      "pat": 567356000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "DATAPATTNS": {
    "available": true,
@@ -6639,7 +7083,9 @@
      "rev": 3448500000.0,
      "pat": 1383800000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "DEEPAKFERT": {
    "available": true,
@@ -6669,7 +7115,9 @@
      "rev": 30113800000.0,
      "pat": 1393900000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "DEEPAKNTR": {
    "available": true,
@@ -6699,7 +7147,9 @@
      "rev": 21203300000.0,
      "pat": 2197400000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-12"
   },
   "DELHIVERY": {
    "available": true,
@@ -6729,7 +7179,9 @@
      "rev": 28499990000.0,
      "pat": 723970000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-31"
   },
   "DEVYANI": {
    "available": true,
@@ -6759,7 +7211,9 @@
      "rev": 14368620000.0,
      "pat": -100430000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-13"
   },
   "LALPATHLAB": {
    "available": true,
@@ -6784,7 +7238,9 @@
      "rev": 6598000000.0,
      "pat": 905000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-04-30"
   },
   "EIDPARRY": {
    "available": true,
@@ -6814,7 +7270,9 @@
      "rev": 78823300000.0,
      "pat": -3333000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "EIHOTEL": {
    "available": true,
@@ -6844,7 +7302,9 @@
      "rev": 8952200000.0,
      "pat": 2376200000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "ELECON": {
    "available": true,
@@ -6874,7 +7334,9 @@
      "rev": 7456100000.0,
      "pat": 60000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "ELGIEQUIP": {
    "available": true,
@@ -6904,7 +7366,9 @@
      "rev": 11126000000.0,
      "pat": 1280000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-11"
   },
   "EMAMILTD": {
    "available": true,
@@ -6934,7 +7398,9 @@
      "rev": 9251000000.0,
      "pat": 1431800000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": "2026-08-06"
   },
   "EMCURE": {
    "available": true,
@@ -6964,7 +7430,9 @@
      "rev": 24697030000.0,
      "pat": 2434030000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "EMMVEE": {
    "available": true,
@@ -6994,7 +7462,9 @@
      "rev": 17388062000.0,
      "pat": 3923799000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "ENGINERSIN": {
    "available": true,
@@ -7024,7 +7494,9 @@
      "rev": 9262906000.0,
      "pat": 1955340000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "ERIS": {
    "available": true,
@@ -7054,7 +7526,9 @@
      "rev": 7522900000.0,
      "pat": 2816100000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "FACT": {
    "available": true,
@@ -7084,7 +7558,9 @@
      "rev": 14838500000.0,
      "pat": 31600000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "FINCABLES": {
    "available": true,
@@ -7114,7 +7590,9 @@
      "rev": 19510800000.0,
      "pat": 2244300000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-11"
   },
   "FSL": {
    "available": true,
@@ -7144,7 +7622,9 @@
      "rev": 26130440000.0,
      "pat": 2052440000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "FIVESTAR": {
    "available": true,
@@ -7174,7 +7654,9 @@
      "rev": 8095846000.0,
      "pat": 2692678000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "FORCEMOT": {
    "available": true,
@@ -7204,7 +7686,9 @@
      "rev": 25498400000.0,
      "pat": 2785200000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "GABRIEL": {
    "available": true,
@@ -7234,7 +7718,9 @@
      "rev": 12095930000.0,
      "pat": 666100000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "GALLANTT": {
    "available": true,
@@ -7264,7 +7750,9 @@
      "rev": 12048131000.0,
      "pat": 1228308000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "GRSE": {
    "available": true,
@@ -7289,7 +7777,9 @@
      "rev": 18956931000.0,
      "pat": 1707727000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "GILLETTE": {
    "available": true,
@@ -7309,7 +7799,9 @@
      "rev": 7067200000.0,
      "pat": 1456900000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "GLAND": {
    "available": true,
@@ -7339,7 +7831,9 @@
      "rev": 17427900000.0,
      "pat": 3666750000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-05"
   },
   "GODIGIT": {
    "available": true,
@@ -7369,7 +7863,9 @@
      "rev": 27108700000.0,
      "pat": 1494200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "GPIL": {
    "available": true,
@@ -7399,7 +7895,9 @@
      "rev": 16102700000.0,
      "pat": 2800900000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "GRANULES": {
    "available": true,
@@ -7429,7 +7927,9 @@
      "rev": 14574310000.0,
      "pat": 2015680000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "GRAPHITE": {
    "available": true,
@@ -7459,7 +7959,9 @@
      "rev": 8160000000.0,
      "pat": -1040000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "GRAVITA": {
    "available": true,
@@ -7489,7 +7991,9 @@
      "rev": 11727600000.0,
      "pat": 918800000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "GESHIP": {
    "available": true,
@@ -7519,7 +8023,9 @@
      "rev": 15114000000.0,
      "pat": 10440900000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "GMDCLTD": {
    "available": true,
@@ -7549,7 +8055,9 @@
      "rev": 8140500000.0,
      "pat": 1940900000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": null
   },
   "HEG": {
    "available": true,
@@ -7579,7 +8087,9 @@
      "rev": 5792943000.0,
      "pat": -1137618000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "HBLENGINE": {
    "available": true,
@@ -7609,7 +8119,9 @@
      "rev": 6041200000.0,
      "pat": 637500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "HFCL": {
    "available": true,
@@ -7639,7 +8151,9 @@
      "rev": 18241200000.0,
      "pat": 1785000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "HSCL": {
    "available": true,
@@ -7669,7 +8183,9 @@
      "rev": 12877600000.0,
      "pat": 2007900000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "HINDCOPPER": {
    "available": true,
@@ -7699,7 +8215,9 @@
      "rev": 11560800000.0,
      "pat": 4442700000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "HOMEFIRST": {
    "available": true,
@@ -7729,7 +8247,9 @@
      "rev": 4537780000.0,
      "pat": 1494450000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "HONASA": {
    "available": true,
@@ -7759,7 +8279,9 @@
      "rev": 6570840000.0,
      "pat": 691930000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "IDBI": {
    "available": true,
@@ -7789,7 +8311,9 @@
      "rev": 42615498000.0,
      "pat": 20071068000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "IFCI": {
    "available": true,
@@ -7819,7 +8343,9 @@
      "rev": 3405200000.0,
      "pat": 132200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "IIFL": {
    "available": true,
@@ -7849,7 +8375,9 @@
      "rev": 20757100000.0,
      "pat": 5868400000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-29"
   },
   "IRB": {
    "available": true,
@@ -7879,7 +8407,9 @@
      "rev": 15264440000.0,
      "pat": 2962590000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "IRCON": {
    "available": true,
@@ -7909,7 +8439,9 @@
      "rev": 31889800000.0,
      "pat": 1916000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "ITI": {
    "available": true,
@@ -7939,7 +8471,9 @@
      "rev": 6276500000.0,
      "pat": 3751400000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "INDGN": {
    "available": true,
@@ -7969,7 +8503,9 @@
      "rev": 10034000000.0,
      "pat": 797000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "INDIACEM": {
    "available": true,
@@ -7999,7 +8535,9 @@
      "rev": 12286500000.0,
      "pat": 595000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "INDIAMART": {
    "available": true,
@@ -8029,7 +8567,9 @@
      "rev": 4043000000.0,
      "pat": 502000000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": "2026-07-17"
   },
   "IEX": {
    "available": true,
@@ -8059,7 +8599,9 @@
      "rev": 1743027000.0,
      "pat": 1297726000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-04-23"
   },
   "IOB": {
    "available": true,
@@ -8089,7 +8631,9 @@
      "rev": 47606200000.0,
      "pat": 15561500000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "IGL": {
    "available": true,
@@ -8119,7 +8663,9 @@
      "rev": 41626900000.0,
      "pat": 3405400000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": "2026-07-30"
   },
   "INOXWIND": {
    "available": true,
@@ -8149,7 +8695,9 @@
      "rev": 12442400000.0,
      "pat": 912500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "INTELLECT": {
    "available": true,
@@ -8179,7 +8727,9 @@
      "rev": 8470190000.0,
      "pat": 1202280000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "IGIL": {
    "available": true,
@@ -8209,7 +8759,9 @@
      "rev": 3685620000.0,
      "pat": 1795960000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "IKS": {
    "available": true,
@@ -8239,7 +8791,9 @@
      "rev": 8576520000.0,
      "pat": 2059680000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "JBCHEPHARM": {
    "available": true,
@@ -8269,7 +8823,9 @@
      "rev": 9042300000.0,
      "pat": 1013700000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-07-30"
   },
   "JBMA": {
    "available": true,
@@ -8299,7 +8855,9 @@
      "rev": 18522700000.0,
      "pat": 742400000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "JKTYRE": {
    "available": true,
@@ -8329,7 +8887,9 @@
      "rev": 42234400000.0,
      "pat": 1779900000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "JMFINANCIL": {
    "available": true,
@@ -8359,7 +8919,9 @@
      "rev": 7246000000.0,
      "pat": 1653600000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "JSWCEMENT": {
    "available": true,
@@ -8389,7 +8951,9 @@
      "rev": 18949900000.0,
      "pat": 3713300000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "JSWDULUX": {
    "available": true,
@@ -8419,7 +8983,9 @@
      "rev": 8833000000.0,
      "pat": 1257000000.0
     }
-   ]
+   ],
+   "sector": null,
+   "next_earnings": null
   },
   "JAINREC": {
    "available": true,
@@ -8444,7 +9010,9 @@
      "rev": 31049830000.0,
      "pat": 660400000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "JPPOWER": {
    "available": true,
@@ -8474,7 +9042,9 @@
      "rev": 13864300000.0,
      "pat": -133700000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": null
   },
   "J&KBANK": {
    "available": true,
@@ -8504,7 +9074,9 @@
      "rev": 17517900000.0,
      "pat": 7985600000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "JINDALSAW": {
    "available": true,
@@ -8534,7 +9106,9 @@
      "rev": 46334800000.0,
      "pat": 1394300000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "JUBLINGREA": {
    "available": true,
@@ -8564,7 +9138,9 @@
      "rev": 11660500000.0,
      "pat": 864400000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "JUBLPHARMA": {
    "available": true,
@@ -8594,7 +9170,9 @@
      "rev": 22722000000.0,
      "pat": 1194000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-07"
   },
   "JWL": {
    "available": true,
@@ -8624,7 +9202,9 @@
      "rev": 7801507000.0,
      "pat": 288275000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "JYOTICNC": {
    "available": true,
@@ -8654,7 +9234,9 @@
      "rev": 5991600000.0,
      "pat": 905700000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "KAJARIACER": {
    "available": true,
@@ -8684,7 +9266,9 @@
      "rev": 13733500000.0,
      "pat": 1557500000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-21"
   },
   "KPIL": {
    "available": true,
@@ -8714,7 +9298,9 @@
      "rev": 77779000000.0,
      "pat": 4342100000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-06"
   },
   "KARURVYSYA": {
    "available": true,
@@ -8744,7 +9330,9 @@
      "rev": 19745700000.0,
      "pat": 7249600000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-23"
   },
   "KAYNES": {
    "available": true,
@@ -8774,7 +9362,9 @@
      "rev": 12426380000.0,
      "pat": 912230000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "KEC": {
    "available": true,
@@ -8804,7 +9394,9 @@
      "rev": 63897500000.0,
      "pat": 1927900000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "KFINTECH": {
    "available": true,
@@ -8834,7 +9426,9 @@
      "rev": 3201660000.0,
      "pat": 811490000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "KIRLOSENG": {
    "available": true,
@@ -8864,7 +9458,9 @@
      "rev": 21162300000.0,
      "pat": 1586000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "KIMS": {
    "available": true,
@@ -8894,7 +9490,9 @@
      "rev": 10746000000.0,
      "pat": 425000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-06"
   },
   "LTFOODS": {
    "available": true,
@@ -8924,7 +9522,9 @@
      "rev": 29067035000.0,
      "pat": 1356739000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "LATENTVIEW": {
    "available": true,
@@ -8954,7 +9554,9 @@
      "rev": 2886180000.0,
      "pat": 527520000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "THELEELA": {
    "available": true,
@@ -8984,7 +9586,9 @@
      "rev": 4844200000.0,
      "pat": 1717700000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "LEMONTREE": {
    "available": true,
@@ -9014,7 +9618,9 @@
      "rev": 4164039000.0,
      "pat": 914941000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-08-06"
   },
   "MMTC": {
    "available": true,
@@ -9044,7 +9650,9 @@
      "rev": 6100000.0,
      "pat": 1260400000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "MGL": {
    "available": true,
@@ -9074,7 +9682,9 @@
      "rev": 20520500000.0,
      "pat": 1299400000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": "2026-07-22"
   },
   "MANAPPURAM": {
    "available": true,
@@ -9104,7 +9714,9 @@
      "rev": 14966600000.0,
      "pat": 4039600000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-05-04"
   },
   "MRPL": {
    "available": true,
@@ -9134,7 +9746,9 @@
      "rev": 239496900000.0,
      "pat": 1169600000.0
     }
-   ]
+   ],
+   "sector": "Energy",
+   "next_earnings": null
   },
   "MEESHO": {
    "available": true,
@@ -9159,7 +9773,9 @@
      "rev": 35312120000.0,
      "pat": -1663450000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "MINDACORP": {
    "available": true,
@@ -9189,7 +9805,9 @@
      "rev": 17038100000.0,
      "pat": 1246100000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "MSUMI": {
    "available": true,
@@ -9219,7 +9837,9 @@
      "rev": 33281800000.0,
      "pat": 1673000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-07-28"
   },
   "NATCOPHARM": {
    "available": true,
@@ -9249,7 +9869,9 @@
      "rev": 7391000000.0,
      "pat": 2679000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-12"
   },
   "NBCC": {
    "available": true,
@@ -9279,7 +9901,9 @@
      "rev": 45597982000.0,
      "pat": 2413897000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "NCC": {
    "available": true,
@@ -9309,7 +9933,9 @@
      "rev": 62327100000.0,
      "pat": 2060200000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-08-04"
   },
   "NSLNISP": {
    "available": true,
@@ -9339,7 +9965,9 @@
      "rev": 38790000000.0,
      "pat": 3919100000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "NH": {
    "available": true,
@@ -9369,7 +9997,9 @@
      "rev": 25938060000.0,
      "pat": 2238780000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "NAVA": {
    "available": true,
@@ -9399,7 +10029,9 @@
      "rev": 11428452000.0,
      "pat": 1271335000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "NAVINFLUOR": {
    "available": true,
@@ -9429,7 +10061,9 @@
      "rev": 9377100000.0,
      "pat": 2126200000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-30"
   },
   "NETWEB": {
    "available": true,
@@ -9459,7 +10093,9 @@
      "rev": 7737020000.0,
      "pat": 705930000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "NEULANDLAB": {
    "available": true,
@@ -9489,7 +10125,9 @@
      "rev": 7762503000.0,
      "pat": 2126726000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "NEWGEN": {
    "available": true,
@@ -9519,7 +10157,9 @@
      "rev": 4526683000.0,
      "pat": 1062983000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "NIVABUPA": {
    "available": true,
@@ -9549,7 +10189,9 @@
      "rev": 21385600000.0,
      "pat": 3451300000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "NUVAMA": {
    "available": true,
@@ -9579,7 +10221,9 @@
      "rev": 6436400000.0,
      "pat": 2691500000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "NUVOCO": {
    "available": true,
@@ -9609,7 +10253,9 @@
      "rev": 33067500000.0,
      "pat": 1408100000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "OLAELEC": {
    "available": true,
@@ -9639,7 +10285,9 @@
      "rev": 2650000000.0,
      "pat": -5000000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "OLECTRA": {
    "available": true,
@@ -9669,7 +10317,9 @@
      "rev": 6447210000.0,
      "pat": 555211000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "ONESOURCE": {
    "available": true,
@@ -9699,7 +10349,9 @@
      "rev": 4282170000.0,
      "pat": 45970000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "PCBL": {
    "available": true,
@@ -9729,7 +10381,9 @@
      "rev": 20660600000.0,
      "pat": 402500000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "PGEL": {
    "available": true,
@@ -9759,7 +10413,9 @@
      "rev": 17166752000.0,
      "pat": 648638000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "PNBHOUSING": {
    "available": true,
@@ -9789,7 +10445,9 @@
      "rev": 9217300000.0,
      "pat": 6558000000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "PTCIL": {
    "available": true,
@@ -9819,7 +10477,9 @@
      "rev": 2254707000.0,
      "pat": 599108000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "PVRINOX": {
    "available": true,
@@ -9849,7 +10509,9 @@
      "rev": 15473000000.0,
      "pat": 1867000000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": "2026-08-06"
   },
   "PARADEEP": {
    "available": true,
@@ -9879,7 +10541,9 @@
      "rev": 47019700000.0,
      "pat": 1556000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "PFIZER": {
    "available": true,
@@ -9909,7 +10573,9 @@
      "rev": 6292300000.0,
      "pat": 1998200000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-08-12"
   },
   "PWL": {
    "available": true,
@@ -9939,7 +10605,9 @@
      "rev": 9188000000.0,
      "pat": -748900000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "PINELABS": {
    "available": true,
@@ -9969,7 +10637,9 @@
      "rev": 7005100000.0,
      "pat": 593600000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "PIRAMALFIN": {
    "available": true,
@@ -9999,7 +10669,9 @@
      "rev": 29914600000.0,
      "pat": 5009400000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "PPLPHARMA": {
    "available": true,
@@ -10029,7 +10701,9 @@
      "rev": 27517700000.0,
      "pat": -88200000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-07-27"
   },
   "POLYMED": {
    "available": true,
@@ -10059,7 +10733,9 @@
      "rev": 5345114000.0,
      "pat": 650410000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "POONAWALLA": {
    "available": true,
@@ -10089,7 +10765,9 @@
      "rev": 20323400000.0,
      "pat": 2547900000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-24"
   },
   "RRKABEL": {
    "available": true,
@@ -10119,7 +10797,9 @@
      "rev": 29641413000.0,
      "pat": 1679512000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "RBLBANK": {
    "available": true,
@@ -10149,7 +10829,9 @@
      "rev": 27425600000.0,
      "pat": 2444200000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-16"
   },
   "RHIM": {
    "available": true,
@@ -10179,7 +10861,9 @@
      "rev": 9322590000.0,
      "pat": -5181080000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "RITES": {
    "available": true,
@@ -10209,7 +10893,9 @@
      "rev": 7682600000.0,
      "pat": 1299700000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "RAILTEL": {
    "available": true,
@@ -10234,7 +10920,9 @@
      "rev": 9134500000.0,
      "pat": 624000000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": null
   },
   "RAINBOW": {
    "available": true,
@@ -10264,7 +10952,9 @@
      "rev": 4599010000.0,
      "pat": 770430000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "RKFORGE": {
    "available": true,
@@ -10294,7 +10984,9 @@
      "rev": 12167754000.0,
      "pat": 559387000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "REDINGTON": {
    "available": true,
@@ -10324,7 +11016,9 @@
      "rev": 332130300000.0,
      "pat": 3913200000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-29"
   },
   "RPOWER": {
    "available": true,
@@ -10354,7 +11048,9 @@
      "rev": 18872600000.0,
      "pat": -4940000000.0
     }
-   ]
+   ],
+   "sector": "Utilities",
+   "next_earnings": null
   },
   "SBFC": {
    "available": true,
@@ -10384,7 +11080,9 @@
      "rev": 4499340000.0,
      "pat": 1227670000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "SAGILITY": {
    "available": true,
@@ -10414,7 +11112,9 @@
      "rev": 20242570000.0,
      "pat": 2577270000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "SAILIFE": {
    "available": true,
@@ -10444,7 +11144,9 @@
      "rev": 6021390000.0,
      "pat": 1042360000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "SAMMAANCAP": {
    "available": true,
@@ -10474,7 +11176,9 @@
      "rev": 11353400000.0,
      "pat": -81014100000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-08-13"
   },
   "SAPPHIRE": {
    "available": true,
@@ -10504,7 +11208,9 @@
      "rev": 7922230000.0,
      "pat": -126050000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "SARDAEN": {
    "available": true,
@@ -10534,7 +11240,9 @@
      "rev": 12403100000.0,
      "pat": 1579900000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "SAREGAMA": {
    "available": true,
@@ -10564,7 +11272,9 @@
      "rev": 2874400000.0,
      "pat": 753900000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": null
   },
   "SCHNEIDER": {
    "available": true,
@@ -10594,7 +11304,9 @@
      "rev": 5896900000.0,
      "pat": 219700000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "SCI": {
    "available": true,
@@ -10624,7 +11336,9 @@
      "rev": 15132100000.0,
      "pat": 4046000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "SHYAMMETL": {
    "available": true,
@@ -10654,7 +11368,9 @@
      "rev": 52403600000.0,
      "pat": 3190900000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "SIGNATURE": {
    "available": true,
@@ -10684,7 +11400,9 @@
      "rev": 11072660000.0,
      "pat": 11524080000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": null
   },
   "SOBHA": {
    "available": true,
@@ -10714,7 +11432,9 @@
      "rev": 19878350000.0,
      "pat": 918350000.0
     }
-   ]
+   ],
+   "sector": "Real Estate",
+   "next_earnings": null
   },
   "SONACOMS": {
    "available": true,
@@ -10744,7 +11464,9 @@
      "rev": 12574970000.0,
      "pat": 1919150000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-04-30"
   },
   "SONATSOFTW": {
    "available": true,
@@ -10774,7 +11496,9 @@
      "rev": 25361900000.0,
      "pat": 1305000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-29"
   },
   "STARHEALTH": {
    "available": true,
@@ -10804,7 +11528,9 @@
      "rev": 46481600000.0,
      "pat": 1113400000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": "2026-07-29"
   },
   "SUMICHEM": {
    "available": true,
@@ -10834,7 +11560,9 @@
      "rev": 6837430000.0,
      "pat": 1112300000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "SUNTV": {
    "available": true,
@@ -10864,7 +11592,9 @@
      "rev": 8825100000.0,
      "pat": 2320200000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": "2026-08-07"
   },
   "SPLPETRO": {
    "available": true,
@@ -10894,7 +11624,9 @@
      "rev": 16032338000.0,
      "pat": 1685483000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "SWANCORP": {
    "available": true,
@@ -10924,7 +11656,9 @@
      "rev": 8696531000.0,
      "pat": 2686807000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "SYNGENE": {
    "available": true,
@@ -10954,7 +11688,9 @@
      "rev": 10365000000.0,
      "pat": 1479000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": "2026-07-29"
   },
   "SYRMA": {
    "available": true,
@@ -10984,7 +11720,9 @@
      "rev": 14650120000.0,
      "pat": 1011940000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "TBOTEK": {
    "available": true,
@@ -11014,7 +11752,9 @@
      "rev": 8143600000.0,
      "pat": 600990000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "TATACHEM": {
    "available": true,
@@ -11044,7 +11784,9 @@
      "rev": 34380000000.0,
      "pat": -21320000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-07-24"
   },
   "TATATECH": {
    "available": true,
@@ -11074,7 +11816,9 @@
      "rev": 15722200000.0,
      "pat": 2041700000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "TTML": {
    "available": true,
@@ -11104,7 +11848,9 @@
      "rev": 2955400000.0,
      "pat": 5809300000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": null
   },
   "TECHNOE": {
    "available": true,
@@ -11134,7 +11880,9 @@
      "rev": 10100370000.0,
      "pat": 1145120000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "TEGA": {
    "available": true,
@@ -11164,7 +11912,9 @@
      "rev": 5267840000.0,
      "pat": 426710000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "TEJASNET": {
    "available": true,
@@ -11194,7 +11944,9 @@
      "rev": 3323900000.0,
      "pat": -2113400000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": "2026-07-13"
   },
   "TENNIND": {
    "available": true,
@@ -11224,7 +11976,9 @@
      "rev": 15524490000.0,
      "pat": 1665760000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "RAMCOCEM": {
    "available": true,
@@ -11254,7 +12008,9 @@
      "rev": 26103200000.0,
      "pat": 1506900000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": "2026-08-06"
   },
   "TIMKEN": {
    "available": true,
@@ -11284,7 +12040,9 @@
      "rev": 10898260000.0,
      "pat": 1583050000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": "2026-07-30"
   },
   "TITAGARH": {
    "available": true,
@@ -11314,7 +12072,9 @@
      "rev": 8754300000.0,
      "pat": 539600000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "TARIL": {
    "available": true,
@@ -11344,7 +12104,9 @@
      "rev": 7826700000.0,
      "pat": 892800000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "TRAVELFOOD": {
    "available": true,
@@ -11374,7 +12136,9 @@
      "rev": 4606830000.0,
      "pat": 1207980000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "TRIDENT": {
    "available": true,
@@ -11404,7 +12168,9 @@
      "rev": 16325300000.0,
      "pat": 1019800000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "TRITURBINE": {
    "available": true,
@@ -11434,7 +12200,9 @@
      "rev": 6796000000.0,
      "pat": 1019000000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "UCOBANK": {
    "available": true,
@@ -11464,7 +12232,9 @@
      "rev": 31137500000.0,
      "pat": 8011500000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "UTIAMC": {
    "available": true,
@@ -11494,7 +12264,9 @@
      "rev": 3748800000.0,
      "pat": -667100000.0
     }
-   ]
+   ],
+   "sector": "Financial Services",
+   "next_earnings": null
   },
   "URBANCO": {
    "available": true,
@@ -11524,7 +12296,9 @@
      "rev": 4255600000.0,
      "pat": -1611600000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "USHAMART": {
    "available": true,
@@ -11554,7 +12328,9 @@
      "rev": 9792600000.0,
      "pat": 1478000000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "VTL": {
    "available": true,
@@ -11584,7 +12360,9 @@
      "rev": 24979800000.0,
      "pat": 1847100000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "VIJAYA": {
    "available": true,
@@ -11614,7 +12392,9 @@
      "rev": 2193767000.0,
      "pat": 479293000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "WELCORP": {
    "available": true,
@@ -11644,7 +12424,9 @@
      "rev": 43125600000.0,
      "pat": 3703600000.0
     }
-   ]
+   ],
+   "sector": "Basic Materials",
+   "next_earnings": null
   },
   "WELSPUNLIV": {
    "available": true,
@@ -11674,7 +12456,9 @@
      "rev": 24354300000.0,
      "pat": 1037000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "WHIRLPOOL": {
    "available": true,
@@ -11704,7 +12488,9 @@
      "rev": 21807700000.0,
      "pat": 802000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": "2026-07-23"
   },
   "WOCKPHARMA": {
    "available": true,
@@ -11734,7 +12520,9 @@
      "rev": 9650000000.0,
      "pat": 1660000000.0
     }
-   ]
+   ],
+   "sector": "Healthcare",
+   "next_earnings": null
   },
   "ZFCVINDIA": {
    "available": true,
@@ -11764,7 +12552,9 @@
      "rev": 11479323000.0,
      "pat": 1463214000.0
     }
-   ]
+   ],
+   "sector": "Consumer Cyclical",
+   "next_earnings": null
   },
   "ZEEL": {
    "available": true,
@@ -11794,7 +12584,9 @@
      "rev": 20248000000.0,
      "pat": -1024000000.0
     }
-   ]
+   ],
+   "sector": "Communication Services",
+   "next_earnings": "2026-07-21"
   },
   "ZENTEC": {
    "available": true,
@@ -11824,7 +12616,9 @@
      "rev": 1780756000.0,
      "pat": 315331000.0
     }
-   ]
+   ],
+   "sector": "Industrials",
+   "next_earnings": null
   },
   "ZENSARTECH": {
    "available": true,
@@ -11854,7 +12648,9 @@
      "rev": 14504000000.0,
      "pat": 2106000000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   },
   "ZYDUSWELL": {
    "available": true,
@@ -11884,7 +12680,9 @@
      "rev": 14761000000.0,
      "pat": 1620000000.0
     }
-   ]
+   ],
+   "sector": "Consumer Defensive",
+   "next_earnings": null
   },
   "ECLERX": {
    "available": true,
@@ -11914,7 +12712,9 @@
      "rev": 11072870000.0,
      "pat": 1893630000.0
     }
-   ]
+   ],
+   "sector": "Technology",
+   "next_earnings": null
   }
  }
 }
