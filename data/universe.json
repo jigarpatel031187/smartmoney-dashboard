@@ -1,0 +1,1605 @@
+{
+ "asof": "2026-07-03T09:51:16.724344+05:30",
+ "symbols": {
+  "360ONE": {
+   "name": "360 ONE WAM Ltd.",
+   "index": "midcap150"
+  },
+  "3MINDIA": {
+   "name": "3M India Ltd.",
+   "index": "midcap150"
+  },
+  "ACC": {
+   "name": "ACC Ltd.",
+   "index": "midcap150"
+  },
+  "AIAENG": {
+   "name": "AIA Engineering Ltd.",
+   "index": "midcap150"
+  },
+  "APLAPOLLO": {
+   "name": "APL Apollo Tubes Ltd.",
+   "index": "midcap150"
+  },
+  "AUBANK": {
+   "name": "AU Small Finance Bank Ltd.",
+   "index": "midcap150"
+  },
+  "AWL": {
+   "name": "AWL Agri Business Ltd.",
+   "index": "midcap150"
+  },
+  "ABBOTINDIA": {
+   "name": "Abbott India Ltd.",
+   "index": "midcap150"
+  },
+  "ATGL": {
+   "name": "Adani Total Gas Ltd.",
+   "index": "midcap150"
+  },
+  "ABCAPITAL": {
+   "name": "Aditya Birla Capital Ltd.",
+   "index": "midcap150"
+  },
+  "AJANTPHARM": {
+   "name": "Ajanta Pharmaceuticals Ltd.",
+   "index": "midcap150"
+  },
+  "ALKEM": {
+   "name": "Alkem Laboratories Ltd.",
+   "index": "midcap150"
+  },
+  "ANTHEM": {
+   "name": "Anthem Biosciences Ltd.",
+   "index": "midcap150"
+  },
+  "APARINDS": {
+   "name": "Apar Industries Ltd.",
+   "index": "midcap150"
+  },
+  "APOLLOTYRE": {
+   "name": "Apollo Tyres Ltd.",
+   "index": "midcap150"
+  },
+  "ASHOKLEY": {
+   "name": "Ashok Leyland Ltd.",
+   "index": "midcap150"
+  },
+  "ASTRAL": {
+   "name": "Astral Ltd.",
+   "index": "midcap150"
+  },
+  "AUROPHARMA": {
+   "name": "Aurobindo Pharma Ltd.",
+   "index": "midcap150"
+  },
+  "AIIL": {
+   "name": "Authum Investment & Infrastructure Ltd.",
+   "index": "midcap150"
+  },
+  "BSE": {
+   "name": "BSE Ltd.",
+   "index": "midcap150"
+  },
+  "BAJAJHFL": {
+   "name": "Bajaj Housing Finance Ltd.",
+   "index": "midcap150"
+  },
+  "BALKRISIND": {
+   "name": "Balkrishna Industries Ltd.",
+   "index": "midcap150"
+  },
+  "BANKINDIA": {
+   "name": "Bank of India",
+   "index": "midcap150"
+  },
+  "MAHABANK": {
+   "name": "Bank of Maharashtra",
+   "index": "midcap150"
+  },
+  "BERGEPAINT": {
+   "name": "Berger Paints India Ltd.",
+   "index": "midcap150"
+  },
+  "BDL": {
+   "name": "Bharat Dynamics Ltd.",
+   "index": "midcap150"
+  },
+  "BHARATFORG": {
+   "name": "Bharat Forge Ltd.",
+   "index": "midcap150"
+  },
+  "BHEL": {
+   "name": "Bharat Heavy Electricals Ltd.",
+   "index": "midcap150"
+  },
+  "BHARTIHEXA": {
+   "name": "Bharti Hexacom Ltd.",
+   "index": "midcap150"
+  },
+  "GROWW": {
+   "name": "Billionbrains Garage Ventures Ltd.",
+   "index": "midcap150"
+  },
+  "BIOCON": {
+   "name": "Biocon Ltd.",
+   "index": "midcap150"
+  },
+  "BLUESTARCO": {
+   "name": "Blue Star Ltd.",
+   "index": "midcap150"
+  },
+  "CRISIL": {
+   "name": "CRISIL Ltd.",
+   "index": "midcap150"
+  },
+  "COCHINSHIP": {
+   "name": "Cochin Shipyard Ltd.",
+   "index": "midcap150"
+  },
+  "COFORGE": {
+   "name": "Coforge Ltd.",
+   "index": "midcap150"
+  },
+  "COLPAL": {
+   "name": "Colgate Palmolive (India) Ltd.",
+   "index": "midcap150"
+  },
+  "CONCOR": {
+   "name": "Container Corporation of India Ltd.",
+   "index": "midcap150"
+  },
+  "COROMANDEL": {
+   "name": "Coromandel International Ltd.",
+   "index": "midcap150"
+  },
+  "DABUR": {
+   "name": "Dabur India Ltd.",
+   "index": "midcap150"
+  },
+  "DALBHARAT": {
+   "name": "Dalmia Bharat Ltd.",
+   "index": "midcap150"
+  },
+  "DIXON": {
+   "name": "Dixon Technologies (India) Ltd.",
+   "index": "midcap150"
+  },
+  "ENDURANCE": {
+   "name": "Endurance Technologies Ltd.",
+   "index": "midcap150"
+  },
+  "ESCORTS": {
+   "name": "Escorts Kubota Ltd.",
+   "index": "midcap150"
+  },
+  "EXIDEIND": {
+   "name": "Exide Industries Ltd.",
+   "index": "midcap150"
+  },
+  "NYKAA": {
+   "name": "FSN E-Commerce Ventures Ltd.",
+   "index": "midcap150"
+  },
+  "FEDERALBNK": {
+   "name": "Federal Bank Ltd.",
+   "index": "midcap150"
+  },
+  "FORTIS": {
+   "name": "Fortis Healthcare Ltd.",
+   "index": "midcap150"
+  },
+  "GVT&D": {
+   "name": "GE Vernova T&D India Ltd.",
+   "index": "midcap150"
+  },
+  "GMRAIRPORT": {
+   "name": "GMR Airports Ltd.",
+   "index": "midcap150"
+  },
+  "GICRE": {
+   "name": "General Insurance Corporation of India",
+   "index": "midcap150"
+  },
+  "GLAXO": {
+   "name": "Glaxosmithkline Pharmaceuticals Ltd.",
+   "index": "midcap150"
+  },
+  "GLENMARK": {
+   "name": "Glenmark Pharmaceuticals Ltd.",
+   "index": "midcap150"
+  },
+  "MEDANTA": {
+   "name": "Global Health Ltd.",
+   "index": "midcap150"
+  },
+  "GODFRYPHLP": {
+   "name": "Godfrey Phillips India Ltd.",
+   "index": "midcap150"
+  },
+  "GODREJIND": {
+   "name": "Godrej Industries Ltd.",
+   "index": "midcap150"
+  },
+  "GODREJPROP": {
+   "name": "Godrej Properties Ltd.",
+   "index": "midcap150"
+  },
+  "FLUOROCHEM": {
+   "name": "Gujarat Fluorochemicals Ltd.",
+   "index": "midcap150"
+  },
+  "HDBFS": {
+   "name": "HDB Financial Services Ltd.",
+   "index": "midcap150"
+  },
+  "HAVELLS": {
+   "name": "Havells India Ltd.",
+   "index": "midcap150"
+  },
+  "HEROMOTOCO": {
+   "name": "Hero MotoCorp Ltd.",
+   "index": "midcap150"
+  },
+  "HEXT": {
+   "name": "Hexaware Technologies Ltd.",
+   "index": "midcap150"
+  },
+  "HINDPETRO": {
+   "name": "Hindustan Petroleum Corporation Ltd.",
+   "index": "midcap150"
+  },
+  "POWERINDIA": {
+   "name": "Hitachi Energy India Ltd.",
+   "index": "midcap150"
+  },
+  "HONAUT": {
+   "name": "Honeywell Automation India Ltd.",
+   "index": "midcap150"
+  },
+  "HUDCO": {
+   "name": "Housing & Urban Development Corporation Ltd.",
+   "index": "midcap150"
+  },
+  "ICICIGI": {
+   "name": "ICICI Lombard General Insurance Company Ltd.",
+   "index": "midcap150"
+  },
+  "ICICIAMC": {
+   "name": "ICICI Prudential Asset Management Company Ltd.",
+   "index": "midcap150"
+  },
+  "ICICIPRULI": {
+   "name": "ICICI Prudential Life Insurance Company Ltd.",
+   "index": "midcap150"
+  },
+  "IDFCFIRSTB": {
+   "name": "IDFC First Bank Ltd.",
+   "index": "midcap150"
+  },
+  "ITCHOTELS": {
+   "name": "ITC Hotels Ltd.",
+   "index": "midcap150"
+  },
+  "INDIANB": {
+   "name": "Indian Bank",
+   "index": "midcap150"
+  },
+  "IRCTC": {
+   "name": "Indian Railway Catering And Tourism Corporation Ltd.",
+   "index": "midcap150"
+  },
+  "IREDA": {
+   "name": "Indian Renewable Energy Development Agency Ltd.",
+   "index": "midcap150"
+  },
+  "INDUSTOWER": {
+   "name": "Indus Towers Ltd.",
+   "index": "midcap150"
+  },
+  "INDUSINDBK": {
+   "name": "IndusInd Bank Ltd.",
+   "index": "midcap150"
+  },
+  "NAUKRI": {
+   "name": "Info Edge (India) Ltd.",
+   "index": "midcap150"
+  },
+  "IPCALAB": {
+   "name": "Ipca Laboratories Ltd.",
+   "index": "midcap150"
+  },
+  "JKCEMENT": {
+   "name": "J.K. Cement Ltd.",
+   "index": "midcap150"
+  },
+  "JSWENERGY": {
+   "name": "JSW Energy Ltd.",
+   "index": "midcap150"
+  },
+  "JSWINFRA": {
+   "name": "JSW Infrastructure Ltd.",
+   "index": "midcap150"
+  },
+  "JSL": {
+   "name": "Jindal Stainless Ltd.",
+   "index": "midcap150"
+  },
+  "JUBLFOOD": {
+   "name": "Jubilant Foodworks Ltd.",
+   "index": "midcap150"
+  },
+  "KPRMILL": {
+   "name": "K.P.R. Mill Ltd.",
+   "index": "midcap150"
+  },
+  "KEI": {
+   "name": "KEI Industries Ltd.",
+   "index": "midcap150"
+  },
+  "KPITTECH": {
+   "name": "KPIT Technologies Ltd.",
+   "index": "midcap150"
+  },
+  "KALYANKJIL": {
+   "name": "Kalyan Jewellers India Ltd.",
+   "index": "midcap150"
+  },
+  "LTF": {
+   "name": "L&T Finance Ltd.",
+   "index": "midcap150"
+  },
+  "LTTS": {
+   "name": "L&T Technology Services Ltd.",
+   "index": "midcap150"
+  },
+  "LGEINDIA": {
+   "name": "LG Electronics India Ltd.",
+   "index": "midcap150"
+  },
+  "LICHSGFIN": {
+   "name": "LIC Housing Finance Ltd.",
+   "index": "midcap150"
+  },
+  "LAURUSLABS": {
+   "name": "Laurus Labs Ltd.",
+   "index": "midcap150"
+  },
+  "LENSKART": {
+   "name": "Lenskart Solutions Ltd.",
+   "index": "midcap150"
+  },
+  "LICI": {
+   "name": "Life Insurance Corporation of India",
+   "index": "midcap150"
+  },
+  "LINDEINDIA": {
+   "name": "Linde India Ltd.",
+   "index": "midcap150"
+  },
+  "LLOYDSME": {
+   "name": "Lloyds Metals And Energy Ltd.",
+   "index": "midcap150"
+  },
+  "LUPIN": {
+   "name": "Lupin Ltd.",
+   "index": "midcap150"
+  },
+  "MRF": {
+   "name": "MRF Ltd.",
+   "index": "midcap150"
+  },
+  "M&MFIN": {
+   "name": "Mahindra & Mahindra Financial Services Ltd.",
+   "index": "midcap150"
+  },
+  "MANKIND": {
+   "name": "Mankind Pharma Ltd.",
+   "index": "midcap150"
+  },
+  "MARICO": {
+   "name": "Marico Ltd.",
+   "index": "midcap150"
+  },
+  "MFSL": {
+   "name": "Max Financial Services Ltd.",
+   "index": "midcap150"
+  },
+  "MOTILALOFS": {
+   "name": "Motilal Oswal Financial Services Ltd.",
+   "index": "midcap150"
+  },
+  "MPHASIS": {
+   "name": "MphasiS Ltd.",
+   "index": "midcap150"
+  },
+  "MCX": {
+   "name": "Multi Commodity Exchange of India Ltd.",
+   "index": "midcap150"
+  },
+  "NHPC": {
+   "name": "NHPC Ltd.",
+   "index": "midcap150"
+  },
+  "NLCINDIA": {
+   "name": "NLC India Ltd.",
+   "index": "midcap150"
+  },
+  "NMDC": {
+   "name": "NMDC Ltd.",
+   "index": "midcap150"
+  },
+  "NTPCGREEN": {
+   "name": "NTPC Green Energy Ltd.",
+   "index": "midcap150"
+  },
+  "NATIONALUM": {
+   "name": "National Aluminium Co. Ltd.",
+   "index": "midcap150"
+  },
+  "NAM-INDIA": {
+   "name": "Nippon Life India Asset Management Ltd.",
+   "index": "midcap150"
+  },
+  "OBEROIRLTY": {
+   "name": "Oberoi Realty Ltd.",
+   "index": "midcap150"
+  },
+  "OIL": {
+   "name": "Oil India Ltd.",
+   "index": "midcap150"
+  },
+  "PAYTM": {
+   "name": "One 97 Communications Ltd.",
+   "index": "midcap150"
+  },
+  "OFSS": {
+   "name": "Oracle Financial Services Software Ltd.",
+   "index": "midcap150"
+  },
+  "POLICYBZR": {
+   "name": "PB Fintech Ltd.",
+   "index": "midcap150"
+  },
+  "PIIND": {
+   "name": "PI Industries Ltd.",
+   "index": "midcap150"
+  },
+  "PAGEIND": {
+   "name": "Page Industries Ltd.",
+   "index": "midcap150"
+  },
+  "PATANJALI": {
+   "name": "Patanjali Foods Ltd.",
+   "index": "midcap150"
+  },
+  "PERSISTENT": {
+   "name": "Persistent Systems Ltd.",
+   "index": "midcap150"
+  },
+  "PETRONET": {
+   "name": "Petronet LNG Ltd.",
+   "index": "midcap150"
+  },
+  "PHOENIXLTD": {
+   "name": "Phoenix Mills Ltd.",
+   "index": "midcap150"
+  },
+  "POLYCAB": {
+   "name": "Polycab India Ltd.",
+   "index": "midcap150"
+  },
+  "PREMIERENE": {
+   "name": "Premier Energies Ltd.",
+   "index": "midcap150"
+  },
+  "PRESTIGE": {
+   "name": "Prestige Estates Projects Ltd.",
+   "index": "midcap150"
+  },
+  "RADICO": {
+   "name": "Radico Khaitan Ltd",
+   "index": "midcap150"
+  },
+  "RVNL": {
+   "name": "Rail Vikas Nigam Ltd.",
+   "index": "midcap150"
+  },
+  "SBICARD": {
+   "name": "SBI Cards and Payment Services Ltd.",
+   "index": "midcap150"
+  },
+  "SJVN": {
+   "name": "SJVN Ltd.",
+   "index": "midcap150"
+  },
+  "SRF": {
+   "name": "SRF Ltd.",
+   "index": "midcap150"
+  },
+  "SCHAEFFLER": {
+   "name": "Schaeffler India Ltd.",
+   "index": "midcap150"
+  },
+  "SAIL": {
+   "name": "Steel Authority of India Ltd.",
+   "index": "midcap150"
+  },
+  "SUNDARMFIN": {
+   "name": "Sundaram Finance Ltd.",
+   "index": "midcap150"
+  },
+  "SUPREMEIND": {
+   "name": "Supreme Industries Ltd.",
+   "index": "midcap150"
+  },
+  "SUZLON": {
+   "name": "Suzlon Energy Ltd.",
+   "index": "midcap150"
+  },
+  "SWIGGY": {
+   "name": "Swiggy Ltd.",
+   "index": "midcap150"
+  },
+  "TATACOMM": {
+   "name": "Tata Communications Ltd.",
+   "index": "midcap150"
+  },
+  "TATAELXSI": {
+   "name": "Tata Elxsi Ltd.",
+   "index": "midcap150"
+  },
+  "TATAINVEST": {
+   "name": "Tata Investment Corporation Ltd.",
+   "index": "midcap150"
+  },
+  "NIACL": {
+   "name": "The New India Assurance Company Ltd.",
+   "index": "midcap150"
+  },
+  "THERMAX": {
+   "name": "Thermax Ltd.",
+   "index": "midcap150"
+  },
+  "TORNTPOWER": {
+   "name": "Torrent Power Ltd.",
+   "index": "midcap150"
+  },
+  "TIINDIA": {
+   "name": "Tube Investments of India Ltd.",
+   "index": "midcap150"
+  },
+  "UNOMINDA": {
+   "name": "UNO Minda Ltd.",
+   "index": "midcap150"
+  },
+  "UPL": {
+   "name": "UPL Ltd.",
+   "index": "midcap150"
+  },
+  "UBL": {
+   "name": "United Breweries Ltd.",
+   "index": "midcap150"
+  },
+  "VMM": {
+   "name": "Vishal Mega Mart Ltd.",
+   "index": "midcap150"
+  },
+  "IDEA": {
+   "name": "Vodafone Idea Ltd.",
+   "index": "midcap150"
+  },
+  "VOLTAS": {
+   "name": "Voltas Ltd.",
+   "index": "midcap150"
+  },
+  "WAAREEENER": {
+   "name": "Waaree Energies Ltd.",
+   "index": "midcap150"
+  },
+  "YESBANK": {
+   "name": "Yes Bank Ltd.",
+   "index": "midcap150"
+  },
+  "ACMESOLAR": {
+   "name": "ACME Solar Holdings Ltd.",
+   "index": "smallcap250"
+  },
+  "AADHARHFC": {
+   "name": "Aadhar Housing Finance Ltd.",
+   "index": "smallcap250"
+  },
+  "AARTIIND": {
+   "name": "Aarti Industries Ltd.",
+   "index": "smallcap250"
+  },
+  "AAVAS": {
+   "name": "Aavas Financiers Ltd.",
+   "index": "smallcap250"
+  },
+  "ACE": {
+   "name": "Action Construction Equipment Ltd.",
+   "index": "smallcap250"
+  },
+  "ACUTAAS": {
+   "name": "Acutaas Chemicals Ltd.",
+   "index": "smallcap250"
+  },
+  "ABFRL": {
+   "name": "Aditya Birla Fashion and Retail Ltd.",
+   "index": "smallcap250"
+  },
+  "ABLBL": {
+   "name": "Aditya Birla Lifestyle Brands Ltd.",
+   "index": "smallcap250"
+  },
+  "ABREL": {
+   "name": "Aditya Birla Real Estate Ltd.",
+   "index": "smallcap250"
+  },
+  "ABSLAMC": {
+   "name": "Aditya Birla Sun Life AMC Ltd.",
+   "index": "smallcap250"
+  },
+  "CPPLUS": {
+   "name": "Aditya Infotech Ltd.",
+   "index": "smallcap250"
+  },
+  "AEGISLOG": {
+   "name": "Aegis Logistics Ltd.",
+   "index": "smallcap250"
+  },
+  "AEGISVOPAK": {
+   "name": "Aegis Vopak Terminals Ltd.",
+   "index": "smallcap250"
+  },
+  "AFCONS": {
+   "name": "Afcons Infrastructure Ltd.",
+   "index": "smallcap250"
+  },
+  "AFFLE": {
+   "name": "Affle 3i Ltd.",
+   "index": "smallcap250"
+  },
+  "ABDL": {
+   "name": "Allied Blenders and Distillers Ltd.",
+   "index": "smallcap250"
+  },
+  "ARE&M": {
+   "name": "Amara Raja Energy & Mobility Ltd.",
+   "index": "smallcap250"
+  },
+  "AMBER": {
+   "name": "Amber Enterprises India Ltd.",
+   "index": "smallcap250"
+  },
+  "ANANDRATHI": {
+   "name": "Anand Rathi Wealth Ltd.",
+   "index": "smallcap250"
+  },
+  "ANANTRAJ": {
+   "name": "Anant Raj Ltd.",
+   "index": "smallcap250"
+  },
+  "ANGELONE": {
+   "name": "Angel One Ltd.",
+   "index": "smallcap250"
+  },
+  "ANURAS": {
+   "name": "Anupam Rasayan India Ltd.",
+   "index": "smallcap250"
+  },
+  "APTUS": {
+   "name": "Aptus Value Housing Finance India Ltd.",
+   "index": "smallcap250"
+  },
+  "ASAHIINDIA": {
+   "name": "Asahi India Glass Ltd.",
+   "index": "smallcap250"
+  },
+  "ASTERDM": {
+   "name": "Aster DM Healthcare Ltd.",
+   "index": "smallcap250"
+  },
+  "ATHERENERG": {
+   "name": "Ather Energy Ltd.",
+   "index": "smallcap250"
+  },
+  "ATUL": {
+   "name": "Atul Ltd.",
+   "index": "smallcap250"
+  },
+  "BEML": {
+   "name": "BEML Ltd.",
+   "index": "smallcap250"
+  },
+  "BLS": {
+   "name": "BLS International Services Ltd.",
+   "index": "smallcap250"
+  },
+  "BALRAMCHIN": {
+   "name": "Balrampur Chini Mills Ltd.",
+   "index": "smallcap250"
+  },
+  "BANDHANBNK": {
+   "name": "Bandhan Bank Ltd.",
+   "index": "smallcap250"
+  },
+  "BATAINDIA": {
+   "name": "Bata India Ltd.",
+   "index": "smallcap250"
+  },
+  "BAYERCROP": {
+   "name": "Bayer Cropscience Ltd.",
+   "index": "smallcap250"
+  },
+  "BELRISE": {
+   "name": "Belrise Industries Ltd.",
+   "index": "smallcap250"
+  },
+  "BIKAJI": {
+   "name": "Bikaji Foods International Ltd.",
+   "index": "smallcap250"
+  },
+  "BSOFT": {
+   "name": "Birlasoft Ltd.",
+   "index": "smallcap250"
+  },
+  "BLUEDART": {
+   "name": "Blue Dart Express Ltd.",
+   "index": "smallcap250"
+  },
+  "BLUEJET": {
+   "name": "Blue Jet Healthcare Ltd.",
+   "index": "smallcap250"
+  },
+  "BBTC": {
+   "name": "Bombay Burmah Trading Corporation Ltd.",
+   "index": "smallcap250"
+  },
+  "FIRSTCRY": {
+   "name": "Brainbees Solutions Ltd.",
+   "index": "smallcap250"
+  },
+  "BRIGADE": {
+   "name": "Brigade Enterprises Ltd.",
+   "index": "smallcap250"
+  },
+  "MAPMYINDIA": {
+   "name": "C.E. Info Systems Ltd.",
+   "index": "smallcap250"
+  },
+  "CCL": {
+   "name": "CCL Products (I) Ltd.",
+   "index": "smallcap250"
+  },
+  "CESC": {
+   "name": "CESC Ltd.",
+   "index": "smallcap250"
+  },
+  "CIEINDIA": {
+   "name": "CIE Automotive India Ltd.",
+   "index": "smallcap250"
+  },
+  "CANFINHOME": {
+   "name": "Can Fin Homes Ltd.",
+   "index": "smallcap250"
+  },
+  "CANHLIFE": {
+   "name": "Canara HSBC Life Insurance Company Ltd.",
+   "index": "smallcap250"
+  },
+  "CAPLIPOINT": {
+   "name": "Caplin Point Laboratories Ltd.",
+   "index": "smallcap250"
+  },
+  "CGCL": {
+   "name": "Capri Global Capital Ltd.",
+   "index": "smallcap250"
+  },
+  "CARBORUNIV": {
+   "name": "Carborundum Universal Ltd.",
+   "index": "smallcap250"
+  },
+  "CARTRADE": {
+   "name": "Cartrade Tech Ltd.",
+   "index": "smallcap250"
+  },
+  "CASTROLIND": {
+   "name": "Castrol India Ltd.",
+   "index": "smallcap250"
+  },
+  "CEATLTD": {
+   "name": "Ceat Ltd.",
+   "index": "smallcap250"
+  },
+  "CEMPRO": {
+   "name": "Cemindia Projects Ltd.",
+   "index": "smallcap250"
+  },
+  "CENTRALBK": {
+   "name": "Central Bank of India",
+   "index": "smallcap250"
+  },
+  "CDSL": {
+   "name": "Central Depository Services (India) Ltd.",
+   "index": "smallcap250"
+  },
+  "CHALET": {
+   "name": "Chalet Hotels Ltd.",
+   "index": "smallcap250"
+  },
+  "CHAMBLFERT": {
+   "name": "Chambal Fertilizers & Chemicals Ltd.",
+   "index": "smallcap250"
+  },
+  "CHENNPETRO": {
+   "name": "Chennai Petroleum Corporation Ltd.",
+   "index": "smallcap250"
+  },
+  "CHOICEIN": {
+   "name": "Choice International Ltd.",
+   "index": "smallcap250"
+  },
+  "CHOLAHLDNG": {
+   "name": "Cholamandalam Financial Holdings Ltd.",
+   "index": "smallcap250"
+  },
+  "CUB": {
+   "name": "City Union Bank Ltd.",
+   "index": "smallcap250"
+  },
+  "CLEAN": {
+   "name": "Clean Science and Technology Ltd.",
+   "index": "smallcap250"
+  },
+  "COHANCE": {
+   "name": "Cohance Lifesciences Ltd.",
+   "index": "smallcap250"
+  },
+  "CAMS": {
+   "name": "Computer Age Management Services Ltd.",
+   "index": "smallcap250"
+  },
+  "CONCORDBIO": {
+   "name": "Concord Biotech Ltd.",
+   "index": "smallcap250"
+  },
+  "CRAFTSMAN": {
+   "name": "Craftsman Automation Ltd.",
+   "index": "smallcap250"
+  },
+  "CREDITACC": {
+   "name": "CreditAccess Grameen Ltd.",
+   "index": "smallcap250"
+  },
+  "CROMPTON": {
+   "name": "Crompton Greaves Consumer Electricals Ltd.",
+   "index": "smallcap250"
+  },
+  "CYIENT": {
+   "name": "Cyient Ltd.",
+   "index": "smallcap250"
+  },
+  "DCMSHRIRAM": {
+   "name": "DCM Shriram Ltd.",
+   "index": "smallcap250"
+  },
+  "DOMS": {
+   "name": "DOMS Industries Ltd.",
+   "index": "smallcap250"
+  },
+  "DATAPATTNS": {
+   "name": "Data Patterns (India) Ltd.",
+   "index": "smallcap250"
+  },
+  "DEEPAKFERT": {
+   "name": "Deepak Fertilisers & Petrochemicals Corp. Ltd.",
+   "index": "smallcap250"
+  },
+  "DEEPAKNTR": {
+   "name": "Deepak Nitrite Ltd.",
+   "index": "smallcap250"
+  },
+  "DELHIVERY": {
+   "name": "Delhivery Ltd.",
+   "index": "smallcap250"
+  },
+  "DEVYANI": {
+   "name": "Devyani International Ltd.",
+   "index": "smallcap250"
+  },
+  "LALPATHLAB": {
+   "name": "Dr. Lal Path Labs Ltd.",
+   "index": "smallcap250"
+  },
+  "EIDPARRY": {
+   "name": "E.I.D. Parry (India) Ltd.",
+   "index": "smallcap250"
+  },
+  "EIHOTEL": {
+   "name": "EIH Ltd.",
+   "index": "smallcap250"
+  },
+  "ELECON": {
+   "name": "Elecon Engineering Co. Ltd.",
+   "index": "smallcap250"
+  },
+  "ELGIEQUIP": {
+   "name": "Elgi Equipments Ltd.",
+   "index": "smallcap250"
+  },
+  "EMAMILTD": {
+   "name": "Emami Ltd.",
+   "index": "smallcap250"
+  },
+  "EMCURE": {
+   "name": "Emcure Pharmaceuticals Ltd.",
+   "index": "smallcap250"
+  },
+  "EMMVEE": {
+   "name": "Emmvee Photovoltaic Power Ltd.",
+   "index": "smallcap250"
+  },
+  "ENGINERSIN": {
+   "name": "Engineers India Ltd.",
+   "index": "smallcap250"
+  },
+  "ERIS": {
+   "name": "Eris Lifesciences Ltd.",
+   "index": "smallcap250"
+  },
+  "FACT": {
+   "name": "Fertilisers and Chemicals Travancore Ltd.",
+   "index": "smallcap250"
+  },
+  "FINCABLES": {
+   "name": "Finolex Cables Ltd.",
+   "index": "smallcap250"
+  },
+  "FSL": {
+   "name": "Firstsource Solutions Ltd.",
+   "index": "smallcap250"
+  },
+  "FIVESTAR": {
+   "name": "Five-Star Business Finance Ltd.",
+   "index": "smallcap250"
+  },
+  "FORCEMOT": {
+   "name": "Force Motors Ltd.",
+   "index": "smallcap250"
+  },
+  "GABRIEL": {
+   "name": "Gabriel India Ltd.",
+   "index": "smallcap250"
+  },
+  "GALLANTT": {
+   "name": "Gallantt Ispat Ltd.",
+   "index": "smallcap250"
+  },
+  "GRSE": {
+   "name": "Garden Reach Shipbuilders & Engineers Ltd.",
+   "index": "smallcap250"
+  },
+  "GILLETTE": {
+   "name": "Gillette India Ltd.",
+   "index": "smallcap250"
+  },
+  "GLAND": {
+   "name": "Gland Pharma Ltd.",
+   "index": "smallcap250"
+  },
+  "GODIGIT": {
+   "name": "Go Digit General Insurance Ltd.",
+   "index": "smallcap250"
+  },
+  "GPIL": {
+   "name": "Godawari Power & Ispat Ltd.",
+   "index": "smallcap250"
+  },
+  "GRANULES": {
+   "name": "Granules India Ltd.",
+   "index": "smallcap250"
+  },
+  "GRAPHITE": {
+   "name": "Graphite India Ltd.",
+   "index": "smallcap250"
+  },
+  "GRAVITA": {
+   "name": "Gravita India Ltd.",
+   "index": "smallcap250"
+  },
+  "GESHIP": {
+   "name": "Great Eastern Shipping Co. Ltd.",
+   "index": "smallcap250"
+  },
+  "GMDCLTD": {
+   "name": "Gujarat Mineral Development Corporation Ltd.",
+   "index": "smallcap250"
+  },
+  "HEG": {
+   "name": "H.E.G. Ltd.",
+   "index": "smallcap250"
+  },
+  "HBLENGINE": {
+   "name": "HBL Engineering Ltd.",
+   "index": "smallcap250"
+  },
+  "HFCL": {
+   "name": "HFCL Ltd.",
+   "index": "smallcap250"
+  },
+  "HSCL": {
+   "name": "Himadri Speciality Chemical Ltd.",
+   "index": "smallcap250"
+  },
+  "HINDCOPPER": {
+   "name": "Hindustan Copper Ltd.",
+   "index": "smallcap250"
+  },
+  "HOMEFIRST": {
+   "name": "Home First Finance Company India Ltd.",
+   "index": "smallcap250"
+  },
+  "HONASA": {
+   "name": "Honasa Consumer Ltd.",
+   "index": "smallcap250"
+  },
+  "IDBI": {
+   "name": "IDBI Bank Ltd.",
+   "index": "smallcap250"
+  },
+  "IFCI": {
+   "name": "IFCI Ltd.",
+   "index": "smallcap250"
+  },
+  "IIFL": {
+   "name": "IIFL Finance Ltd.",
+   "index": "smallcap250"
+  },
+  "IRB": {
+   "name": "IRB Infrastructure Developers Ltd.",
+   "index": "smallcap250"
+  },
+  "IRCON": {
+   "name": "IRCON International Ltd.",
+   "index": "smallcap250"
+  },
+  "ITI": {
+   "name": "ITI Ltd.",
+   "index": "smallcap250"
+  },
+  "INDGN": {
+   "name": "Indegene Ltd.",
+   "index": "smallcap250"
+  },
+  "INDIACEM": {
+   "name": "India Cements Ltd.",
+   "index": "smallcap250"
+  },
+  "INDIAMART": {
+   "name": "Indiamart Intermesh Ltd.",
+   "index": "smallcap250"
+  },
+  "IEX": {
+   "name": "Indian Energy Exchange Ltd.",
+   "index": "smallcap250"
+  },
+  "IOB": {
+   "name": "Indian Overseas Bank",
+   "index": "smallcap250"
+  },
+  "IGL": {
+   "name": "Indraprastha Gas Ltd.",
+   "index": "smallcap250"
+  },
+  "INOXWIND": {
+   "name": "Inox Wind Ltd.",
+   "index": "smallcap250"
+  },
+  "INTELLECT": {
+   "name": "Intellect Design Arena Ltd.",
+   "index": "smallcap250"
+  },
+  "IGIL": {
+   "name": "International Gemological Institute Ltd.",
+   "index": "smallcap250"
+  },
+  "IKS": {
+   "name": "Inventurus Knowledge Solutions Ltd.",
+   "index": "smallcap250"
+  },
+  "JBCHEPHARM": {
+   "name": "J.B. Chemicals & Pharmaceuticals Ltd.",
+   "index": "smallcap250"
+  },
+  "JBMA": {
+   "name": "JBM Auto Ltd.",
+   "index": "smallcap250"
+  },
+  "JKTYRE": {
+   "name": "JK Tyre & Industries Ltd.",
+   "index": "smallcap250"
+  },
+  "JMFINANCIL": {
+   "name": "JM Financial Ltd.",
+   "index": "smallcap250"
+  },
+  "JSWCEMENT": {
+   "name": "JSW Cement Ltd.",
+   "index": "smallcap250"
+  },
+  "JSWDULUX": {
+   "name": "JSW Dulux Ltd.",
+   "index": "smallcap250"
+  },
+  "JAINREC": {
+   "name": "Jain Resource Recycling Ltd.",
+   "index": "smallcap250"
+  },
+  "JPPOWER": {
+   "name": "Jaiprakash Power Ventures Ltd.",
+   "index": "smallcap250"
+  },
+  "J&KBANK": {
+   "name": "Jammu & Kashmir Bank Ltd.",
+   "index": "smallcap250"
+  },
+  "JINDALSAW": {
+   "name": "Jindal Saw Ltd.",
+   "index": "smallcap250"
+  },
+  "JUBLINGREA": {
+   "name": "Jubilant Ingrevia Ltd.",
+   "index": "smallcap250"
+  },
+  "JUBLPHARMA": {
+   "name": "Jubilant Pharmova Ltd.",
+   "index": "smallcap250"
+  },
+  "JWL": {
+   "name": "Jupiter Wagons Ltd.",
+   "index": "smallcap250"
+  },
+  "JYOTICNC": {
+   "name": "Jyoti CNC Automation Ltd.",
+   "index": "smallcap250"
+  },
+  "KAJARIACER": {
+   "name": "Kajaria Ceramics Ltd.",
+   "index": "smallcap250"
+  },
+  "KPIL": {
+   "name": "Kalpataru Projects International Ltd.",
+   "index": "smallcap250"
+  },
+  "KARURVYSYA": {
+   "name": "Karur Vysya Bank Ltd.",
+   "index": "smallcap250"
+  },
+  "KAYNES": {
+   "name": "Kaynes Technology India Ltd.",
+   "index": "smallcap250"
+  },
+  "KEC": {
+   "name": "Kec International Ltd.",
+   "index": "smallcap250"
+  },
+  "KFINTECH": {
+   "name": "Kfin Technologies Ltd.",
+   "index": "smallcap250"
+  },
+  "KIRLOSENG": {
+   "name": "Kirloskar Oil Eng Ltd.",
+   "index": "smallcap250"
+  },
+  "KIMS": {
+   "name": "Krishna Institute of Medical Sciences Ltd.",
+   "index": "smallcap250"
+  },
+  "LTFOODS": {
+   "name": "LT Foods Ltd.",
+   "index": "smallcap250"
+  },
+  "LATENTVIEW": {
+   "name": "Latent View Analytics Ltd.",
+   "index": "smallcap250"
+  },
+  "THELEELA": {
+   "name": "Leela Palaces Hotels & Resorts Ltd.",
+   "index": "smallcap250"
+  },
+  "LEMONTREE": {
+   "name": "Lemon Tree Hotels Ltd.",
+   "index": "smallcap250"
+  },
+  "MMTC": {
+   "name": "MMTC Ltd.",
+   "index": "smallcap250"
+  },
+  "MGL": {
+   "name": "Mahanagar Gas Ltd.",
+   "index": "smallcap250"
+  },
+  "MANAPPURAM": {
+   "name": "Manappuram Finance Ltd.",
+   "index": "smallcap250"
+  },
+  "MRPL": {
+   "name": "Mangalore Refinery & Petrochemicals Ltd.",
+   "index": "smallcap250"
+  },
+  "MEESHO": {
+   "name": "Meesho Ltd.",
+   "index": "smallcap250"
+  },
+  "MINDACORP": {
+   "name": "Minda Corporation Ltd.",
+   "index": "smallcap250"
+  },
+  "MSUMI": {
+   "name": "Motherson Sumi Wiring India Ltd.",
+   "index": "smallcap250"
+  },
+  "NATCOPHARM": {
+   "name": "NATCO Pharma Ltd.",
+   "index": "smallcap250"
+  },
+  "NBCC": {
+   "name": "NBCC (India) Ltd.",
+   "index": "smallcap250"
+  },
+  "NCC": {
+   "name": "NCC Ltd.",
+   "index": "smallcap250"
+  },
+  "NSLNISP": {
+   "name": "NMDC Steel Ltd.",
+   "index": "smallcap250"
+  },
+  "NH": {
+   "name": "Narayana Hrudayalaya Ltd.",
+   "index": "smallcap250"
+  },
+  "NAVA": {
+   "name": "Nava Ltd.",
+   "index": "smallcap250"
+  },
+  "NAVINFLUOR": {
+   "name": "Navin Fluorine International Ltd.",
+   "index": "smallcap250"
+  },
+  "NETWEB": {
+   "name": "Netweb Technologies India Ltd.",
+   "index": "smallcap250"
+  },
+  "NEULANDLAB": {
+   "name": "Neuland Laboratories Ltd.",
+   "index": "smallcap250"
+  },
+  "NEWGEN": {
+   "name": "Newgen Software Technologies Ltd.",
+   "index": "smallcap250"
+  },
+  "NIVABUPA": {
+   "name": "Niva Bupa Health Insurance Company Ltd.",
+   "index": "smallcap250"
+  },
+  "NUVAMA": {
+   "name": "Nuvama Wealth Management Ltd.",
+   "index": "smallcap250"
+  },
+  "NUVOCO": {
+   "name": "Nuvoco Vistas Corporation Ltd.",
+   "index": "smallcap250"
+  },
+  "OLAELEC": {
+   "name": "Ola Electric Mobility Ltd.",
+   "index": "smallcap250"
+  },
+  "OLECTRA": {
+   "name": "Olectra Greentech Ltd.",
+   "index": "smallcap250"
+  },
+  "ONESOURCE": {
+   "name": "Onesource Specialty Pharma Ltd.",
+   "index": "smallcap250"
+  },
+  "PCBL": {
+   "name": "PCBL Chemical Ltd.",
+   "index": "smallcap250"
+  },
+  "PGEL": {
+   "name": "PG Electroplast Ltd.",
+   "index": "smallcap250"
+  },
+  "PNBHOUSING": {
+   "name": "PNB Housing Finance Ltd.",
+   "index": "smallcap250"
+  },
+  "PTCIL": {
+   "name": "PTC Industries Ltd.",
+   "index": "smallcap250"
+  },
+  "PVRINOX": {
+   "name": "PVR INOX Ltd.",
+   "index": "smallcap250"
+  },
+  "PARADEEP": {
+   "name": "Paradeep Phosphates Ltd.",
+   "index": "smallcap250"
+  },
+  "PFIZER": {
+   "name": "Pfizer Ltd.",
+   "index": "smallcap250"
+  },
+  "PWL": {
+   "name": "Physicswallah Ltd.",
+   "index": "smallcap250"
+  },
+  "PINELABS": {
+   "name": "Pine Labs Ltd.",
+   "index": "smallcap250"
+  },
+  "PIRAMALFIN": {
+   "name": "Piramal Finance Ltd.",
+   "index": "smallcap250"
+  },
+  "PPLPHARMA": {
+   "name": "Piramal Pharma Ltd.",
+   "index": "smallcap250"
+  },
+  "POLYMED": {
+   "name": "Poly Medicure Ltd.",
+   "index": "smallcap250"
+  },
+  "POONAWALLA": {
+   "name": "Poonawalla Fincorp Ltd.",
+   "index": "smallcap250"
+  },
+  "RRKABEL": {
+   "name": "R R Kabel Ltd.",
+   "index": "smallcap250"
+  },
+  "RBLBANK": {
+   "name": "RBL Bank Ltd.",
+   "index": "smallcap250"
+  },
+  "RHIM": {
+   "name": "RHI MAGNESITA INDIA LTD.",
+   "index": "smallcap250"
+  },
+  "RITES": {
+   "name": "RITES Ltd.",
+   "index": "smallcap250"
+  },
+  "RAILTEL": {
+   "name": "Railtel Corporation Of India Ltd.",
+   "index": "smallcap250"
+  },
+  "RAINBOW": {
+   "name": "Rainbow Childrens Medicare Ltd.",
+   "index": "smallcap250"
+  },
+  "RKFORGE": {
+   "name": "Ramkrishna Forgings Ltd.",
+   "index": "smallcap250"
+  },
+  "REDINGTON": {
+   "name": "Redington Ltd.",
+   "index": "smallcap250"
+  },
+  "RPOWER": {
+   "name": "Reliance Power Ltd.",
+   "index": "smallcap250"
+  },
+  "SBFC": {
+   "name": "SBFC Finance Ltd.",
+   "index": "smallcap250"
+  },
+  "SAGILITY": {
+   "name": "Sagility Ltd.",
+   "index": "smallcap250"
+  },
+  "SAILIFE": {
+   "name": "Sai Life Sciences Ltd.",
+   "index": "smallcap250"
+  },
+  "SAMMAANCAP": {
+   "name": "Sammaan Capital Ltd.",
+   "index": "smallcap250"
+  },
+  "SAPPHIRE": {
+   "name": "Sapphire Foods India Ltd.",
+   "index": "smallcap250"
+  },
+  "SARDAEN": {
+   "name": "Sarda Energy and Minerals Ltd.",
+   "index": "smallcap250"
+  },
+  "SAREGAMA": {
+   "name": "Saregama India Ltd",
+   "index": "smallcap250"
+  },
+  "SCHNEIDER": {
+   "name": "Schneider Electric Infrastructure Ltd.",
+   "index": "smallcap250"
+  },
+  "SCI": {
+   "name": "Shipping Corporation of India Ltd.",
+   "index": "smallcap250"
+  },
+  "SHYAMMETL": {
+   "name": "Shyam Metalics and Energy Ltd.",
+   "index": "smallcap250"
+  },
+  "SIGNATURE": {
+   "name": "Signatureglobal (India) Ltd.",
+   "index": "smallcap250"
+  },
+  "SOBHA": {
+   "name": "Sobha Ltd.",
+   "index": "smallcap250"
+  },
+  "SONACOMS": {
+   "name": "Sona BLW Precision Forgings Ltd.",
+   "index": "smallcap250"
+  },
+  "SONATSOFTW": {
+   "name": "Sonata Software Ltd.",
+   "index": "smallcap250"
+  },
+  "STARHEALTH": {
+   "name": "Star Health and Allied Insurance Company Ltd.",
+   "index": "smallcap250"
+  },
+  "SUMICHEM": {
+   "name": "Sumitomo Chemical India Ltd.",
+   "index": "smallcap250"
+  },
+  "SUNTV": {
+   "name": "Sun TV Network Ltd.",
+   "index": "smallcap250"
+  },
+  "SPLPETRO": {
+   "name": "Supreme Petrochem Ltd.",
+   "index": "smallcap250"
+  },
+  "SWANCORP": {
+   "name": "Swan Corp Ltd.",
+   "index": "smallcap250"
+  },
+  "SYNGENE": {
+   "name": "Syngene International Ltd.",
+   "index": "smallcap250"
+  },
+  "SYRMA": {
+   "name": "Syrma SGS Technology Ltd.",
+   "index": "smallcap250"
+  },
+  "TBOTEK": {
+   "name": "TBO Tek Ltd.",
+   "index": "smallcap250"
+  },
+  "TATACHEM": {
+   "name": "Tata Chemicals Ltd.",
+   "index": "smallcap250"
+  },
+  "TATATECH": {
+   "name": "Tata Technologies Ltd.",
+   "index": "smallcap250"
+  },
+  "TTML": {
+   "name": "Tata Teleservices (Maharashtra) Ltd.",
+   "index": "smallcap250"
+  },
+  "TECHNOE": {
+   "name": "Techno Electric & Engineering Company Ltd.",
+   "index": "smallcap250"
+  },
+  "TEGA": {
+   "name": "Tega Industries Ltd.",
+   "index": "smallcap250"
+  },
+  "TEJASNET": {
+   "name": "Tejas Networks Ltd.",
+   "index": "smallcap250"
+  },
+  "TENNIND": {
+   "name": "Tenneco Clean Air India Ltd.",
+   "index": "smallcap250"
+  },
+  "RAMCOCEM": {
+   "name": "The Ramco Cements Ltd.",
+   "index": "smallcap250"
+  },
+  "TIMKEN": {
+   "name": "Timken India Ltd.",
+   "index": "smallcap250"
+  },
+  "TITAGARH": {
+   "name": "Titagarh Rail Systems Ltd.",
+   "index": "smallcap250"
+  },
+  "TARIL": {
+   "name": "Transformers And Rectifiers (India) Ltd.",
+   "index": "smallcap250"
+  },
+  "TRAVELFOOD": {
+   "name": "Travel Food Services Ltd.",
+   "index": "smallcap250"
+  },
+  "TRIDENT": {
+   "name": "Trident Ltd.",
+   "index": "smallcap250"
+  },
+  "TRITURBINE": {
+   "name": "Triveni Turbine Ltd.",
+   "index": "smallcap250"
+  },
+  "UCOBANK": {
+   "name": "UCO Bank",
+   "index": "smallcap250"
+  },
+  "UTIAMC": {
+   "name": "UTI Asset Management Company Ltd.",
+   "index": "smallcap250"
+  },
+  "URBANCO": {
+   "name": "Urban Company Ltd.",
+   "index": "smallcap250"
+  },
+  "USHAMART": {
+   "name": "Usha Martin Ltd.",
+   "index": "smallcap250"
+  },
+  "VTL": {
+   "name": "Vardhman Textiles Ltd.",
+   "index": "smallcap250"
+  },
+  "VIJAYA": {
+   "name": "Vijaya Diagnostic Centre Ltd.",
+   "index": "smallcap250"
+  },
+  "WELCORP": {
+   "name": "Welspun Corp Ltd.",
+   "index": "smallcap250"
+  },
+  "WELSPUNLIV": {
+   "name": "Welspun Living Ltd.",
+   "index": "smallcap250"
+  },
+  "WHIRLPOOL": {
+   "name": "Whirlpool of India Ltd.",
+   "index": "smallcap250"
+  },
+  "WOCKPHARMA": {
+   "name": "Wockhardt Ltd.",
+   "index": "smallcap250"
+  },
+  "ZFCVINDIA": {
+   "name": "ZF Commercial Vehicle Control Systems India Ltd.",
+   "index": "smallcap250"
+  },
+  "ZEEL": {
+   "name": "Zee Entertainment Enterprises Ltd.",
+   "index": "smallcap250"
+  },
+  "ZENTEC": {
+   "name": "Zen Technologies Ltd.",
+   "index": "smallcap250"
+  },
+  "ZENSARTECH": {
+   "name": "Zensar Technolgies Ltd.",
+   "index": "smallcap250"
+  },
+  "ZYDUSWELL": {
+   "name": "Zydus Wellness Ltd.",
+   "index": "smallcap250"
+  },
+  "ECLERX": {
+   "name": "eClerx Services Ltd.",
+   "index": "smallcap250"
+  }
+ }
+}

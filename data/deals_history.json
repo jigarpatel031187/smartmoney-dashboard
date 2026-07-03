@@ -1,0 +1,135 @@
+{
+ "sessions": [
+  {
+   "date": "2026-07-02",
+   "deals": [
+    {
+     "symbol": "KPITTECH",
+     "side": "BUY",
+     "qty": 1403742.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "BUY",
+     "qty": 2466277.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "BUY",
+     "qty": 1977430.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "BUY",
+     "qty": 1047962.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "BUY",
+     "qty": 1128665.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "BUY",
+     "qty": 1982288.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "BUY",
+     "qty": 1147886.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "BUY",
+     "qty": 1522445.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "BUY",
+     "qty": 1442342.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "KPITTECH",
+     "side": "SELL",
+     "qty": 1403742.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "SELL",
+     "qty": 1966006.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "SELL",
+     "qty": 1047962.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "SELL",
+     "qty": 1128665.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "SELL",
+     "qty": 2466277.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "RHIM",
+     "side": "SELL",
+     "qty": 1976545.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "SELL",
+     "qty": 1445776.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "SELL",
+     "qty": 1151634.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "SELL",
+     "qty": 1522445.0,
+     "kind": "bulk",
+     "date": "02-JUL-2026"
+    }
+   ]
+  }
+ ]
+}
