@@ -51,9 +51,9 @@
  "ABBOTINDIA": {
   "stage": "READY",
   "since": "2026-07-02",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-07-02"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-07-03"
  },
  "ATGL": {
   "stage": "NEUTRAL",
