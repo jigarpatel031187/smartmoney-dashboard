@@ -202,6 +202,67 @@
   {
    "date": "2026-07-06",
    "deals": []
+  },
+  {
+   "date": "2026-07-07",
+   "deals": [
+    {
+     "symbol": "RITES",
+     "side": "BUY",
+     "qty": 4347541.0,
+     "kind": "bulk",
+     "date": "07-JUL-2026"
+    },
+    {
+     "symbol": "RITES",
+     "side": "BUY",
+     "qty": 3266363.0,
+     "kind": "bulk",
+     "date": "07-JUL-2026"
+    },
+    {
+     "symbol": "RITES",
+     "side": "BUY",
+     "qty": 5347602.0,
+     "kind": "bulk",
+     "date": "07-JUL-2026"
+    },
+    {
+     "symbol": "RITES",
+     "side": "BUY",
+     "qty": 2953484.0,
+     "kind": "bulk",
+     "date": "07-JUL-2026"
+    },
+    {
+     "symbol": "RITES",
+     "side": "SELL",
+     "qty": 3266363.0,
+     "kind": "bulk",
+     "date": "07-JUL-2026"
+    },
+    {
+     "symbol": "RITES",
+     "side": "SELL",
+     "qty": 5347602.0,
+     "kind": "bulk",
+     "date": "07-JUL-2026"
+    },
+    {
+     "symbol": "RITES",
+     "side": "SELL",
+     "qty": 4358013.0,
+     "kind": "bulk",
+     "date": "07-JUL-2026"
+    },
+    {
+     "symbol": "RITES",
+     "side": "SELL",
+     "qty": 2953484.0,
+     "kind": "bulk",
+     "date": "07-JUL-2026"
+    }
+   ]
   }
  ]
 }
