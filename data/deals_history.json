@@ -263,6 +263,60 @@
      "date": "07-JUL-2026"
     }
    ]
+  },
+  {
+   "date": "2026-07-08",
+   "deals": [
+    {
+     "symbol": "BAYERCROP",
+     "side": "BUY",
+     "qty": 5354030.0,
+     "kind": "bulk",
+     "date": "08-JUL-2026"
+    },
+    {
+     "symbol": "CGCL",
+     "side": "BUY",
+     "qty": 5132016.0,
+     "kind": "bulk",
+     "date": "08-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 6137716.0,
+     "kind": "bulk",
+     "date": "08-JUL-2026"
+    },
+    {
+     "symbol": "BAYERCROP",
+     "side": "SELL",
+     "qty": 5354030.0,
+     "kind": "bulk",
+     "date": "08-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 6137716.0,
+     "kind": "bulk",
+     "date": "08-JUL-2026"
+    },
+    {
+     "symbol": "BAYERCROP",
+     "side": "BUY",
+     "qty": 5354030.0,
+     "kind": "block",
+     "date": "08-JUL-2026"
+    },
+    {
+     "symbol": "BAYERCROP",
+     "side": "SELL",
+     "qty": 5354030.0,
+     "kind": "block",
+     "date": "08-JUL-2026"
+    }
+   ]
   }
  ]
 }
