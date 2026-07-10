@@ -1273,6 +1273,230 @@
    "to": "NEUTRAL",
    "date": "2026-07-09",
    "price": 141.34
+  },
+  {
+   "sym": "MAHABANK",
+   "from": "NEUTRAL",
+   "to": "RED",
+   "date": "2026-07-10",
+   "price": 84.25
+  },
+  {
+   "sym": "BHARTIHEXA",
+   "from": "RED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 1604.7
+  },
+  {
+   "sym": "FLUOROCHEM",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 3941.5
+  },
+  {
+   "sym": "ICICIPRULI",
+   "from": "NEUTRAL",
+   "to": "RED",
+   "date": "2026-07-10",
+   "price": 510.35
+  },
+  {
+   "sym": "LTF",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 321.25
+  },
+  {
+   "sym": "LTTS",
+   "from": "READY",
+   "to": "RED",
+   "date": "2026-07-10",
+   "price": 3278.2
+  },
+  {
+   "sym": "MRF",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 134425.0
+  },
+  {
+   "sym": "MARICO",
+   "from": "NEUTRAL",
+   "to": "RED",
+   "date": "2026-07-10",
+   "price": 852.5
+  },
+  {
+   "sym": "NAM-INDIA",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 1212.7
+  },
+  {
+   "sym": "PAGEIND",
+   "from": "NEUTRAL",
+   "to": "RED",
+   "date": "2026-07-10",
+   "price": 39395.0
+  },
+  {
+   "sym": "UNOMINDA",
+   "from": "RED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 1166.1
+  },
+  {
+   "sym": "AEGISLOG",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 1246.1
+  },
+  {
+   "sym": "AEGISVOPAK",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 283.18
+  },
+  {
+   "sym": "ARE&M",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 890.05
+  },
+  {
+   "sym": "BAYERCROP",
+   "from": "RED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 4129.9
+  },
+  {
+   "sym": "BBTC",
+   "from": "NEUTRAL",
+   "to": "READY",
+   "date": "2026-07-10",
+   "price": 1521.3
+  },
+  {
+   "sym": "BRIGADE",
+   "from": "READY",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 574.6
+  },
+  {
+   "sym": "MAPMYINDIA",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 1083.35
+  },
+  {
+   "sym": "CCL",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 1214.0
+  },
+  {
+   "sym": "CHOICEIN",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 835.0
+  },
+  {
+   "sym": "EMCURE",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 1814.4
+  },
+  {
+   "sym": "IEX",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 119.64
+  },
+  {
+   "sym": "JUBLINGREA",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 722.3
+  },
+  {
+   "sym": "LTFOODS",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 389.1
+  },
+  {
+   "sym": "THELEELA",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 501.0
+  },
+  {
+   "sym": "NAVA",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 599.75
+  },
+  {
+   "sym": "ONESOURCE",
+   "from": "NEUTRAL",
+   "to": "RED",
+   "date": "2026-07-10",
+   "price": 1626.9
+  },
+  {
+   "sym": "PWL",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 147.43
+  },
+  {
+   "sym": "SAGILITY",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 42.53
+  },
+  {
+   "sym": "SIGNATURE",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 848.85
+  },
+  {
+   "sym": "SYRMA",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-07-10",
+   "price": 1451.9
+  },
+  {
+   "sym": "TATACHEM",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-07-10",
+   "price": 721.05
   }
  ]
 }
