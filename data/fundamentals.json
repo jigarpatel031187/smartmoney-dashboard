@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-04T16:22:39.995099+05:30",
+ "asof": "2026-07-11T14:45:19.555023+05:30",
  "data": {
   "360ONE": {
    "available": true,
@@ -191,7 +191,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-07-16"
+   "next_earnings": "2026-07-21"
   },
   "AWL": {
    "available": true,
@@ -1242,7 +1242,7 @@
     }
    ],
    "sector": "Consumer Defensive",
-   "next_earnings": "2026-07-30"
+   "next_earnings": "2026-07-29"
   },
   "DALBHARAT": {
    "available": true,
@@ -1877,7 +1877,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-07-21"
+   "next_earnings": "2026-07-17"
   },
   "HEROMOTOCO": {
    "available": true,
@@ -2251,7 +2251,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-07-23"
+   "next_earnings": "2026-07-10"
   },
   "IRCTC": {
    "available": true,
@@ -2866,7 +2866,7 @@
     },
     {
      "q": "2025-03-31",
-     "rev": 16742000000.0,
+     "rev": 17203000000.0,
      "pat": 2336700000.0
     },
     {
@@ -2881,7 +2881,7 @@
     },
     {
      "q": "2026-03-31",
-     "rev": 17199000000.0,
+     "rev": 18115700000.0,
      "pat": 2791400000.0
     }
    ],
@@ -3617,7 +3617,7 @@
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-04-27"
+   "next_earnings": "2026-07-22"
   },
   "POLICYBZR": {
    "available": true,
@@ -3777,7 +3777,7 @@
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-04-21"
+   "next_earnings": "2026-07-21"
   },
   "PETRONET": {
    "available": true,
@@ -4609,7 +4609,7 @@
     }
    ],
    "sector": "Consumer Defensive",
-   "next_earnings": "2026-07-22"
+   "next_earnings": "2026-08-04"
   },
   "VMM": {
    "available": true,
@@ -5346,11 +5346,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 2370399000.0,
-     "pat": 770227000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 2219597000.0,
      "pat": 734507000.0
@@ -5369,6 +5364,11 @@
      "q": "2026-03-31",
      "rev": 2878182000.0,
      "pat": 1030858000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 3219850000.0,
+     "pat": 1627348000.0
     }
    ],
    "sector": "Financial Services",
@@ -5539,7 +5539,7 @@
     },
     {
      "q": "2025-03-31",
-     "rev": 9313000000.0,
+     "rev": 10003400000.0,
      "pat": 790200000.0
     },
     {
@@ -5551,6 +5551,11 @@
      "q": "2025-12-31",
      "rev": 11857600000.0,
      "pat": 524500000.0
+    },
+    {
+     "q": "2026-03-31",
+     "rev": 11823800000.0,
+     "pat": 1401700000.0
     }
    ],
    "sector": "Healthcare",
@@ -5746,7 +5751,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-07-17"
+   "next_earnings": "2026-07-21"
   },
   "BATAINDIA": {
    "available": true,
@@ -7225,8 +7230,8 @@
     },
     {
      "q": "2025-03-31",
-     "rev": 6024220000.0,
-     "pat": 1548380000.0
+     "rev": 6026000000.0,
+     "pat": 1548000000.0
     },
     {
      "q": "2025-06-30",
@@ -7237,10 +7242,15 @@
      "q": "2025-12-31",
      "rev": 6598000000.0,
      "pat": 905000000.0
+    },
+    {
+     "q": "2026-03-31",
+     "rev": 7027000000.0,
+     "pat": 1313000000.0
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-04-30"
+   "next_earnings": "2026-07-24"
   },
   "EIDPARRY": {
    "available": true,
@@ -8064,8 +8074,8 @@
    "quarters": [
     {
      "q": "2025-03-31",
-     "rev": 5268807000.0,
-     "pat": -736746000.0
+     "rev": 5365800000.0,
+     "pat": -736700000.0
     },
     {
      "q": "2025-06-30",
@@ -8084,8 +8094,8 @@
     },
     {
      "q": "2026-03-31",
-     "rev": 5792943000.0,
-     "pat": -1137618000.0
+     "rev": 6032100000.0,
+     "pat": -1137700000.0
     }
    ],
    "sector": "Industrials",
@@ -9408,7 +9418,7 @@
     },
     {
      "q": "2025-03-31",
-     "rev": 2582560000.0,
+     "rev": 2826980000.0,
      "pat": 850530000.0
     },
     {
@@ -9423,7 +9433,7 @@
     },
     {
      "q": "2026-03-31",
-     "rev": 3201660000.0,
+     "rev": 3473300000.0,
      "pat": 811490000.0
     }
    ],
@@ -10767,7 +10777,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-07-24"
+   "next_earnings": "2026-07-17"
   },
   "RRKABEL": {
    "available": true,
@@ -10831,7 +10841,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-07-16"
+   "next_earnings": "2026-07-17"
   },
   "RHIM": {
    "available": true,
@@ -11946,7 +11956,7 @@
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-07-13"
+   "next_earnings": "2026-07-16"
   },
   "TENNIND": {
    "available": true,

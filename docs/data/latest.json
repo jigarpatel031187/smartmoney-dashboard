@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-07-11T00:38:19.656076+05:30",
+ "generated_at": "2026-07-11T14:45:21.455388+05:30",
  "trade_date": "2026-07-10",
  "price_source": "NSE bhavcopy",
- "fundamentals_source": "yfinance quarterly statements (cache (2026-07-04))",
+ "fundamentals_source": "yfinance quarterly statements (fresh)",
  "universe_size": 400,
- "scored": 384,
- "excluded_no_fundamentals": 16,
+ "scored": 386,
+ "excluded_no_fundamentals": 14,
  "excluded_illiquid": 0,
- "excluded_downtrend": 180,
+ "excluded_downtrend": 169,
  "liquidity_floor_cr": 3.0,
  "run_flags": [],
  "weights": {
@@ -23,149 +23,16 @@
  },
  "top10": [
   {
-   "symbol": "CGCL",
-   "name": "Capri Global Capital Ltd.",
-   "index": "smallcap250",
-   "cmp": 252.22,
-   "chg_pct": -0.17,
-   "composite": 6.69,
-   "scores": {
-    "fundamental": 9.06,
-    "smart": 3.75,
-    "technical": 10.0
-   },
-   "fund_detail": {
-    "rev_yoy": 46.8,
-    "pat_yoy": 59.1,
-    "latest_quarter": "2026-03-31",
-    "quality_flags": []
-   },
-   "smart_detail": {
-    "bulk": "net buy 5,132,016 sh / 5s",
-    "delivery": "33.0% vs avg 33.9% (20s)",
-    "deliv_ratio": 0.97,
-    "rvol": "+71% vs 20d avg (no price confirm)",
-    "ud": "1.34",
-    "ud_val": 1.34
-   },
-   "tech_detail": {
-    "stage": "Stage 2 (P>50>200 DMA)",
-    "above_200dma": true,
-    "vs_200dma_pct": 34.4,
-    "off_52w_high_pct": 0.0,
-    "rs_vs_nifty_3m_pct": 37.7
-   },
-   "badges": [
-    "BULK+"
-   ],
-   "vetoes": [],
-   "ret_6m_pct": 36.6,
-   "liquid": true,
-   "in_uptrend": true,
-   "avg_turnover_cr": 136.68,
-   "sector": "Financial Services",
-   "rationale": "Revenue +46.8% / PAT +59.1% YoY (qtr 2026-03-31). Accumulation: net buy 5,132,016 sh / 5s. Stage 2 (P>50>200 DMA), +37.7% vs Nifty over 3m, 0.0% off 52w high.",
-   "plan": {
-    "valid": true,
-    "dma20": 224.45,
-    "buy_lo": 224.45,
-    "buy_hi": 232.37,
-    "zone_note": "extended - wait for pullback to zone",
-    "sl": 197.07,
-    "t1": 275.42,
-    "t2": 306.76,
-    "risk_pct": 13.7,
-    "rr_at_cmp": 2.5,
-    "resistance_52w": 252.64,
-    "entry_status": "WAIT",
-    "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
-    "vol_trend": "rising interest (20d vol > 50d)",
-    "atr": 7.92,
-    "flags": [
-     "wide stop (13.7% risk) - size down"
-    ]
-   },
-   "rank": 1,
-   "prev_rank": 1
-  },
-  {
-   "symbol": "ANANDRATHI",
-   "name": "Anand Rathi Wealth Ltd.",
-   "index": "smallcap250",
-   "cmp": 2146.8,
-   "chg_pct": 2.44,
-   "composite": 6.64,
-   "scores": {
-    "fundamental": 9.16,
-    "smart": 3.75,
-    "technical": 9.78
-   },
-   "fund_detail": {
-    "rev_yoy": 29.7,
-    "pat_yoy": 40.3,
-    "latest_quarter": "2026-03-31",
-    "quality_flags": []
-   },
-   "smart_detail": {
-    "bulk": "no deals in window",
-    "delivery": "26.8% vs avg 48.9% (20s)",
-    "deliv_ratio": 0.55,
-    "rvol": "+194% vs 20d avg",
-    "ud": "4.06",
-    "ud_val": 4.06
-   },
-   "tech_detail": {
-    "stage": "Stage 2 (P>50>200 DMA)",
-    "above_200dma": true,
-    "vs_200dma_pct": 29.8,
-    "off_52w_high_pct": 0.0,
-    "rs_vs_nifty_3m_pct": 17.0
-   },
-   "badges": [
-    "RVOL-HI",
-    "U/D>4"
-   ],
-   "vetoes": [],
-   "ret_6m_pct": 33.6,
-   "liquid": true,
-   "in_uptrend": true,
-   "avg_turnover_cr": 117.17,
-   "sector": "Financial Services",
-   "rationale": "Revenue +29.7% / PAT +40.3% YoY (qtr 2026-03-31). Accumulation: volume surge +194% vs 20d avg; U/D ratio 4.06. Stage 2 (P>50>200 DMA), +17.0% vs Nifty over 3m, 0.0% off 52w high.",
-   "plan": {
-    "valid": true,
-    "dma20": 1933.34,
-    "buy_lo": 1933.34,
-    "buy_hi": 2000.19,
-    "zone_note": "extended - wait for pullback to zone",
-    "sl": 1723.39,
-    "t1": 2331.82,
-    "t2": 2575.19,
-    "risk_pct": 12.4,
-    "rr_at_cmp": 2.5,
-    "resistance_52w": 2095.6,
-    "entry_status": "CONFIRMED",
-    "vol_note": "up day on 2.9x avg volume",
-    "vol_trend": "fading interest (20d vol < 50d)",
-    "atr": 66.85,
-    "flags": [
-     "wide stop (12.4% risk) - size down"
-    ]
-   },
-   "rank": 2,
-   "prev_rank": null
-  },
-  {
    "symbol": "KALYANKJIL",
    "name": "Kalyan Jewellers India Ltd.",
    "index": "midcap150",
    "cmp": 476.15,
    "chg_pct": 7.48,
-   "composite": 6.63,
+   "composite": 7.18,
    "scores": {
     "fundamental": 8.64,
-    "smart": 6.88,
-    "technical": 4.87
+    "smart": 7.5,
+    "technical": 5.68
    },
    "fund_detail": {
     "rev_yoy": 66.2,
@@ -178,49 +45,116 @@
     "delivery": "17.2% vs avg 29.1% (20s)",
     "deliv_ratio": 0.59,
     "rvol": "+654% vs 20d avg",
-    "ud": "3.81",
-    "ud_val": 3.81
+    "ud": "5.96",
+    "ud_val": 5.96
    },
    "tech_detail": {
     "stage": "above 200 DMA",
     "above_200dma": true,
-    "vs_200dma_pct": 2.7,
-    "off_52w_high_pct": 27.5,
-    "rs_vs_nifty_3m_pct": 0.4
+    "vs_200dma_pct": 10.5,
+    "off_52w_high_pct": 22.1,
+    "rs_vs_nifty_3m_pct": 5.8
    },
    "badges": [
     "BULK+",
-    "RVOL-HI"
+    "RVOL-HI",
+    "U/D>4"
    ],
    "vetoes": [],
-   "ret_6m_pct": -13.4,
+   "ret_6m_pct": -6.1,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 613.96,
+   "avg_turnover_cr": 875.18,
    "sector": "Consumer Cyclical",
-   "rationale": "Revenue +66.2% / PAT +118.3% YoY (qtr 2026-03-31). Accumulation: net buy 8,185,459 sh / 5s; volume surge +654% vs 20d avg. above 200 DMA, +0.4% vs Nifty over 3m, 27.5% off 52w high.",
+   "rationale": "Revenue +66.2% / PAT +118.3% YoY (qtr 2026-03-31). Accumulation: net buy 8,185,459 sh / 5s; volume surge +654% vs 20d avg; U/D ratio 5.96. above 200 DMA, +5.8% vs Nifty over 3m, 22.1% off 52w high.",
    "plan": {
     "valid": true,
-    "dma20": 380.53,
-    "buy_lo": 380.53,
-    "buy_hi": 398.71,
+    "dma20": 387.1,
+    "buy_lo": 387.1,
+    "buy_hi": 407.59,
     "zone_note": "extended - wait for pullback to zone",
-    "sl": 330.46,
-    "t1": 478.37,
-    "t2": 537.54,
-    "risk_pct": 15.2,
+    "sl": 343.23,
+    "t1": 478.53,
+    "t2": 532.65,
+    "risk_pct": 13.6,
     "rr_at_cmp": 2.5,
     "resistance_52w": null,
     "entry_status": "CONFIRMED",
     "vol_note": "up day on 7.5x avg volume",
     "vol_trend": "rising interest (20d vol > 50d)",
-    "atr": 18.18,
+    "atr": 20.49,
     "flags": [
-     "wide stop (15.2% risk) - size down"
+     "wide stop (13.6% risk) - size down"
     ]
    },
-   "rank": 3,
-   "prev_rank": null
+   "rank": 1,
+   "prev_rank": 3
+  },
+  {
+   "symbol": "CGCL",
+   "name": "Capri Global Capital Ltd.",
+   "index": "smallcap250",
+   "cmp": 252.22,
+   "chg_pct": -0.17,
+   "composite": 6.68,
+   "scores": {
+    "fundamental": 9.06,
+    "smart": 3.75,
+    "technical": 9.99
+   },
+   "fund_detail": {
+    "rev_yoy": 46.8,
+    "pat_yoy": 59.1,
+    "latest_quarter": "2026-03-31",
+    "quality_flags": []
+   },
+   "smart_detail": {
+    "bulk": "net buy 5,132,016 sh / 5s",
+    "delivery": "33.0% vs avg 33.9% (20s)",
+    "deliv_ratio": 0.97,
+    "rvol": "+71% vs 20d avg (no price confirm)",
+    "ud": "1.10",
+    "ud_val": 1.1
+   },
+   "tech_detail": {
+    "stage": "Stage 2 (P>50>200 DMA)",
+    "above_200dma": true,
+    "vs_200dma_pct": 34.0,
+    "off_52w_high_pct": 0.2,
+    "rs_vs_nifty_3m_pct": 34.0
+   },
+   "badges": [
+    "BULK+"
+   ],
+   "vetoes": [],
+   "ret_6m_pct": 37.1,
+   "liquid": true,
+   "in_uptrend": true,
+   "avg_turnover_cr": 145.47,
+   "sector": "Financial Services",
+   "rationale": "Revenue +46.8% / PAT +59.1% YoY (qtr 2026-03-31). Accumulation: net buy 5,132,016 sh / 5s. Stage 2 (P>50>200 DMA), +34.0% vs Nifty over 3m, 0.2% off 52w high.",
+   "plan": {
+    "valid": true,
+    "dma20": 226.64,
+    "buy_lo": 226.64,
+    "buy_hi": 234.94,
+    "zone_note": "extended - wait for pullback to zone",
+    "sl": 206.61,
+    "t1": 267.05,
+    "t2": 291.23,
+    "risk_pct": 10.5,
+    "rr_at_cmp": 2.5,
+    "resistance_52w": 252.64,
+    "entry_status": "WAIT",
+    "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
+    "vol_trend": "rising interest (20d vol > 50d)",
+    "atr": 8.31,
+    "flags": [
+     "wide stop (10.5% risk) - size down"
+    ]
+   },
+   "rank": 2,
+   "prev_rank": 1
   },
   {
    "symbol": "GODREJIND",
@@ -228,11 +162,11 @@
    "index": "midcap150",
    "cmp": 1417.7,
    "chg_pct": 16.28,
-   "composite": 6.22,
+   "composite": 6.65,
    "scores": {
     "fundamental": 8.89,
-    "smart": 3.12,
-    "technical": 9.6
+    "smart": 3.75,
+    "technical": 10.0
    },
    "fund_detail": {
     "rev_yoy": 33.1,
@@ -247,48 +181,180 @@
     "delivery": "14.4% vs avg 39.5% (20s)",
     "deliv_ratio": 0.37,
     "rvol": "+1261% vs 20d avg",
-    "ud": "2.14",
-    "ud_val": 2.14
+    "ud": "4.47",
+    "ud_val": 4.47
    },
    "tech_detail": {
     "stage": "Stage 2 (P>50>200 DMA)",
     "above_200dma": true,
-    "vs_200dma_pct": 18.0,
-    "off_52w_high_pct": 5.4,
-    "rs_vs_nifty_3m_pct": 37.3
+    "vs_200dma_pct": 37.0,
+    "off_52w_high_pct": 0.0,
+    "rs_vs_nifty_3m_pct": 54.6
+   },
+   "badges": [
+    "RVOL-HI",
+    "U/D>4"
+   ],
+   "vetoes": [],
+   "ret_6m_pct": 38.4,
+   "liquid": true,
+   "in_uptrend": true,
+   "avg_turnover_cr": 40.47,
+   "sector": "Industrials",
+   "rationale": "Revenue +33.1% / PAT +142.7% YoY (qtr 2026-03-31). Accumulation: volume surge +1261% vs 20d avg; U/D ratio 4.47. Stage 2 (P>50>200 DMA), +54.6% vs Nifty over 3m, 0.0% off 52w high.",
+   "plan": {
+    "valid": true,
+    "dma20": 1167.62,
+    "buy_lo": 1167.62,
+    "buy_hi": 1214.15,
+    "zone_note": "extended - wait for pullback to zone",
+    "sl": 1032.47,
+    "t1": 1428.51,
+    "t2": 1586.93,
+    "risk_pct": 13.3,
+    "rr_at_cmp": 2.5,
+    "resistance_52w": 1417.7,
+    "entry_status": "CONFIRMED",
+    "vol_note": "up day on 13.6x avg volume",
+    "vol_trend": "fading interest (20d vol < 50d)",
+    "atr": 46.52,
+    "flags": [
+     "wide stop (13.3% risk) - size down"
+    ]
+   },
+   "rank": 3,
+   "prev_rank": 4
+  },
+  {
+   "symbol": "ANANDRATHI",
+   "name": "Anand Rathi Wealth Ltd.",
+   "index": "smallcap250",
+   "cmp": 2146.8,
+   "chg_pct": 2.44,
+   "composite": 6.31,
+   "scores": {
+    "fundamental": 7.63,
+    "smart": 3.75,
+    "technical": 9.69
+   },
+   "fund_detail": {
+    "rev_yoy": 17.5,
+    "pat_yoy": 73.8,
+    "latest_quarter": "2026-06-30",
+    "quality_flags": []
+   },
+   "smart_detail": {
+    "bulk": "no deals in window",
+    "delivery": "26.8% vs avg 48.9% (20s)",
+    "deliv_ratio": 0.55,
+    "rvol": "+194% vs 20d avg",
+    "ud": "4.83",
+    "ud_val": 4.83
+   },
+   "tech_detail": {
+    "stage": "Stage 2 (P>50>200 DMA)",
+    "above_200dma": true,
+    "vs_200dma_pct": 32.7,
+    "off_52w_high_pct": 0.0,
+    "rs_vs_nifty_3m_pct": 15.9
+   },
+   "badges": [
+    "RVOL-HI",
+    "U/D>4"
+   ],
+   "vetoes": [],
+   "ret_6m_pct": 36.8,
+   "liquid": true,
+   "in_uptrend": true,
+   "avg_turnover_cr": 134.63,
+   "sector": "Financial Services",
+   "rationale": "Revenue +17.5% / PAT +73.8% YoY (qtr 2026-06-30). Accumulation: volume surge +194% vs 20d avg; U/D ratio 4.83. Stage 2 (P>50>200 DMA), +15.9% vs Nifty over 3m, 0.0% off 52w high.",
+   "plan": {
+    "valid": true,
+    "dma20": 1952.41,
+    "buy_lo": 1952.41,
+    "buy_hi": 2021.0,
+    "zone_note": "extended - wait for pullback to zone",
+    "sl": 1735.85,
+    "t1": 2362.98,
+    "t2": 2613.83,
+    "risk_pct": 12.6,
+    "rr_at_cmp": 2.5,
+    "resistance_52w": 2146.8,
+    "entry_status": "CONFIRMED",
+    "vol_note": "up day on 2.9x avg volume",
+    "vol_trend": "fading interest (20d vol < 50d)",
+    "atr": 68.59,
+    "flags": [
+     "wide stop (12.6% risk) - size down"
+    ]
+   },
+   "rank": 4,
+   "prev_rank": 2
+  },
+  {
+   "symbol": "PREMIERENE",
+   "name": "Premier Energies Ltd.",
+   "index": "midcap150",
+   "cmp": 1117.2,
+   "chg_pct": 2.57,
+   "composite": 6.29,
+   "scores": {
+    "fundamental": 9.75,
+    "smart": 3.12,
+    "technical": 9.26
+   },
+   "fund_detail": {
+    "rev_yoy": 37.6,
+    "pat_yoy": 64.4,
+    "latest_quarter": "2026-03-31",
+    "quality_flags": []
+   },
+   "smart_detail": {
+    "bulk": "no deals in window",
+    "delivery": "41.5% vs avg 37.3% (20s)",
+    "deliv_ratio": 1.11,
+    "rvol": "+126% vs 20d avg",
+    "ud": "2.30",
+    "ud_val": 2.3
+   },
+   "tech_detail": {
+    "stage": "Stage 2 (P>50>200 DMA)",
+    "above_200dma": true,
+    "vs_200dma_pct": 19.3,
+    "off_52w_high_pct": 0.0,
+    "rs_vs_nifty_3m_pct": 10.2
    },
    "badges": [
     "RVOL-HI"
    ],
    "vetoes": [],
-   "ret_6m_pct": 19.1,
+   "ret_6m_pct": 55.8,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 22.59,
-   "sector": "Industrials",
-   "rationale": "Revenue +33.1% / PAT +142.7% YoY (qtr 2026-03-31). Accumulation: volume surge +1261% vs 20d avg. Stage 2 (P>50>200 DMA), +37.3% vs Nifty over 3m, 5.4% off 52w high.",
+   "avg_turnover_cr": 121.91,
+   "sector": "Technology",
+   "rationale": "Revenue +37.6% / PAT +64.4% YoY (qtr 2026-03-31). Accumulation: volume surge +126% vs 20d avg. Stage 2 (P>50>200 DMA), +10.2% vs Nifty over 3m, 0.0% off 52w high.",
    "plan": {
     "valid": true,
-    "dma20": 1148.63,
-    "buy_lo": 1148.63,
-    "buy_hi": 1180.89,
+    "dma20": 1054.19,
+    "buy_lo": 1054.19,
+    "buy_hi": 1085.56,
     "zone_note": "extended - wait for pullback to zone",
-    "sl": 1006.64,
-    "t1": 1401.96,
-    "t2": 1560.08,
-    "risk_pct": 13.6,
+    "sl": 1005.06,
+    "t1": 1167.09,
+    "t2": 1231.9,
+    "risk_pct": 6.1,
     "rr_at_cmp": 2.5,
-    "resistance_52w": 1288.2,
+    "resistance_52w": 1117.2,
     "entry_status": "CONFIRMED",
-    "vol_note": "up day on 13.6x avg volume",
+    "vol_note": "up day on 2.3x avg volume",
     "vol_trend": "fading interest (20d vol < 50d)",
-    "atr": 32.26,
-    "flags": [
-     "wide stop (13.6% risk) - size down"
-    ]
+    "atr": 31.37,
+    "flags": []
    },
-   "rank": 4,
-   "prev_rank": null
+   "rank": 5,
+   "prev_rank": 8
   },
   {
    "symbol": "OFSS",
@@ -296,11 +362,11 @@
    "index": "midcap150",
    "cmp": 11651.0,
    "chg_pct": 4.64,
-   "composite": 6.2,
+   "composite": 6.22,
    "scores": {
     "fundamental": 8.3,
     "smart": 3.12,
-    "technical": 9.92
+    "technical": 10.0
    },
    "fund_detail": {
     "rev_yoy": 20.3,
@@ -313,48 +379,48 @@
     "delivery": "35.5% vs avg 37.9% (20s)",
     "deliv_ratio": 0.94,
     "rvol": "+60% vs 20d avg",
-    "ud": "3.32",
-    "ud_val": 3.32
+    "ud": "3.68",
+    "ud_val": 3.68
    },
    "tech_detail": {
     "stage": "Stage 2 (P>50>200 DMA)",
     "above_200dma": true,
-    "vs_200dma_pct": 36.1,
-    "off_52w_high_pct": 1.0,
-    "rs_vs_nifty_3m_pct": 60.0
+    "vs_200dma_pct": 42.2,
+    "off_52w_high_pct": 0.0,
+    "rs_vs_nifty_3m_pct": 57.1
    },
    "badges": [
     "RVOL-HI"
    ],
    "vetoes": [],
-   "ret_6m_pct": 50.8,
+   "ret_6m_pct": 57.7,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 304.6,
+   "avg_turnover_cr": 324.56,
    "sector": "Technology",
-   "rationale": "Revenue +20.3% / PAT +30.7% YoY (qtr 2026-03-31). Accumulation: volume surge +60% vs 20d avg. Stage 2 (P>50>200 DMA), +60.0% vs Nifty over 3m, 1.0% off 52w high.",
+   "rationale": "Revenue +20.3% / PAT +30.7% YoY (qtr 2026-03-31). Accumulation: volume surge +60% vs 20d avg. Stage 2 (P>50>200 DMA), +57.1% vs Nifty over 3m, 0.0% off 52w high.",
    "plan": {
     "valid": true,
-    "dma20": 10387.3,
-    "buy_lo": 10387.3,
-    "buy_hi": 10735.91,
+    "dma20": 10503.48,
+    "buy_lo": 10503.48,
+    "buy_hi": 10876.37,
     "zone_note": "extended - wait for pullback to zone",
-    "sl": 9040.35,
-    "t1": 12843.49,
-    "t2": 14364.74,
-    "risk_pct": 14.4,
+    "sl": 9034.28,
+    "t1": 13173.39,
+    "t2": 14829.03,
+    "risk_pct": 15.5,
     "rr_at_cmp": 2.5,
-    "resistance_52w": 11248.0,
+    "resistance_52w": 11651.0,
     "entry_status": "CONFIRMED",
     "vol_note": "up day on 1.6x avg volume",
     "vol_trend": "rising interest (20d vol > 50d)",
-    "atr": 348.61,
+    "atr": 372.89,
     "flags": [
-     "wide stop (14.4% risk) - size down"
+     "wide stop (15.5% risk) - size down"
     ]
    },
-   "rank": 5,
-   "prev_rank": null
+   "rank": 6,
+   "prev_rank": 5
   },
   {
    "symbol": "DELHIVERY",
@@ -362,11 +428,11 @@
    "index": "smallcap250",
    "cmp": 520.3,
    "chg_pct": 0.9,
-   "composite": 6.17,
+   "composite": 6.2,
    "scores": {
     "fundamental": 6.02,
     "smart": 4.38,
-    "technical": 9.26
+    "technical": 9.35
    },
    "fund_detail": {
     "rev_yoy": 30.0,
@@ -379,49 +445,49 @@
     "delivery": "67.6% vs avg 54.0% (20s)",
     "deliv_ratio": 1.25,
     "rvol": "+128% vs 20d avg",
-    "ud": "2.65",
-    "ud_val": 2.65
+    "ud": "3.09",
+    "ud_val": 3.09
    },
    "tech_detail": {
     "stage": "Stage 2 (P>50>200 DMA)",
     "above_200dma": true,
-    "vs_200dma_pct": 17.0,
-    "off_52w_high_pct": 0.8,
-    "rs_vs_nifty_3m_pct": 11.0
+    "vs_200dma_pct": 18.0,
+    "off_52w_high_pct": 0.0,
+    "rs_vs_nifty_3m_pct": 11.3
    },
    "badges": [
     "DELIV+",
     "RVOL-HI"
    ],
    "vetoes": [],
-   "ret_6m_pct": 23.5,
+   "ret_6m_pct": 28.2,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 300.37,
+   "avg_turnover_cr": 326.9,
    "sector": "Industrials",
-   "rationale": "Revenue +30.0% / PAT -0.2% YoY (qtr 2026-03-31). Accumulation: delivery spike 67.6% vs avg 54.0% (20s); volume surge +128% vs 20d avg. Stage 2 (P>50>200 DMA), +11.0% vs Nifty over 3m, 0.8% off 52w high.",
+   "rationale": "Revenue +30.0% / PAT -0.2% YoY (qtr 2026-03-31). Accumulation: delivery spike 67.6% vs avg 54.0% (20s); volume surge +128% vs 20d avg. Stage 2 (P>50>200 DMA), +11.3% vs Nifty over 3m, 0.0% off 52w high.",
    "plan": {
     "valid": true,
-    "dma20": 480.16,
-    "buy_lo": 480.16,
-    "buy_hi": 497.6,
+    "dma20": 484.15,
+    "buy_lo": 484.15,
+    "buy_hi": 500.2,
     "zone_note": "extended - wait for pullback to zone",
-    "sl": 429.64,
-    "t1": 577.74,
-    "t2": 636.98,
-    "risk_pct": 12.1,
+    "sl": 440.74,
+    "t1": 569.33,
+    "t2": 620.77,
+    "risk_pct": 10.5,
     "rr_at_cmp": 2.5,
-    "resistance_52w": 519.65,
+    "resistance_52w": 520.3,
     "entry_status": "CONFIRMED",
     "vol_note": "up day on 2.3x avg volume",
     "vol_trend": "rising interest (20d vol > 50d)",
-    "atr": 17.44,
+    "atr": 16.05,
     "flags": [
-     "wide stop (12.1% risk) - size down"
+     "wide stop (10.5% risk) - size down"
     ]
    },
-   "rank": 6,
-   "prev_rank": null
+   "rank": 7,
+   "prev_rank": 6
   },
   {
    "symbol": "NYKAA",
@@ -449,245 +515,176 @@
     "delivery": "68.5% vs avg 56.8% (20s)",
     "deliv_ratio": 1.21,
     "rvol": "+4% vs 20d avg",
-    "ud": "5.40",
-    "ud_val": 5.4
+    "ud": "5.76",
+    "ud_val": 5.76
    },
    "tech_detail": {
     "stage": "Stage 2 (P>50>200 DMA)",
     "above_200dma": true,
-    "vs_200dma_pct": 23.7,
+    "vs_200dma_pct": 25.8,
     "off_52w_high_pct": 0.0,
-    "rs_vs_nifty_3m_pct": 26.3
+    "rs_vs_nifty_3m_pct": 24.2
    },
    "badges": [
     "DELIV+",
     "U/D>4"
    ],
    "vetoes": [],
-   "ret_6m_pct": 26.3,
+   "ret_6m_pct": 30.0,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 304.59,
+   "avg_turnover_cr": 305.43,
    "sector": "Consumer Cyclical",
-   "rationale": "Revenue +28.4% / PAT +286.5% YoY (qtr 2026-03-31). Accumulation: delivery spike 68.5% vs avg 56.8% (20s); U/D ratio 5.40. Stage 2 (P>50>200 DMA), +26.3% vs Nifty over 3m, 0.0% off 52w high.",
+   "rationale": "Revenue +28.4% / PAT +286.5% YoY (qtr 2026-03-31). Accumulation: delivery spike 68.5% vs avg 56.8% (20s); U/D ratio 5.76. Stage 2 (P>50>200 DMA), +24.2% vs Nifty over 3m, 0.0% off 52w high.",
    "plan": {
     "valid": true,
-    "dma20": 301.65,
-    "buy_lo": 301.65,
-    "buy_hi": 309.25,
+    "dma20": 304.48,
+    "buy_lo": 304.48,
+    "buy_hi": 312.15,
     "zone_note": "extended - wait for pullback to zone",
-    "sl": 260.9,
-    "t1": 372.28,
-    "t2": 416.83,
-    "risk_pct": 14.6,
+    "sl": 268.33,
+    "t1": 368.28,
+    "t2": 408.27,
+    "risk_pct": 13.0,
     "rr_at_cmp": 2.5,
-    "resistance_52w": 324.05,
+    "resistance_52w": 330.1,
     "entry_status": "WAIT",
     "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
     "vol_trend": "rising interest (20d vol > 50d)",
-    "atr": 7.61,
+    "atr": 7.67,
     "flags": [
-     "wide stop (14.6% risk) - size down"
+     "wide stop (13.0% risk) - size down"
     ]
    },
-   "rank": 7,
-   "prev_rank": null
+   "rank": 8,
+   "prev_rank": 7
   },
   {
-   "symbol": "PREMIERENE",
-   "name": "Premier Energies Ltd.",
-   "index": "midcap150",
-   "cmp": 1117.2,
-   "chg_pct": 2.57,
-   "composite": 5.97,
+   "symbol": "ARE&M",
+   "name": "Amara Raja Energy & Mobility Ltd.",
+   "index": "smallcap250",
+   "cmp": 890.05,
+   "chg_pct": 2.36,
+   "composite": 5.9,
    "scores": {
-    "fundamental": 9.75,
-    "smart": 2.5,
-    "technical": 9.24
+    "fundamental": 8.12,
+    "smart": 4.38,
+    "technical": 6.97
    },
    "fund_detail": {
-    "rev_yoy": 37.6,
-    "pat_yoy": 64.4,
+    "rev_yoy": 15.5,
+    "pat_yoy": 94.5,
     "latest_quarter": "2026-03-31",
     "quality_flags": []
    },
    "smart_detail": {
     "bulk": "no deals in window",
-    "delivery": "41.5% vs avg 37.3% (20s)",
-    "deliv_ratio": 1.11,
-    "rvol": "+126% vs 20d avg",
-    "ud": "1.93",
-    "ud_val": 1.93
+    "delivery": "53.2% vs avg 43.6% (20s)",
+    "deliv_ratio": 1.22,
+    "rvol": "+186% vs 20d avg",
+    "ud": "2.11",
+    "ud_val": 2.11
    },
    "tech_detail": {
-    "stage": "Stage 2 (P>50>200 DMA)",
+    "stage": "above 200 DMA",
     "above_200dma": true,
-    "vs_200dma_pct": 16.3,
-    "off_52w_high_pct": 2.2,
-    "rs_vs_nifty_3m_pct": 12.1
+    "vs_200dma_pct": 1.1,
+    "off_52w_high_pct": 14.9,
+    "rs_vs_nifty_3m_pct": 15.9
+   },
+   "badges": [
+    "DELIV+",
+    "RVOL-HI"
+   ],
+   "vetoes": [],
+   "ret_6m_pct": -0.8,
+   "liquid": true,
+   "in_uptrend": true,
+   "avg_turnover_cr": 53.52,
+   "sector": "Industrials",
+   "rationale": "Revenue +15.5% / PAT +94.5% YoY (qtr 2026-03-31). Accumulation: delivery spike 53.2% vs avg 43.6% (20s); volume surge +186% vs 20d avg. above 200 DMA, +15.9% vs Nifty over 3m, 14.9% off 52w high.",
+   "plan": {
+    "valid": true,
+    "dma20": 847.93,
+    "buy_lo": 878.61,
+    "buy_hi": 890.05,
+    "zone_note": null,
+    "sl": 814.88,
+    "t1": 988.5,
+    "t2": 1057.95,
+    "risk_pct": 7.9,
+    "rr_at_cmp": 2.23,
+    "resistance_52w": 1045.81,
+    "entry_status": "CONFIRMED",
+    "vol_note": "up day on 2.9x avg volume",
+    "vol_trend": "fading interest (20d vol < 50d)",
+    "atr": 22.89,
+    "flags": []
+   },
+   "rank": 9,
+   "prev_rank": null
+  },
+  {
+   "symbol": "GODREJPROP",
+   "name": "Godrej Properties Ltd.",
+   "index": "midcap150",
+   "cmp": 2133.0,
+   "chg_pct": 5.08,
+   "composite": 5.7,
+   "scores": {
+    "fundamental": 9.37,
+    "smart": 3.12,
+    "technical": 7.55
+   },
+   "fund_detail": {
+    "rev_yoy": 63.0,
+    "pat_yoy": 70.1,
+    "latest_quarter": "2026-03-31",
+    "quality_flags": []
+   },
+   "smart_detail": {
+    "bulk": "no deals in window",
+    "delivery": "36.2% vs avg 42.1% (20s)",
+    "deliv_ratio": 0.86,
+    "rvol": "+78% vs 20d avg",
+    "ud": "2.01",
+    "ud_val": 2.01
+   },
+   "tech_detail": {
+    "stage": "above 200 DMA",
+    "above_200dma": true,
+    "vs_200dma_pct": 13.2,
+    "off_52w_high_pct": 11.3,
+    "rs_vs_nifty_3m_pct": 20.8
    },
    "badges": [
     "RVOL-HI"
    ],
    "vetoes": [],
-   "ret_6m_pct": 49.3,
+   "ret_6m_pct": 7.1,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 114.02,
-   "sector": "Technology",
-   "rationale": "Revenue +37.6% / PAT +64.4% YoY (qtr 2026-03-31). Accumulation: volume surge +126% vs 20d avg. Stage 2 (P>50>200 DMA), +12.1% vs Nifty over 3m, 2.2% off 52w high.",
+   "avg_turnover_cr": 147.22,
+   "sector": "Real Estate",
+   "rationale": "Revenue +63.0% / PAT +70.1% YoY (qtr 2026-03-31). Accumulation: volume surge +78% vs 20d avg. above 200 DMA, +20.8% vs Nifty over 3m, 11.3% off 52w high.",
    "plan": {
     "valid": true,
-    "dma20": 1050.06,
-    "buy_lo": 1050.06,
-    "buy_hi": 1080.31,
+    "dma20": 1895.94,
+    "buy_lo": 1895.94,
+    "buy_hi": 1955.19,
     "zone_note": "extended - wait for pullback to zone",
-    "sl": 1005.34,
-    "t1": 1154.96,
-    "t2": 1214.8,
-    "risk_pct": 5.6,
+    "sl": 1708.39,
+    "t1": 2251.33,
+    "t2": 2468.51,
+    "risk_pct": 11.3,
     "rr_at_cmp": 2.5,
-    "resistance_52w": 1114.15,
+    "resistance_52w": 2403.9,
     "entry_status": "CONFIRMED",
-    "vol_note": "up day on 2.3x avg volume",
-    "vol_trend": "fading interest (20d vol < 50d)",
-    "atr": 30.26,
-    "flags": []
-   },
-   "rank": 8,
-   "prev_rank": 10
-  },
-  {
-   "symbol": "AEGISLOG",
-   "name": "Aegis Logistics Ltd.",
-   "index": "smallcap250",
-   "cmp": 1246.1,
-   "chg_pct": -1.42,
-   "composite": 5.7,
-   "scores": {
-    "fundamental": 8.39,
-    "smart": 2.5,
-    "technical": 9.23
-   },
-   "fund_detail": {
-    "rev_yoy": 52.2,
-    "pat_yoy": 45.7,
-    "latest_quarter": "2026-03-31",
-    "quality_flags": []
-   },
-   "smart_detail": {
-    "bulk": "no deals in window",
-    "delivery": "27.3% vs avg 20.5% (20s)",
-    "deliv_ratio": 1.33,
-    "rvol": "-63% vs 20d avg (no price confirm)",
-    "ud": "4.45",
-    "ud_val": 4.45
-   },
-   "tech_detail": {
-    "stage": "Stage 2 (P>50>200 DMA)",
-    "above_200dma": true,
-    "vs_200dma_pct": 65.2,
-    "off_52w_high_pct": 10.3,
-    "rs_vs_nifty_3m_pct": 104.7
-   },
-   "badges": [
-    "DELIV+",
-    "U/D>4"
-   ],
-   "vetoes": [],
-   "ret_6m_pct": 68.8,
-   "liquid": true,
-   "in_uptrend": true,
-   "avg_turnover_cr": 494.77,
-   "sector": "Energy",
-   "rationale": "Revenue +52.2% / PAT +45.7% YoY (qtr 2026-03-31). Accumulation: delivery spike 27.3% vs avg 20.5% (20s); U/D ratio 4.45. Stage 2 (P>50>200 DMA), +104.7% vs Nifty over 3m, 10.3% off 52w high.",
-   "plan": {
-    "valid": true,
-    "dma20": 1141.82,
-    "buy_lo": 1204.24,
-    "buy_hi": 1246.1,
-    "zone_note": null,
-    "sl": 887.43,
-    "t1": 1731.78,
-    "t2": 2069.52,
-    "risk_pct": 27.6,
-    "rr_at_cmp": 2.3,
-    "resistance_52w": 1401.73,
-    "entry_status": "PULLBACK OK",
-    "vol_note": "pullback into zone on dry volume (0.4x avg)",
-    "vol_trend": "rising interest (20d vol > 50d)",
-    "atr": 83.73,
+    "vol_note": "up day on 1.8x avg volume",
+    "vol_trend": "steady volume",
+    "atr": 59.25,
     "flags": [
-     "wide stop (27.6% risk) - size down",
-     "high volatility (ATR 6.7% of price) - reduce size"
-    ]
-   },
-   "rank": 9,
-   "prev_rank": 2
-  },
-  {
-   "symbol": "HONASA",
-   "name": "Honasa Consumer Ltd.",
-   "index": "smallcap250",
-   "cmp": 472.1,
-   "chg_pct": 0.11,
-   "composite": 5.66,
-   "scores": {
-    "fundamental": 8.61,
-    "smart": 1.88,
-    "technical": 10.0
-   },
-   "fund_detail": {
-    "rev_yoy": 23.2,
-    "pat_yoy": 177.0,
-    "latest_quarter": "2026-03-31",
-    "quality_flags": [
-     "PAT growth far outpaces revenue - verify one-off income / exceptional items before trusting the number"
-    ]
-   },
-   "smart_detail": {
-    "bulk": "no deals in window",
-    "delivery": "59.6% vs avg 48.2% (20s)",
-    "deliv_ratio": 1.24,
-    "rvol": "-45% vs 20d avg",
-    "ud": "3.86",
-    "ud_val": 3.86
-   },
-   "tech_detail": {
-    "stage": "Stage 2 (P>50>200 DMA)",
-    "above_200dma": true,
-    "vs_200dma_pct": 47.9,
-    "off_52w_high_pct": 0.0,
-    "rs_vs_nifty_3m_pct": 37.2
-   },
-   "badges": [
-    "DELIV+"
-   ],
-   "vetoes": [],
-   "ret_6m_pct": 57.2,
-   "liquid": true,
-   "in_uptrend": true,
-   "avg_turnover_cr": 85.52,
-   "sector": "Consumer Defensive",
-   "rationale": "Revenue +23.2% / PAT +177.0% YoY (qtr 2026-03-31). Accumulation: delivery spike 59.6% vs avg 48.2% (20s). Stage 2 (P>50>200 DMA), +37.2% vs Nifty over 3m, 0.0% off 52w high.",
-   "plan": {
-    "valid": true,
-    "dma20": 435.44,
-    "buy_lo": 435.44,
-    "buy_hi": 451.25,
-    "zone_note": "extended - wait for pullback to zone",
-    "sl": 394.25,
-    "t1": 516.99,
-    "t2": 566.09,
-    "risk_pct": 11.1,
-    "rr_at_cmp": 2.5,
-    "resistance_52w": 471.6,
-    "entry_status": "WAIT",
-    "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
-    "vol_trend": "fading interest (20d vol < 50d)",
-    "atr": 15.82,
-    "flags": [
-     "wide stop (11.1% risk) - size down"
+     "wide stop (11.3% risk) - size down"
     ]
    },
    "rank": 10,
@@ -702,11 +699,11 @@
     "index": "midcap150",
     "cmp": 183.92,
     "chg_pct": 0.16,
-    "composite": 5.62,
+    "composite": 5.6,
     "scores": {
      "fundamental": 6.66,
      "smart": 3.75,
-     "technical": 8.03
+     "technical": 7.99
     },
     "fund_detail": {
      "rev_yoy": 7.8,
@@ -719,27 +716,27 @@
      "delivery": "33.9% vs avg 19.7% (20s)",
      "deliv_ratio": 1.72,
      "rvol": "-96% vs 20d avg",
-     "ud": "7.21",
-     "ud_val": 7.21
+     "ud": "7.23",
+     "ud_val": 7.23
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 12.6,
-     "off_52w_high_pct": 13.4,
-     "rs_vs_nifty_3m_pct": 7.1
+     "vs_200dma_pct": 13.8,
+     "off_52w_high_pct": 12.6,
+     "rs_vs_nifty_3m_pct": 5.8
     },
     "badges": [
      "DELIV++",
      "U/D>4"
     ],
     "vetoes": [],
-    "ret_6m_pct": 21.8,
+    "ret_6m_pct": 24.4,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 343.25,
+    "avg_turnover_cr": 343.48,
     "sector": "Financial Services",
-    "rationale": "Revenue +7.8% / PAT +61.2% YoY (qtr 2026-03-31). Accumulation: delivery spike 33.9% vs avg 19.7% (20s); U/D ratio 7.21. Stage 2 (P>50>200 DMA), +7.1% vs Nifty over 3m, 13.4% off 52w high.",
+    "rationale": "Revenue +7.8% / PAT +61.2% YoY (qtr 2026-03-31). Accumulation: delivery spike 33.9% vs avg 19.7% (20s); U/D ratio 7.23. Stage 2 (P>50>200 DMA), +5.8% vs Nifty over 3m, 12.6% off 52w high.",
     "stage": {
      "stage": "READY",
      "since": "2026-07-02",
@@ -749,7 +746,7 @@
      "info": {
       "signals": [
        "delivery spike (1.72x own avg)",
-       "U/D 7.21"
+       "U/D 7.23"
       ],
       "flags": [],
       "tier": "strong"
@@ -757,98 +754,25 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 180.34,
-     "buy_lo": 179.54,
+     "dma20": 181.96,
+     "buy_lo": 179.94,
      "buy_hi": 183.92,
      "zone_note": null,
-     "sl": 144.3,
-     "t1": 237.87,
-     "t2": 275.29,
-     "risk_pct": 20.6,
-     "rr_at_cmp": 2.31,
+     "sl": 151.25,
+     "t1": 227.95,
+     "t2": 258.63,
+     "risk_pct": 16.9,
+     "rr_at_cmp": 2.29,
      "resistance_52w": 210.38,
      "entry_status": "WAIT",
      "vol_note": "no volume trigger yet",
      "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 8.77,
+     "atr": 7.96,
      "flags": [
-      "wide stop (20.6% risk) - size down"
+      "wide stop (16.9% risk) - size down"
      ]
     },
     "rank": 1
-   },
-   {
-    "symbol": "360ONE",
-    "name": "360 ONE WAM Ltd.",
-    "index": "midcap150",
-    "cmp": 1129.0,
-    "chg_pct": 2.62,
-    "composite": 5.43,
-    "scores": {
-     "fundamental": 4.93,
-     "smart": 3.75,
-     "technical": 8.56
-    },
-    "fund_detail": {
-     "rev_yoy": 12.4,
-     "pat_yoy": 15.7,
-     "latest_quarter": "2026-03-31",
-     "quality_flags": []
-    },
-    "smart_detail": {
-     "bulk": "no deals in window",
-     "delivery": "83.1% vs avg 56.6% (20s)",
-     "deliv_ratio": 1.47,
-     "rvol": "+101% vs 20d avg",
-     "ud": "1.45",
-     "ud_val": 1.45
-    },
-    "tech_detail": {
-     "stage": "Stage 2 (P>50>200 DMA)",
-     "above_200dma": true,
-     "vs_200dma_pct": 0.5,
-     "off_52w_high_pct": 8.9,
-     "rs_vs_nifty_3m_pct": 9.8
-    },
-    "badges": [
-     "DELIV+",
-     "RVOL-HI"
-    ],
-    "vetoes": [],
-    "ret_6m_pct": -7.1,
-    "liquid": true,
-    "in_uptrend": true,
-    "avg_turnover_cr": 121.0,
-    "sector": "Financial Services",
-    "event_warning": "results due 2026-07-16 (6d away) - event risk; avoid fresh entries 2 days prior",
-    "rationale": "Revenue +12.4% / PAT +15.7% YoY (qtr 2026-03-31). Accumulation: delivery spike 83.1% vs avg 56.6% (20s); volume surge +101% vs 20d avg. Stage 2 (P>50>200 DMA), +9.8% vs Nifty over 3m, 8.9% off 52w high.",
-    "stage": {
-     "stage": "READY",
-     "since": "2026-07-06",
-     "days_in_stage": 4,
-     "pending": "CONFIRMED",
-     "time_stop_left": 38,
-     "info": {}
-    },
-    "plan": {
-     "valid": true,
-     "dma20": 1109.82,
-     "buy_lo": 1114.06,
-     "buy_hi": 1129.0,
-     "zone_note": null,
-     "sl": 1050.53,
-     "t1": 1228.03,
-     "t2": 1299.03,
-     "risk_pct": 6.3,
-     "rr_at_cmp": 2.17,
-     "resistance_52w": 1208.01,
-     "entry_status": "CONFIRMED",
-     "vol_note": "up day on 2.0x avg volume",
-     "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 29.87,
-     "flags": []
-    },
-    "rank": 2
    },
    {
     "symbol": "TBOTEK",
@@ -856,11 +780,11 @@
     "index": "smallcap250",
     "cmp": 1504.9,
     "chg_pct": 0.53,
-    "composite": 5.41,
+    "composite": 5.42,
     "scores": {
      "fundamental": 5.02,
      "smart": 4.38,
-     "technical": 7.39
+     "technical": 7.42
     },
     "fund_detail": {
      "rev_yoy": 82.5,
@@ -873,27 +797,27 @@
      "delivery": "88.2% vs avg 47.3% (20s)",
      "deliv_ratio": 1.86,
      "rvol": "+28% vs 20d avg",
-     "ud": "3.30",
-     "ud_val": 3.3
+     "ud": "3.74",
+     "ud_val": 3.74
     },
     "tech_detail": {
      "stage": "above 200 DMA",
      "above_200dma": true,
-     "vs_200dma_pct": 5.1,
-     "off_52w_high_pct": 13.5,
-     "rs_vs_nifty_3m_pct": 27.7
+     "vs_200dma_pct": 5.8,
+     "off_52w_high_pct": 13.0,
+     "rs_vs_nifty_3m_pct": 20.9
     },
     "badges": [
      "DELIV++",
      "RVOL"
     ],
     "vetoes": [],
-    "ret_6m_pct": -2.5,
+    "ret_6m_pct": -2.1,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 51.23,
+    "avg_turnover_cr": 53.13,
     "sector": "Consumer Cyclical",
-    "rationale": "Revenue +82.5% / PAT +2.0% YoY (qtr 2026-03-31). Accumulation: delivery spike 88.2% vs avg 47.3% (20s); volume surge +28% vs 20d avg. above 200 DMA, +27.7% vs Nifty over 3m, 13.5% off 52w high.",
+    "rationale": "Revenue +82.5% / PAT +2.0% YoY (qtr 2026-03-31). Accumulation: delivery spike 88.2% vs avg 47.3% (20s); volume surge +28% vs 20d avg. above 200 DMA, +20.9% vs Nifty over 3m, 13.0% off 52w high.",
     "stage": {
      "stage": "READY",
      "since": "2026-07-09",
@@ -903,7 +827,7 @@
      "info": {
       "signals": [
        "delivery spike (1.86x own avg)",
-       "U/D 3.3",
+       "U/D 3.74",
        "volume surge w/ price confirm"
       ],
       "flags": [],
@@ -912,23 +836,94 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 1467.34,
-     "buy_lo": 1480.79,
+     "dma20": 1474.94,
+     "buy_lo": 1482.5,
      "buy_hi": 1504.9,
      "zone_note": null,
-     "sl": 1242.05,
-     "t1": 1869.05,
-     "t2": 2119.85,
-     "risk_pct": 16.8,
-     "rr_at_cmp": 2.34,
+     "sl": 1378.0,
+     "t1": 1667.25,
+     "t2": 1782.95,
+     "risk_pct": 7.7,
+     "rr_at_cmp": 2.19,
      "resistance_52w": 1730.7,
      "entry_status": "WAIT",
      "vol_note": "no volume trigger yet",
      "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 48.21,
-     "flags": [
-      "wide stop (16.8% risk) - size down"
-     ]
+     "atr": 44.79,
+     "flags": []
+    },
+    "rank": 2
+   },
+   {
+    "symbol": "360ONE",
+    "name": "360 ONE WAM Ltd.",
+    "index": "midcap150",
+    "cmp": 1129.0,
+    "chg_pct": 2.62,
+    "composite": 5.39,
+    "scores": {
+     "fundamental": 4.93,
+     "smart": 3.75,
+     "technical": 8.44
+    },
+    "fund_detail": {
+     "rev_yoy": 12.4,
+     "pat_yoy": 15.7,
+     "latest_quarter": "2026-03-31",
+     "quality_flags": []
+    },
+    "smart_detail": {
+     "bulk": "no deals in window",
+     "delivery": "83.1% vs avg 56.6% (20s)",
+     "deliv_ratio": 1.47,
+     "rvol": "+101% vs 20d avg",
+     "ud": "1.73",
+     "ud_val": 1.73
+    },
+    "tech_detail": {
+     "stage": "Stage 2 (P>50>200 DMA)",
+     "above_200dma": true,
+     "vs_200dma_pct": 3.1,
+     "off_52w_high_pct": 6.5,
+     "rs_vs_nifty_3m_pct": 5.7
+    },
+    "badges": [
+     "DELIV+",
+     "RVOL-HI"
+    ],
+    "vetoes": [],
+    "ret_6m_pct": -4.0,
+    "liquid": true,
+    "in_uptrend": true,
+    "avg_turnover_cr": 129.53,
+    "sector": "Financial Services",
+    "event_warning": "results due 2026-07-16 (6d away) - event risk; avoid fresh entries 2 days prior",
+    "rationale": "Revenue +12.4% / PAT +15.7% YoY (qtr 2026-03-31). Accumulation: delivery spike 83.1% vs avg 56.6% (20s); volume surge +101% vs 20d avg. Stage 2 (P>50>200 DMA), +5.7% vs Nifty over 3m, 6.5% off 52w high.",
+    "stage": {
+     "stage": "READY",
+     "since": "2026-07-06",
+     "days_in_stage": 4,
+     "pending": "CONFIRMED",
+     "time_stop_left": 38,
+     "info": {}
+    },
+    "plan": {
+     "valid": true,
+     "dma20": 1111.43,
+     "buy_lo": 1113.62,
+     "buy_hi": 1129.0,
+     "zone_note": null,
+     "sl": 1052.91,
+     "t1": 1223.91,
+     "t2": 1292.31,
+     "risk_pct": 6.1,
+     "rr_at_cmp": 2.15,
+     "resistance_52w": 1208.01,
+     "entry_status": "CONFIRMED",
+     "vol_note": "up day on 2.0x avg volume",
+     "vol_trend": "rising interest (20d vol > 50d)",
+     "atr": 30.75,
+     "flags": []
     },
     "rank": 3
    },
@@ -938,11 +933,11 @@
     "index": "midcap150",
     "cmp": 1336.9,
     "chg_pct": -0.85,
-    "composite": 5.15,
+    "composite": 5.13,
     "scores": {
      "fundamental": 8.22,
      "smart": 1.25,
-     "technical": 9.59
+     "technical": 9.53
     },
     "fund_detail": {
      "rev_yoy": 24.5,
@@ -955,26 +950,26 @@
      "delivery": "59.9% vs avg 57.8% (20s)",
      "deliv_ratio": 1.04,
      "rvol": "-65% vs 20d avg (no price confirm)",
-     "ud": "6.34",
-     "ud_val": 6.34
+     "ud": "5.56",
+     "ud_val": 5.56
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 12.8,
-     "off_52w_high_pct": 5.5,
-     "rs_vs_nifty_3m_pct": 26.6
+     "vs_200dma_pct": 11.9,
+     "off_52w_high_pct": 6.3,
+     "rs_vs_nifty_3m_pct": 24.1
     },
     "badges": [
      "U/D>4"
     ],
     "vetoes": [],
-    "ret_6m_pct": 8.9,
+    "ret_6m_pct": 11.3,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 33.71,
+    "avg_turnover_cr": 32.79,
     "sector": "Healthcare",
-    "rationale": "Revenue +24.5% / PAT +42.0% YoY (qtr 2026-03-31). Accumulation: U/D ratio 6.34. Stage 2 (P>50>200 DMA), +26.6% vs Nifty over 3m, 5.5% off 52w high.",
+    "rationale": "Revenue +24.5% / PAT +42.0% YoY (qtr 2026-03-31). Accumulation: U/D ratio 5.56. Stage 2 (P>50>200 DMA), +24.1% vs Nifty over 3m, 6.3% off 52w high.",
     "stage": {
      "stage": "READY",
      "since": "2026-07-08",
@@ -983,7 +978,7 @@
      "time_stop_left": 40,
      "info": {
       "signals": [
-       "U/D 6.34"
+       "U/D 5.56"
       ],
       "flags": [],
       "tier": "single"
@@ -991,20 +986,20 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 1298.74,
-     "buy_lo": 1320.93,
+     "dma20": 1303.83,
+     "buy_lo": 1321.17,
      "buy_hi": 1336.9,
      "zone_note": null,
-     "sl": 1200.62,
-     "t1": 1521.37,
-     "t2": 1649.67,
+     "sl": 1200.74,
+     "t1": 1521.49,
+     "t2": 1649.79,
      "risk_pct": 9.7,
-     "rr_at_cmp": 2.29,
+     "rr_at_cmp": 2.3,
      "resistance_52w": 1427.2,
      "entry_status": "PULLBACK OK",
      "vol_note": "pullback into zone on dry volume (0.3x avg)",
      "vol_trend": "steady volume",
-     "atr": 31.94,
+     "atr": 31.45,
      "flags": [
       "wide stop (9.7% risk) - size down"
      ]
@@ -1017,11 +1012,11 @@
     "index": "smallcap250",
     "cmp": 1218.0,
     "chg_pct": 0.25,
-    "composite": 5.14,
+    "composite": 5.03,
     "scores": {
      "fundamental": 8.03,
      "smart": 1.88,
-     "technical": 8.65
+     "technical": 8.28
     },
     "fund_detail": {
      "rev_yoy": 12.4,
@@ -1036,26 +1031,26 @@
      "delivery": "72.6% vs avg 56.2% (20s)",
      "deliv_ratio": 1.29,
      "rvol": "-39% vs 20d avg",
-     "ud": "2.67",
-     "ud_val": 2.67
+     "ud": "2.79",
+     "ud_val": 2.79
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 13.1,
-     "off_52w_high_pct": 6.3,
-     "rs_vs_nifty_3m_pct": 8.3
+     "vs_200dma_pct": 13.4,
+     "off_52w_high_pct": 6.0,
+     "rs_vs_nifty_3m_pct": 3.2
     },
     "badges": [
      "DELIV+"
     ],
     "vetoes": [],
-    "ret_6m_pct": 20.4,
+    "ret_6m_pct": 22.4,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 31.18,
+    "avg_turnover_cr": 31.74,
     "sector": "Industrials",
-    "rationale": "Revenue +12.4% / PAT +266.3% YoY (qtr 2026-03-31). Accumulation: delivery spike 72.6% vs avg 56.2% (20s). Stage 2 (P>50>200 DMA), +8.3% vs Nifty over 3m, 6.3% off 52w high.",
+    "rationale": "Revenue +12.4% / PAT +266.3% YoY (qtr 2026-03-31). Accumulation: delivery spike 72.6% vs avg 56.2% (20s). Stage 2 (P>50>200 DMA), +3.2% vs Nifty over 3m, 6.0% off 52w high.",
     "stage": {
      "stage": "READY",
      "since": "2026-07-09",
@@ -1065,7 +1060,7 @@
      "info": {
       "signals": [
        "delivery spike (1.29x own avg)",
-       "U/D 2.67"
+       "U/D 2.79"
       ],
       "flags": [],
       "tier": "strong"
@@ -1073,22 +1068,22 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 1181.95,
-     "buy_lo": 1202.95,
+     "dma20": 1188.74,
+     "buy_lo": 1203.3,
      "buy_hi": 1218.0,
      "zone_note": null,
-     "sl": 1064.07,
-     "t1": 1430.07,
-     "t2": 1576.47,
-     "risk_pct": 12.1,
-     "rr_at_cmp": 2.33,
+     "sl": 1086.75,
+     "t1": 1396.5,
+     "t2": 1520.4,
+     "risk_pct": 10.2,
+     "rr_at_cmp": 2.3,
      "resistance_52w": 1296.35,
      "entry_status": "WAIT",
      "vol_note": "no volume trigger yet",
      "vol_trend": "steady volume",
-     "atr": 30.11,
+     "atr": 29.39,
      "flags": [
-      "wide stop (12.1% risk) - size down"
+      "wide stop (10.2% risk) - size down"
      ]
     },
     "rank": 5
@@ -1103,7 +1098,7 @@
     "scores": {
      "fundamental": 4.25,
      "smart": 2.5,
-     "technical": 9.67
+     "technical": 9.68
     },
     "fund_detail": {
      "rev_yoy": 34.8,
@@ -1116,27 +1111,27 @@
      "delivery": "76.5% vs avg 52.3% (20s)",
      "deliv_ratio": 1.46,
      "rvol": "-31% vs 20d avg",
-     "ud": "4.11",
-     "ud_val": 4.11
+     "ud": "4.30",
+     "ud_val": 4.3
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 16.9,
-     "off_52w_high_pct": 4.3,
-     "rs_vs_nifty_3m_pct": 23.9
+     "vs_200dma_pct": 17.0,
+     "off_52w_high_pct": 4.2,
+     "rs_vs_nifty_3m_pct": 20.7
     },
     "badges": [
      "DELIV+",
      "U/D>4"
     ],
     "vetoes": [],
-    "ret_6m_pct": 33.6,
+    "ret_6m_pct": 31.4,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 47.48,
+    "avg_turnover_cr": 47.24,
     "sector": "Healthcare",
-    "rationale": "Revenue +34.8% / PAT -58.3% YoY (qtr 2026-03-31). Accumulation: delivery spike 76.5% vs avg 52.3% (20s); U/D ratio 4.11. Stage 2 (P>50>200 DMA), +23.9% vs Nifty over 3m, 4.3% off 52w high.",
+    "rationale": "Revenue +34.8% / PAT -58.3% YoY (qtr 2026-03-31). Accumulation: delivery spike 76.5% vs avg 52.3% (20s); U/D ratio 4.30. Stage 2 (P>50>200 DMA), +20.7% vs Nifty over 3m, 4.2% off 52w high.",
     "stage": {
      "stage": "READY",
      "since": "2026-07-09",
@@ -1147,23 +1142,101 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 805.73,
-     "buy_lo": 803.95,
+     "dma20": 807.22,
+     "buy_lo": 804.22,
      "buy_hi": 814.9,
      "zone_note": null,
-     "sl": 758.13,
-     "t1": 886.38,
-     "t2": 937.68,
+     "sl": 758.26,
+     "t1": 886.51,
+     "t2": 937.81,
      "risk_pct": 6.3,
-     "rr_at_cmp": 2.16,
+     "rr_at_cmp": 2.17,
      "resistance_52w": 850.65,
      "entry_status": "WAIT",
      "vol_note": "no volume trigger yet",
      "vol_trend": "fading interest (20d vol < 50d)",
-     "atr": 21.9,
+     "atr": 21.35,
      "flags": []
     },
     "rank": 6
+   },
+   {
+    "symbol": "MOTILALOFS",
+    "name": "Motilal Oswal Financial Services Ltd.",
+    "index": "midcap150",
+    "cmp": 979.35,
+    "chg_pct": 3.91,
+    "composite": 4.8,
+    "scores": {
+     "fundamental": 5.37,
+     "smart": 1.88,
+     "technical": 9.28
+    },
+    "fund_detail": {
+     "rev_yoy": 109.2,
+     "pat_yoy": null,
+     "latest_quarter": "2026-03-31",
+     "quality_flags": []
+    },
+    "smart_detail": {
+     "bulk": "no deals in window",
+     "delivery": "42.5% vs avg 39.3% (20s)",
+     "deliv_ratio": 1.08,
+     "rvol": "+40% vs 20d avg",
+     "ud": "2.25",
+     "ud_val": 2.25
+    },
+    "tech_detail": {
+     "stage": "Stage 2 (P>50>200 DMA)",
+     "above_200dma": true,
+     "vs_200dma_pct": 14.7,
+     "off_52w_high_pct": 9.5,
+     "rs_vs_nifty_3m_pct": 22.0
+    },
+    "badges": [
+     "RVOL"
+    ],
+    "vetoes": [],
+    "ret_6m_pct": 22.7,
+    "liquid": true,
+    "in_uptrend": true,
+    "avg_turnover_cr": 82.18,
+    "sector": "Financial Services",
+    "rationale": "Revenue +109.2% / PAT n/a YoY (qtr 2026-03-31). Accumulation: volume surge +40% vs 20d avg. Stage 2 (P>50>200 DMA), +22.0% vs Nifty over 3m, 9.5% off 52w high.",
+    "stage": {
+     "stage": "READY",
+     "since": "2026-07-08",
+     "days_in_stage": 2,
+     "pending": "NEUTRAL",
+     "time_stop_left": 40,
+     "info": {
+      "signals": [
+       "U/D 2.25",
+       "volume surge w/ price confirm"
+      ],
+      "flags": [],
+      "tier": "strong"
+     }
+    },
+    "plan": {
+     "valid": true,
+     "dma20": 947.81,
+     "buy_lo": 966.99,
+     "buy_hi": 979.35,
+     "zone_note": null,
+     "sl": 896.82,
+     "t1": 1087.7,
+     "t2": 1164.05,
+     "risk_pct": 7.8,
+     "rr_at_cmp": 2.24,
+     "resistance_52w": 1082.56,
+     "entry_status": "WAIT",
+     "vol_note": "no volume trigger yet",
+     "vol_trend": "fading interest (20d vol < 50d)",
+     "atr": 24.72,
+     "flags": []
+    },
+    "rank": 7
    },
    {
     "symbol": "OLECTRA",
@@ -1171,11 +1244,11 @@
     "index": "smallcap250",
     "cmp": 1423.6,
     "chg_pct": 1.98,
-    "composite": 4.65,
+    "composite": 4.67,
     "scores": {
      "fundamental": 9.09,
      "smart": 0.62,
-     "technical": 8.41
+     "technical": 8.46
     },
     "fund_detail": {
      "rev_yoy": 43.6,
@@ -1190,24 +1263,24 @@
      "delivery": "25.6% vs avg 32.5% (20s)",
      "deliv_ratio": 0.79,
      "rvol": "-40% vs 20d avg",
-     "ud": "2.45",
-     "ud_val": 2.45
+     "ud": "2.56",
+     "ud_val": 2.56
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 11.9,
-     "off_52w_high_pct": 16.5,
-     "rs_vs_nifty_3m_pct": 15.2
+     "vs_200dma_pct": 14.2,
+     "off_52w_high_pct": 14.8,
+     "rs_vs_nifty_3m_pct": 14.3
     },
     "badges": [],
     "vetoes": [],
-    "ret_6m_pct": 17.5,
+    "ret_6m_pct": 23.1,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 168.39,
+    "avg_turnover_cr": 168.73,
     "sector": "Industrials",
-    "rationale": "Revenue +43.6% / PAT +164.4% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +15.2% vs Nifty over 3m, 16.5% off 52w high.",
+    "rationale": "Revenue +43.6% / PAT +164.4% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +14.3% vs Nifty over 3m, 14.8% off 52w high.",
     "stage": {
      "stage": "READY",
      "since": "2026-07-06",
@@ -1216,7 +1289,7 @@
      "time_stop_left": 38,
      "info": {
       "signals": [
-       "U/D 2.45"
+       "U/D 2.56"
       ],
       "flags": [],
       "tier": "single"
@@ -1224,171 +1297,25 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 1443.32,
-     "buy_lo": 1396.58,
+     "dma20": 1449.7,
+     "buy_lo": 1395.68,
      "buy_hi": 1423.6,
      "zone_note": null,
-     "sl": 1243.69,
-     "t1": 1659.69,
-     "t2": 1826.09,
+     "sl": 1243.24,
+     "t1": 1659.24,
+     "t2": 1825.64,
      "risk_pct": 11.8,
-     "rr_at_cmp": 2.24,
+     "rr_at_cmp": 2.23,
      "resistance_52w": 1671.0,
      "entry_status": "WAIT",
      "vol_note": "no volume trigger yet",
      "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 54.04,
+     "atr": 55.84,
      "flags": [
       "wide stop (11.8% risk) - size down"
      ]
     },
-    "rank": 7
-   },
-   {
-    "symbol": "AIAENG",
-    "name": "AIA Engineering Ltd.",
-    "index": "midcap150",
-    "cmp": 4683.5,
-    "chg_pct": -0.09,
-    "composite": 4.61,
-    "scores": {
-     "fundamental": 7.35,
-     "smart": 0.62,
-     "technical": 9.42
-    },
-    "fund_detail": {
-     "rev_yoy": 9.6,
-     "pat_yoy": 37.9,
-     "latest_quarter": "2026-03-31",
-     "quality_flags": []
-    },
-    "smart_detail": {
-     "bulk": "no deals in window",
-     "delivery": "61.3% vs avg 52.7% (20s)",
-     "deliv_ratio": 1.16,
-     "rvol": "-14% vs 20d avg (no price confirm)",
-     "ud": "2.18",
-     "ud_val": 2.18
-    },
-    "tech_detail": {
-     "stage": "Stage 2 (P>50>200 DMA)",
-     "above_200dma": true,
-     "vs_200dma_pct": 21.4,
-     "off_52w_high_pct": 7.8,
-     "rs_vs_nifty_3m_pct": 24.4
-    },
-    "badges": [],
-    "vetoes": [],
-    "ret_6m_pct": 15.1,
-    "liquid": true,
-    "in_uptrend": true,
-    "avg_turnover_cr": 52.32,
-    "sector": "Industrials",
-    "rationale": "Revenue +9.6% / PAT +37.9% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +24.4% vs Nifty over 3m, 7.8% off 52w high.",
-    "stage": {
-     "stage": "READY",
-     "since": "2026-07-08",
-     "days_in_stage": 2,
-     "pending": null,
-     "time_stop_left": 40,
-     "info": {
-      "signals": [
-       "U/D 2.18"
-      ],
-      "flags": [],
-      "tier": "single"
-     }
-    },
-    "plan": {
-     "valid": true,
-     "dma20": 4738.73,
-     "buy_lo": 4602.42,
-     "buy_hi": 4683.5,
-     "zone_note": null,
-     "sl": 4249.96,
-     "t1": 5232.46,
-     "t2": 5625.46,
-     "risk_pct": 8.5,
-     "rr_at_cmp": 2.17,
-     "resistance_52w": 5081.4,
-     "entry_status": "PULLBACK OK",
-     "vol_note": "pullback into zone on dry volume (0.9x avg)",
-     "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 162.16,
-     "flags": [
-      "wide stop (8.5% risk) - size down"
-     ]
-    },
     "rank": 8
-   },
-   {
-    "symbol": "CRAFTSMAN",
-    "name": "Craftsman Automation Ltd.",
-    "index": "smallcap250",
-    "cmp": 9301.0,
-    "chg_pct": 0.2,
-    "composite": 4.57,
-    "scores": {
-     "fundamental": 8.46,
-     "smart": 0.0,
-     "technical": 9.6
-    },
-    "fund_detail": {
-     "rev_yoy": 27.3,
-     "pat_yoy": 74.4,
-     "latest_quarter": "2026-03-31",
-     "quality_flags": []
-    },
-    "smart_detail": {
-     "bulk": "no deals in window",
-     "delivery": "49.1% vs avg 51.1% (20s)",
-     "deliv_ratio": 0.96,
-     "rvol": "-81% vs 20d avg",
-     "ud": "1.04",
-     "ud_val": 1.04
-    },
-    "tech_detail": {
-     "stage": "Stage 2 (P>50>200 DMA)",
-     "above_200dma": true,
-     "vs_200dma_pct": 21.8,
-     "off_52w_high_pct": 5.3,
-     "rs_vs_nifty_3m_pct": 25.1
-    },
-    "badges": [],
-    "vetoes": [],
-    "ret_6m_pct": 15.7,
-    "liquid": true,
-    "in_uptrend": true,
-    "avg_turnover_cr": 80.72,
-    "sector": "Consumer Cyclical",
-    "rationale": "Revenue +27.3% / PAT +74.4% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +25.1% vs Nifty over 3m, 5.3% off 52w high.",
-    "stage": {
-     "stage": "READY",
-     "since": "2026-07-07",
-     "days_in_stage": 3,
-     "pending": "NEUTRAL",
-     "time_stop_left": 39,
-     "info": {}
-    },
-    "plan": {
-     "valid": true,
-     "dma20": 9322.45,
-     "buy_lo": 9179.41,
-     "buy_hi": 9301.0,
-     "zone_note": null,
-     "sl": 8694.71,
-     "t1": 10058.46,
-     "t2": 10603.96,
-     "risk_pct": 5.9,
-     "rr_at_cmp": 2.15,
-     "resistance_52w": 9806.5,
-     "entry_status": "WAIT",
-     "vol_note": "no volume trigger yet",
-     "vol_trend": "fading interest (20d vol < 50d)",
-     "atr": 243.18,
-     "flags": []
-    },
-    "rank": 9
    },
    {
     "symbol": "KARURVYSYA",
@@ -1396,11 +1323,11 @@
     "index": "smallcap250",
     "cmp": 305.65,
     "chg_pct": 3.38,
-    "composite": 4.51,
+    "composite": 4.61,
     "scores": {
      "fundamental": 8.98,
      "smart": 0.62,
-     "technical": 8.0
+     "technical": 8.36
     },
     "fund_detail": {
      "rev_yoy": 23.5,
@@ -1413,24 +1340,24 @@
      "delivery": "57.3% vs avg 55.5% (20s)",
      "deliv_ratio": 1.03,
      "rvol": "-17% vs 20d avg",
-     "ud": "2.13",
-     "ud_val": 2.13
+     "ud": "2.29",
+     "ud_val": 2.29
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 7.9,
-     "off_52w_high_pct": 12.2,
-     "rs_vs_nifty_3m_pct": 5.5
+     "vs_200dma_pct": 11.4,
+     "off_52w_high_pct": 9.3,
+     "rs_vs_nifty_3m_pct": 7.4
     },
     "badges": [],
     "vetoes": [],
-    "ret_6m_pct": 7.7,
+    "ret_6m_pct": 15.9,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 78.3,
+    "avg_turnover_cr": 74.34,
     "sector": "Financial Services",
-    "rationale": "Revenue +23.5% / PAT +41.2% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +5.5% vs Nifty over 3m, 12.2% off 52w high.",
+    "rationale": "Revenue +23.5% / PAT +41.2% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +7.4% vs Nifty over 3m, 9.3% off 52w high.",
     "stage": {
      "stage": "READY",
      "since": "2026-07-09",
@@ -1439,7 +1366,7 @@
      "time_stop_left": 41,
      "info": {
       "signals": [
-       "U/D 2.13"
+       "U/D 2.29"
       ],
       "flags": [],
       "tier": "single"
@@ -1447,188 +1374,106 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 295.19,
-     "buy_lo": 301.53,
+     "dma20": 296.02,
+     "buy_lo": 301.32,
      "buy_hi": 305.65,
      "zone_note": null,
-     "sl": 275.69,
-     "t1": 345.44,
-     "t2": 373.34,
-     "risk_pct": 9.2,
-     "rr_at_cmp": 2.26,
+     "sl": 285.93,
+     "t1": 329.81,
+     "t2": 347.36,
+     "risk_pct": 5.8,
+     "rr_at_cmp": 2.12,
      "resistance_52w": 336.85,
      "entry_status": "WAIT",
      "vol_note": "no volume trigger yet",
      "vol_trend": "fading interest (20d vol < 50d)",
-     "atr": 8.25,
-     "flags": [
-      "wide stop (9.2% risk) - size down"
-     ]
+     "atr": 8.66,
+     "flags": []
+    },
+    "rank": 9
+   },
+   {
+    "symbol": "CRAFTSMAN",
+    "name": "Craftsman Automation Ltd.",
+    "index": "smallcap250",
+    "cmp": 9301.0,
+    "chg_pct": 0.2,
+    "composite": 4.57,
+    "scores": {
+     "fundamental": 8.46,
+     "smart": 0.0,
+     "technical": 9.61
+    },
+    "fund_detail": {
+     "rev_yoy": 27.3,
+     "pat_yoy": 74.4,
+     "latest_quarter": "2026-03-31",
+     "quality_flags": []
+    },
+    "smart_detail": {
+     "bulk": "no deals in window",
+     "delivery": "49.1% vs avg 51.1% (20s)",
+     "deliv_ratio": 0.96,
+     "rvol": "-81% vs 20d avg",
+     "ud": "1.07",
+     "ud_val": 1.07
+    },
+    "tech_detail": {
+     "stage": "Stage 2 (P>50>200 DMA)",
+     "above_200dma": true,
+     "vs_200dma_pct": 21.9,
+     "off_52w_high_pct": 5.2,
+     "rs_vs_nifty_3m_pct": 23.9
+    },
+    "badges": [],
+    "vetoes": [],
+    "ret_6m_pct": 19.2,
+    "liquid": true,
+    "in_uptrend": true,
+    "avg_turnover_cr": 78.71,
+    "sector": "Consumer Cyclical",
+    "rationale": "Revenue +27.3% / PAT +74.4% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +23.9% vs Nifty over 3m, 5.2% off 52w high.",
+    "stage": {
+     "stage": "READY",
+     "since": "2026-07-07",
+     "days_in_stage": 3,
+     "pending": "NEUTRAL",
+     "time_stop_left": 39,
+     "info": {}
+    },
+    "plan": {
+     "valid": true,
+     "dma20": 9341.62,
+     "buy_lo": 9191.59,
+     "buy_hi": 9301.0,
+     "zone_note": null,
+     "sl": 8900.79,
+     "t1": 9764.54,
+     "t2": 10110.04,
+     "risk_pct": 3.7,
+     "rr_at_cmp": 2.02,
+     "resistance_52w": 9806.5,
+     "entry_status": "WAIT",
+     "vol_note": "no volume trigger yet",
+     "vol_trend": "fading interest (20d vol < 50d)",
+     "atr": 218.82,
+     "flags": []
     },
     "rank": 10
    }
   ],
   "confirmed": [
    {
-    "symbol": "CGCL",
-    "name": "Capri Global Capital Ltd.",
-    "index": "smallcap250",
-    "cmp": 252.22,
-    "chg_pct": -0.17,
-    "composite": 6.69,
-    "scores": {
-     "fundamental": 9.06,
-     "smart": 3.75,
-     "technical": 10.0
-    },
-    "fund_detail": {
-     "rev_yoy": 46.8,
-     "pat_yoy": 59.1,
-     "latest_quarter": "2026-03-31",
-     "quality_flags": []
-    },
-    "smart_detail": {
-     "bulk": "net buy 5,132,016 sh / 5s",
-     "delivery": "33.0% vs avg 33.9% (20s)",
-     "deliv_ratio": 0.97,
-     "rvol": "+71% vs 20d avg (no price confirm)",
-     "ud": "1.34",
-     "ud_val": 1.34
-    },
-    "tech_detail": {
-     "stage": "Stage 2 (P>50>200 DMA)",
-     "above_200dma": true,
-     "vs_200dma_pct": 34.4,
-     "off_52w_high_pct": 0.0,
-     "rs_vs_nifty_3m_pct": 37.7
-    },
-    "badges": [
-     "BULK+"
-    ],
-    "vetoes": [],
-    "ret_6m_pct": 36.6,
-    "liquid": true,
-    "in_uptrend": true,
-    "avg_turnover_cr": 136.68,
-    "sector": "Financial Services",
-    "rationale": "Revenue +46.8% / PAT +59.1% YoY (qtr 2026-03-31). Accumulation: net buy 5,132,016 sh / 5s. Stage 2 (P>50>200 DMA), +37.7% vs Nifty over 3m, 0.0% off 52w high.",
-    "stage": {
-     "stage": "CONFIRMED",
-     "since": "2026-07-02",
-     "days_in_stage": 8,
-     "pending": "NEUTRAL",
-     "time_stop_left": null,
-     "info": {}
-    },
-    "plan": {
-     "valid": true,
-     "dma20": 224.45,
-     "buy_lo": 224.45,
-     "buy_hi": 232.37,
-     "zone_note": "extended - wait for pullback to zone",
-     "sl": 197.07,
-     "t1": 275.42,
-     "t2": 306.76,
-     "risk_pct": 13.7,
-     "rr_at_cmp": 2.5,
-     "resistance_52w": 252.64,
-     "entry_status": "WAIT",
-     "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
-     "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 7.92,
-     "flags": [
-      "wide stop (13.7% risk) - size down"
-     ]
-    },
-    "rank": 1
-   },
-   {
-    "symbol": "ANANDRATHI",
-    "name": "Anand Rathi Wealth Ltd.",
-    "index": "smallcap250",
-    "cmp": 2146.8,
-    "chg_pct": 2.44,
-    "composite": 6.64,
-    "scores": {
-     "fundamental": 9.16,
-     "smart": 3.75,
-     "technical": 9.78
-    },
-    "fund_detail": {
-     "rev_yoy": 29.7,
-     "pat_yoy": 40.3,
-     "latest_quarter": "2026-03-31",
-     "quality_flags": []
-    },
-    "smart_detail": {
-     "bulk": "no deals in window",
-     "delivery": "26.8% vs avg 48.9% (20s)",
-     "deliv_ratio": 0.55,
-     "rvol": "+194% vs 20d avg",
-     "ud": "4.06",
-     "ud_val": 4.06
-    },
-    "tech_detail": {
-     "stage": "Stage 2 (P>50>200 DMA)",
-     "above_200dma": true,
-     "vs_200dma_pct": 29.8,
-     "off_52w_high_pct": 0.0,
-     "rs_vs_nifty_3m_pct": 17.0
-    },
-    "badges": [
-     "RVOL-HI",
-     "U/D>4"
-    ],
-    "vetoes": [],
-    "ret_6m_pct": 33.6,
-    "liquid": true,
-    "in_uptrend": true,
-    "avg_turnover_cr": 117.17,
-    "sector": "Financial Services",
-    "rationale": "Revenue +29.7% / PAT +40.3% YoY (qtr 2026-03-31). Accumulation: volume surge +194% vs 20d avg; U/D ratio 4.06. Stage 2 (P>50>200 DMA), +17.0% vs Nifty over 3m, 0.0% off 52w high.",
-    "stage": {
-     "stage": "CONFIRMED",
-     "since": "2026-07-02",
-     "days_in_stage": 8,
-     "pending": null,
-     "time_stop_left": null,
-     "info": {
-      "late_stage_v1": false
-     }
-    },
-    "plan": {
-     "valid": true,
-     "dma20": 1933.34,
-     "buy_lo": 1933.34,
-     "buy_hi": 2000.19,
-     "zone_note": "extended - wait for pullback to zone",
-     "sl": 1723.39,
-     "t1": 2331.82,
-     "t2": 2575.19,
-     "risk_pct": 12.4,
-     "rr_at_cmp": 2.5,
-     "resistance_52w": 2095.6,
-     "entry_status": "CONFIRMED",
-     "vol_note": "up day on 2.9x avg volume",
-     "vol_trend": "fading interest (20d vol < 50d)",
-     "atr": 66.85,
-     "flags": [
-      "wide stop (12.4% risk) - size down"
-     ]
-    },
-    "rank": 2
-   },
-   {
     "symbol": "KALYANKJIL",
     "name": "Kalyan Jewellers India Ltd.",
     "index": "midcap150",
     "cmp": 476.15,
     "chg_pct": 7.48,
-    "composite": 6.63,
+    "composite": 7.18,
     "scores": {
      "fundamental": 8.64,
-     "smart": 6.88,
-     "technical": 4.87
+     "smart": 7.5,
+     "technical": 5.68
     },
     "fund_detail": {
      "rev_yoy": 66.2,
@@ -1641,27 +1486,28 @@
      "delivery": "17.2% vs avg 29.1% (20s)",
      "deliv_ratio": 0.59,
      "rvol": "+654% vs 20d avg",
-     "ud": "3.81",
-     "ud_val": 3.81
+     "ud": "5.96",
+     "ud_val": 5.96
     },
     "tech_detail": {
      "stage": "above 200 DMA",
      "above_200dma": true,
-     "vs_200dma_pct": 2.7,
-     "off_52w_high_pct": 27.5,
-     "rs_vs_nifty_3m_pct": 0.4
+     "vs_200dma_pct": 10.5,
+     "off_52w_high_pct": 22.1,
+     "rs_vs_nifty_3m_pct": 5.8
     },
     "badges": [
      "BULK+",
-     "RVOL-HI"
+     "RVOL-HI",
+     "U/D>4"
     ],
     "vetoes": [],
-    "ret_6m_pct": -13.4,
+    "ret_6m_pct": -6.1,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 613.96,
+    "avg_turnover_cr": 875.18,
     "sector": "Consumer Cyclical",
-    "rationale": "Revenue +66.2% / PAT +118.3% YoY (qtr 2026-03-31). Accumulation: net buy 8,185,459 sh / 5s; volume surge +654% vs 20d avg. above 200 DMA, +0.4% vs Nifty over 3m, 27.5% off 52w high.",
+    "rationale": "Revenue +66.2% / PAT +118.3% YoY (qtr 2026-03-31). Accumulation: net buy 8,185,459 sh / 5s; volume surge +654% vs 20d avg; U/D ratio 5.96. above 200 DMA, +5.8% vs Nifty over 3m, 22.1% off 52w high.",
     "stage": {
      "stage": "CONFIRMED",
      "since": "2026-07-09",
@@ -1674,25 +1520,247 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 380.53,
-     "buy_lo": 380.53,
-     "buy_hi": 398.71,
+     "dma20": 387.1,
+     "buy_lo": 387.1,
+     "buy_hi": 407.59,
      "zone_note": "extended - wait for pullback to zone",
-     "sl": 330.46,
-     "t1": 478.37,
-     "t2": 537.54,
-     "risk_pct": 15.2,
+     "sl": 343.23,
+     "t1": 478.53,
+     "t2": 532.65,
+     "risk_pct": 13.6,
      "rr_at_cmp": 2.5,
      "resistance_52w": null,
      "entry_status": "CONFIRMED",
      "vol_note": "up day on 7.5x avg volume",
      "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 18.18,
+     "atr": 20.49,
      "flags": [
-      "wide stop (15.2% risk) - size down"
+      "wide stop (13.6% risk) - size down"
+     ]
+    },
+    "rank": 1
+   },
+   {
+    "symbol": "CGCL",
+    "name": "Capri Global Capital Ltd.",
+    "index": "smallcap250",
+    "cmp": 252.22,
+    "chg_pct": -0.17,
+    "composite": 6.68,
+    "scores": {
+     "fundamental": 9.06,
+     "smart": 3.75,
+     "technical": 9.99
+    },
+    "fund_detail": {
+     "rev_yoy": 46.8,
+     "pat_yoy": 59.1,
+     "latest_quarter": "2026-03-31",
+     "quality_flags": []
+    },
+    "smart_detail": {
+     "bulk": "net buy 5,132,016 sh / 5s",
+     "delivery": "33.0% vs avg 33.9% (20s)",
+     "deliv_ratio": 0.97,
+     "rvol": "+71% vs 20d avg (no price confirm)",
+     "ud": "1.10",
+     "ud_val": 1.1
+    },
+    "tech_detail": {
+     "stage": "Stage 2 (P>50>200 DMA)",
+     "above_200dma": true,
+     "vs_200dma_pct": 34.0,
+     "off_52w_high_pct": 0.2,
+     "rs_vs_nifty_3m_pct": 34.0
+    },
+    "badges": [
+     "BULK+"
+    ],
+    "vetoes": [],
+    "ret_6m_pct": 37.1,
+    "liquid": true,
+    "in_uptrend": true,
+    "avg_turnover_cr": 145.47,
+    "sector": "Financial Services",
+    "rationale": "Revenue +46.8% / PAT +59.1% YoY (qtr 2026-03-31). Accumulation: net buy 5,132,016 sh / 5s. Stage 2 (P>50>200 DMA), +34.0% vs Nifty over 3m, 0.2% off 52w high.",
+    "stage": {
+     "stage": "CONFIRMED",
+     "since": "2026-07-02",
+     "days_in_stage": 8,
+     "pending": "NEUTRAL",
+     "time_stop_left": null,
+     "info": {}
+    },
+    "plan": {
+     "valid": true,
+     "dma20": 226.64,
+     "buy_lo": 226.64,
+     "buy_hi": 234.94,
+     "zone_note": "extended - wait for pullback to zone",
+     "sl": 206.61,
+     "t1": 267.05,
+     "t2": 291.23,
+     "risk_pct": 10.5,
+     "rr_at_cmp": 2.5,
+     "resistance_52w": 252.64,
+     "entry_status": "WAIT",
+     "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
+     "vol_trend": "rising interest (20d vol > 50d)",
+     "atr": 8.31,
+     "flags": [
+      "wide stop (10.5% risk) - size down"
+     ]
+    },
+    "rank": 2
+   },
+   {
+    "symbol": "ANANDRATHI",
+    "name": "Anand Rathi Wealth Ltd.",
+    "index": "smallcap250",
+    "cmp": 2146.8,
+    "chg_pct": 2.44,
+    "composite": 6.31,
+    "scores": {
+     "fundamental": 7.63,
+     "smart": 3.75,
+     "technical": 9.69
+    },
+    "fund_detail": {
+     "rev_yoy": 17.5,
+     "pat_yoy": 73.8,
+     "latest_quarter": "2026-06-30",
+     "quality_flags": []
+    },
+    "smart_detail": {
+     "bulk": "no deals in window",
+     "delivery": "26.8% vs avg 48.9% (20s)",
+     "deliv_ratio": 0.55,
+     "rvol": "+194% vs 20d avg",
+     "ud": "4.83",
+     "ud_val": 4.83
+    },
+    "tech_detail": {
+     "stage": "Stage 2 (P>50>200 DMA)",
+     "above_200dma": true,
+     "vs_200dma_pct": 32.7,
+     "off_52w_high_pct": 0.0,
+     "rs_vs_nifty_3m_pct": 15.9
+    },
+    "badges": [
+     "RVOL-HI",
+     "U/D>4"
+    ],
+    "vetoes": [],
+    "ret_6m_pct": 36.8,
+    "liquid": true,
+    "in_uptrend": true,
+    "avg_turnover_cr": 134.63,
+    "sector": "Financial Services",
+    "rationale": "Revenue +17.5% / PAT +73.8% YoY (qtr 2026-06-30). Accumulation: volume surge +194% vs 20d avg; U/D ratio 4.83. Stage 2 (P>50>200 DMA), +15.9% vs Nifty over 3m, 0.0% off 52w high.",
+    "stage": {
+     "stage": "CONFIRMED",
+     "since": "2026-07-02",
+     "days_in_stage": 8,
+     "pending": null,
+     "time_stop_left": null,
+     "info": {
+      "late_stage_v1": false
+     }
+    },
+    "plan": {
+     "valid": true,
+     "dma20": 1952.41,
+     "buy_lo": 1952.41,
+     "buy_hi": 2021.0,
+     "zone_note": "extended - wait for pullback to zone",
+     "sl": 1735.85,
+     "t1": 2362.98,
+     "t2": 2613.83,
+     "risk_pct": 12.6,
+     "rr_at_cmp": 2.5,
+     "resistance_52w": 2146.8,
+     "entry_status": "CONFIRMED",
+     "vol_note": "up day on 2.9x avg volume",
+     "vol_trend": "fading interest (20d vol < 50d)",
+     "atr": 68.59,
+     "flags": [
+      "wide stop (12.6% risk) - size down"
      ]
     },
     "rank": 3
+   },
+   {
+    "symbol": "PREMIERENE",
+    "name": "Premier Energies Ltd.",
+    "index": "midcap150",
+    "cmp": 1117.2,
+    "chg_pct": 2.57,
+    "composite": 6.29,
+    "scores": {
+     "fundamental": 9.75,
+     "smart": 3.12,
+     "technical": 9.26
+    },
+    "fund_detail": {
+     "rev_yoy": 37.6,
+     "pat_yoy": 64.4,
+     "latest_quarter": "2026-03-31",
+     "quality_flags": []
+    },
+    "smart_detail": {
+     "bulk": "no deals in window",
+     "delivery": "41.5% vs avg 37.3% (20s)",
+     "deliv_ratio": 1.11,
+     "rvol": "+126% vs 20d avg",
+     "ud": "2.30",
+     "ud_val": 2.3
+    },
+    "tech_detail": {
+     "stage": "Stage 2 (P>50>200 DMA)",
+     "above_200dma": true,
+     "vs_200dma_pct": 19.3,
+     "off_52w_high_pct": 0.0,
+     "rs_vs_nifty_3m_pct": 10.2
+    },
+    "badges": [
+     "RVOL-HI"
+    ],
+    "vetoes": [],
+    "ret_6m_pct": 55.8,
+    "liquid": true,
+    "in_uptrend": true,
+    "avg_turnover_cr": 121.91,
+    "sector": "Technology",
+    "rationale": "Revenue +37.6% / PAT +64.4% YoY (qtr 2026-03-31). Accumulation: volume surge +126% vs 20d avg. Stage 2 (P>50>200 DMA), +10.2% vs Nifty over 3m, 0.0% off 52w high.",
+    "stage": {
+     "stage": "CONFIRMED",
+     "since": "2026-07-09",
+     "days_in_stage": 1,
+     "pending": null,
+     "time_stop_left": null,
+     "info": {
+      "late_stage_v1": false
+     }
+    },
+    "plan": {
+     "valid": true,
+     "dma20": 1054.19,
+     "buy_lo": 1054.19,
+     "buy_hi": 1085.56,
+     "zone_note": "extended - wait for pullback to zone",
+     "sl": 1005.06,
+     "t1": 1167.09,
+     "t2": 1231.9,
+     "risk_pct": 6.1,
+     "rr_at_cmp": 2.5,
+     "resistance_52w": 1117.2,
+     "entry_status": "CONFIRMED",
+     "vol_note": "up day on 2.3x avg volume",
+     "vol_trend": "fading interest (20d vol < 50d)",
+     "atr": 31.37,
+     "flags": []
+    },
+    "rank": 4
    },
    {
     "symbol": "OFSS",
@@ -1700,11 +1768,11 @@
     "index": "midcap150",
     "cmp": 11651.0,
     "chg_pct": 4.64,
-    "composite": 6.2,
+    "composite": 6.22,
     "scores": {
      "fundamental": 8.3,
      "smart": 3.12,
-     "technical": 9.92
+     "technical": 10.0
     },
     "fund_detail": {
      "rev_yoy": 20.3,
@@ -1717,26 +1785,26 @@
      "delivery": "35.5% vs avg 37.9% (20s)",
      "deliv_ratio": 0.94,
      "rvol": "+60% vs 20d avg",
-     "ud": "3.32",
-     "ud_val": 3.32
+     "ud": "3.68",
+     "ud_val": 3.68
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 36.1,
-     "off_52w_high_pct": 1.0,
-     "rs_vs_nifty_3m_pct": 60.0
+     "vs_200dma_pct": 42.2,
+     "off_52w_high_pct": 0.0,
+     "rs_vs_nifty_3m_pct": 57.1
     },
     "badges": [
      "RVOL-HI"
     ],
     "vetoes": [],
-    "ret_6m_pct": 50.8,
+    "ret_6m_pct": 57.7,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 304.6,
+    "avg_turnover_cr": 324.56,
     "sector": "Technology",
-    "rationale": "Revenue +20.3% / PAT +30.7% YoY (qtr 2026-03-31). Accumulation: volume surge +60% vs 20d avg. Stage 2 (P>50>200 DMA), +60.0% vs Nifty over 3m, 1.0% off 52w high.",
+    "rationale": "Revenue +20.3% / PAT +30.7% YoY (qtr 2026-03-31). Accumulation: volume surge +60% vs 20d avg. Stage 2 (P>50>200 DMA), +57.1% vs Nifty over 3m, 0.0% off 52w high.",
     "stage": {
      "stage": "CONFIRMED",
      "since": "2026-07-02",
@@ -1749,25 +1817,25 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 10387.3,
-     "buy_lo": 10387.3,
-     "buy_hi": 10735.91,
+     "dma20": 10503.48,
+     "buy_lo": 10503.48,
+     "buy_hi": 10876.37,
      "zone_note": "extended - wait for pullback to zone",
-     "sl": 9040.35,
-     "t1": 12843.49,
-     "t2": 14364.74,
-     "risk_pct": 14.4,
+     "sl": 9034.28,
+     "t1": 13173.39,
+     "t2": 14829.03,
+     "risk_pct": 15.5,
      "rr_at_cmp": 2.5,
-     "resistance_52w": 11248.0,
+     "resistance_52w": 11651.0,
      "entry_status": "CONFIRMED",
      "vol_note": "up day on 1.6x avg volume",
      "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 348.61,
+     "atr": 372.89,
      "flags": [
-      "wide stop (14.4% risk) - size down"
+      "wide stop (15.5% risk) - size down"
      ]
     },
-    "rank": 4
+    "rank": 5
    },
    {
     "symbol": "DELHIVERY",
@@ -1775,11 +1843,11 @@
     "index": "smallcap250",
     "cmp": 520.3,
     "chg_pct": 0.9,
-    "composite": 6.17,
+    "composite": 6.2,
     "scores": {
      "fundamental": 6.02,
      "smart": 4.38,
-     "technical": 9.26
+     "technical": 9.35
     },
     "fund_detail": {
      "rev_yoy": 30.0,
@@ -1792,27 +1860,27 @@
      "delivery": "67.6% vs avg 54.0% (20s)",
      "deliv_ratio": 1.25,
      "rvol": "+128% vs 20d avg",
-     "ud": "2.65",
-     "ud_val": 2.65
+     "ud": "3.09",
+     "ud_val": 3.09
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 17.0,
-     "off_52w_high_pct": 0.8,
-     "rs_vs_nifty_3m_pct": 11.0
+     "vs_200dma_pct": 18.0,
+     "off_52w_high_pct": 0.0,
+     "rs_vs_nifty_3m_pct": 11.3
     },
     "badges": [
      "DELIV+",
      "RVOL-HI"
     ],
     "vetoes": [],
-    "ret_6m_pct": 23.5,
+    "ret_6m_pct": 28.2,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 300.37,
+    "avg_turnover_cr": 326.9,
     "sector": "Industrials",
-    "rationale": "Revenue +30.0% / PAT -0.2% YoY (qtr 2026-03-31). Accumulation: delivery spike 67.6% vs avg 54.0% (20s); volume surge +128% vs 20d avg. Stage 2 (P>50>200 DMA), +11.0% vs Nifty over 3m, 0.8% off 52w high.",
+    "rationale": "Revenue +30.0% / PAT -0.2% YoY (qtr 2026-03-31). Accumulation: delivery spike 67.6% vs avg 54.0% (20s); volume surge +128% vs 20d avg. Stage 2 (P>50>200 DMA), +11.3% vs Nifty over 3m, 0.0% off 52w high.",
     "stage": {
      "stage": "CONFIRMED",
      "since": "2026-07-02",
@@ -1825,25 +1893,25 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 480.16,
-     "buy_lo": 480.16,
-     "buy_hi": 497.6,
+     "dma20": 484.15,
+     "buy_lo": 484.15,
+     "buy_hi": 500.2,
      "zone_note": "extended - wait for pullback to zone",
-     "sl": 429.64,
-     "t1": 577.74,
-     "t2": 636.98,
-     "risk_pct": 12.1,
+     "sl": 440.74,
+     "t1": 569.33,
+     "t2": 620.77,
+     "risk_pct": 10.5,
      "rr_at_cmp": 2.5,
-     "resistance_52w": 519.65,
+     "resistance_52w": 520.3,
      "entry_status": "CONFIRMED",
      "vol_note": "up day on 2.3x avg volume",
      "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 17.44,
+     "atr": 16.05,
      "flags": [
-      "wide stop (12.1% risk) - size down"
+      "wide stop (10.5% risk) - size down"
      ]
     },
-    "rank": 5
+    "rank": 6
    },
    {
     "symbol": "NYKAA",
@@ -1871,27 +1939,27 @@
      "delivery": "68.5% vs avg 56.8% (20s)",
      "deliv_ratio": 1.21,
      "rvol": "+4% vs 20d avg",
-     "ud": "5.40",
-     "ud_val": 5.4
+     "ud": "5.76",
+     "ud_val": 5.76
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 23.7,
+     "vs_200dma_pct": 25.8,
      "off_52w_high_pct": 0.0,
-     "rs_vs_nifty_3m_pct": 26.3
+     "rs_vs_nifty_3m_pct": 24.2
     },
     "badges": [
      "DELIV+",
      "U/D>4"
     ],
     "vetoes": [],
-    "ret_6m_pct": 26.3,
+    "ret_6m_pct": 30.0,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 304.59,
+    "avg_turnover_cr": 305.43,
     "sector": "Consumer Cyclical",
-    "rationale": "Revenue +28.4% / PAT +286.5% YoY (qtr 2026-03-31). Accumulation: delivery spike 68.5% vs avg 56.8% (20s); U/D ratio 5.40. Stage 2 (P>50>200 DMA), +26.3% vs Nifty over 3m, 0.0% off 52w high.",
+    "rationale": "Revenue +28.4% / PAT +286.5% YoY (qtr 2026-03-31). Accumulation: delivery spike 68.5% vs avg 56.8% (20s); U/D ratio 5.76. Stage 2 (P>50>200 DMA), +24.2% vs Nifty over 3m, 0.0% off 52w high.",
     "stage": {
      "stage": "CONFIRMED",
      "since": "2026-07-02",
@@ -1904,73 +1972,74 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 301.65,
-     "buy_lo": 301.65,
-     "buy_hi": 309.25,
+     "dma20": 304.48,
+     "buy_lo": 304.48,
+     "buy_hi": 312.15,
      "zone_note": "extended - wait for pullback to zone",
-     "sl": 260.9,
-     "t1": 372.28,
-     "t2": 416.83,
-     "risk_pct": 14.6,
+     "sl": 268.33,
+     "t1": 368.28,
+     "t2": 408.27,
+     "risk_pct": 13.0,
      "rr_at_cmp": 2.5,
-     "resistance_52w": 324.05,
+     "resistance_52w": 330.1,
      "entry_status": "WAIT",
      "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
      "vol_trend": "rising interest (20d vol > 50d)",
-     "atr": 7.61,
+     "atr": 7.67,
      "flags": [
-      "wide stop (14.6% risk) - size down"
+      "wide stop (13.0% risk) - size down"
      ]
     },
-    "rank": 6
+    "rank": 7
    },
    {
-    "symbol": "PREMIERENE",
-    "name": "Premier Energies Ltd.",
-    "index": "midcap150",
-    "cmp": 1117.2,
-    "chg_pct": 2.57,
-    "composite": 5.97,
+    "symbol": "ARE&M",
+    "name": "Amara Raja Energy & Mobility Ltd.",
+    "index": "smallcap250",
+    "cmp": 890.05,
+    "chg_pct": 2.36,
+    "composite": 5.9,
     "scores": {
-     "fundamental": 9.75,
-     "smart": 2.5,
-     "technical": 9.24
+     "fundamental": 8.12,
+     "smart": 4.38,
+     "technical": 6.97
     },
     "fund_detail": {
-     "rev_yoy": 37.6,
-     "pat_yoy": 64.4,
+     "rev_yoy": 15.5,
+     "pat_yoy": 94.5,
      "latest_quarter": "2026-03-31",
      "quality_flags": []
     },
     "smart_detail": {
      "bulk": "no deals in window",
-     "delivery": "41.5% vs avg 37.3% (20s)",
-     "deliv_ratio": 1.11,
-     "rvol": "+126% vs 20d avg",
-     "ud": "1.93",
-     "ud_val": 1.93
+     "delivery": "53.2% vs avg 43.6% (20s)",
+     "deliv_ratio": 1.22,
+     "rvol": "+186% vs 20d avg",
+     "ud": "2.11",
+     "ud_val": 2.11
     },
     "tech_detail": {
-     "stage": "Stage 2 (P>50>200 DMA)",
+     "stage": "above 200 DMA",
      "above_200dma": true,
-     "vs_200dma_pct": 16.3,
-     "off_52w_high_pct": 2.2,
-     "rs_vs_nifty_3m_pct": 12.1
+     "vs_200dma_pct": 1.1,
+     "off_52w_high_pct": 14.9,
+     "rs_vs_nifty_3m_pct": 15.9
     },
     "badges": [
+     "DELIV+",
      "RVOL-HI"
     ],
     "vetoes": [],
-    "ret_6m_pct": 49.3,
+    "ret_6m_pct": -0.8,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 114.02,
-    "sector": "Technology",
-    "rationale": "Revenue +37.6% / PAT +64.4% YoY (qtr 2026-03-31). Accumulation: volume surge +126% vs 20d avg. Stage 2 (P>50>200 DMA), +12.1% vs Nifty over 3m, 2.2% off 52w high.",
+    "avg_turnover_cr": 53.52,
+    "sector": "Industrials",
+    "rationale": "Revenue +15.5% / PAT +94.5% YoY (qtr 2026-03-31). Accumulation: delivery spike 53.2% vs avg 43.6% (20s); volume surge +186% vs 20d avg. above 200 DMA, +15.9% vs Nifty over 3m, 14.9% off 52w high.",
     "stage": {
      "stage": "CONFIRMED",
-     "since": "2026-07-09",
-     "days_in_stage": 1,
+     "since": "2026-07-10",
+     "days_in_stage": 0,
      "pending": null,
      "time_stop_left": null,
      "info": {
@@ -1979,23 +2048,23 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 1050.06,
-     "buy_lo": 1050.06,
-     "buy_hi": 1080.31,
-     "zone_note": "extended - wait for pullback to zone",
-     "sl": 1005.34,
-     "t1": 1154.96,
-     "t2": 1214.8,
-     "risk_pct": 5.6,
-     "rr_at_cmp": 2.5,
-     "resistance_52w": 1114.15,
+     "dma20": 847.93,
+     "buy_lo": 878.61,
+     "buy_hi": 890.05,
+     "zone_note": null,
+     "sl": 814.88,
+     "t1": 988.5,
+     "t2": 1057.95,
+     "risk_pct": 7.9,
+     "rr_at_cmp": 2.23,
+     "resistance_52w": 1045.81,
      "entry_status": "CONFIRMED",
-     "vol_note": "up day on 2.3x avg volume",
+     "vol_note": "up day on 2.9x avg volume",
      "vol_trend": "fading interest (20d vol < 50d)",
-     "atr": 30.26,
+     "atr": 22.89,
      "flags": []
     },
-    "rank": 7
+    "rank": 8
    },
    {
     "symbol": "HONASA",
@@ -2022,26 +2091,26 @@
      "delivery": "59.6% vs avg 48.2% (20s)",
      "deliv_ratio": 1.24,
      "rvol": "-45% vs 20d avg",
-     "ud": "3.86",
-     "ud_val": 3.86
+     "ud": "4.00",
+     "ud_val": 4.0
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 47.9,
+     "vs_200dma_pct": 47.7,
      "off_52w_high_pct": 0.0,
-     "rs_vs_nifty_3m_pct": 37.2
+     "rs_vs_nifty_3m_pct": 36.1
     },
     "badges": [
      "DELIV+"
     ],
     "vetoes": [],
-    "ret_6m_pct": 57.2,
+    "ret_6m_pct": 60.2,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 85.52,
+    "avg_turnover_cr": 84.4,
     "sector": "Consumer Defensive",
-    "rationale": "Revenue +23.2% / PAT +177.0% YoY (qtr 2026-03-31). Accumulation: delivery spike 59.6% vs avg 48.2% (20s). Stage 2 (P>50>200 DMA), +37.2% vs Nifty over 3m, 0.0% off 52w high.",
+    "rationale": "Revenue +23.2% / PAT +177.0% YoY (qtr 2026-03-31). Accumulation: delivery spike 59.6% vs avg 48.2% (20s). Stage 2 (P>50>200 DMA), +36.1% vs Nifty over 3m, 0.0% off 52w high.",
     "stage": {
      "stage": "CONFIRMED",
      "since": "2026-07-02",
@@ -2054,25 +2123,25 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 435.44,
-     "buy_lo": 435.44,
-     "buy_hi": 451.25,
+     "dma20": 438.36,
+     "buy_lo": 438.36,
+     "buy_hi": 454.18,
      "zone_note": "extended - wait for pullback to zone",
      "sl": 394.25,
-     "t1": 516.99,
-     "t2": 566.09,
-     "risk_pct": 11.1,
+     "t1": 524.3,
+     "t2": 576.32,
+     "risk_pct": 11.7,
      "rr_at_cmp": 2.5,
-     "resistance_52w": 471.6,
+     "resistance_52w": 472.1,
      "entry_status": "WAIT",
      "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
      "vol_trend": "fading interest (20d vol < 50d)",
      "atr": 15.82,
      "flags": [
-      "wide stop (11.1% risk) - size down"
+      "wide stop (11.7% risk) - size down"
      ]
     },
-    "rank": 8
+    "rank": 9
    },
    {
     "symbol": "J&KBANK",
@@ -2097,26 +2166,26 @@
      "delivery": "32.6% vs avg 47.6% (20s)",
      "deliv_ratio": 0.69,
      "rvol": "+489% vs 20d avg",
-     "ud": "2.01",
-     "ud_val": 2.01
+     "ud": "3.02",
+     "ud_val": 3.02
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 41.6,
+     "vs_200dma_pct": 61.4,
      "off_52w_high_pct": 0.0,
-     "rs_vs_nifty_3m_pct": 36.1
+     "rs_vs_nifty_3m_pct": 49.7
     },
     "badges": [
      "RVOL-HI"
     ],
     "vetoes": [],
-    "ret_6m_pct": 64.9,
+    "ret_6m_pct": 91.5,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 62.8,
+    "avg_turnover_cr": 81.8,
     "sector": "Financial Services",
-    "rationale": "Revenue -7.1% / PAT +37.2% YoY (qtr 2026-03-31). Accumulation: volume surge +489% vs 20d avg. Stage 2 (P>50>200 DMA), +36.1% vs Nifty over 3m, 0.0% off 52w high.",
+    "rationale": "Revenue -7.1% / PAT +37.2% YoY (qtr 2026-03-31). Accumulation: volume surge +489% vs 20d avg. Stage 2 (P>50>200 DMA), +49.7% vs Nifty over 3m, 0.0% off 52w high.",
     "stage": {
      "stage": "CONFIRMED",
      "since": "2026-07-09",
@@ -2129,97 +2198,22 @@
     },
     "plan": {
      "valid": true,
-     "dma20": 161.49,
-     "buy_lo": 161.49,
-     "buy_hi": 166.48,
+     "dma20": 163.26,
+     "buy_lo": 163.26,
+     "buy_hi": 170.26,
      "zone_note": "extended - wait for pullback to zone",
-     "sl": 149.43,
-     "t1": 185.81,
-     "t2": 200.36,
-     "risk_pct": 8.9,
+     "sl": 148.93,
+     "t1": 193.51,
+     "t2": 211.34,
+     "risk_pct": 10.7,
      "rr_at_cmp": 2.5,
-     "resistance_52w": 168.41,
+     "resistance_52w": 192.65,
      "entry_status": "CONFIRMED",
      "vol_note": "up day on 5.9x avg volume",
      "vol_trend": "steady volume",
-     "atr": 4.98,
+     "atr": 7.01,
      "flags": [
-      "wide stop (8.9% risk) - size down"
-     ]
-    },
-    "rank": 9
-   },
-   {
-    "symbol": "SYRMA",
-    "name": "Syrma SGS Technology Ltd.",
-    "index": "smallcap250",
-    "cmp": 1451.9,
-    "chg_pct": 0.76,
-    "composite": 5.63,
-    "scores": {
-     "fundamental": 8.47,
-     "smart": 1.88,
-     "technical": 10.0
-    },
-    "fund_detail": {
-     "rev_yoy": 58.5,
-     "pat_yoy": 54.6,
-     "latest_quarter": "2026-03-31",
-     "quality_flags": []
-    },
-    "smart_detail": {
-     "bulk": "no deals in window",
-     "delivery": "42.5% vs avg 34.6% (20s)",
-     "deliv_ratio": 1.23,
-     "rvol": "-11% vs 20d avg",
-     "ud": "2.32",
-     "ud_val": 2.32
-    },
-    "tech_detail": {
-     "stage": "Stage 2 (P>50>200 DMA)",
-     "above_200dma": true,
-     "vs_200dma_pct": 59.6,
-     "off_52w_high_pct": 0.0,
-     "rs_vs_nifty_3m_pct": 67.4
-    },
-    "badges": [
-     "DELIV+"
-    ],
-    "vetoes": [],
-    "ret_6m_pct": 95.5,
-    "liquid": true,
-    "in_uptrend": true,
-    "avg_turnover_cr": 195.57,
-    "sector": "Technology",
-    "rationale": "Revenue +58.5% / PAT +54.6% YoY (qtr 2026-03-31). Accumulation: delivery spike 42.5% vs avg 34.6% (20s). Stage 2 (P>50>200 DMA), +67.4% vs Nifty over 3m, 0.0% off 52w high.",
-    "stage": {
-     "stage": "CONFIRMED",
-     "since": "2026-07-10",
-     "days_in_stage": 0,
-     "pending": null,
-     "time_stop_left": null,
-     "info": {
-      "late_stage_v1": false
-     }
-    },
-    "plan": {
-     "valid": true,
-     "dma20": 1368.8,
-     "buy_lo": 1422.95,
-     "buy_hi": 1451.9,
-     "zone_note": null,
-     "sl": 1235.52,
-     "t1": 1740.27,
-     "t2": 1942.17,
-     "risk_pct": 14.0,
-     "rr_at_cmp": 2.27,
-     "resistance_52w": 1441.0,
-     "entry_status": "WAIT",
-     "vol_note": "near 52w high - breakout needs >=1.5x volume; not present",
-     "vol_trend": "fading interest (20d vol < 50d)",
-     "atr": 57.91,
-     "flags": [
-      "wide stop (14.0% risk) - size down"
+      "wide stop (10.7% risk) - size down"
      ]
     },
     "rank": 10
@@ -2232,11 +2226,11 @@
     "index": "smallcap250",
     "cmp": 660.45,
     "chg_pct": 1.6,
-    "composite": 5.59,
+    "composite": 5.62,
     "scores": {
      "fundamental": 7.52,
      "smart": 2.5,
-     "technical": 9.45
+     "technical": 9.57
     },
     "fund_detail": {
      "rev_yoy": 13.5,
@@ -2249,26 +2243,26 @@
      "delivery": "36.6% vs avg 19.8% (20s)",
      "deliv_ratio": 1.84,
      "rvol": "-80% vs 20d avg",
-     "ud": "0.73",
-     "ud_val": 0.73
+     "ud": "0.75",
+     "ud_val": 0.75
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 27.5,
-     "off_52w_high_pct": 7.3,
-     "rs_vs_nifty_3m_pct": 38.5
+     "vs_200dma_pct": 29.3,
+     "off_52w_high_pct": 5.8,
+     "rs_vs_nifty_3m_pct": 33.0
     },
     "badges": [
      "DELIV++"
     ],
     "vetoes": [],
-    "ret_6m_pct": 36.5,
+    "ret_6m_pct": 40.4,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 867.16,
+    "avg_turnover_cr": 818.71,
     "sector": "Basic Materials",
-    "rationale": "Revenue +13.5% / PAT +29.1% YoY (qtr 2026-03-31). Accumulation: delivery spike 36.6% vs avg 19.8% (20s). Stage 2 (P>50>200 DMA), +38.5% vs Nifty over 3m, 7.3% off 52w high.",
+    "rationale": "Revenue +13.5% / PAT +29.1% YoY (qtr 2026-03-31). Accumulation: delivery spike 36.6% vs avg 19.8% (20s). Stage 2 (P>50>200 DMA), +33.0% vs Nifty over 3m, 5.8% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-09",
@@ -2285,11 +2279,11 @@
     "index": "smallcap250",
     "cmp": 508.25,
     "chg_pct": 13.6,
-    "composite": 5.13,
+    "composite": 5.52,
     "scores": {
      "fundamental": 5.53,
      "smart": 7.5,
-     "technical": 0.92
+     "technical": 2.23
     },
     "fund_detail": {
      "rev_yoy": 6.7,
@@ -2302,15 +2296,15 @@
      "delivery": "6.1% vs avg 40.1% (20s)",
      "deliv_ratio": 0.15,
      "rvol": "+666% vs 20d avg",
-     "ud": "5.57",
-     "ud_val": 5.57
+     "ud": "8.10",
+     "ud_val": 8.1
     },
     "tech_detail": {
-     "stage": "below both DMAs",
+     "stage": "above 50 DMA only",
      "above_200dma": false,
-     "vs_200dma_pct": -28.2,
-     "off_52w_high_pct": 47.7,
-     "rs_vs_nifty_3m_pct": -18.5
+     "vs_200dma_pct": -18.2,
+     "off_52w_high_pct": 40.5,
+     "rs_vs_nifty_3m_pct": -11.6
     },
     "badges": [
      "BULK+",
@@ -2318,12 +2312,12 @@
      "U/D>4"
     ],
     "vetoes": [],
-    "ret_6m_pct": -37.5,
+    "ret_6m_pct": -28.1,
     "liquid": true,
     "in_uptrend": false,
-    "avg_turnover_cr": 301.22,
+    "avg_turnover_cr": 419.69,
     "sector": "Technology",
-    "rationale": "Revenue +6.7% / PAT +19.4% YoY (qtr 2026-03-31). Accumulation: net buy 274,601 sh / 5s; volume surge +666% vs 20d avg; U/D ratio 5.57. below both DMAs, -18.5% vs Nifty over 3m, 47.7% off 52w high.",
+    "rationale": "Revenue +6.7% / PAT +19.4% YoY (qtr 2026-03-31). Accumulation: net buy 274,601 sh / 5s; volume surge +666% vs 20d avg; U/D ratio 8.10. above 50 DMA only, -11.6% vs Nifty over 3m, 40.5% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-02",
@@ -2340,11 +2334,11 @@
     "index": "midcap150",
     "cmp": 84.25,
     "chg_pct": 2.73,
-    "composite": 4.97,
+    "composite": 5.49,
     "scores": {
      "fundamental": 7.56,
      "smart": 2.5,
-     "technical": 7.37
+     "technical": 9.08
     },
     "fund_detail": {
      "rev_yoy": 13.3,
@@ -2357,38 +2351,33 @@
      "delivery": "25.8% vs avg 45.2% (20s)",
      "deliv_ratio": 0.57,
      "rvol": "+291% vs 20d avg",
-     "ud": "0.75",
-     "ud_val": 0.75
+     "ud": "1.18",
+     "ud_val": 1.18
     },
     "tech_detail": {
-     "stage": "above 200 DMA",
+     "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 22.3,
-     "off_52w_high_pct": 12.6,
-     "rs_vs_nifty_3m_pct": 18.9
+     "vs_200dma_pct": 25.4,
+     "off_52w_high_pct": 10.2,
+     "rs_vs_nifty_3m_pct": 18.0
     },
     "badges": [
      "RVOL-HI"
     ],
     "vetoes": [],
-    "ret_6m_pct": 36.3,
+    "ret_6m_pct": 39.0,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 157.79,
+    "avg_turnover_cr": 171.29,
     "sector": "Financial Services",
-    "rationale": "Revenue +13.3% / PAT +36.1% YoY (qtr 2026-03-31). Accumulation: volume surge +291% vs 20d avg. above 200 DMA, +18.9% vs Nifty over 3m, 12.6% off 52w high.",
+    "rationale": "Revenue +13.3% / PAT +36.1% YoY (qtr 2026-03-31). Accumulation: volume surge +291% vs 20d avg. Stage 2 (P>50>200 DMA), +18.0% vs Nifty over 3m, 10.2% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-10",
      "days_in_stage": 0,
      "pending": null,
      "time_stop_left": null,
-     "info": {
-      "evidence": [
-       "U/D 0.75 with 4 distribution days in 10 sessions"
-      ],
-      "dist_days": 4
-     }
+     "info": {}
     },
     "rank": 3
    },
@@ -2398,11 +2387,11 @@
     "index": "smallcap250",
     "cmp": 3662.4,
     "chg_pct": 0.5,
-    "composite": 4.87,
+    "composite": 4.88,
     "scores": {
      "fundamental": 9.56,
      "smart": 0.0,
-     "technical": 9.86
+     "technical": 9.9
     },
     "fund_detail": {
      "rev_yoy": 45.5,
@@ -2417,29 +2406,29 @@
      "delivery": "49.6% vs avg 52.9% (20s)",
      "deliv_ratio": 0.94,
      "rvol": "-18% vs 20d avg",
-     "ud": "1.05",
-     "ud_val": 1.05
+     "ud": "1.14",
+     "ud_val": 1.14
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 86.2,
-     "off_52w_high_pct": 1.9,
-     "rs_vs_nifty_3m_pct": 86.6
+     "vs_200dma_pct": 86.1,
+     "off_52w_high_pct": 1.4,
+     "rs_vs_nifty_3m_pct": 75.4
     },
     "badges": [],
     "vetoes": [
      {
       "code": "V1",
-      "text": "+166% in 6m - momentum confirmation, not fresh entry"
+      "text": "+161% in 6m - momentum confirmation, not fresh entry"
      }
     ],
-    "ret_6m_pct": 165.8,
+    "ret_6m_pct": 160.6,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 82.58,
+    "avg_turnover_cr": 82.62,
     "sector": "Industrials",
-    "rationale": "Revenue +45.5% / PAT +207.7% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +86.6% vs Nifty over 3m, 1.9% off 52w high.",
+    "rationale": "Revenue +45.5% / PAT +207.7% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +75.4% vs Nifty over 3m, 1.4% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-02",
@@ -2448,7 +2437,7 @@
      "time_stop_left": null,
      "info": {
       "evidence": [
-       "+166% six-month run with fading U/D (1.05) - exhaustion pattern"
+       "+161% six-month run with fading U/D (1.14) - exhaustion pattern"
       ],
       "dist_days": 1
      }
@@ -2456,69 +2445,16 @@
     "rank": 4
    },
    {
-    "symbol": "CRISIL",
-    "name": "CRISIL Ltd.",
-    "index": "midcap150",
-    "cmp": 4097.4,
-    "chg_pct": 1.05,
-    "composite": 4.24,
-    "scores": {
-     "fundamental": 9.29,
-     "smart": 2.5,
-     "technical": 3.77
-    },
-    "fund_detail": {
-     "rev_yoy": 30.1,
-     "pat_yoy": 45.9,
-     "latest_quarter": "2026-03-31",
-     "quality_flags": []
-    },
-    "smart_detail": {
-     "bulk": "no deals in window",
-     "delivery": "46.5% vs avg 57.2% (20s)",
-     "deliv_ratio": 0.81,
-     "rvol": "+126% vs 20d avg",
-     "ud": "1.01",
-     "ud_val": 1.01
-    },
-    "tech_detail": {
-     "stage": "above 50 DMA only",
-     "above_200dma": false,
-     "vs_200dma_pct": -6.6,
-     "off_52w_high_pct": 31.4,
-     "rs_vs_nifty_3m_pct": 0.4
-    },
-    "badges": [
-     "RVOL-HI"
-    ],
-    "vetoes": [],
-    "ret_6m_pct": -13.3,
-    "liquid": true,
-    "in_uptrend": false,
-    "avg_turnover_cr": 21.16,
-    "sector": "Financial Services",
-    "rationale": "Revenue +30.1% / PAT +45.9% YoY (qtr 2026-03-31). Accumulation: volume surge +126% vs 20d avg. above 50 DMA only, +0.4% vs Nifty over 3m, 31.4% off 52w high.",
-    "stage": {
-     "stage": "RED",
-     "since": "2026-07-08",
-     "days_in_stage": 2,
-     "pending": "CONFIRMED",
-     "time_stop_left": null,
-     "info": {}
-    },
-    "rank": 5
-   },
-   {
     "symbol": "HFCL",
     "name": "HFCL Ltd.",
     "index": "smallcap250",
     "cmp": 217.25,
     "chg_pct": 1.2,
-    "composite": 4.19,
+    "composite": 4.21,
     "scores": {
      "fundamental": 6.5,
      "smart": 0.0,
-     "technical": 9.62
+     "technical": 9.71
     },
     "fund_detail": {
      "rev_yoy": 127.8,
@@ -2531,29 +2467,29 @@
      "delivery": "34.2% vs avg 41.3% (20s)",
      "deliv_ratio": 0.83,
      "rvol": "-34% vs 20d avg",
-     "ud": "1.34",
-     "ud_val": 1.34
+     "ud": "1.42",
+     "ud_val": 1.42
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 116.2,
-     "off_52w_high_pct": 5.0,
-     "rs_vs_nifty_3m_pct": 149.8
+     "vs_200dma_pct": 117.2,
+     "off_52w_high_pct": 3.9,
+     "rs_vs_nifty_3m_pct": 144.7
     },
     "badges": [],
     "vetoes": [
      {
       "code": "V1",
-      "text": "+221% in 6m - momentum confirmation, not fresh entry"
+      "text": "+235% in 6m - momentum confirmation, not fresh entry"
      }
     ],
-    "ret_6m_pct": 220.7,
+    "ret_6m_pct": 234.8,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 506.62,
+    "avg_turnover_cr": 516.03,
     "sector": "Technology",
-    "rationale": "Revenue +127.8% / PAT n/a YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +149.8% vs Nifty over 3m, 5.0% off 52w high.",
+    "rationale": "Revenue +127.8% / PAT n/a YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +144.7% vs Nifty over 3m, 3.9% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-02",
@@ -2562,10 +2498,63 @@
      "time_stop_left": null,
      "info": {
       "evidence": [
-       "+221% six-month run with fading U/D (1.34) - exhaustion pattern"
+       "+235% six-month run with fading U/D (1.42) - exhaustion pattern"
       ],
       "dist_days": 0
      }
+    },
+    "rank": 5
+   },
+   {
+    "symbol": "CRISIL",
+    "name": "CRISIL Ltd.",
+    "index": "midcap150",
+    "cmp": 4097.4,
+    "chg_pct": 1.05,
+    "composite": 4.2,
+    "scores": {
+     "fundamental": 9.29,
+     "smart": 2.5,
+     "technical": 3.64
+    },
+    "fund_detail": {
+     "rev_yoy": 30.1,
+     "pat_yoy": 45.9,
+     "latest_quarter": "2026-03-31",
+     "quality_flags": []
+    },
+    "smart_detail": {
+     "bulk": "no deals in window",
+     "delivery": "46.5% vs avg 57.2% (20s)",
+     "deliv_ratio": 0.81,
+     "rvol": "+126% vs 20d avg",
+     "ud": "1.26",
+     "ud_val": 1.26
+    },
+    "tech_detail": {
+     "stage": "above 50 DMA only",
+     "above_200dma": false,
+     "vs_200dma_pct": -5.6,
+     "off_52w_high_pct": 30.6,
+     "rs_vs_nifty_3m_pct": -2.2
+    },
+    "badges": [
+     "RVOL-HI"
+    ],
+    "vetoes": [],
+    "ret_6m_pct": -12.8,
+    "liquid": true,
+    "in_uptrend": false,
+    "avg_turnover_cr": 22.7,
+    "sector": "Financial Services",
+    "rationale": "Revenue +30.1% / PAT +45.9% YoY (qtr 2026-03-31). Accumulation: volume surge +126% vs 20d avg. above 50 DMA only, -2.2% vs Nifty over 3m, 30.6% off 52w high.",
+    "stage": {
+     "stage": "RED",
+     "since": "2026-07-08",
+     "days_in_stage": 2,
+     "pending": "CONFIRMED",
+     "time_stop_left": null,
+     "info": {}
     },
     "rank": 6
    },
@@ -2575,11 +2564,11 @@
     "index": "midcap150",
     "cmp": 852.5,
     "chg_pct": -0.88,
-    "composite": 4.1,
+    "composite": 4.01,
     "scores": {
      "fundamental": 6.15,
      "smart": 0.0,
-     "technical": 9.58
+     "technical": 9.26
     },
     "fund_detail": {
      "rev_yoy": 22.1,
@@ -2592,24 +2581,24 @@
      "delivery": "63.7% vs avg 57.8% (20s)",
      "deliv_ratio": 1.1,
      "rvol": "-43% vs 20d avg (no price confirm)",
-     "ud": "0.98",
-     "ud_val": 0.98
+     "ud": "0.92",
+     "ud_val": 0.92
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 12.5,
-     "off_52w_high_pct": 0.0,
-     "rs_vs_nifty_3m_pct": 14.3
+     "vs_200dma_pct": 11.4,
+     "off_52w_high_pct": 0.9,
+     "rs_vs_nifty_3m_pct": 11.0
     },
     "badges": [],
     "vetoes": [],
-    "ret_6m_pct": 13.3,
+    "ret_6m_pct": 13.1,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 194.91,
+    "avg_turnover_cr": 195.77,
     "sector": "Consumer Defensive",
-    "rationale": "Revenue +22.1% / PAT +14.0% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +14.3% vs Nifty over 3m, 0.0% off 52w high.",
+    "rationale": "Revenue +22.1% / PAT +14.0% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +11.0% vs Nifty over 3m, 0.9% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-10",
@@ -2618,7 +2607,7 @@
      "time_stop_left": null,
      "info": {
       "evidence": [
-       "U/D 0.98 with 3 distribution days in 10 sessions"
+       "U/D 0.92 with 3 distribution days in 10 sessions"
       ],
       "dist_days": 3
      }
@@ -2648,24 +2637,24 @@
      "delivery": "35.4% vs avg 37.3% (20s)",
      "deliv_ratio": 0.95,
      "rvol": "-73% vs 20d avg (no price confirm)",
-     "ud": "0.60",
-     "ud_val": 0.6
+     "ud": "0.59",
+     "ud_val": 0.59
     },
     "tech_detail": {
      "stage": "Stage 2 (P>50>200 DMA)",
      "above_200dma": true,
-     "vs_200dma_pct": 35.2,
+     "vs_200dma_pct": 34.7,
      "off_52w_high_pct": 15.6,
-     "rs_vs_nifty_3m_pct": 26.7
+     "rs_vs_nifty_3m_pct": 23.6
     },
     "badges": [],
     "vetoes": [],
-    "ret_6m_pct": 71.6,
+    "ret_6m_pct": 71.7,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 277.25,
+    "avg_turnover_cr": 260.04,
     "sector": "Industrials",
-    "rationale": "Revenue +26.6% / PAT +1.4% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +26.7% vs Nifty over 3m, 15.6% off 52w high.",
+    "rationale": "Revenue +26.6% / PAT +1.4% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +23.6% vs Nifty over 3m, 15.6% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-09",
@@ -2674,7 +2663,7 @@
      "time_stop_left": null,
      "info": {
       "evidence": [
-       "U/D 0.6 with 3 distribution days in 10 sessions"
+       "U/D 0.59 with 3 distribution days in 10 sessions"
       ],
       "dist_days": 3
      }
@@ -2687,11 +2676,11 @@
     "index": "midcap150",
     "cmp": 4677.1,
     "chg_pct": 0.73,
-    "composite": 3.74,
+    "composite": 3.7,
     "scores": {
      "fundamental": 8.64,
      "smart": 0.0,
-     "technical": 6.71
+     "technical": 6.59
     },
     "fund_detail": {
      "rev_yoy": 42.0,
@@ -2704,24 +2693,24 @@
      "delivery": "52.6% vs avg 48.6% (20s)",
      "deliv_ratio": 1.08,
      "rvol": "-58% vs 20d avg",
-     "ud": "0.42",
-     "ud_val": 0.42
+     "ud": "0.45",
+     "ud_val": 0.45
     },
     "tech_detail": {
      "stage": "above 200 DMA",
      "above_200dma": true,
-     "vs_200dma_pct": 26.1,
-     "off_52w_high_pct": 16.1,
-     "rs_vs_nifty_3m_pct": 13.6
+     "vs_200dma_pct": 26.8,
+     "off_52w_high_pct": 15.5,
+     "rs_vs_nifty_3m_pct": 11.3
     },
     "badges": [],
     "vetoes": [],
-    "ret_6m_pct": 54.6,
+    "ret_6m_pct": 61.4,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 548.64,
+    "avg_turnover_cr": 548.36,
     "sector": "Industrials",
-    "rationale": "Revenue +42.0% / PAT +88.6% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). above 200 DMA, +13.6% vs Nifty over 3m, 16.1% off 52w high.",
+    "rationale": "Revenue +42.0% / PAT +88.6% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). above 200 DMA, +11.3% vs Nifty over 3m, 15.5% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-02",
@@ -2733,46 +2722,49 @@
     "rank": 9
    },
    {
-    "symbol": "MCX",
-    "name": "Multi Commodity Exchange of India Ltd.",
+    "symbol": "INDIANB",
+    "name": "Indian Bank",
     "index": "midcap150",
-    "cmp": 2770.7,
-    "chg_pct": -0.53,
-    "composite": 3.66,
+    "cmp": 870.7,
+    "chg_pct": 9.78,
+    "composite": 3.7,
     "scores": {
-     "fundamental": 10.0,
-     "smart": 0.0,
-     "technical": 5.53
+     "fundamental": 3.94,
+     "smart": 2.5,
+     "technical": 5.54
     },
     "fund_detail": {
-     "rev_yoy": 205.1,
-     "pat_yoy": 291.1,
+     "rev_yoy": 6.0,
+     "pat_yoy": 6.4,
      "latest_quarter": "2026-03-31",
      "quality_flags": []
     },
     "smart_detail": {
      "bulk": "no deals in window",
-     "delivery": "44.3% vs avg 45.5% (20s)",
-     "deliv_ratio": 0.97,
-     "rvol": "-27% vs 20d avg (no price confirm)",
-     "ud": "0.69",
-     "ud_val": 0.69
+     "delivery": "17.2% vs avg 55.8% (20s)",
+     "deliv_ratio": 0.31,
+     "rvol": "+544% vs 20d avg",
+     "ud": "0.75",
+     "ud_val": 0.75
     },
     "tech_detail": {
      "stage": "above 200 DMA",
      "above_200dma": true,
-     "vs_200dma_pct": 15.6,
-     "off_52w_high_pct": 19.1,
-     "rs_vs_nifty_3m_pct": 0.9
+     "vs_200dma_pct": 4.3,
+     "off_52w_high_pct": 10.3,
+     "rs_vs_nifty_3m_pct": -7.8
     },
-    "badges": [],
+    "badges": [
+     "RVOL-HI"
+    ],
     "vetoes": [],
-    "ret_6m_pct": 24.8,
+    "ret_6m_pct": 6.8,
     "liquid": true,
     "in_uptrend": true,
-    "avg_turnover_cr": 953.24,
+    "avg_turnover_cr": 288.53,
     "sector": "Financial Services",
-    "rationale": "Revenue +205.1% / PAT +291.1% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). above 200 DMA, +0.9% vs Nifty over 3m, 19.1% off 52w high.",
+    "event_warning": "results due 2026-07-10 (0d away) - event risk; avoid fresh entries 2 days prior",
+    "rationale": "Revenue +6.0% / PAT +6.4% YoY (qtr 2026-03-31). Accumulation: volume surge +544% vs 20d avg. above 200 DMA, -7.8% vs Nifty over 3m, 10.3% off 52w high.",
     "stage": {
      "stage": "RED",
      "since": "2026-07-06",
@@ -2781,7 +2773,7 @@
      "time_stop_left": null,
      "info": {
       "evidence": [
-       "U/D 0.69 with 3 distribution days in 10 sessions"
+       "U/D 0.75 with 3 distribution days in 10 sessions"
       ],
       "dist_days": 3
      }
@@ -2795,16 +2787,115 @@
  },
  "momentum_watch": [
   {
+   "symbol": "SYRMA",
+   "name": "Syrma SGS Technology Ltd.",
+   "index": "smallcap250",
+   "cmp": 1451.9,
+   "chg_pct": 0.76,
+   "composite": 5.63,
+   "scores": {
+    "fundamental": 8.47,
+    "smart": 1.88,
+    "technical": 10.0
+   },
+   "fund_detail": {
+    "rev_yoy": 58.5,
+    "pat_yoy": 54.6,
+    "latest_quarter": "2026-03-31",
+    "quality_flags": []
+   },
+   "smart_detail": {
+    "bulk": "no deals in window",
+    "delivery": "42.5% vs avg 34.6% (20s)",
+    "deliv_ratio": 1.23,
+    "rvol": "-11% vs 20d avg",
+    "ud": "2.48",
+    "ud_val": 2.48
+   },
+   "tech_detail": {
+    "stage": "Stage 2 (P>50>200 DMA)",
+    "above_200dma": true,
+    "vs_200dma_pct": 60.3,
+    "off_52w_high_pct": 0.0,
+    "rs_vs_nifty_3m_pct": 60.4
+   },
+   "badges": [
+    "DELIV+"
+   ],
+   "vetoes": [
+    {
+     "code": "V1",
+     "text": "+103% in 6m - momentum confirmation, not fresh entry"
+    }
+   ],
+   "ret_6m_pct": 103.1,
+   "liquid": true,
+   "in_uptrend": true,
+   "avg_turnover_cr": 199.38,
+   "sector": "Technology",
+   "rationale": "Revenue +58.5% / PAT +54.6% YoY (qtr 2026-03-31). Accumulation: delivery spike 42.5% vs avg 34.6% (20s). Stage 2 (P>50>200 DMA), +60.4% vs Nifty over 3m, 0.0% off 52w high."
+  },
+  {
+   "symbol": "KIRLOSENG",
+   "name": "Kirloskar Oil Eng Ltd.",
+   "index": "smallcap250",
+   "cmp": 2491.9,
+   "chg_pct": 2.77,
+   "composite": 5.55,
+   "scores": {
+    "fundamental": 6.83,
+    "smart": 2.5,
+    "technical": 9.79
+   },
+   "fund_detail": {
+    "rev_yoy": 21.0,
+    "pat_yoy": 21.0,
+    "latest_quarter": "2026-03-31",
+    "quality_flags": []
+   },
+   "smart_detail": {
+    "bulk": "no deals in window",
+    "delivery": "51.9% vs avg 40.9% (20s)",
+    "deliv_ratio": 1.27,
+    "rvol": "-60% vs 20d avg",
+    "ud": "4.43",
+    "ud_val": 4.43
+   },
+   "tech_detail": {
+    "stage": "Stage 2 (P>50>200 DMA)",
+    "above_200dma": true,
+    "vs_200dma_pct": 77.0,
+    "off_52w_high_pct": 2.8,
+    "rs_vs_nifty_3m_pct": 54.2
+   },
+   "badges": [
+    "DELIV+",
+    "U/D>4"
+   ],
+   "vetoes": [
+    {
+     "code": "V1",
+     "text": "+111% in 6m - momentum confirmation, not fresh entry"
+    }
+   ],
+   "ret_6m_pct": 111.3,
+   "liquid": true,
+   "in_uptrend": true,
+   "avg_turnover_cr": 378.46,
+   "sector": "Industrials",
+   "rationale": "Revenue +21.0% / PAT +21.0% YoY (qtr 2026-03-31). Accumulation: delivery spike 51.9% vs avg 40.9% (20s); U/D ratio 4.43. Stage 2 (P>50>200 DMA), +54.2% vs Nifty over 3m, 2.8% off 52w high."
+  },
+  {
    "symbol": "CPPLUS",
    "name": "Aditya Infotech Ltd.",
    "index": "smallcap250",
    "cmp": 3662.4,
    "chg_pct": 0.5,
-   "composite": 4.87,
+   "composite": 4.88,
    "scores": {
     "fundamental": 9.56,
     "smart": 0.0,
-    "technical": 9.86
+    "technical": 9.9
    },
    "fund_detail": {
     "rev_yoy": 45.5,
@@ -2819,29 +2910,29 @@
     "delivery": "49.6% vs avg 52.9% (20s)",
     "deliv_ratio": 0.94,
     "rvol": "-18% vs 20d avg",
-    "ud": "1.05",
-    "ud_val": 1.05
+    "ud": "1.14",
+    "ud_val": 1.14
    },
    "tech_detail": {
     "stage": "Stage 2 (P>50>200 DMA)",
     "above_200dma": true,
-    "vs_200dma_pct": 86.2,
-    "off_52w_high_pct": 1.9,
-    "rs_vs_nifty_3m_pct": 86.6
+    "vs_200dma_pct": 86.1,
+    "off_52w_high_pct": 1.4,
+    "rs_vs_nifty_3m_pct": 75.4
    },
    "badges": [],
    "vetoes": [
     {
      "code": "V1",
-     "text": "+166% in 6m - momentum confirmation, not fresh entry"
+     "text": "+161% in 6m - momentum confirmation, not fresh entry"
     }
    ],
-   "ret_6m_pct": 165.8,
+   "ret_6m_pct": 160.6,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 82.58,
+   "avg_turnover_cr": 82.62,
    "sector": "Industrials",
-   "rationale": "Revenue +45.5% / PAT +207.7% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +86.6% vs Nifty over 3m, 1.9% off 52w high."
+   "rationale": "Revenue +45.5% / PAT +207.7% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +75.4% vs Nifty over 3m, 1.4% off 52w high."
   },
   {
    "symbol": "CEMPRO",
@@ -2868,29 +2959,29 @@
     "delivery": "61.1% vs avg 52.5% (20s)",
     "deliv_ratio": 1.16,
     "rvol": "-44% vs 20d avg",
-    "ud": "1.76",
-    "ud_val": 1.76
+    "ud": "1.84",
+    "ud_val": 1.84
    },
    "tech_detail": {
     "stage": "Stage 2 (P>50>200 DMA)",
     "above_200dma": true,
-    "vs_200dma_pct": 92.0,
+    "vs_200dma_pct": 92.7,
     "off_52w_high_pct": 0.0,
-    "rs_vs_nifty_3m_pct": 152.1
+    "rs_vs_nifty_3m_pct": 143.7
    },
    "badges": [],
    "vetoes": [
     {
      "code": "V1",
-     "text": "+114% in 6m - momentum confirmation, not fresh entry"
+     "text": "+122% in 6m - momentum confirmation, not fresh entry"
     }
    ],
-   "ret_6m_pct": 114.2,
+   "ret_6m_pct": 121.8,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 76.55,
+   "avg_turnover_cr": 74.84,
    "sector": "Industrials",
-   "rationale": "Revenue +17.4% / PAT +113.6% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +152.1% vs Nifty over 3m, 0.0% off 52w high."
+   "rationale": "Revenue +17.4% / PAT +113.6% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +143.7% vs Nifty over 3m, 0.0% off 52w high."
   },
   {
    "symbol": "HFCL",
@@ -2898,11 +2989,11 @@
    "index": "smallcap250",
    "cmp": 217.25,
    "chg_pct": 1.2,
-   "composite": 4.19,
+   "composite": 4.21,
    "scores": {
     "fundamental": 6.5,
     "smart": 0.0,
-    "technical": 9.62
+    "technical": 9.71
    },
    "fund_detail": {
     "rev_yoy": 127.8,
@@ -2915,123 +3006,29 @@
     "delivery": "34.2% vs avg 41.3% (20s)",
     "deliv_ratio": 0.83,
     "rvol": "-34% vs 20d avg",
-    "ud": "1.34",
-    "ud_val": 1.34
+    "ud": "1.42",
+    "ud_val": 1.42
    },
    "tech_detail": {
     "stage": "Stage 2 (P>50>200 DMA)",
     "above_200dma": true,
-    "vs_200dma_pct": 116.2,
-    "off_52w_high_pct": 5.0,
-    "rs_vs_nifty_3m_pct": 149.8
+    "vs_200dma_pct": 117.2,
+    "off_52w_high_pct": 3.9,
+    "rs_vs_nifty_3m_pct": 144.7
    },
    "badges": [],
    "vetoes": [
     {
      "code": "V1",
-     "text": "+221% in 6m - momentum confirmation, not fresh entry"
+     "text": "+235% in 6m - momentum confirmation, not fresh entry"
     }
    ],
-   "ret_6m_pct": 220.7,
+   "ret_6m_pct": 234.8,
    "liquid": true,
    "in_uptrend": true,
-   "avg_turnover_cr": 506.62,
+   "avg_turnover_cr": 516.03,
    "sector": "Technology",
-   "rationale": "Revenue +127.8% / PAT n/a YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +149.8% vs Nifty over 3m, 5.0% off 52w high."
-  },
-  {
-   "symbol": "WELCORP",
-   "name": "Welspun Corp Ltd.",
-   "index": "smallcap250",
-   "cmp": 1612.6,
-   "chg_pct": 0.67,
-   "composite": 3.67,
-   "scores": {
-    "fundamental": 1.79,
-    "smart": 0.62,
-    "technical": 10.0
-   },
-   "fund_detail": {
-    "rev_yoy": 9.9,
-    "pat_yoy": -47.0,
-    "latest_quarter": "2026-03-31",
-    "quality_flags": []
-   },
-   "smart_detail": {
-    "bulk": "no deals in window",
-    "delivery": "58.4% vs avg 48.9% (20s)",
-    "deliv_ratio": 1.2,
-    "rvol": "+21% vs 20d avg",
-    "ud": "3.38",
-    "ud_val": 3.38
-   },
-   "tech_detail": {
-    "stage": "Stage 2 (P>50>200 DMA)",
-    "above_200dma": true,
-    "vs_200dma_pct": 62.5,
-    "off_52w_high_pct": 0.0,
-    "rs_vs_nifty_3m_pct": 60.0
-   },
-   "badges": [],
-   "vetoes": [
-    {
-     "code": "V1",
-     "text": "+110% in 6m - momentum confirmation, not fresh entry"
-    }
-   ],
-   "ret_6m_pct": 109.9,
-   "liquid": true,
-   "in_uptrend": true,
-   "avg_turnover_cr": 168.52,
-   "sector": "Basic Materials",
-   "rationale": "Revenue +9.9% / PAT -47.0% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +60.0% vs Nifty over 3m, 0.0% off 52w high."
-  },
-  {
-   "symbol": "SCHNEIDER",
-   "name": "Schneider Electric Infrastructure Ltd.",
-   "index": "smallcap250",
-   "cmp": 1414.2,
-   "chg_pct": -4.78,
-   "composite": 3.58,
-   "scores": {
-    "fundamental": 1.49,
-    "smart": 0.62,
-    "technical": 9.92
-   },
-   "fund_detail": {
-    "rev_yoy": 0.5,
-    "pat_yoy": -59.8,
-    "latest_quarter": "2026-03-31",
-    "quality_flags": []
-   },
-   "smart_detail": {
-    "bulk": "no deals in window",
-    "delivery": "39.7% vs avg 46.7% (20s)",
-    "deliv_ratio": 0.85,
-    "rvol": "-29% vs 20d avg (no price confirm)",
-    "ud": "2.46",
-    "ud_val": 2.46
-   },
-   "tech_detail": {
-    "stage": "Stage 2 (P>50>200 DMA)",
-    "above_200dma": true,
-    "vs_200dma_pct": 57.5,
-    "off_52w_high_pct": 1.1,
-    "rs_vs_nifty_3m_pct": 46.0
-   },
-   "badges": [],
-   "vetoes": [
-    {
-     "code": "V1",
-     "text": "+126% in 6m - momentum confirmation, not fresh entry"
-    }
-   ],
-   "ret_6m_pct": 125.9,
-   "liquid": true,
-   "in_uptrend": true,
-   "avg_turnover_cr": 86.64,
-   "sector": "Industrials",
-   "rationale": "Revenue +0.5% / PAT -59.8% YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +46.0% vs Nifty over 3m, 1.1% off 52w high."
+   "rationale": "Revenue +127.8% / PAT n/a YoY (qtr 2026-03-31). No smart-money signal fired yet (history warming up). Stage 2 (P>50>200 DMA), +144.7% vs Nifty over 3m, 3.9% off 52w high."
   }
  ],
  "evidence": {
@@ -3049,118 +3046,27 @@
  },
  "sector_summary": {
   "counts": {
-   "Financial Services": 6,
+   "Financial Services": 7,
    "Consumer Cyclical": 4,
    "Healthcare": 2,
    "Industrials": 4,
-   "Technology": 3,
+   "Technology": 2,
    "Consumer Defensive": 1
   },
   "warning": null
  },
  "broken_watch": [
   {
-   "symbol": "ARE&M",
-   "name": "Amara Raja Energy & Mobility Ltd.",
-   "index": "smallcap250",
-   "cmp": 890.05,
-   "chg_pct": 2.36,
-   "composite": 5.35,
-   "scores": {
-    "fundamental": 8.12,
-    "smart": 3.75,
-    "technical": 6.18
-   },
-   "fund_detail": {
-    "rev_yoy": 15.5,
-    "pat_yoy": 94.5,
-    "latest_quarter": "2026-03-31",
-    "quality_flags": []
-   },
-   "smart_detail": {
-    "bulk": "no deals in window",
-    "delivery": "53.2% vs avg 43.6% (20s)",
-    "deliv_ratio": 1.22,
-    "rvol": "+186% vs 20d avg",
-    "ud": "1.69",
-    "ud_val": 1.69
-   },
-   "tech_detail": {
-    "stage": "above 50 DMA only",
-    "above_200dma": false,
-    "vs_200dma_pct": -1.3,
-    "off_52w_high_pct": 16.9,
-    "rs_vs_nifty_3m_pct": 17.9
-   },
-   "badges": [
-    "DELIV+",
-    "RVOL-HI"
-   ],
-   "vetoes": [],
-   "ret_6m_pct": -4.9,
-   "liquid": true,
-   "in_uptrend": false,
-   "avg_turnover_cr": 48.09,
-   "sector": "Industrials",
-   "rationale": "Revenue +15.5% / PAT +94.5% YoY (qtr 2026-03-31). Accumulation: delivery spike 53.2% vs avg 43.6% (20s); volume surge +186% vs 20d avg. above 50 DMA only, +17.9% vs Nifty over 3m, 16.9% off 52w high."
-  },
-  {
-   "symbol": "ZENSARTECH",
-   "name": "Zensar Technolgies Ltd.",
-   "index": "smallcap250",
-   "cmp": 508.25,
-   "chg_pct": 13.6,
-   "composite": 5.13,
-   "scores": {
-    "fundamental": 5.53,
-    "smart": 7.5,
-    "technical": 0.92
-   },
-   "fund_detail": {
-    "rev_yoy": 6.7,
-    "pat_yoy": 19.4,
-    "latest_quarter": "2026-03-31",
-    "quality_flags": []
-   },
-   "smart_detail": {
-    "bulk": "net buy 274,601 sh / 5s",
-    "delivery": "6.1% vs avg 40.1% (20s)",
-    "deliv_ratio": 0.15,
-    "rvol": "+666% vs 20d avg",
-    "ud": "5.57",
-    "ud_val": 5.57
-   },
-   "tech_detail": {
-    "stage": "below both DMAs",
-    "above_200dma": false,
-    "vs_200dma_pct": -28.2,
-    "off_52w_high_pct": 47.7,
-    "rs_vs_nifty_3m_pct": -18.5
-   },
-   "badges": [
-    "BULK+",
-    "RVOL-HI",
-    "U/D>4"
-   ],
-   "vetoes": [],
-   "ret_6m_pct": -37.5,
-   "liquid": true,
-   "in_uptrend": false,
-   "avg_turnover_cr": 301.22,
-   "sector": "Technology",
-   "rationale": "Revenue +6.7% / PAT +19.4% YoY (qtr 2026-03-31). Accumulation: net buy 274,601 sh / 5s; volume surge +666% vs 20d avg; U/D ratio 5.57. below both DMAs, -18.5% vs Nifty over 3m, 47.7% off 52w high."
-  },
-  {
    "symbol": "SIGNATURE",
    "name": "Signatureglobal (India) Ltd.",
    "index": "smallcap250",
    "cmp": 848.85,
    "chg_pct": 4.96,
-   "composite": 5.09,
+   "composite": 5.54,
    "scores": {
     "fundamental": 9.25,
     "smart": 5.0,
-    "technical": 2.48
+    "technical": 3.95
    },
    "fund_detail": {
     "rev_yoy": 112.8,
@@ -3175,27 +3081,73 @@
     "delivery": "27.9% vs avg 14.9% (20s)",
     "deliv_ratio": 1.88,
     "rvol": "+86% vs 20d avg",
-    "ud": "0.91",
-    "ud_val": 0.91
+    "ud": "1.11",
+    "ud_val": 1.11
    },
    "tech_detail": {
-    "stage": "below both DMAs",
+    "stage": "above 50 DMA only",
     "above_200dma": false,
-    "vs_200dma_pct": -14.4,
-    "off_52w_high_pct": 36.2,
-    "rs_vs_nifty_3m_pct": -1.4
+    "vs_200dma_pct": -10.1,
+    "off_52w_high_pct": 33.0,
+    "rs_vs_nifty_3m_pct": 4.4
    },
    "badges": [
     "DELIV++",
     "RVOL-HI"
    ],
    "vetoes": [],
-   "ret_6m_pct": -27.9,
+   "ret_6m_pct": -23.2,
    "liquid": true,
    "in_uptrend": false,
-   "avg_turnover_cr": 28.56,
+   "avg_turnover_cr": 29.85,
    "sector": "Real Estate",
-   "rationale": "Revenue +112.8% / PAT +1786.3% YoY (qtr 2026-03-31). Accumulation: delivery spike 27.9% vs avg 14.9% (20s); volume surge +86% vs 20d avg. below both DMAs, -1.4% vs Nifty over 3m, 36.2% off 52w high."
+   "rationale": "Revenue +112.8% / PAT +1786.3% YoY (qtr 2026-03-31). Accumulation: delivery spike 27.9% vs avg 14.9% (20s); volume surge +86% vs 20d avg. above 50 DMA only, +4.4% vs Nifty over 3m, 33.0% off 52w high."
+  },
+  {
+   "symbol": "ZENSARTECH",
+   "name": "Zensar Technolgies Ltd.",
+   "index": "smallcap250",
+   "cmp": 508.25,
+   "chg_pct": 13.6,
+   "composite": 5.52,
+   "scores": {
+    "fundamental": 5.53,
+    "smart": 7.5,
+    "technical": 2.23
+   },
+   "fund_detail": {
+    "rev_yoy": 6.7,
+    "pat_yoy": 19.4,
+    "latest_quarter": "2026-03-31",
+    "quality_flags": []
+   },
+   "smart_detail": {
+    "bulk": "net buy 274,601 sh / 5s",
+    "delivery": "6.1% vs avg 40.1% (20s)",
+    "deliv_ratio": 0.15,
+    "rvol": "+666% vs 20d avg",
+    "ud": "8.10",
+    "ud_val": 8.1
+   },
+   "tech_detail": {
+    "stage": "above 50 DMA only",
+    "above_200dma": false,
+    "vs_200dma_pct": -18.2,
+    "off_52w_high_pct": 40.5,
+    "rs_vs_nifty_3m_pct": -11.6
+   },
+   "badges": [
+    "BULK+",
+    "RVOL-HI",
+    "U/D>4"
+   ],
+   "vetoes": [],
+   "ret_6m_pct": -28.1,
+   "liquid": true,
+   "in_uptrend": false,
+   "avg_turnover_cr": 419.69,
+   "sector": "Technology",
+   "rationale": "Revenue +6.7% / PAT +19.4% YoY (qtr 2026-03-31). Accumulation: net buy 274,601 sh / 5s; volume surge +666% vs 20d avg; U/D ratio 8.10. above 50 DMA only, -11.6% vs Nifty over 3m, 40.5% off 52w high."
   },
   {
    "symbol": "ERIS",
@@ -3203,11 +3155,11 @@
    "index": "smallcap250",
    "cmp": 1431.2,
    "chg_pct": 0.08,
-   "composite": 5.08,
+   "composite": 5.01,
    "scores": {
     "fundamental": 7.11,
     "smart": 4.38,
-    "technical": 4.91
+    "technical": 4.67
    },
    "fund_detail": {
     "rev_yoy": 7.1,
@@ -3222,15 +3174,15 @@
     "delivery": "67.2% vs avg 55.4% (20s)",
     "deliv_ratio": 1.21,
     "rvol": "+71% vs 20d avg",
-    "ud": "2.16",
-    "ud_val": 2.16
+    "ud": "2.47",
+    "ud_val": 2.47
    },
    "tech_detail": {
     "stage": "above 50 DMA only",
     "above_200dma": false,
-    "vs_200dma_pct": -1.8,
-    "off_52w_high_pct": 20.9,
-    "rs_vs_nifty_3m_pct": 5.0
+    "vs_200dma_pct": -1.6,
+    "off_52w_high_pct": 20.8,
+    "rs_vs_nifty_3m_pct": 1.7
    },
    "badges": [
     "DELIV+",
@@ -3240,9 +3192,9 @@
    "ret_6m_pct": -7.4,
    "liquid": true,
    "in_uptrend": false,
-   "avg_turnover_cr": 8.36,
+   "avg_turnover_cr": 8.63,
    "sector": "Healthcare",
-   "rationale": "Revenue +7.1% / PAT +200.1% YoY (qtr 2026-03-31). Accumulation: delivery spike 67.2% vs avg 55.4% (20s); volume surge +71% vs 20d avg. above 50 DMA only, +5.0% vs Nifty over 3m, 20.9% off 52w high."
+   "rationale": "Revenue +7.1% / PAT +200.1% YoY (qtr 2026-03-31). Accumulation: delivery spike 67.2% vs avg 55.4% (20s); volume surge +71% vs 20d avg. above 50 DMA only, +1.7% vs Nifty over 3m, 20.8% off 52w high."
   },
   {
    "symbol": "SBFC",
@@ -3250,11 +3202,11 @@
    "index": "smallcap250",
    "cmp": 91.96,
    "chg_pct": 1.02,
-   "composite": 4.52,
+   "composite": 4.47,
    "scores": {
     "fundamental": 8.2,
     "smart": 3.75,
-    "technical": 3.35
+    "technical": 3.19
    },
    "fund_detail": {
     "rev_yoy": 27.8,
@@ -3267,27 +3219,71 @@
     "delivery": "70.5% vs avg 53.5% (20s)",
     "deliv_ratio": 1.32,
     "rvol": "+253% vs 20d avg",
-    "ud": "1.37",
-    "ud_val": 1.37
+    "ud": "1.84",
+    "ud_val": 1.84
    },
    "tech_detail": {
     "stage": "below both DMAs",
     "above_200dma": false,
-    "vs_200dma_pct": -7.9,
-    "off_52w_high_pct": 23.5,
-    "rs_vs_nifty_3m_pct": -2.5
+    "vs_200dma_pct": -6.8,
+    "off_52w_high_pct": 22.7,
+    "rs_vs_nifty_3m_pct": -5.4
    },
    "badges": [
     "DELIV+",
     "RVOL-HI"
    ],
    "vetoes": [],
-   "ret_6m_pct": -11.1,
+   "ret_6m_pct": -7.5,
    "liquid": true,
    "in_uptrend": false,
-   "avg_turnover_cr": 11.6,
+   "avg_turnover_cr": 13.18,
    "sector": "Financial Services",
-   "rationale": "Revenue +27.8% / PAT +30.1% YoY (qtr 2026-03-31). Accumulation: delivery spike 70.5% vs avg 53.5% (20s); volume surge +253% vs 20d avg. below both DMAs, -2.5% vs Nifty over 3m, 23.5% off 52w high."
+   "rationale": "Revenue +27.8% / PAT +30.1% YoY (qtr 2026-03-31). Accumulation: delivery spike 70.5% vs avg 53.5% (20s); volume surge +253% vs 20d avg. below both DMAs, -5.4% vs Nifty over 3m, 22.7% off 52w high."
+  },
+  {
+   "symbol": "FSL",
+   "name": "Firstsource Solutions Ltd.",
+   "index": "smallcap250",
+   "cmp": 259.71,
+   "chg_pct": 6.9,
+   "composite": 4.29,
+   "scores": {
+    "fundamental": 7.57,
+    "smart": 2.5,
+    "technical": 5.1
+   },
+   "fund_detail": {
+    "rev_yoy": 20.5,
+    "pat_yoy": 27.7,
+    "latest_quarter": "2026-03-31",
+    "quality_flags": []
+   },
+   "smart_detail": {
+    "bulk": "no deals in window",
+    "delivery": "33.9% vs avg 35.5% (20s)",
+    "deliv_ratio": 0.95,
+    "rvol": "+179% vs 20d avg",
+    "ud": "1.90",
+    "ud_val": 1.9
+   },
+   "tech_detail": {
+    "stage": "above 50 DMA only",
+    "above_200dma": false,
+    "vs_200dma_pct": -7.7,
+    "off_52w_high_pct": 29.4,
+    "rs_vs_nifty_3m_pct": 16.0
+   },
+   "badges": [
+    "RVOL-HI"
+   ],
+   "vetoes": [],
+   "ret_6m_pct": -16.7,
+   "liquid": true,
+   "in_uptrend": false,
+   "avg_turnover_cr": 33.23,
+   "sector": "Technology",
+   "rationale": "Revenue +20.5% / PAT +27.7% YoY (qtr 2026-03-31). Accumulation: volume surge +179% vs 20d avg. above 50 DMA only, +16.0% vs Nifty over 3m, 29.4% off 52w high."
   }
  ],
  "methodology_note": "Fundamental score uses TRAILING reported growth (latest quarter YoY, date-aligned), not forward projections - forward analyst estimates are not freely available for this universe and are never fabricated. Hard filters: EQ series only, avg 20d turnover >= Rs 3 cr, price above 200 DMA. Trade plans are ATR/structure-derived levels with volume-state entry validity, not advice."
