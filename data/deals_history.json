@@ -1,10 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-06",
-   "deals": []
-  },
-  {
    "date": "2026-07-07",
    "deals": [
     {
@@ -280,6 +276,165 @@
      "qty": 3636795.0,
      "kind": "bulk",
      "date": "10-JUL-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-13",
+   "deals": [
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 8117916.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 10593217.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "BUY",
+     "qty": 1894856.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "BUY",
+     "qty": 810429.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "BUY",
+     "qty": 729936.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "BUY",
+     "qty": 1185786.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "SONATSOFTW",
+     "side": "BUY",
+     "qty": 2336032.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "BUY",
+     "qty": 1674292.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "BUY",
+     "qty": 1686682.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "BUY",
+     "qty": 1953936.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "BUY",
+     "qty": 1152318.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 8305158.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 10593217.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "SELL",
+     "qty": 1241513.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "SELL",
+     "qty": 809131.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "SELL",
+     "qty": 736160.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "SELL",
+     "qty": 1894856.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "SONATSOFTW",
+     "side": "SELL",
+     "qty": 2336032.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "SELL",
+     "qty": 1119044.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "SELL",
+     "qty": 1686682.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "SELL",
+     "qty": 1849127.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "SELL",
+     "qty": 1675876.0,
+     "kind": "bulk",
+     "date": "13-JUL-2026"
     }
    ]
   }
