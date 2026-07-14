@@ -1,67 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-07",
-   "deals": [
-    {
-     "symbol": "RITES",
-     "side": "BUY",
-     "qty": 4347541.0,
-     "kind": "bulk",
-     "date": "07-JUL-2026"
-    },
-    {
-     "symbol": "RITES",
-     "side": "BUY",
-     "qty": 3266363.0,
-     "kind": "bulk",
-     "date": "07-JUL-2026"
-    },
-    {
-     "symbol": "RITES",
-     "side": "BUY",
-     "qty": 5347602.0,
-     "kind": "bulk",
-     "date": "07-JUL-2026"
-    },
-    {
-     "symbol": "RITES",
-     "side": "BUY",
-     "qty": 2953484.0,
-     "kind": "bulk",
-     "date": "07-JUL-2026"
-    },
-    {
-     "symbol": "RITES",
-     "side": "SELL",
-     "qty": 3266363.0,
-     "kind": "bulk",
-     "date": "07-JUL-2026"
-    },
-    {
-     "symbol": "RITES",
-     "side": "SELL",
-     "qty": 5347602.0,
-     "kind": "bulk",
-     "date": "07-JUL-2026"
-    },
-    {
-     "symbol": "RITES",
-     "side": "SELL",
-     "qty": 4358013.0,
-     "kind": "bulk",
-     "date": "07-JUL-2026"
-    },
-    {
-     "symbol": "RITES",
-     "side": "SELL",
-     "qty": 2953484.0,
-     "kind": "bulk",
-     "date": "07-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-08",
    "deals": [
     {
@@ -435,6 +374,235 @@
      "qty": 1675876.0,
      "kind": "bulk",
      "date": "13-JUL-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-14",
+   "deals": [
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 18437500.0,
+     "kind": "bulk",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 5349531.0,
+     "kind": "bulk",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 8691207.0,
+     "kind": "bulk",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "BUY",
+     "qty": 999636.0,
+     "kind": "bulk",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "SELL",
+     "qty": 45983509.0,
+     "kind": "bulk",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 8691207.0,
+     "kind": "bulk",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 5861604.0,
+     "kind": "bulk",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "ZENSARTECH",
+     "side": "SELL",
+     "qty": 1170881.0,
+     "kind": "bulk",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 1250000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 750000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 750000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 937500.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 5829005.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 1250000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 18437500.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 5829004.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 937500.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 1875000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "BUY",
+     "qty": 626000.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
+    },
+    {
+     "symbol": "BIOCON",
+     "side": "SELL",
+     "qty": 45983509.0,
+     "kind": "block",
+     "date": "14-JUL-2026"
     }
    ]
   }
