@@ -1,60 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-08",
-   "deals": [
-    {
-     "symbol": "BAYERCROP",
-     "side": "BUY",
-     "qty": 5354030.0,
-     "kind": "bulk",
-     "date": "08-JUL-2026"
-    },
-    {
-     "symbol": "CGCL",
-     "side": "BUY",
-     "qty": 5132016.0,
-     "kind": "bulk",
-     "date": "08-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "BUY",
-     "qty": 6137716.0,
-     "kind": "bulk",
-     "date": "08-JUL-2026"
-    },
-    {
-     "symbol": "BAYERCROP",
-     "side": "SELL",
-     "qty": 5354030.0,
-     "kind": "bulk",
-     "date": "08-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "SELL",
-     "qty": 6137716.0,
-     "kind": "bulk",
-     "date": "08-JUL-2026"
-    },
-    {
-     "symbol": "BAYERCROP",
-     "side": "BUY",
-     "qty": 5354030.0,
-     "kind": "block",
-     "date": "08-JUL-2026"
-    },
-    {
-     "symbol": "BAYERCROP",
-     "side": "SELL",
-     "qty": 5354030.0,
-     "kind": "block",
-     "date": "08-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-09",
    "deals": [
     {
@@ -603,6 +549,81 @@
      "qty": 45983509.0,
      "kind": "block",
      "date": "14-JUL-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-15",
+   "deals": [
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 7493504.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "NUVOCO",
+     "side": "BUY",
+     "qty": 2018044.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "NUVOCO",
+     "side": "BUY",
+     "qty": 3112562.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "NUVOCO",
+     "side": "BUY",
+     "qty": 2185826.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "PATANJALI",
+     "side": "BUY",
+     "qty": 9342189.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 7493504.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "NUVOCO",
+     "side": "SELL",
+     "qty": 2176076.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "NUVOCO",
+     "side": "SELL",
+     "qty": 3112562.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "NUVOCO",
+     "side": "SELL",
+     "qty": 2018893.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
+    },
+    {
+     "symbol": "PATANJALI",
+     "side": "SELL",
+     "qty": 9342189.0,
+     "kind": "bulk",
+     "date": "15-JUL-2026"
     }
    ]
   }
