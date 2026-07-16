@@ -1,39 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-09",
-   "deals": [
-    {
-     "symbol": "KALYANKJIL",
-     "side": "BUY",
-     "qty": 8775327.0,
-     "kind": "bulk",
-     "date": "09-JUL-2026"
-    },
-    {
-     "symbol": "KAYNES",
-     "side": "BUY",
-     "qty": 718273.0,
-     "kind": "bulk",
-     "date": "09-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "SELL",
-     "qty": 8775262.0,
-     "kind": "bulk",
-     "date": "09-JUL-2026"
-    },
-    {
-     "symbol": "KAYNES",
-     "side": "SELL",
-     "qty": 718273.0,
-     "kind": "bulk",
-     "date": "09-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-10",
    "deals": [
     {
@@ -624,6 +591,88 @@
      "qty": 9342189.0,
      "kind": "bulk",
      "date": "15-JUL-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-16",
+   "deals": [
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 5509322.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "MRPL",
+     "side": "BUY",
+     "qty": 12996414.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "BUY",
+     "qty": 767118.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "BUY",
+     "qty": 916518.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "ZEEL",
+     "side": "BUY",
+     "qty": 5000000.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 5509322.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "MRPL",
+     "side": "SELL",
+     "qty": 12996414.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "SELL",
+     "qty": 798643.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "NEWGEN",
+     "side": "SELL",
+     "qty": 916713.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "RKFORGE",
+     "side": "SELL",
+     "qty": 1289711.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
+    },
+    {
+     "symbol": "ZEEL",
+     "side": "SELL",
+     "qty": 4500000.0,
+     "kind": "bulk",
+     "date": "16-JUL-2026"
     }
    ]
   }
