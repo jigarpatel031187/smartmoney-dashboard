@@ -1,137 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-10",
-   "deals": [
-    {
-     "symbol": "KALYANKJIL",
-     "side": "BUY",
-     "qty": 8283121.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "BUY",
-     "qty": 5567863.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "BUY",
-     "qty": 9248751.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "NEWGEN",
-     "side": "BUY",
-     "qty": 1058819.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "NEWGEN",
-     "side": "BUY",
-     "qty": 1566565.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "ZENSARTECH",
-     "side": "BUY",
-     "qty": 1792262.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "ZENSARTECH",
-     "side": "BUY",
-     "qty": 1353581.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "ZENSARTECH",
-     "side": "BUY",
-     "qty": 3636795.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "ZENSARTECH",
-     "side": "BUY",
-     "qty": 2366766.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "SELL",
-     "qty": 5564448.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "SELL",
-     "qty": 101077.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "SELL",
-     "qty": 9248816.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "NEWGEN",
-     "side": "SELL",
-     "qty": 1566565.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "NEWGEN",
-     "side": "SELL",
-     "qty": 1093418.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "ZENSARTECH",
-     "side": "SELL",
-     "qty": 1330989.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "ZENSARTECH",
-     "side": "SELL",
-     "qty": 2082505.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "ZENSARTECH",
-     "side": "SELL",
-     "qty": 1824514.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    },
-    {
-     "symbol": "ZENSARTECH",
-     "side": "SELL",
-     "qty": 3636795.0,
-     "kind": "bulk",
-     "date": "10-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-13",
    "deals": [
     {
@@ -673,6 +542,25 @@
      "qty": 4500000.0,
      "kind": "bulk",
      "date": "16-JUL-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-17",
+   "deals": [
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 6213325.0,
+     "kind": "bulk",
+     "date": "17-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 6213325.0,
+     "kind": "bulk",
+     "date": "17-JUL-2026"
     }
    ]
   }
