@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-11T00:37:31.019894+05:30",
+ "asof": "2026-07-18T14:40:37.439809+05:30",
  "symbols": {
   "360ONE": {
    "name": "360 ONE WAM Ltd.",
@@ -1109,10 +1109,6 @@
    "name": "Inventurus Knowledge Solutions Ltd.",
    "index": "smallcap250"
   },
-  "JBCHEPHARM": {
-   "name": "J.B. Chemicals & Pharmaceuticals Ltd.",
-   "index": "smallcap250"
-  },
   "JBMA": {
    "name": "JBM Auto Ltd.",
    "index": "smallcap250"
@@ -1355,6 +1351,10 @@
   },
   "POONAWALLA": {
    "name": "Poonawalla Fincorp Ltd.",
+   "index": "smallcap250"
+  },
+  "PFOCUS": {
+   "name": "Prime Focus Ltd.",
    "index": "smallcap250"
   },
   "RRKABEL": {

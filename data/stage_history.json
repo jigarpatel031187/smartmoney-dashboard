@@ -2798,5 +2798,12 @@
   "cand": null,
   "streak": 0,
   "last": "2026-07-17"
+ },
+ "PFOCUS": {
+  "stage": "NEUTRAL",
+  "since": "2026-07-17",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-07-17"
  }
 }
