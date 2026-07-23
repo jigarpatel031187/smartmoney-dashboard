@@ -1,88 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-16",
-   "deals": [
-    {
-     "symbol": "KALYANKJIL",
-     "side": "BUY",
-     "qty": 5509322.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "MRPL",
-     "side": "BUY",
-     "qty": 12996414.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "NEWGEN",
-     "side": "BUY",
-     "qty": 767118.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "NEWGEN",
-     "side": "BUY",
-     "qty": 916518.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "ZEEL",
-     "side": "BUY",
-     "qty": 5000000.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "SELL",
-     "qty": 5509322.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "MRPL",
-     "side": "SELL",
-     "qty": 12996414.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "NEWGEN",
-     "side": "SELL",
-     "qty": 798643.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "NEWGEN",
-     "side": "SELL",
-     "qty": 916713.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "RKFORGE",
-     "side": "SELL",
-     "qty": 1289711.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    },
-    {
-     "symbol": "ZEEL",
-     "side": "SELL",
-     "qty": 4500000.0,
-     "kind": "bulk",
-     "date": "16-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-17",
    "deals": [
     {
@@ -140,6 +58,25 @@
      "qty": 10513583.0,
      "kind": "bulk",
      "date": "22-JUL-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-23",
+   "deals": [
+    {
+     "symbol": "OFSS",
+     "side": "BUY",
+     "qty": 452652.0,
+     "kind": "bulk",
+     "date": "23-JUL-2026"
+    },
+    {
+     "symbol": "OFSS",
+     "side": "SELL",
+     "qty": 456552.0,
+     "kind": "bulk",
+     "date": "23-JUL-2026"
     }
    ]
   }
