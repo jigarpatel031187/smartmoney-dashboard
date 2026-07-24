@@ -1,25 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-17",
-   "deals": [
-    {
-     "symbol": "KALYANKJIL",
-     "side": "BUY",
-     "qty": 6213325.0,
-     "kind": "bulk",
-     "date": "17-JUL-2026"
-    },
-    {
-     "symbol": "KALYANKJIL",
-     "side": "SELL",
-     "qty": 6213325.0,
-     "kind": "bulk",
-     "date": "17-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-20",
    "deals": []
   },
@@ -79,6 +60,10 @@
      "date": "23-JUL-2026"
     }
    ]
+  },
+  {
+   "date": "2026-07-24",
+   "deals": []
   }
  ]
 }
