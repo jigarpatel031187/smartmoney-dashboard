@@ -1,10 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-20",
-   "deals": []
-  },
-  {
    "date": "2026-07-21",
    "deals": [
     {
@@ -64,6 +60,25 @@
   {
    "date": "2026-07-24",
    "deals": []
+  },
+  {
+   "date": "2026-07-27",
+   "deals": [
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 1072636.0,
+     "kind": "bulk",
+     "date": "27-JUL-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "SELL",
+     "qty": 1072636.0,
+     "kind": "bulk",
+     "date": "27-JUL-2026"
+    }
+   ]
   }
  ]
 }
