@@ -1,25 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-22",
-   "deals": [
-    {
-     "symbol": "BANDHANBNK",
-     "side": "BUY",
-     "qty": 10513583.0,
-     "kind": "bulk",
-     "date": "22-JUL-2026"
-    },
-    {
-     "symbol": "BANDHANBNK",
-     "side": "SELL",
-     "qty": 10513583.0,
-     "kind": "bulk",
-     "date": "22-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-23",
    "deals": [
     {
@@ -64,6 +45,137 @@
   {
    "date": "2026-07-28",
    "deals": []
+  },
+  {
+   "date": "2026-07-29",
+   "deals": [
+    {
+     "symbol": "GODIGIT",
+     "side": "BUY",
+     "qty": 5721378.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "BUY",
+     "qty": 5663946.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "KAYNES",
+     "side": "BUY",
+     "qty": 545803.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "KPITTECH",
+     "side": "BUY",
+     "qty": 2764311.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "KPITTECH",
+     "side": "BUY",
+     "qty": 1468399.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "PARADEEP",
+     "side": "BUY",
+     "qty": 5855876.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "PARADEEP",
+     "side": "BUY",
+     "qty": 11969749.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "PCBL",
+     "side": "BUY",
+     "qty": 1970820.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "GODIGIT",
+     "side": "SELL",
+     "qty": 5721378.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "side": "SELL",
+     "qty": 5666646.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "KAYNES",
+     "side": "SELL",
+     "qty": 545803.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "KPITTECH",
+     "side": "SELL",
+     "qty": 2764311.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "KPITTECH",
+     "side": "SELL",
+     "qty": 1762573.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "PARADEEP",
+     "side": "SELL",
+     "qty": 6220768.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "PARADEEP",
+     "side": "SELL",
+     "qty": 11969749.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "PCBL",
+     "side": "SELL",
+     "qty": 1970820.0,
+     "kind": "bulk",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "GODIGIT",
+     "side": "BUY",
+     "qty": 5721378.0,
+     "kind": "block",
+     "date": "29-JUL-2026"
+    },
+    {
+     "symbol": "GODIGIT",
+     "side": "SELL",
+     "qty": 5721378.0,
+     "kind": "block",
+     "date": "29-JUL-2026"
+    }
+   ]
   }
  ]
 }
