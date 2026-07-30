@@ -1,25 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-23",
-   "deals": [
-    {
-     "symbol": "OFSS",
-     "side": "BUY",
-     "qty": 452652.0,
-     "kind": "bulk",
-     "date": "23-JUL-2026"
-    },
-    {
-     "symbol": "OFSS",
-     "side": "SELL",
-     "qty": 456552.0,
-     "kind": "bulk",
-     "date": "23-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-24",
    "deals": []
   },
@@ -174,6 +155,60 @@
      "qty": 5721378.0,
      "kind": "block",
      "date": "29-JUL-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "deals": [
+    {
+     "symbol": "IIFL",
+     "side": "BUY",
+     "qty": 6173152.0,
+     "kind": "bulk",
+     "date": "30-JUL-2026"
+    },
+    {
+     "symbol": "KPITTECH",
+     "side": "BUY",
+     "qty": 1598985.0,
+     "kind": "bulk",
+     "date": "30-JUL-2026"
+    },
+    {
+     "symbol": "IIFL",
+     "side": "SELL",
+     "qty": 6339355.0,
+     "kind": "bulk",
+     "date": "30-JUL-2026"
+    },
+    {
+     "symbol": "KPITTECH",
+     "side": "SELL",
+     "qty": 1598985.0,
+     "kind": "bulk",
+     "date": "30-JUL-2026"
+    },
+    {
+     "symbol": "IIFL",
+     "side": "BUY",
+     "qty": 166203.0,
+     "kind": "block",
+     "date": "30-JUL-2026"
+    },
+    {
+     "symbol": "IIFL",
+     "side": "BUY",
+     "qty": 6173152.0,
+     "kind": "block",
+     "date": "30-JUL-2026"
+    },
+    {
+     "symbol": "IIFL",
+     "side": "SELL",
+     "qty": 6339355.0,
+     "kind": "block",
+     "date": "30-JUL-2026"
     }
    ]
   }
