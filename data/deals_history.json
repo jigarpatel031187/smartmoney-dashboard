@@ -1,10 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-24",
-   "deals": []
-  },
-  {
    "date": "2026-07-27",
    "deals": [
     {
@@ -209,6 +205,39 @@
      "qty": 6339355.0,
      "kind": "block",
      "date": "30-JUL-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-31",
+   "deals": [
+    {
+     "symbol": "KAYNES",
+     "side": "BUY",
+     "qty": 386742.0,
+     "kind": "bulk",
+     "date": "31-JUL-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 21661425.0,
+     "kind": "bulk",
+     "date": "31-JUL-2026"
+    },
+    {
+     "symbol": "KAYNES",
+     "side": "SELL",
+     "qty": 386742.0,
+     "kind": "bulk",
+     "date": "31-JUL-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "SELL",
+     "qty": 21660400.0,
+     "kind": "bulk",
+     "date": "31-JUL-2026"
     }
    ]
   }
