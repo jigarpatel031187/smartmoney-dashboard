@@ -1,60 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-30",
-   "deals": [
-    {
-     "symbol": "IIFL",
-     "side": "BUY",
-     "qty": 6173152.0,
-     "kind": "bulk",
-     "date": "30-JUL-2026"
-    },
-    {
-     "symbol": "KPITTECH",
-     "side": "BUY",
-     "qty": 1598985.0,
-     "kind": "bulk",
-     "date": "30-JUL-2026"
-    },
-    {
-     "symbol": "IIFL",
-     "side": "SELL",
-     "qty": 6339355.0,
-     "kind": "bulk",
-     "date": "30-JUL-2026"
-    },
-    {
-     "symbol": "KPITTECH",
-     "side": "SELL",
-     "qty": 1598985.0,
-     "kind": "bulk",
-     "date": "30-JUL-2026"
-    },
-    {
-     "symbol": "IIFL",
-     "side": "BUY",
-     "qty": 166203.0,
-     "kind": "block",
-     "date": "30-JUL-2026"
-    },
-    {
-     "symbol": "IIFL",
-     "side": "BUY",
-     "qty": 6173152.0,
-     "kind": "block",
-     "date": "30-JUL-2026"
-    },
-    {
-     "symbol": "IIFL",
-     "side": "SELL",
-     "qty": 6339355.0,
-     "kind": "block",
-     "date": "30-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-07-31",
    "deals": [
     {
@@ -666,6 +612,53 @@
      "qty": 1700000.0,
      "kind": "bulk",
      "date": "05-AUG-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-07",
+   "deals": [
+    {
+     "symbol": "PGEL",
+     "side": "BUY",
+     "qty": 1591571.0,
+     "kind": "bulk",
+     "date": "07-AUG-2026"
+    },
+    {
+     "symbol": "TRIDENT",
+     "side": "BUY",
+     "qty": 130000000.0,
+     "kind": "bulk",
+     "date": "07-AUG-2026"
+    },
+    {
+     "symbol": "PGEL",
+     "side": "SELL",
+     "qty": 1592521.0,
+     "kind": "bulk",
+     "date": "07-AUG-2026"
+    },
+    {
+     "symbol": "TRIDENT",
+     "side": "SELL",
+     "qty": 130000000.0,
+     "kind": "bulk",
+     "date": "07-AUG-2026"
+    },
+    {
+     "symbol": "TRIDENT",
+     "side": "BUY",
+     "qty": 130000000.0,
+     "kind": "block",
+     "date": "07-AUG-2026"
+    },
+    {
+     "symbol": "TRIDENT",
+     "side": "SELL",
+     "qty": 130000000.0,
+     "kind": "block",
+     "date": "07-AUG-2026"
     }
    ]
   }
