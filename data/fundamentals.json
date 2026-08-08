@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-01T11:50:58.202747+05:30",
+ "asof": "2026-08-08T10:10:48.832354+05:30",
  "data": {
   "360ONE": {
    "available": true,
@@ -133,11 +133,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 52670200000.0,
-     "pat": 2169700000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 53243500000.0,
      "pat": 2931100000.0
@@ -156,10 +151,15 @@
      "q": "2026-03-31",
      "rev": 60759800000.0,
      "pat": 3543500000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 54382100000.0,
+     "pat": 2631100000.0
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-01"
+   "next_earnings": "2026-10-29"
   },
   "AUBANK": {
    "available": true,
@@ -255,7 +255,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-11"
+   "next_earnings": "2026-08-12"
   },
   "ATGL": {
    "available": true,
@@ -293,11 +293,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 89925300000.0,
-     "pat": 7080000000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 118375200000.0,
      "pat": 8646000000.0
@@ -305,7 +300,7 @@
     {
      "q": "2025-06-30",
      "rev": 90730400000.0,
-     "pat": 8350800000.0
+     "pat": 8386300000.0
     },
     {
      "q": "2025-12-31",
@@ -316,10 +311,15 @@
      "q": "2026-03-31",
      "rev": 130775400000.0,
      "pat": 11291600000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 117485400000.0,
+     "pat": 11747000000.0
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-07-31"
+   "next_earnings": "2026-10-29"
   },
   "AJANTPHARM": {
    "available": true,
@@ -511,7 +511,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-13"
+   "next_earnings": "2026-08-14"
   },
   "ASTRAL": {
    "available": true,
@@ -543,7 +543,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-10"
+   "next_earnings": "2026-08-12"
   },
   "AUROPHARMA": {
    "available": true,
@@ -575,7 +575,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-05"
+   "next_earnings": "2026-11-05"
   },
   "AIIL": {
    "available": true,
@@ -613,13 +613,8 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 8466400000.0,
-     "pat": 4944200000.0
-    },
-    {
      "q": "2025-06-30",
-     "rev": 9583900000.0,
+     "rev": 9579500000.0,
      "pat": 5394100000.0
     },
     {
@@ -636,6 +631,11 @@
      "q": "2026-03-31",
      "rev": 15635100000.0,
      "pat": 7973300000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 15660200000.0,
+     "pat": 8740200000.0
     }
    ],
    "sector": "Financial Services",
@@ -799,7 +799,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-05"
+   "next_earnings": "2026-11-03"
   },
   "BDL": {
    "available": true,
@@ -831,7 +831,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-11"
+   "next_earnings": "2026-08-14"
   },
   "BHARATFORG": {
    "available": true,
@@ -863,7 +863,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-10"
   },
   "BHEL": {
    "available": true,
@@ -1023,7 +1023,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-04"
   },
   "CRISIL": {
    "available": true,
@@ -1285,11 +1285,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 104536800000.0,
-     "pat": 1711900000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 102925400000.0,
      "pat": 4008200000.0
@@ -1308,10 +1303,15 @@
      "q": "2026-03-31",
      "rev": 105105100000.0,
      "pat": 2564100000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 155476600000.0,
+     "pat": 6634200000.0
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-07-31"
+   "next_earnings": "2026-10-16"
   },
   "ENDURANCE": {
    "available": true,
@@ -1349,11 +1349,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 29480200000.0,
-     "pat": 3206400000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 24448800000.0,
      "pat": 3184200000.0
@@ -1372,10 +1367,15 @@
      "q": "2026-03-31",
      "rev": 29681600000.0,
      "pat": 3205300000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 32075500000.0,
+     "pat": 3859400000.0
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-11-03"
   },
   "EXIDEIND": {
    "available": true,
@@ -1439,7 +1439,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-05"
   },
   "FEDERALBNK": {
    "available": true,
@@ -1567,7 +1567,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-08-11"
   },
   "GICRE": {
    "available": true,
@@ -1605,11 +1605,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 9494200000.0,
-     "pat": 2298800000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 9743700000.0,
      "pat": 2628700000.0
@@ -1628,6 +1623,11 @@
      "q": "2026-03-31",
      "rev": 9953000000.0,
      "pat": 2778600000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 9384400000.0,
+     "pat": 2371800000.0
     }
    ],
    "sector": "Healthcare",
@@ -1636,11 +1636,6 @@
   "GLENMARK": {
    "available": true,
    "quarters": [
-    {
-     "q": "2025-03-31",
-     "rev": 32201320000.0,
-     "pat": 46500000.0
-    },
     {
      "q": "2025-06-30",
      "rev": 30593330000.0,
@@ -1660,10 +1655,15 @@
      "q": "2026-03-31",
      "rev": 37602770000.0,
      "pat": 3014140000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 39317300000.0,
+     "pat": 4829240000.0
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-07-31"
+   "next_earnings": "2026-10-30"
   },
   "MEDANTA": {
    "available": true,
@@ -1791,7 +1791,7 @@
     }
    ],
    "sector": "Real Estate",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-05"
   },
   "FLUOROCHEM": {
    "available": true,
@@ -1823,7 +1823,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-08-12"
   },
   "HDBFS": {
    "available": true,
@@ -2303,7 +2303,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-13"
+   "next_earnings": "2026-08-12"
   },
   "IREDA": {
    "available": true,
@@ -2565,11 +2565,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 101983200000.0,
-     "pat": 5909900000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 102071400000.0,
      "pat": 7141600000.0
@@ -2588,6 +2583,11 @@
      "q": "2026-03-31",
      "rev": 113371900000.0,
      "pat": 8435600000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 112785400000.0,
+     "pat": 7693600000.0
     }
    ],
    "sector": "Basic Materials",
@@ -2655,16 +2655,11 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-10"
   },
   "KEI": {
    "available": true,
    "quarters": [
-    {
-     "q": "2024-12-31",
-     "rev": 24722510000.0,
-     "pat": 1648050000.0
-    },
     {
      "q": "2025-03-31",
      "rev": 29147880000.0,
@@ -2684,10 +2679,15 @@
      "q": "2026-03-31",
      "rev": 34763960000.0,
      "pat": 2843120000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 31853420000.0,
+     "pat": 2741400000.0
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-10-14"
   },
   "KPITTECH": {
    "available": true,
@@ -2965,7 +2965,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-05"
   },
   "LINDEINDIA": {
    "available": true,
@@ -2997,7 +2997,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-10"
   },
   "LLOYDSME": {
    "available": true,
@@ -3061,7 +3061,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-05"
   },
   "MRF": {
    "available": true,
@@ -3163,13 +3163,8 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 27300000000.0,
-     "pat": 3430000000.0
-    },
-    {
      "q": "2025-06-30",
-     "rev": 32590000000.0,
+     "rev": 32210000000.0,
      "pat": 5040000000.0
     },
     {
@@ -3186,6 +3181,11 @@
      "q": "2026-03-31",
      "rev": 33330000000.0,
      "pat": 3910000000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 39570000000.0,
+     "pat": 6300000000.0
     }
    ],
    "sector": "Consumer Defensive",
@@ -3291,11 +3291,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 3013800000.0,
-     "pat": 1600400000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 2913300000.0,
      "pat": 1354600000.0
@@ -3314,10 +3309,15 @@
      "q": "2026-03-31",
      "rev": 8889400000.0,
      "pat": 5297700000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 7020000000.0,
+     "pat": 4134400000.0
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-05"
   },
   "NHPC": {
    "available": true,
@@ -3349,7 +3349,7 @@
     }
    ],
    "sector": "Utilities",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-05"
   },
   "NLCINDIA": {
    "available": true,
@@ -3451,11 +3451,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 46622200000.0,
-     "pat": 15663200000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 51423900000.0,
      "pat": 20672300000.0
@@ -3474,6 +3469,11 @@
      "q": "2025-12-31",
      "rev": 47309500000.0,
      "pat": 15951500000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 53023800000.0,
+     "pat": 20031400000.0
     }
    ],
    "sector": "Basic Materials",
@@ -3669,7 +3669,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-10-29"
   },
   "PIIND": {
    "available": true,
@@ -3701,7 +3701,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-18"
+   "next_earnings": "2026-08-11"
   },
   "PAGEIND": {
    "available": true,
@@ -3765,16 +3765,11 @@
     }
    ],
    "sector": "Consumer Defensive",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-14"
   },
   "PERSISTENT": {
    "available": true,
    "quarters": [
-    {
-     "q": "2024-12-31",
-     "rev": 30622840000.0,
-     "pat": 3729900000.0
-    },
     {
      "q": "2025-03-31",
      "rev": 32421120000.0,
@@ -3794,10 +3789,15 @@
      "q": "2026-03-31",
      "rev": 40559370000.0,
      "pat": 5292600000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 43032270000.0,
+     "pat": 4830430000.0
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-08-02"
+   "next_earnings": "2026-10-15"
   },
   "PETRONET": {
    "available": true,
@@ -3829,7 +3829,7 @@
     }
    ],
    "sector": "Energy",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-12"
   },
   "PHOENIXLTD": {
    "available": true,
@@ -4059,14 +4059,9 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 5044000000.0,
-     "pat": -1276000000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 9174500000.0,
-     "pat": 2275800000.0
+     "pat": 2277700000.0
     },
     {
      "q": "2025-09-30",
@@ -4082,6 +4077,11 @@
      "q": "2026-03-31",
      "rev": 14964700000.0,
      "pat": -1179800000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 13943800000.0,
+     "pat": 2249300000.0
     }
    ],
    "sector": "Utilities",
@@ -4187,11 +4187,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 10860700000.0,
-     "pat": 4554700000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 11568200000.0,
      "pat": 5529800000.0
@@ -4210,10 +4205,15 @@
      "q": "2026-03-31",
      "rev": 13417700000.0,
      "pat": 5541700000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 13628700000.0,
+     "pat": 6361900000.0
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-11-02"
   },
   "SUPREMEIND": {
    "available": true,
@@ -4475,11 +4475,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 64563400000.0,
-     "pat": 10595700000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 79063700000.0,
      "pat": 7314400000.0
@@ -4498,6 +4493,11 @@
      "q": "2026-03-31",
      "rev": 64060700000.0,
      "pat": 3182000000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 81241500000.0,
+     "pat": 6388500000.0
     }
    ],
    "sector": "Utilities",
@@ -4565,16 +4565,11 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-05"
   },
   "UPL": {
    "available": true,
    "quarters": [
-    {
-     "q": "2024-12-31",
-     "rev": 109070000000.0,
-     "pat": 8280000000.0
-    },
     {
      "q": "2025-03-31",
      "rev": 155730000000.0,
@@ -4594,6 +4589,11 @@
      "q": "2026-03-31",
      "rev": 183350000000.0,
      "pat": 10610000000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 101810000000.0,
+     "pat": 100000000.0
     }
    ],
    "sector": "Basic Materials",
@@ -4629,7 +4629,7 @@
     }
    ],
    "sector": "Consumer Defensive",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-10-29"
   },
   "VMM": {
    "available": true,
@@ -4693,7 +4693,7 @@
     }
    ],
    "sector": "Communication Services",
-   "next_earnings": "2026-08-13"
+   "next_earnings": "2026-08-10"
   },
   "VOLTAS": {
    "available": true,
@@ -4725,7 +4725,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-07"
+   "next_earnings": "2026-08-13"
   },
   "WAAREEENER": {
    "available": true,
@@ -5008,7 +5008,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-08"
   },
   "ABLBL": {
    "available": true,
@@ -5553,11 +5553,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 10498100000.0,
-     "pat": 567900000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 10003400000.0,
      "pat": 790200000.0
@@ -5576,6 +5571,11 @@
      "q": "2026-03-31",
      "rev": 11823800000.0,
      "pat": 1401700000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 13106800000.0,
+     "pat": 160600000.0
     }
    ],
    "sector": "Healthcare",
@@ -5835,7 +5835,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-05"
+   "next_earnings": "2026-11-05"
   },
   "BELRISE": {
    "available": true,
@@ -5937,11 +5937,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 15116900000.0,
-     "pat": 810100000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 14173200000.0,
      "pat": 551500000.0
@@ -5960,6 +5955,11 @@
      "q": "2026-03-31",
      "rev": 15334700000.0,
      "pat": 488500000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 16577200000.0,
+     "pat": 884900000.0
     }
    ],
    "sector": "Industrials",
@@ -6091,7 +6091,7 @@
     }
    ],
    "sector": "Real Estate",
-   "next_earnings": "2026-08-05"
+   "next_earnings": "2026-08-13"
   },
   "MAPMYINDIA": {
    "available": true,
@@ -6187,7 +6187,7 @@
     }
    ],
    "sector": "Utilities",
-   "next_earnings": "2026-08-05"
+   "next_earnings": "2026-08-13"
   },
   "CIEINDIA": {
    "available": true,
@@ -6417,11 +6417,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 13538900000.0,
-     "pat": 2713900000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 14220000000.0,
      "pat": 2334600000.0
@@ -6440,10 +6435,15 @@
      "q": "2026-03-31",
      "rev": 15452400000.0,
      "pat": 2421800000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 18714700000.0,
+     "pat": 3477000000.0
     }
    ],
    "sector": "Energy",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-03"
   },
   "CEATLTD": {
    "available": true,
@@ -6545,19 +6545,14 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 2781298000.0,
-     "pat": 1301049000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 2244895000.0,
      "pat": 1003059000.0
     },
     {
      "q": "2025-06-30",
-     "rev": 2588074000.0,
-     "pat": 1023681000.0
+     "rev": 2588400000.0,
+     "pat": 1023600000.0
     },
     {
      "q": "2025-12-31",
@@ -6568,6 +6563,11 @@
      "q": "2026-03-31",
      "rev": 2628480000.0,
      "pat": 802196000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 2927600000.0,
+     "pat": 1175100000.0
     }
    ],
    "sector": "Financial Services",
@@ -6795,7 +6795,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-01"
+   "next_earnings": "2026-08-03"
   },
   "COHANCE": {
    "available": true,
@@ -6859,7 +6859,7 @@
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-10-28"
   },
   "CONCORDBIO": {
    "available": true,
@@ -6987,7 +6987,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-05"
   },
   "CYIENT": {
    "available": true,
@@ -7211,7 +7211,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-08-08"
   },
   "DEVYANI": {
    "available": true,
@@ -7409,11 +7409,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 9630500000.0,
-     "pat": 1621700000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 9040900000.0,
      "pat": 1642600000.0
@@ -7432,6 +7427,11 @@
      "q": "2026-03-31",
      "rev": 9251000000.0,
      "pat": 1431800000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 10392100000.0,
+     "pat": 1373500000.0
     }
    ],
    "sector": "Consumer Defensive",
@@ -7793,13 +7793,8 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 12710076000.0,
-     "pat": 981855000.0
-    },
-    {
      "q": "2025-03-31",
-     "rev": 16373311000.0,
+     "rev": 16420357000.0,
      "pat": 2442493000.0
     },
     {
@@ -7811,6 +7806,16 @@
      "q": "2025-12-31",
      "rev": 18956931000.0,
      "pat": 1707727000.0
+    },
+    {
+     "q": "2026-03-31",
+     "rev": 21192125000.0,
+     "pat": 3031991000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 18146159000.0,
+     "pat": 1728376000.0
     }
    ],
    "sector": "Industrials",
@@ -7970,11 +7975,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 6660000000.0,
-     "pat": 500000000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 6650000000.0,
      "pat": 1340000000.0
@@ -7993,6 +7993,11 @@
      "q": "2026-03-31",
      "rev": 8160000000.0,
      "pat": -1040000000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 8420000000.0,
+     "pat": 1720000000.0
     }
    ],
    "sector": "Industrials",
@@ -8034,11 +8039,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 12230400000.0,
-     "pat": 3630900000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 12014700000.0,
      "pat": 5045000000.0
@@ -8057,6 +8057,11 @@
      "q": "2026-03-31",
      "rev": 15114000000.0,
      "pat": 10440900000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 20053600000.0,
+     "pat": 13088400000.0
     }
    ],
    "sector": "Industrials",
@@ -8065,11 +8070,6 @@
   "GMDCLTD": {
    "available": true,
    "quarters": [
-    {
-     "q": "2025-03-31",
-     "rev": 7862800000.0,
-     "pat": 2262200000.0
-    },
     {
      "q": "2025-06-30",
      "rev": 7326000000.0,
@@ -8089,6 +8089,11 @@
      "q": "2026-03-31",
      "rev": 8140500000.0,
      "pat": 1940900000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 9066400000.0,
+     "pat": 1634300000.0
     }
    ],
    "sector": "Energy",
@@ -8700,7 +8705,7 @@
     }
    ],
    "sector": "Utilities",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-13"
   },
   "INOXWIND": {
    "available": true,
@@ -8738,11 +8743,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 6096260000.0,
-     "pat": 701910000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 7259060000.0,
      "pat": 1353190000.0
@@ -8761,6 +8761,11 @@
      "q": "2026-03-31",
      "rev": 8470190000.0,
      "pat": 1202280000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 8451690000.0,
+     "pat": 1020720000.0
     }
    ],
    "sector": "Technology",
@@ -8898,11 +8903,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 6860700000.0,
-     "pat": 2089200000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 7468400000.0,
      "pat": 2095300000.0
@@ -8921,6 +8921,11 @@
      "q": "2026-03-31",
      "rev": 7246000000.0,
      "pat": 1653600000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 9645300000.0,
+     "pat": 2919200000.0
     }
    ],
    "sector": "Financial Services",
@@ -9085,11 +9090,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 52713000000.0,
-     "pat": 5064200000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 50465900000.0,
      "pat": 2912800000.0
@@ -9108,6 +9108,11 @@
      "q": "2026-03-31",
      "rev": 46334800000.0,
      "pat": 1394300000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 44523100000.0,
+     "pat": 1041700000.0
     }
    ],
    "sector": "Basic Materials",
@@ -9175,7 +9180,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-07"
+   "next_earnings": "2026-08-10"
   },
   "JWL": {
    "available": true,
@@ -9245,11 +9250,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 11556200000.0,
-     "pat": 777400000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 12218500000.0,
      "pat": 425200000.0
@@ -9268,10 +9268,15 @@
      "q": "2026-03-31",
      "rev": 13733500000.0,
      "pat": 1557500000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 13280800000.0,
+     "pat": 1694600000.0
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-07-31"
+   "next_earnings": "2026-10-15"
   },
   "KPIL": {
    "available": true,
@@ -9303,7 +9308,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-11"
   },
   "KARURVYSYA": {
    "available": true,
@@ -9623,7 +9628,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-07"
   },
   "MMTC": {
    "available": true,
@@ -9719,7 +9724,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-08-11"
   },
   "MRPL": {
    "available": true,
@@ -9847,7 +9852,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-05"
   },
   "NATCOPHARM": {
    "available": true,
@@ -9943,7 +9948,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-05"
   },
   "NSLNISP": {
    "available": true,
@@ -9981,11 +9986,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 14754380000.0,
-     "pat": 1972120000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 15072690000.0,
      "pat": 1966510000.0
@@ -10004,6 +10004,11 @@
      "q": "2026-03-31",
      "rev": 25938060000.0,
      "pat": 2238780000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 26836340000.0,
+     "pat": 2071780000.0
     }
    ],
    "sector": "Healthcare",
@@ -10071,7 +10076,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-05"
+   "next_earnings": "2026-10-29"
   },
   "NETWEB": {
    "available": true,
@@ -10429,11 +10434,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 7821000000.0,
-     "pat": 4832700000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 8542200000.0,
      "pat": 5503800000.0
@@ -10452,6 +10452,11 @@
      "q": "2026-03-31",
      "rev": 9217300000.0,
      "pat": 6558000000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 9234400000.0,
+     "pat": 5573400000.0
     }
    ],
    "sector": "Financial Services",
@@ -10909,11 +10914,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 6022900000.0,
-     "pat": 1327100000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 4897400000.0,
      "pat": 801000000.0
@@ -10932,6 +10932,11 @@
      "q": "2026-03-31",
      "rev": 7682600000.0,
      "pat": 1299700000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 5322000000.0,
+     "pat": 872100000.0
     }
    ],
    "sector": "Industrials",
@@ -11261,11 +11266,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2025-03-31",
-     "rev": 12298200000.0,
-     "pat": 1082900000.0
-    },
-    {
      "q": "2025-06-30",
      "rev": 16255000000.0,
      "pat": 4343600000.0
@@ -11284,6 +11284,11 @@
      "q": "2026-03-31",
      "rev": 12403100000.0,
      "pat": 1579900000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 15894700000.0,
+     "pat": 4582500000.0
     }
    ],
    "sector": "Basic Materials",
@@ -11639,7 +11644,7 @@
     }
    ],
    "sector": "Communication Services",
-   "next_earnings": "2026-08-07"
+   "next_earnings": "2026-08-12"
   },
   "SPLPETRO": {
    "available": true,
@@ -12087,7 +12092,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-03"
   },
   "TITAGARH": {
    "available": true,
@@ -12535,7 +12540,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-05"
+   "next_earnings": "2026-11-04"
   },
   "WOCKPHARMA": {
    "available": true,
@@ -12631,7 +12636,7 @@
     }
    ],
    "sector": "Communication Services",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-08-10"
   },
   "ZENTEC": {
    "available": true,
@@ -12733,11 +12738,6 @@
    "available": true,
    "quarters": [
     {
-     "q": "2024-12-31",
-     "rev": 8538210000.0,
-     "pat": 1370690000.0
-    },
-    {
      "q": "2025-03-31",
      "rev": 8982860000.0,
      "pat": 1521630000.0
@@ -12756,6 +12756,11 @@
      "q": "2026-03-31",
      "rev": 11072870000.0,
      "pat": 1893630000.0
+    },
+    {
+     "q": "2026-06-30",
+     "rev": 11523580000.0,
+     "pat": 1643420000.0
     }
    ],
    "sector": "Technology",
