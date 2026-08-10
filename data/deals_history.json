@@ -1,39 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-07-31",
-   "deals": [
-    {
-     "symbol": "KAYNES",
-     "side": "BUY",
-     "qty": 386742.0,
-     "kind": "bulk",
-     "date": "31-JUL-2026"
-    },
-    {
-     "symbol": "PINELABS",
-     "side": "BUY",
-     "qty": 21661425.0,
-     "kind": "bulk",
-     "date": "31-JUL-2026"
-    },
-    {
-     "symbol": "KAYNES",
-     "side": "SELL",
-     "qty": 386742.0,
-     "kind": "bulk",
-     "date": "31-JUL-2026"
-    },
-    {
-     "symbol": "PINELABS",
-     "side": "SELL",
-     "qty": 21660400.0,
-     "kind": "bulk",
-     "date": "31-JUL-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-03",
    "deals": [
     {
@@ -659,6 +626,39 @@
      "qty": 130000000.0,
      "kind": "block",
      "date": "07-AUG-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "deals": [
+    {
+     "symbol": "EIDPARRY",
+     "side": "BUY",
+     "qty": 2215000.0,
+     "kind": "bulk",
+     "date": "10-AUG-2026"
+    },
+    {
+     "symbol": "EIDPARRY",
+     "side": "SELL",
+     "qty": 2215000.0,
+     "kind": "bulk",
+     "date": "10-AUG-2026"
+    },
+    {
+     "symbol": "EIDPARRY",
+     "side": "BUY",
+     "qty": 2215000.0,
+     "kind": "block",
+     "date": "10-AUG-2026"
+    },
+    {
+     "symbol": "EIDPARRY",
+     "side": "SELL",
+     "qty": 2215000.0,
+     "kind": "block",
+     "date": "10-AUG-2026"
     }
    ]
   }
