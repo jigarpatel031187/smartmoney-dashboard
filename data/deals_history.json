@@ -1,25 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-03",
-   "deals": [
-    {
-     "symbol": "REDINGTON",
-     "side": "BUY",
-     "qty": 4810836.0,
-     "kind": "bulk",
-     "date": "03-AUG-2026"
-    },
-    {
-     "symbol": "REDINGTON",
-     "side": "SELL",
-     "qty": 4810836.0,
-     "kind": "bulk",
-     "date": "03-AUG-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-04",
    "deals": [
     {
@@ -661,6 +642,10 @@
      "date": "10-AUG-2026"
     }
    ]
+  },
+  {
+   "date": "2026-08-11",
+   "deals": []
   }
  ]
 }
