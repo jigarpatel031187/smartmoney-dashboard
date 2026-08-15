@@ -177,53 +177,18 @@
    "date": "2026-08-14",
    "deals": [
     {
-     "symbol": "URBANCO",
+     "symbol": "ZEEL",
      "side": "BUY",
-     "qty": 31500022.0,
+     "qty": 4884905.0,
      "kind": "bulk",
-     "date": "13-AUG-2026"
+     "date": "14-AUG-2026"
     },
     {
-     "symbol": "URBANCO",
+     "symbol": "ZEEL",
      "side": "SELL",
-     "qty": 20000000.0,
+     "qty": 5092545.0,
      "kind": "bulk",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 9631437.0,
-     "kind": "bulk",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "BUY",
-     "qty": 31500022.0,
-     "kind": "block",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 9631437.0,
-     "kind": "block",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 1868585.0,
-     "kind": "block",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 20000000.0,
-     "kind": "block",
-     "date": "13-AUG-2026"
+     "date": "14-AUG-2026"
     }
    ]
   }
