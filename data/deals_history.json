@@ -1,39 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-10",
-   "deals": [
-    {
-     "symbol": "EIDPARRY",
-     "side": "BUY",
-     "qty": 2215000.0,
-     "kind": "bulk",
-     "date": "10-AUG-2026"
-    },
-    {
-     "symbol": "EIDPARRY",
-     "side": "SELL",
-     "qty": 2215000.0,
-     "kind": "bulk",
-     "date": "10-AUG-2026"
-    },
-    {
-     "symbol": "EIDPARRY",
-     "side": "BUY",
-     "qty": 2215000.0,
-     "kind": "block",
-     "date": "10-AUG-2026"
-    },
-    {
-     "symbol": "EIDPARRY",
-     "side": "SELL",
-     "qty": 2215000.0,
-     "kind": "block",
-     "date": "10-AUG-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-11",
    "deals": []
   },
@@ -191,6 +158,10 @@
      "date": "14-AUG-2026"
     }
    ]
+  },
+  {
+   "date": "2026-08-17",
+   "deals": []
   }
  ]
 }
