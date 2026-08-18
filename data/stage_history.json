@@ -4,1848 +4,1848 @@
   "since": "2026-07-21",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "3MINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-07-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ACC": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AIAENG": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "APLAPOLLO": {
   "stage": "NEUTRAL",
   "since": "2026-07-15",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AUBANK": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AWL": {
   "stage": "READY",
   "since": "2026-08-04",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ABBOTINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ATGL": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ABCAPITAL": {
   "stage": "NEUTRAL",
   "since": "2026-08-05",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "AJANTPHARM": {
   "stage": "CONFIRMED",
   "since": "2026-07-31",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ALKEM": {
   "stage": "NEUTRAL",
   "since": "2026-08-04",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ANTHEM": {
   "stage": "NEUTRAL",
   "since": "2026-07-22",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "APARINDS": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "APOLLOTYRE": {
   "stage": "NEUTRAL",
   "since": "2026-07-20",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ASHOKLEY": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "ASTRAL": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "AUROPHARMA": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AIIL": {
   "stage": "READY",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BSE": {
   "stage": "RED",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BAJAJHFL": {
   "stage": "NEUTRAL",
   "since": "2026-07-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BALKRISIND": {
   "stage": "READY",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BANKINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-07-23",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MAHABANK": {
   "stage": "NEUTRAL",
   "since": "2026-07-31",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BERGEPAINT": {
   "stage": "READY",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "BDL": {
   "stage": "CONFIRMED",
   "since": "2026-08-13",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "BHARATFORG": {
   "stage": "NEUTRAL",
   "since": "2026-07-15",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BHEL": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "BHARTIHEXA": {
   "stage": "CONFIRMED",
   "since": "2026-08-14",
-  "cand": "READY",
+  "cand": "NEUTRAL",
   "streak": 1,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BIOCON": {
   "stage": "NEUTRAL",
   "since": "2026-07-22",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BLUESTARCO": {
   "stage": "RED",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CRISIL": {
   "stage": "READY",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "COCHINSHIP": {
   "stage": "NEUTRAL",
   "since": "2026-07-13",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "COFORGE": {
   "stage": "NEUTRAL",
   "since": "2026-08-03",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "COLPAL": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CONCOR": {
   "stage": "READY",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "COROMANDEL": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DABUR": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DALBHARAT": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DIXON": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ENDURANCE": {
   "stage": "NEUTRAL",
   "since": "2026-07-27",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "ESCORTS": {
   "stage": "READY",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "EXIDEIND": {
-  "stage": "CONFIRMED",
-  "since": "2026-07-20",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "NYKAA": {
   "stage": "NEUTRAL",
   "since": "2026-07-27",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "FEDERALBNK": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "FORTIS": {
   "stage": "RED",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GVT&D": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GMRAIRPORT": {
   "stage": "NEUTRAL",
   "since": "2026-07-23",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GICRE": {
   "stage": "NEUTRAL",
   "since": "2026-07-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GLAXO": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GLENMARK": {
   "stage": "NEUTRAL",
   "since": "2026-07-30",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MEDANTA": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GODFRYPHLP": {
-  "stage": "READY",
-  "since": "2026-08-14",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "GODREJIND": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GODREJPROP": {
   "stage": "NEUTRAL",
   "since": "2026-07-15",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "FLUOROCHEM": {
   "stage": "CONFIRMED",
   "since": "2026-08-13",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "HAVELLS": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HEROMOTOCO": {
   "stage": "NEUTRAL",
   "since": "2026-07-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HINDPETRO": {
   "stage": "RED",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "POWERINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HONAUT": {
   "stage": "NEUTRAL",
   "since": "2026-07-16",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HUDCO": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ICICIGI": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ICICIPRULI": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "IDFCFIRSTB": {
   "stage": "CONFIRMED",
   "since": "2026-07-28",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ITCHOTELS": {
   "stage": "NEUTRAL",
   "since": "2026-07-31",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "INDIANB": {
   "stage": "NEUTRAL",
   "since": "2026-07-22",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "IRCTC": {
   "stage": "RED",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "IREDA": {
   "stage": "NEUTRAL",
   "since": "2026-07-09",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "INDUSTOWER": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "INDUSINDBK": {
   "stage": "NEUTRAL",
   "since": "2026-08-04",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NAUKRI": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "IPCALAB": {
-  "stage": "NEUTRAL",
-  "since": "2026-07-31",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "CONFIRMED",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "JKCEMENT": {
   "stage": "NEUTRAL",
   "since": "2026-07-27",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JSWENERGY": {
   "stage": "NEUTRAL",
   "since": "2026-07-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JSWINFRA": {
   "stage": "NEUTRAL",
   "since": "2026-07-22",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JSL": {
   "stage": "READY",
   "since": "2026-08-10",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
- },
- "JUBLFOOD": {
-  "stage": "CONFIRMED",
-  "since": "2026-08-14",
   "cand": "NEUTRAL",
   "streak": 1,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
+ },
+ "JUBLFOOD": {
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "KPRMILL": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "KEI": {
   "stage": "CONFIRMED",
   "since": "2026-08-05",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "KPITTECH": {
   "stage": "READY",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "KALYANKJIL": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LTF": {
   "stage": "READY",
   "since": "2026-08-12",
-  "cand": "NEUTRAL",
+  "cand": "CONFIRMED",
   "streak": 1,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LTTS": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LICHSGFIN": {
   "stage": "RED",
   "since": "2026-08-04",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LAURUSLABS": {
   "stage": "CONFIRMED",
   "since": "2026-07-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LICI": {
-  "stage": "READY",
-  "since": "2026-08-13",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "LINDEINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LLOYDSME": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LUPIN": {
   "stage": "RED",
   "since": "2026-08-03",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MRF": {
   "stage": "NEUTRAL",
   "since": "2026-07-30",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "M&MFIN": {
   "stage": "READY",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MANKIND": {
   "stage": "NEUTRAL",
   "since": "2026-07-06",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MARICO": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MFSL": {
-  "stage": "RED",
-  "since": "2026-08-12",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "MOTILALOFS": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "MPHASIS": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "MCX": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NHPC": {
   "stage": "NEUTRAL",
   "since": "2026-07-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NLCINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NMDC": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "NTPCGREEN": {
   "stage": "READY",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NATIONALUM": {
   "stage": "READY",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NAM-INDIA": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "OBEROIRLTY": {
   "stage": "NEUTRAL",
   "since": "2026-07-30",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "OIL": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PAYTM": {
-  "stage": "CONFIRMED",
-  "since": "2026-08-13",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "OFSS": {
   "stage": "NEUTRAL",
   "since": "2026-08-05",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "POLICYBZR": {
   "stage": "NEUTRAL",
   "since": "2026-07-20",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PIIND": {
   "stage": "NEUTRAL",
   "since": "2026-07-09",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "PAGEIND": {
   "stage": "NEUTRAL",
   "since": "2026-07-23",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "PATANJALI": {
   "stage": "READY",
   "since": "2026-08-11",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "PERSISTENT": {
   "stage": "READY",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PETRONET": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "PHOENIXLTD": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "POLYCAB": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PREMIERENE": {
   "stage": "NEUTRAL",
   "since": "2026-07-15",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PRESTIGE": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "RADICO": {
   "stage": "CONFIRMED",
   "since": "2026-07-29",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "RVNL": {
   "stage": "NEUTRAL",
   "since": "2026-07-07",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "SBICARD": {
   "stage": "RED",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SJVN": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SRF": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SCHAEFFLER": {
   "stage": "READY",
   "since": "2026-08-04",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "SAIL": {
-  "stage": "NEUTRAL",
-  "since": "2026-08-07",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "READY",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "SUNDARMFIN": {
-  "stage": "NEUTRAL",
-  "since": "2026-08-05",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "READY",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "SUPREMEIND": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "SUZLON": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SWIGGY": {
   "stage": "NEUTRAL",
   "since": "2026-08-03",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TATACOMM": {
   "stage": "NEUTRAL",
   "since": "2026-08-05",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TATAELXSI": {
-  "stage": "NEUTRAL",
-  "since": "2026-07-31",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "READY",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "TATAINVEST": {
   "stage": "READY",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NIACL": {
   "stage": "READY",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "THERMAX": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TORNTPOWER": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TIINDIA": {
   "stage": "RED",
   "since": "2026-07-31",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "UNOMINDA": {
   "stage": "READY",
   "since": "2026-08-13",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
- },
- "UPL": {
-  "stage": "RED",
-  "since": "2026-08-10",
   "cand": "NEUTRAL",
   "streak": 1,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
+ },
+ "UPL": {
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "UBL": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "VMM": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "IDEA": {
   "stage": "CONFIRMED",
   "since": "2026-08-13",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "VOLTAS": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "WAAREEENER": {
-  "stage": "NEUTRAL",
-  "since": "2026-08-10",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "READY",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "YESBANK": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ACMESOLAR": {
   "stage": "NEUTRAL",
   "since": "2026-07-21",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AADHARHFC": {
   "stage": "NEUTRAL",
   "since": "2026-07-23",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AARTIIND": {
   "stage": "CONFIRMED",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AAVAS": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "ACE": {
   "stage": "READY",
   "since": "2026-08-12",
-  "cand": "NEUTRAL",
+  "cand": "CONFIRMED",
   "streak": 1,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ABFRL": {
   "stage": "NEUTRAL",
   "since": "2026-08-05",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "RED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "ABLBL": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "ABREL": {
-  "stage": "CONFIRMED",
-  "since": "2026-08-14",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "ABSLAMC": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CPPLUS": {
   "stage": "RED",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AEGISLOG": {
   "stage": "NEUTRAL",
   "since": "2026-07-28",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "AEGISVOPAK": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AFCONS": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AFFLE": {
   "stage": "READY",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ABDL": {
   "stage": "NEUTRAL",
   "since": "2026-07-16",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ARE&M": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "AMBER": {
   "stage": "CONFIRMED",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ANANDRATHI": {
   "stage": "CONFIRMED",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ANANTRAJ": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ANGELONE": {
   "stage": "NEUTRAL",
   "since": "2026-08-05",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "APTUS": {
   "stage": "NEUTRAL",
   "since": "2026-07-28",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ASAHIINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-07-31",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "ATHERENERG": {
   "stage": "RED",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ATUL": {
   "stage": "NEUTRAL",
   "since": "2026-07-31",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "BEML": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "BLS": {
-  "stage": "CONFIRMED",
-  "since": "2026-08-11",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "BALRAMCHIN": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "BANDHANBNK": {
   "stage": "NEUTRAL",
   "since": "2026-07-08",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BATAINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BAYERCROP": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BELRISE": {
   "stage": "CONFIRMED",
   "since": "2026-08-11",
-  "cand": "NEUTRAL",
+  "cand": "READY",
   "streak": 1,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BIKAJI": {
   "stage": "NEUTRAL",
   "since": "2026-07-20",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BSOFT": {
   "stage": "READY",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BLUEDART": {
   "stage": "READY",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BLUEJET": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "BBTC": {
   "stage": "NEUTRAL",
   "since": "2026-07-14",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "FIRSTCRY": {
   "stage": "NEUTRAL",
   "since": "2026-07-27",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "BRIGADE": {
   "stage": "READY",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MAPMYINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CCL": {
   "stage": "NEUTRAL",
   "since": "2026-07-20",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CESC": {
   "stage": "CONFIRMED",
   "since": "2026-08-14",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "CIEINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CANFINHOME": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CAPLIPOINT": {
   "stage": "NEUTRAL",
   "since": "2026-07-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CGCL": {
   "stage": "NEUTRAL",
   "since": "2026-07-15",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CARBORUNIV": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
-  "cand": "READY",
+  "cand": "CONFIRMED",
   "streak": 1,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CARTRADE": {
   "stage": "READY",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CASTROLIND": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CEATLTD": {
   "stage": "NEUTRAL",
   "since": "2026-07-24",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CEMPRO": {
   "stage": "RED",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CENTRALBK": {
   "stage": "NEUTRAL",
   "since": "2026-07-13",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "CDSL": {
-  "stage": "READY",
-  "since": "2026-08-14",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "CHALET": {
-  "stage": "RED",
-  "since": "2026-08-12",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "CHAMBLFERT": {
   "stage": "READY",
   "since": "2026-08-10",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "CHENNPETRO": {
   "stage": "NEUTRAL",
   "since": "2026-07-24",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CHOICEIN": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CHOLAHLDNG": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CUB": {
   "stage": "NEUTRAL",
   "since": "2026-07-24",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CLEAN": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "COHANCE": {
-  "stage": "READY",
-  "since": "2026-08-13",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "CONFIRMED",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "CAMS": {
   "stage": "READY",
   "since": "2026-08-13",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "CONCORDBIO": {
-  "stage": "NEUTRAL",
-  "since": "2026-08-13",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "CONFIRMED",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "CRAFTSMAN": {
   "stage": "CONFIRMED",
   "since": "2026-07-30",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CREDITACC": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "CROMPTON": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CYIENT": {
   "stage": "READY",
   "since": "2026-08-04",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DCMSHRIRAM": {
   "stage": "READY",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DOMS": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DATAPATTNS": {
   "stage": "NEUTRAL",
   "since": "2026-07-28",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DEEPAKFERT": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DEEPAKNTR": {
   "stage": "READY",
   "since": "2026-08-13",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "DELHIVERY": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "DEVYANI": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "EIDPARRY": {
   "stage": "RED",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "EIHOTEL": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ELECON": {
   "stage": "NEUTRAL",
   "since": "2026-07-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ELGIEQUIP": {
   "stage": "CONFIRMED",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "EMAMILTD": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "EMCURE": {
   "stage": "NEUTRAL",
   "since": "2026-07-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "EMMVEE": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ENGINERSIN": {
   "stage": "READY",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ERIS": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "FACT": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "FINCABLES": {
   "stage": "CONFIRMED",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "FSL": {
   "stage": "READY",
   "since": "2026-08-10",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "FIVESTAR": {
   "stage": "READY",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "FORCEMOT": {
   "stage": "NEUTRAL",
   "since": "2026-08-05",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GABRIEL": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GALLANTT": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GLAND": {
   "stage": "CONFIRMED",
   "since": "2026-08-11",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GODIGIT": {
   "stage": "NEUTRAL",
   "since": "2026-08-03",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "GPIL": {
   "stage": "RED",
   "since": "2026-08-10",
-  "cand": "CONFIRMED",
+  "cand": "READY",
   "streak": 1,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GRANULES": {
   "stage": "NEUTRAL",
   "since": "2026-07-22",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GRAPHITE": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GRAVITA": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GESHIP": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "GMDCLTD": {
   "stage": "READY",
   "since": "2026-08-14",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "HEG": {
   "stage": "CONFIRMED",
   "since": "2026-07-24",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HBLENGINE": {
   "stage": "NEUTRAL",
   "since": "2026-07-09",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HFCL": {
   "stage": "RED",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HSCL": {
   "stage": "NEUTRAL",
   "since": "2026-07-29",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HINDCOPPER": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "HOMEFIRST": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "HONASA": {
-  "stage": "CONFIRMED",
-  "since": "2026-08-14",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "IDBI": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "IFCI": {
-  "stage": "NEUTRAL",
-  "since": "2026-08-12",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "CONFIRMED",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "IIFL": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "IRB": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "IRCON": {
   "stage": "READY",
   "since": "2026-08-12",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "ITI": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "INDGN": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "INDIACEM": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "INDIAMART": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "IEX": {
   "stage": "READY",
   "since": "2026-08-05",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "IOB": {
-  "stage": "READY",
-  "since": "2026-07-23",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "IGL": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "INOXWIND": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "INTELLECT": {
   "stage": "NEUTRAL",
   "since": "2026-08-05",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "IGIL": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "IKS": {
   "stage": "RED",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JBCHEPHARM": {
   "stage": "CONFIRMED",
@@ -1859,951 +1859,951 @@
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JKTYRE": {
   "stage": "NEUTRAL",
   "since": "2026-07-20",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JMFINANCIL": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "JSWCEMENT": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JSWDULUX": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "JPPOWER": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "J&KBANK": {
   "stage": "NEUTRAL",
   "since": "2026-07-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JINDALSAW": {
   "stage": "NEUTRAL",
   "since": "2026-07-15",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JUBLINGREA": {
   "stage": "NEUTRAL",
   "since": "2026-07-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JUBLPHARMA": {
-  "stage": "RED",
-  "since": "2026-08-14",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "JWL": {
   "stage": "READY",
   "since": "2026-07-31",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JYOTICNC": {
   "stage": "NEUTRAL",
   "since": "2026-07-20",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "KAJARIACER": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "KPIL": {
   "stage": "CONFIRMED",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "KARURVYSYA": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "KAYNES": {
   "stage": "NEUTRAL",
   "since": "2026-07-23",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "KEC": {
   "stage": "RED",
   "since": "2026-08-13",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "KFINTECH": {
   "stage": "READY",
   "since": "2026-08-07",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "KIRLOSENG": {
   "stage": "NEUTRAL",
   "since": "2026-07-20",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "KIMS": {
   "stage": "NEUTRAL",
   "since": "2026-07-21",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LTFOODS": {
   "stage": "READY",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "LATENTVIEW": {
   "stage": "NEUTRAL",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "THELEELA": {
   "stage": "CONFIRMED",
   "since": "2026-08-03",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LEMONTREE": {
   "stage": "NEUTRAL",
   "since": "2026-08-05",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "MMTC": {
   "stage": "NEUTRAL",
   "since": "2026-07-08",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MGL": {
   "stage": "READY",
   "since": "2026-08-04",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MANAPPURAM": {
   "stage": "RED",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MRPL": {
   "stage": "READY",
   "since": "2026-07-27",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "MINDACORP": {
   "stage": "CONFIRMED",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MSUMI": {
   "stage": "NEUTRAL",
   "since": "2026-07-23",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NATCOPHARM": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NBCC": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NCC": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "NSLNISP": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "RED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "NH": {
   "stage": "RED",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NAVA": {
   "stage": "NEUTRAL",
   "since": "2026-07-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NAVINFLUOR": {
   "stage": "NEUTRAL",
   "since": "2026-07-08",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "NETWEB": {
-  "stage": "NEUTRAL",
-  "since": "2026-08-10",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "CONFIRMED",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "NEULANDLAB": {
   "stage": "CONFIRMED",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NEWGEN": {
   "stage": "READY",
   "since": "2026-07-24",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NIVABUPA": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "NUVAMA": {
-  "stage": "NEUTRAL",
-  "since": "2026-07-28",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "READY",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "NUVOCO": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "OLAELEC": {
   "stage": "READY",
   "since": "2026-08-13",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "OLECTRA": {
   "stage": "NEUTRAL",
   "since": "2026-07-15",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ONESOURCE": {
   "stage": "NEUTRAL",
   "since": "2026-07-22",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PCBL": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "PGEL": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PNBHOUSING": {
   "stage": "NEUTRAL",
   "since": "2026-07-21",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PTCIL": {
   "stage": "CONFIRMED",
   "since": "2026-08-10",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "PVRINOX": {
   "stage": "NEUTRAL",
   "since": "2026-07-29",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PARADEEP": {
   "stage": "READY",
   "since": "2026-08-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PFIZER": {
   "stage": "READY",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PWL": {
-  "stage": "NEUTRAL",
-  "since": "2026-08-13",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "CONFIRMED",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "PINELABS": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PIRAMALFIN": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PPLPHARMA": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "POLYMED": {
   "stage": "READY",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "POONAWALLA": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "RRKABEL": {
   "stage": "CONFIRMED",
   "since": "2026-07-27",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "RBLBANK": {
-  "stage": "NEUTRAL",
-  "since": "2026-07-22",
-  "cand": "CONFIRMED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "CONFIRMED",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "RHIM": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "RITES": {
   "stage": "READY",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "RAINBOW": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "RKFORGE": {
   "stage": "CONFIRMED",
   "since": "2026-07-28",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "REDINGTON": {
   "stage": "READY",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "RPOWER": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SBFC": {
   "stage": "NEUTRAL",
   "since": "2026-07-30",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SAGILITY": {
   "stage": "NEUTRAL",
   "since": "2026-08-03",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SAILIFE": {
   "stage": "CONFIRMED",
   "since": "2026-08-11",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "SAMMAANCAP": {
   "stage": "NEUTRAL",
   "since": "2026-07-06",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SAPPHIRE": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SARDAEN": {
   "stage": "READY",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SAREGAMA": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SCHNEIDER": {
   "stage": "NEUTRAL",
   "since": "2026-07-29",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "SCI": {
   "stage": "READY",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "SHYAMMETL": {
   "stage": "RED",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SIGNATURE": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SOBHA": {
   "stage": "NEUTRAL",
   "since": "2026-07-24",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SONACOMS": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SONATSOFTW": {
   "stage": "READY",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "STARHEALTH": {
   "stage": "NEUTRAL",
   "since": "2026-08-03",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SUMICHEM": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SUNTV": {
   "stage": "READY",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SPLPETRO": {
   "stage": "NEUTRAL",
   "since": "2026-07-29",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "SWANCORP": {
   "stage": "READY",
   "since": "2026-08-14",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SYNGENE": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "SYRMA": {
   "stage": "NEUTRAL",
   "since": "2026-08-14",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "TBOTEK": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TATACHEM": {
   "stage": "NEUTRAL",
   "since": "2026-07-22",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TATATECH": {
-  "stage": "CONFIRMED",
-  "since": "2026-08-10",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "TTML": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TECHNOE": {
   "stage": "NEUTRAL",
   "since": "2026-07-13",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "TEGA": {
-  "stage": "CONFIRMED",
-  "since": "2026-08-14",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "TEJASNET": {
   "stage": "NEUTRAL",
   "since": "2026-07-08",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TENNIND": {
   "stage": "RED",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "RAMCOCEM": {
   "stage": "NEUTRAL",
   "since": "2026-07-23",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TIMKEN": {
   "stage": "READY",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TITAGARH": {
   "stage": "READY",
   "since": "2026-08-10",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "TARIL": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "TRAVELFOOD": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "TRIDENT": {
   "stage": "NEUTRAL",
   "since": "2026-07-16",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "TRITURBINE": {
   "stage": "NEUTRAL",
   "since": "2026-07-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "UCOBANK": {
-  "stage": "READY",
-  "since": "2026-08-10",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "UTIAMC": {
   "stage": "NEUTRAL",
   "since": "2026-07-30",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "URBANCO": {
   "stage": "READY",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "USHAMART": {
   "stage": "NEUTRAL",
   "since": "2026-07-31",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "VTL": {
   "stage": "NEUTRAL",
   "since": "2026-07-08",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "VIJAYA": {
   "stage": "NEUTRAL",
   "since": "2026-07-20",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "WELCORP": {
   "stage": "CONFIRMED",
   "since": "2026-07-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "WELSPUNLIV": {
   "stage": "CONFIRMED",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "WHIRLPOOL": {
   "stage": "NEUTRAL",
   "since": "2026-07-09",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "WOCKPHARMA": {
   "stage": "NEUTRAL",
   "since": "2026-07-08",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ZFCVINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-08-03",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ZEEL": {
-  "stage": "NEUTRAL",
-  "since": "2026-07-24",
-  "cand": "RED",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "RED",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "ZENTEC": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "ZENSARTECH": {
   "stage": "NEUTRAL",
   "since": "2026-08-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ZYDUSWELL": {
   "stage": "NEUTRAL",
   "since": "2026-07-28",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ECLERX": {
   "stage": "READY",
   "since": "2026-07-31",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "NEUTRAL",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GROWW": {
   "stage": "NEUTRAL",
   "since": "2026-07-06",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "HDBFS": {
   "stage": "NEUTRAL",
   "since": "2026-07-22",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "HEXT": {
   "stage": "READY",
   "since": "2026-07-15",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ICICIAMC": {
   "stage": "NEUTRAL",
   "since": "2026-07-28",
-  "cand": "READY",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "LGEINDIA": {
   "stage": "NEUTRAL",
   "since": "2026-07-17",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LENSKART": {
   "stage": "CONFIRMED",
   "since": "2026-08-10",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "ACUTAAS": {
   "stage": "NEUTRAL",
   "since": "2026-08-10",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "ANURAS": {
   "stage": "NEUTRAL",
   "since": "2026-07-23",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "ASTERDM": {
   "stage": "NEUTRAL",
   "since": "2026-08-12",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "CANHLIFE": {
   "stage": "NEUTRAL",
   "since": "2026-08-11",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "LALPATHLAB": {
-  "stage": "CONFIRMED",
-  "since": "2026-07-27",
-  "cand": "NEUTRAL",
-  "streak": 1,
-  "last": "2026-08-17"
+  "stage": "NEUTRAL",
+  "since": "2026-08-18",
+  "cand": null,
+  "streak": 0,
+  "last": "2026-08-18"
  },
  "GRSE": {
   "stage": "NEUTRAL",
   "since": "2026-07-06",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "GILLETTE": {
   "stage": "NEUTRAL",
   "since": "2026-07-08",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "JAINREC": {
   "stage": "NEUTRAL",
   "since": "2026-07-07",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "MEESHO": {
   "stage": "NEUTRAL",
   "since": "2026-08-13",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "READY",
+  "streak": 1,
+  "last": "2026-08-18"
  },
  "RAILTEL": {
   "stage": "NEUTRAL",
   "since": "2026-07-02",
   "cand": null,
   "streak": 0,
-  "last": "2026-08-17"
+  "last": "2026-08-18"
  },
  "PFOCUS": {
   "stage": "NEUTRAL",
   "since": "2026-08-04",
-  "cand": null,
-  "streak": 0,
-  "last": "2026-08-17"
+  "cand": "CONFIRMED",
+  "streak": 1,
+  "last": "2026-08-18"
  }
 }
