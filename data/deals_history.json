@@ -1,88 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-12",
-   "deals": [
-    {
-     "symbol": "FINCABLES",
-     "side": "BUY",
-     "qty": 858286.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "BUY",
-     "qty": 2107432.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "BUY",
-     "qty": 3166601.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "BUY",
-     "qty": 709641.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "BUY",
-     "qty": 2019316.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "BUY",
-     "qty": 2145781.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "FINCABLES",
-     "side": "SELL",
-     "qty": 858286.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "SELL",
-     "qty": 2234650.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "SELL",
-     "qty": 2107432.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "SELL",
-     "qty": 4282659.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    },
-    {
-     "symbol": "TENNIND",
-     "side": "SELL",
-     "qty": 30270323.0,
-     "kind": "bulk",
-     "date": "12-AUG-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-13",
    "deals": [
     {
@@ -162,6 +80,67 @@
   {
    "date": "2026-08-18",
    "deals": []
+  },
+  {
+   "date": "2026-08-19",
+   "deals": [
+    {
+     "symbol": "ASTERDM",
+     "side": "BUY",
+     "qty": 4994505.0,
+     "kind": "bulk",
+     "date": "19-AUG-2026"
+    },
+    {
+     "symbol": "ASTERDM",
+     "side": "BUY",
+     "qty": 9789107.0,
+     "kind": "bulk",
+     "date": "19-AUG-2026"
+    },
+    {
+     "symbol": "ASTERDM",
+     "side": "BUY",
+     "qty": 5220857.0,
+     "kind": "bulk",
+     "date": "19-AUG-2026"
+    },
+    {
+     "symbol": "ASTERDM",
+     "side": "BUY",
+     "qty": 5288000.0,
+     "kind": "bulk",
+     "date": "19-AUG-2026"
+    },
+    {
+     "symbol": "ASTERDM",
+     "side": "BUY",
+     "qty": 4568000.0,
+     "kind": "bulk",
+     "date": "19-AUG-2026"
+    },
+    {
+     "symbol": "HSCL",
+     "side": "BUY",
+     "qty": 5668897.0,
+     "kind": "bulk",
+     "date": "19-AUG-2026"
+    },
+    {
+     "symbol": "ASTERDM",
+     "side": "SELL",
+     "qty": 58100000.0,
+     "kind": "bulk",
+     "date": "19-AUG-2026"
+    },
+    {
+     "symbol": "HSCL",
+     "side": "SELL",
+     "qty": 2463897.0,
+     "kind": "bulk",
+     "date": "19-AUG-2026"
+    }
+   ]
   }
  ]
 }
