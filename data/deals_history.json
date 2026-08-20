@@ -1,60 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-13",
-   "deals": [
-    {
-     "symbol": "URBANCO",
-     "side": "BUY",
-     "qty": 31500022.0,
-     "kind": "bulk",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 20000000.0,
-     "kind": "bulk",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 9631437.0,
-     "kind": "bulk",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "BUY",
-     "qty": 31500022.0,
-     "kind": "block",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 9631437.0,
-     "kind": "block",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 1868585.0,
-     "kind": "block",
-     "date": "13-AUG-2026"
-    },
-    {
-     "symbol": "URBANCO",
-     "side": "SELL",
-     "qty": 20000000.0,
-     "kind": "block",
-     "date": "13-AUG-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-14",
    "deals": [
     {
@@ -139,6 +85,207 @@
      "qty": 2463897.0,
      "kind": "bulk",
      "date": "19-AUG-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "deals": [
+    {
+     "symbol": "BALRAMCHIN",
+     "side": "BUY",
+     "qty": 1303610.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "side": "BUY",
+     "qty": 1082504.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "side": "BUY",
+     "qty": 1074739.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "side": "BUY",
+     "qty": 1334558.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 2562162.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 2000000.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 4324324.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 1081081.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 1783784.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 983784.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "side": "SELL",
+     "qty": 1074739.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "side": "SELL",
+     "qty": 1281792.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "side": "SELL",
+     "qty": 1090287.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "side": "SELL",
+     "qty": 1303610.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "SELL",
+     "qty": 15135135.0,
+     "kind": "bulk",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 1783784.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 983784.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 270275.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 2562162.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 518919.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 270275.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 1081081.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 518909.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 281081.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 540541.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 4324324.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "BUY",
+     "qty": 2000000.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
+    },
+    {
+     "symbol": "KFINTECH",
+     "side": "SELL",
+     "qty": 15135135.0,
+     "kind": "block",
+     "date": "20-AUG-2026"
     }
    ]
   }
