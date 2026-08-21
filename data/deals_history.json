@@ -1,25 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-14",
-   "deals": [
-    {
-     "symbol": "ZEEL",
-     "side": "BUY",
-     "qty": 4884905.0,
-     "kind": "bulk",
-     "date": "14-AUG-2026"
-    },
-    {
-     "symbol": "ZEEL",
-     "side": "SELL",
-     "qty": 5092545.0,
-     "kind": "bulk",
-     "date": "14-AUG-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-17",
    "deals": []
   },
@@ -288,6 +269,10 @@
      "date": "20-AUG-2026"
     }
    ]
+  },
+  {
+   "date": "2026-08-21",
+   "deals": []
   }
  ]
 }
