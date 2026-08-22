@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-15T09:40:22.286315+05:30",
+ "asof": "2026-08-22T09:41:41.100897+05:30",
  "data": {
   "360ONE": {
    "available": true,
@@ -383,7 +383,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-11-12"
   },
   "ANTHEM": {
    "available": true,
@@ -831,7 +831,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-11-12"
   },
   "BHARATFORG": {
    "available": true,
@@ -863,7 +863,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-10"
+   "next_earnings": "2026-11-13"
   },
   "BHEL": {
    "available": true,
@@ -3413,7 +3413,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-10-29"
   },
   "NTPCGREEN": {
    "available": true,
@@ -3701,7 +3701,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-11"
+   "next_earnings": "2026-11-17"
   },
   "PAGEIND": {
    "available": true,
@@ -3765,7 +3765,7 @@
     }
    ],
    "sector": "Consumer Defensive",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-10-29"
   },
   "PERSISTENT": {
    "available": true,
@@ -4533,7 +4533,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-11-05"
   },
   "UNOMINDA": {
    "available": true,
@@ -4693,7 +4693,7 @@
     }
    ],
    "sector": "Communication Services",
-   "next_earnings": "2026-08-10"
+   "next_earnings": "2026-11-13"
   },
   "VOLTAS": {
    "available": true,
@@ -6736,7 +6736,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-11-13"
   },
   "CUB": {
    "available": true,
@@ -7632,7 +7632,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-11"
+   "next_earnings": "2026-11-13"
   },
   "FSL": {
    "available": true,
@@ -9894,7 +9894,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-11-12"
   },
   "NBCC": {
    "available": true,
