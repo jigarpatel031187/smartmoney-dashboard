@@ -1,10 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-17",
-   "deals": []
-  },
-  {
    "date": "2026-08-18",
    "deals": []
   },
@@ -273,6 +269,207 @@
   {
    "date": "2026-08-21",
    "deals": []
+  },
+  {
+   "date": "2026-08-24",
+   "deals": [
+    {
+     "symbol": "LTFOODS",
+     "side": "BUY",
+     "qty": 2057535.0,
+     "kind": "bulk",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "LTFOODS",
+     "side": "SELL",
+     "qty": 2057535.0,
+     "kind": "bulk",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250001.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250001.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2375002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1500002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1500002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1500002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 3470553.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1500002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2500001.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1425002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 7500003.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1500001.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1750002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 976998.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1258752.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1700002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 10000002.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 523004.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "SELL",
+     "qty": 23027687.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "SELL",
+     "qty": 20603720.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "SELL",
+     "qty": 4847934.0,
+     "kind": "block",
+     "date": "24-AUG-2026"
+    }
+   ]
   }
  ]
 }
