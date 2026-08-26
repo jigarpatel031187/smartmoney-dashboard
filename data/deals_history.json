@@ -1,67 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-19",
-   "deals": [
-    {
-     "symbol": "ASTERDM",
-     "side": "BUY",
-     "qty": 4994505.0,
-     "kind": "bulk",
-     "date": "19-AUG-2026"
-    },
-    {
-     "symbol": "ASTERDM",
-     "side": "BUY",
-     "qty": 9789107.0,
-     "kind": "bulk",
-     "date": "19-AUG-2026"
-    },
-    {
-     "symbol": "ASTERDM",
-     "side": "BUY",
-     "qty": 5220857.0,
-     "kind": "bulk",
-     "date": "19-AUG-2026"
-    },
-    {
-     "symbol": "ASTERDM",
-     "side": "BUY",
-     "qty": 5288000.0,
-     "kind": "bulk",
-     "date": "19-AUG-2026"
-    },
-    {
-     "symbol": "ASTERDM",
-     "side": "BUY",
-     "qty": 4568000.0,
-     "kind": "bulk",
-     "date": "19-AUG-2026"
-    },
-    {
-     "symbol": "HSCL",
-     "side": "BUY",
-     "qty": 5668897.0,
-     "kind": "bulk",
-     "date": "19-AUG-2026"
-    },
-    {
-     "symbol": "ASTERDM",
-     "side": "SELL",
-     "qty": 58100000.0,
-     "kind": "bulk",
-     "date": "19-AUG-2026"
-    },
-    {
-     "symbol": "HSCL",
-     "side": "SELL",
-     "qty": 2463897.0,
-     "kind": "bulk",
-     "date": "19-AUG-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-20",
    "deals": [
     {
@@ -470,6 +409,361 @@
   {
    "date": "2026-08-25",
    "deals": []
+  },
+  {
+   "date": "2026-08-26",
+   "deals": [
+    {
+     "symbol": "CYIENT",
+     "side": "BUY",
+     "qty": 528376.0,
+     "kind": "bulk",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 22000003.0,
+     "kind": "bulk",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 2945863.0,
+     "kind": "bulk",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "CYIENT",
+     "side": "SELL",
+     "qty": 522908.0,
+     "kind": "bulk",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "GROWW",
+     "side": "SELL",
+     "qty": 63169322.0,
+     "kind": "bulk",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "GROWW",
+     "side": "SELL",
+     "qty": 49942079.0,
+     "kind": "bulk",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "SELL",
+     "qty": 46698120.0,
+     "kind": "bulk",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "SELL",
+     "qty": 6000000.0,
+     "kind": "bulk",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 2352677.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 2352783.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 272929.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 6123236.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 164286.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 2123686.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 283535.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 22000003.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 60084.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 2123694.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 567357.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 2123689.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 442432.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 186143.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 2123692.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "BUY",
+     "qty": 3397894.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 1492.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 120549.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 17600.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 162000.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 60600.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 157000.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 3264.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 159731.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 7438.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 41391.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 12870.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 443268.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 142400.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 8301.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 7244.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 40184.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 109900.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 373577.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 2945863.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 123000.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 151256.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 841675.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "BUY",
+     "qty": 369397.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "PWL",
+     "side": "SELL",
+     "qty": 46698120.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "SELL",
+     "qty": 6000000.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    },
+    {
+     "symbol": "WELCORP",
+     "side": "SELL",
+     "qty": 300000.0,
+     "kind": "block",
+     "date": "26-AUG-2026"
+    }
+   ]
   }
  ]
 }
