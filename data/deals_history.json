@@ -1,10 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-21",
-   "deals": []
-  },
-  {
    "date": "2026-08-24",
    "deals": [
     {
@@ -671,6 +667,396 @@
      "qty": 27010000.0,
      "kind": "block",
      "date": "27-AUG-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-28",
+   "deals": [
+    {
+     "symbol": "ATHERENERG",
+     "side": "BUY",
+     "qty": 11880000.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "BUY",
+     "qty": 2397531.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "BUY",
+     "qty": 1532204.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "BUY",
+     "qty": 1785079.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "BUY",
+     "qty": 1030032.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "BUY",
+     "qty": 1514937.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "BUY",
+     "qty": 906031.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "ATHERENERG",
+     "side": "SELL",
+     "qty": 11880000.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "SELL",
+     "qty": 9838209.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "SELL",
+     "qty": 10419555.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "SELL",
+     "qty": 1478799.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "SELL",
+     "qty": 955867.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "SELL",
+     "qty": 1785079.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "SELL",
+     "qty": 906031.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "SELL",
+     "qty": 2397531.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "TEJASNET",
+     "side": "SELL",
+     "qty": 1529315.0,
+     "kind": "bulk",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "ATHERENERG",
+     "side": "BUY",
+     "qty": 11880000.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 401901.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 985791.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 1269838.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 1428569.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 6031747.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 758301.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 396827.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 492896.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 606641.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 555556.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 397352.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 401903.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 606639.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 606642.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 87123.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 56018.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 1587301.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 313295.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 85731.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 343376.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 793650.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 793185.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 401900.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 409483.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 340000.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 793650.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 1190476.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 1904761.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 4761904.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 100000.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 14981.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 47664.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "BUY",
+     "qty": 507569.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "ATHERENERG",
+     "side": "SELL",
+     "qty": 11880000.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "SELL",
+     "qty": 9838209.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "SELL",
+     "qty": 10419555.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "SELL",
+     "qty": 4521048.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
+    },
+    {
+     "symbol": "LENSKART",
+     "side": "SELL",
+     "qty": 4693858.0,
+     "kind": "block",
+     "date": "28-AUG-2026"
     }
    ]
   }
