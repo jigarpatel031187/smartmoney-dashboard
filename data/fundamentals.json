@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-22T09:41:41.100897+05:30",
+ "asof": "2026-08-29T15:55:59.908973+05:30",
  "data": {
   "360ONE": {
    "available": true,
@@ -479,7 +479,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-12"
   },
   "ASHOKLEY": {
    "available": true,
@@ -511,7 +511,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-11-19"
   },
   "ASTRAL": {
    "available": true,
@@ -991,7 +991,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-11"
   },
   "BLUESTARCO": {
    "available": true,
@@ -1407,7 +1407,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-07-30"
+   "next_earnings": "2026-11-12"
   },
   "NYKAA": {
    "available": true,
@@ -1503,7 +1503,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-13"
   },
   "GVT&D": {
    "available": true,
@@ -1919,7 +1919,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-12"
   },
   "HEXT": {
    "available": true,
@@ -2495,7 +2495,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-07-20"
+   "next_earnings": "2026-10-31"
   },
   "JSWENERGY": {
    "available": true,
@@ -2591,7 +2591,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-11-13"
   },
   "JUBLFOOD": {
    "available": true,
@@ -2623,7 +2623,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-13"
+   "next_earnings": "2026-11-19"
   },
   "KPRMILL": {
    "available": true,
@@ -2719,7 +2719,7 @@
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-07-29"
+   "next_earnings": "2026-11-09"
   },
   "KALYANKJIL": {
    "available": true,
@@ -3189,7 +3189,7 @@
     }
    ],
    "sector": "Consumer Defensive",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-12"
   },
   "MFSL": {
    "available": true,
@@ -3477,7 +3477,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-07-31"
+   "next_earnings": "2026-11-05"
   },
   "NAM-INDIA": {
    "available": true,
@@ -3573,7 +3573,7 @@
     }
    ],
    "sector": "Energy",
-   "next_earnings": "2026-08-07"
+   "next_earnings": "2026-11-12"
   },
   "PAYTM": {
    "available": true,
@@ -3605,7 +3605,7 @@
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-07-20"
+   "next_earnings": "2026-11-03"
   },
   "OFSS": {
    "available": true,
@@ -3957,7 +3957,7 @@
     }
    ],
    "sector": "Real Estate",
-   "next_earnings": "2026-07-29"
+   "next_earnings": "2026-11-11"
   },
   "RADICO": {
    "available": true,
@@ -4437,7 +4437,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-07-24"
+   "next_earnings": "2026-11-12"
   },
   "THERMAX": {
    "available": true,
@@ -4469,7 +4469,7 @@
     }
    ],
    "sector": "Industrials",
-   "next_earnings": "2026-07-30"
+   "next_earnings": "2026-11-11"
   },
   "TORNTPOWER": {
    "available": true,
@@ -4501,7 +4501,7 @@
     }
    ],
    "sector": "Utilities",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-11-13"
   },
   "TIINDIA": {
    "available": true,
@@ -4597,7 +4597,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-11-05"
   },
   "UBL": {
    "available": true,
@@ -4725,7 +4725,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-14"
+   "next_earnings": "2026-11-19"
   },
   "WAAREEENER": {
    "available": true,
@@ -4885,7 +4885,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-07-30"
+   "next_earnings": "2026-11-05"
   },
   "AAVAS": {
    "available": true,
@@ -6640,7 +6640,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-07-30"
+   "next_earnings": "2026-11-03"
   },
   "CHENNPETRO": {
    "available": true,
@@ -6768,7 +6768,7 @@
     }
    ],
    "sector": "Financial Services",
-   "next_earnings": "2026-07-28"
+   "next_earnings": "2026-11-02"
   },
   "CLEAN": {
    "available": true,
@@ -6800,7 +6800,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-11-05"
   },
   "COHANCE": {
    "available": true,
@@ -7184,7 +7184,7 @@
     }
    ],
    "sector": "Basic Materials",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-11"
   },
   "DELHIVERY": {
    "available": true,
@@ -7440,7 +7440,7 @@
     }
    ],
    "sector": "Consumer Defensive",
-   "next_earnings": "2026-08-04"
+   "next_earnings": "2026-11-16"
   },
   "EMCURE": {
    "available": true,
@@ -9510,7 +9510,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-08-03"
+   "next_earnings": "2026-11-05"
   },
   "LTFOODS": {
    "available": true,
@@ -9638,7 +9638,7 @@
     }
    ],
    "sector": "Consumer Cyclical",
-   "next_earnings": "2026-08-07"
+   "next_earnings": "2026-11-12"
   },
   "MMTC": {
    "available": true,
@@ -10726,7 +10726,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-07-29"
+   "next_earnings": "2026-11-04"
   },
   "POLYMED": {
    "available": true,
@@ -11078,7 +11078,7 @@
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-07-29"
+   "next_earnings": "2026-11-04"
   },
   "RPOWER": {
    "available": true,
@@ -11558,7 +11558,7 @@
     }
    ],
    "sector": "Technology",
-   "next_earnings": "2026-08-06"
+   "next_earnings": "2026-11-12"
   },
   "STARHEALTH": {
    "available": true,
@@ -11750,7 +11750,7 @@
     }
    ],
    "sector": "Healthcare",
-   "next_earnings": "2026-07-29"
+   "next_earnings": "2026-11-11"
   },
   "SYRMA": {
    "available": true,
