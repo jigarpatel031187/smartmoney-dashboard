@@ -6981,7 +6981,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 424.35,
-   "ret5": -3.91
+   "ret5": -3.91,
+   "ret20": -3.52
   },
   {
    "sym": "ASHOKLEY",
@@ -6989,7 +6990,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 174.55,
-   "ret5": -0.32
+   "ret5": -0.32,
+   "ret20": 0.62
   },
   {
    "sym": "COFORGE",
@@ -6997,7 +6999,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 1768.0,
-   "ret5": 2.38
+   "ret5": 2.38,
+   "ret20": 12.29
   },
   {
    "sym": "ESCORTS",
@@ -7005,7 +7008,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 3135.5,
-   "ret5": -1.7
+   "ret5": -1.7,
+   "ret20": -4.48
   },
   {
    "sym": "GODREJIND",
@@ -7013,7 +7017,8 @@
    "to": "READY",
    "date": "2026-08-03",
    "price": 1337.1,
-   "ret5": -3.36
+   "ret5": -3.36,
+   "ret20": -15.15
   },
   {
    "sym": "LTTS",
@@ -7021,7 +7026,8 @@
    "to": "READY",
    "date": "2026-08-03",
    "price": 3564.8,
-   "ret5": 0.52
+   "ret5": 0.52,
+   "ret20": 1.22
   },
   {
    "sym": "LINDEINDIA",
@@ -7029,7 +7035,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 6980.5,
-   "ret5": 1.14
+   "ret5": 1.14,
+   "ret20": -8.37
   },
   {
    "sym": "LUPIN",
@@ -7037,7 +7044,8 @@
    "to": "RED",
    "date": "2026-08-03",
    "price": 2393.0,
-   "ret5": -3.89
+   "ret5": -3.89,
+   "ret20": -8.55
   },
   {
    "sym": "PRESTIGE",
@@ -7045,7 +7053,8 @@
    "to": "RED",
    "date": "2026-08-03",
    "price": 1670.0,
-   "ret5": -4.85
+   "ret5": -4.85,
+   "ret20": -2.09
   },
   {
    "sym": "SUNDARMFIN",
@@ -7053,7 +7062,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 4828.7,
-   "ret5": -5.39
+   "ret5": -5.39,
+   "ret20": -5.98
   },
   {
    "sym": "SWIGGY",
@@ -7061,7 +7071,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 288.0,
-   "ret5": -3.12
+   "ret5": -3.12,
+   "ret20": -2.12
   },
   {
    "sym": "TATACOMM",
@@ -7069,7 +7080,8 @@
    "to": "READY",
    "date": "2026-08-03",
    "price": 1780.1,
-   "ret5": -2.29
+   "ret5": -2.29,
+   "ret20": -3.19
   },
   {
    "sym": "BLUEDART",
@@ -7077,7 +7089,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 5427.0,
-   "ret5": -4.36
+   "ret5": -4.36,
+   "ret20": -9.27
   },
   {
    "sym": "BRIGADE",
@@ -7085,7 +7098,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 583.65,
-   "ret5": 4.48
+   "ret5": 4.48,
+   "ret20": 12.76
   },
   {
    "sym": "DEVYANI",
@@ -7093,7 +7107,8 @@
    "to": "READY",
    "date": "2026-08-03",
    "price": 116.76,
-   "ret5": 14.39
+   "ret5": 14.39,
+   "ret20": 18.85
   },
   {
    "sym": "FIVESTAR",
@@ -7101,7 +7116,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 551.4,
-   "ret5": -0.88
+   "ret5": -0.88,
+   "ret20": -2.97
   },
   {
    "sym": "GODIGIT",
@@ -7109,7 +7125,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 262.75,
-   "ret5": 2.15
+   "ret5": 2.15,
+   "ret20": -2.04
   },
   {
    "sym": "INDGN",
@@ -7117,7 +7134,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 545.25,
-   "ret5": 4.31
+   "ret5": 4.31,
+   "ret20": 12.18
   },
   {
    "sym": "INTELLECT",
@@ -7125,7 +7143,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 748.85,
-   "ret5": -2.8
+   "ret5": -2.8,
+   "ret20": -9.07
   },
   {
    "sym": "JPPOWER",
@@ -7133,7 +7152,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 18.76,
-   "ret5": -5.12
+   "ret5": -5.12,
+   "ret20": -12.31
   },
   {
    "sym": "KAJARIACER",
@@ -7141,7 +7161,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 1214.7,
-   "ret5": -2.47
+   "ret5": -2.47,
+   "ret20": 2.48
   },
   {
    "sym": "THELEELA",
@@ -7149,7 +7170,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 501.8,
-   "ret5": 1.04
+   "ret5": 1.04,
+   "ret20": 13.67
   },
   {
    "sym": "NETWEB",
@@ -7157,7 +7179,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 4586.0,
-   "ret5": 6.98
+   "ret5": 6.98,
+   "ret20": 13.21
   },
   {
    "sym": "PPLPHARMA",
@@ -7165,7 +7188,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 199.28,
-   "ret5": 7.19
+   "ret5": 7.19,
+   "ret20": 7.59
   },
   {
    "sym": "SAGILITY",
@@ -7173,7 +7197,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 43.88,
-   "ret5": -0.32
+   "ret5": -0.32,
+   "ret20": 7.47
   },
   {
    "sym": "SAPPHIRE",
@@ -7181,7 +7206,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 187.48,
-   "ret5": 17.68
+   "ret5": 17.68,
+   "ret20": 25.03
   },
   {
    "sym": "STARHEALTH",
@@ -7189,7 +7215,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 592.6,
-   "ret5": -2.98
+   "ret5": -2.98,
+   "ret20": -4.19
   },
   {
    "sym": "TBOTEK",
@@ -7197,7 +7224,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-03",
    "price": 1615.9,
-   "ret5": -0.86
+   "ret5": -0.86,
+   "ret20": 8.0
   },
   {
    "sym": "ZFCVINDIA",
@@ -7205,7 +7233,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-03",
    "price": 2447.8,
-   "ret5": 6.61
+   "ret5": 6.61,
+   "ret20": 3.55
   },
   {
    "sym": "ACUTAAS",
@@ -7213,7 +7242,8 @@
    "to": "RED",
    "date": "2026-08-03",
    "price": 3116.4,
-   "ret5": 5.31
+   "ret5": 5.31,
+   "ret20": 1.42
   },
   {
    "sym": "AWL",
@@ -7221,7 +7251,8 @@
    "to": "READY",
    "date": "2026-08-04",
    "price": 190.59,
-   "ret5": 1.19
+   "ret5": 1.19,
+   "ret20": 1.99
   },
   {
    "sym": "ALKEM",
@@ -7229,7 +7260,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 5608.0,
-   "ret5": -1.26
+   "ret5": -1.26,
+   "ret20": -5.32
   },
   {
    "sym": "APARINDS",
@@ -7237,7 +7269,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-04",
    "price": 15433.0,
-   "ret5": 8.52
+   "ret5": 8.52,
+   "ret20": 12.75
   },
   {
    "sym": "BALKRISIND",
@@ -7245,7 +7278,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 2491.9,
-   "ret5": 0.28
+   "ret5": 0.28,
+   "ret20": -6.42
   },
   {
    "sym": "HINDPETRO",
@@ -7253,7 +7287,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 391.5,
-   "ret5": -0.17
+   "ret5": -0.17,
+   "ret20": -2.48
   },
   {
    "sym": "ICICIPRULI",
@@ -7261,7 +7296,8 @@
    "to": "READY",
    "date": "2026-08-04",
    "price": 513.55,
-   "ret5": -2.35
+   "ret5": -2.35,
+   "ret20": -3.52
   },
   {
    "sym": "INDUSINDBK",
@@ -7269,7 +7305,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 1026.0,
-   "ret5": -1.67
+   "ret5": -1.67,
+   "ret20": -3.26
   },
   {
    "sym": "LICHSGFIN",
@@ -7277,7 +7314,8 @@
    "to": "RED",
    "date": "2026-08-04",
    "price": 512.0,
-   "ret5": -1.95
+   "ret5": -1.95,
+   "ret20": 6.57
   },
   {
    "sym": "NATIONALUM",
@@ -7285,7 +7323,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-04",
    "price": 377.0,
-   "ret5": 2.92
+   "ret5": 2.92,
+   "ret20": -1.08
   },
   {
    "sym": "SCHAEFFLER",
@@ -7293,7 +7332,8 @@
    "to": "READY",
    "date": "2026-08-04",
    "price": 4055.5,
-   "ret5": 2.36
+   "ret5": 2.36,
+   "ret20": -1.36
   },
   {
    "sym": "ACE",
@@ -7301,7 +7341,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 1098.6,
-   "ret5": -2.3
+   "ret5": -2.3,
+   "ret20": -0.44
   },
   {
    "sym": "ABREL",
@@ -7309,7 +7350,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 1424.1,
-   "ret5": -1.64
+   "ret5": -1.64,
+   "ret20": -4.71
   },
   {
    "sym": "BSOFT",
@@ -7317,7 +7359,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 323.2,
-   "ret5": -0.9
+   "ret5": -0.9,
+   "ret20": -8.48
   },
   {
    "sym": "CHOICEIN",
@@ -7325,7 +7368,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-04",
    "price": 824.8,
-   "ret5": -0.29
+   "ret5": -0.29,
+   "ret20": -6.07
   },
   {
    "sym": "COHANCE",
@@ -7333,7 +7377,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 424.9,
-   "ret5": 9.19
+   "ret5": 9.19,
+   "ret20": 8.26
   },
   {
    "sym": "CREDITACC",
@@ -7341,7 +7386,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 1557.6,
-   "ret5": -1.11
+   "ret5": -1.11,
+   "ret20": -10.55
   },
   {
    "sym": "CYIENT",
@@ -7349,7 +7395,8 @@
    "to": "READY",
    "date": "2026-08-04",
    "price": 867.6,
-   "ret5": -1.64
+   "ret5": -1.64,
+   "ret20": 34.23
   },
   {
    "sym": "GABRIEL",
@@ -7357,7 +7404,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-04",
    "price": 1530.8,
-   "ret5": -1.92
+   "ret5": -1.92,
+   "ret20": -6.63
   },
   {
    "sym": "GESHIP",
@@ -7365,7 +7413,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-04",
    "price": 1434.9,
-   "ret5": -8.95
+   "ret5": -8.95,
+   "ret20": -6.62
   },
   {
    "sym": "IRB",
@@ -7373,7 +7422,8 @@
    "to": "READY",
    "date": "2026-08-04",
    "price": 20.13,
-   "ret5": -2.59
+   "ret5": -2.59,
+   "ret20": -3.64
   },
   {
    "sym": "IRCON",
@@ -7381,7 +7431,8 @@
    "to": "CONFIRMED",
    "date": "2026-08-04",
    "price": 131.93,
-   "ret5": -2.87
+   "ret5": -2.87,
+   "ret20": -9.74
   },
   {
    "sym": "LTFOODS",
@@ -7389,7 +7440,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 417.4,
-   "ret5": 0.46
+   "ret5": 0.46,
+   "ret20": 4.95
   },
   {
    "sym": "MGL",
@@ -7397,7 +7449,8 @@
    "to": "READY",
    "date": "2026-08-04",
    "price": 1111.6,
-   "ret5": 2.04
+   "ret5": 2.04,
+   "ret20": -1.48
   },
   {
    "sym": "MANAPPURAM",
@@ -7405,7 +7458,8 @@
    "to": "RED",
    "date": "2026-08-04",
    "price": 356.6,
-   "ret5": 0.95
+   "ret5": 0.95,
+   "ret20": -5.22
   },
   {
    "sym": "POLYMED",
@@ -7413,7 +7467,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 1724.5,
-   "ret5": 8.08
+   "ret5": 8.08,
+   "ret20": 2.06
   },
   {
    "sym": "PFOCUS",
@@ -7421,7 +7476,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 302.8,
-   "ret5": -7.02
+   "ret5": -7.02,
+   "ret20": -5.38
   },
   {
    "sym": "SHYAMMETL",
@@ -7429,7 +7485,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 1019.8,
-   "ret5": -3.17
+   "ret5": -3.17,
+   "ret20": 5.99
   },
   {
    "sym": "TATATECH",
@@ -7437,7 +7494,8 @@
    "to": "NEUTRAL",
    "date": "2026-08-04",
    "price": 762.55,
-   "ret5": 13.46
+   "ret5": 13.46,
+   "ret20": 6.87
   },
   {
    "sym": "ABCAPITAL",
@@ -11268,609 +11326,696 @@
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 5350.0
+   "price": 5350.0,
+   "ret5": -0.38
   },
   {
    "sym": "APOLLOTYRE",
    "from": "READY",
    "to": "CONFIRMED",
    "date": "2026-08-24",
-   "price": 445.85
+   "price": 445.85,
+   "ret5": -1.55
   },
   {
    "sym": "BHARATFORG",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 2041.0
+   "price": 2041.0,
+   "ret5": 3.13
   },
   {
    "sym": "CONCOR",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 516.4
+   "price": 516.4,
+   "ret5": -0.87
   },
   {
    "sym": "GLAXO",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 2931.7
+   "price": 2931.7,
+   "ret5": 4.04
   },
   {
    "sym": "GODFRYPHLP",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 2100.5
+   "price": 2100.5,
+   "ret5": 0.2
   },
   {
    "sym": "HEROMOTOCO",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 5685.0
+   "price": 5685.0,
+   "ret5": -4.13
   },
   {
    "sym": "IDFCFIRSTB",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 85.89
+   "price": 85.89,
+   "ret5": 0.09
   },
   {
    "sym": "KEI",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 5494.0
+   "price": 5494.0,
+   "ret5": 4.48
   },
   {
    "sym": "LAURUSLABS",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 1801.0
+   "price": 1801.0,
+   "ret5": 6.33
   },
   {
    "sym": "LUPIN",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 2188.0
+   "price": 2188.0,
+   "ret5": 0.02
   },
   {
    "sym": "OIL",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 477.0
+   "price": 477.0,
+   "ret5": 1.29
   },
   {
    "sym": "PETRONET",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 295.95
+   "price": 295.95,
+   "ret5": 1.57
   },
   {
    "sym": "RADICO",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 4600.0
+   "price": 4600.0,
+   "ret5": -2.5
   },
   {
    "sym": "SUNDARMFIN",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 4505.1
+   "price": 4505.1,
+   "ret5": 0.77
   },
   {
    "sym": "THERMAX",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 3984.2
+   "price": 3984.2,
+   "ret5": -2.07
   },
   {
    "sym": "UPL",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 571.9
+   "price": 571.9,
+   "ret5": -1.69
   },
   {
    "sym": "ABFRL",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 53.95
+   "price": 53.95,
+   "ret5": -3.43
   },
   {
    "sym": "ANANTRAJ",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 614.6
+   "price": 614.6,
+   "ret5": -1.74
   },
   {
    "sym": "ATUL",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 6425.0
+   "price": 6425.0,
+   "ret5": -0.51
   },
   {
    "sym": "BEML",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 1915.0
+   "price": 1915.0,
+   "ret5": 1.1
   },
   {
    "sym": "BELRISE",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 229.2
+   "price": 229.2,
+   "ret5": 1.37
   },
   {
    "sym": "MAPMYINDIA",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 961.7
+   "price": 961.7,
+   "ret5": 5.38
   },
   {
    "sym": "CEATLTD",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 3565.9
+   "price": 3565.9,
+   "ret5": -4.1
   },
   {
    "sym": "COHANCE",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 448.75
+   "price": 448.75,
+   "ret5": 1.6
   },
   {
    "sym": "FIVESTAR",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 500.0
+   "price": 500.0,
+   "ret5": 7.01
   },
   {
    "sym": "GODIGIT",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 260.4
+   "price": 260.4,
+   "ret5": -1.15
   },
   {
    "sym": "GMDCLTD",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 570.85
+   "price": 570.85,
+   "ret5": -1.37
   },
   {
    "sym": "HFCL",
    "from": "RED",
    "to": "CONFIRMED",
    "date": "2026-08-24",
-   "price": 238.42
+   "price": 238.42,
+   "ret5": 4.48
   },
   {
    "sym": "HSCL",
    "from": "NEUTRAL",
    "to": "RED",
    "date": "2026-08-24",
-   "price": 662.2
+   "price": 662.2,
+   "ret5": -0.45
   },
   {
    "sym": "IIFL",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-24",
-   "price": 696.4
+   "price": 696.4,
+   "ret5": -7.13
   },
   {
    "sym": "IRCON",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 123.1
+   "price": 123.1,
+   "ret5": -3.03
   },
   {
    "sym": "JINDALSAW",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-24",
-   "price": 287.25
+   "price": 287.25,
+   "ret5": 7.8
   },
   {
    "sym": "JWL",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 247.85
+   "price": 247.85,
+   "ret5": -2.95
   },
   {
    "sym": "KAYNES",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 3840.2
+   "price": 3840.2,
+   "ret5": -4.04
   },
   {
    "sym": "MMTC",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 64.61
+   "price": 64.61,
+   "ret5": -3.5
   },
   {
    "sym": "MEESHO",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 205.07
+   "price": 205.07,
+   "ret5": 0.16
   },
   {
    "sym": "NAVINFLUOR",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 8187.0
+   "price": 8187.0,
+   "ret5": 5.97
   },
   {
    "sym": "NIVABUPA",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 82.51
+   "price": 82.51,
+   "ret5": -1.51
   },
   {
    "sym": "PFIZER",
    "from": "CONFIRMED",
    "to": "READY",
    "date": "2026-08-24",
-   "price": 4881.5
+   "price": 4881.5,
+   "ret5": -4.04
   },
   {
    "sym": "PFOCUS",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-24",
-   "price": 307.8
+   "price": 307.8,
+   "ret5": -6.66
   },
   {
    "sym": "SONATSOFTW",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 306.75
+   "price": 306.75,
+   "ret5": -4.79
   },
   {
    "sym": "TARIL",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-24",
-   "price": 302.1
+   "price": 302.1,
+   "ret5": 3.87
   },
   {
    "sym": "URBANCO",
    "from": "READY",
    "to": "CONFIRMED",
    "date": "2026-08-24",
-   "price": 168.84
+   "price": 168.84,
+   "ret5": -1.02
   },
   {
    "sym": "ZEEL",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-24",
-   "price": 104.57
+   "price": 104.57,
+   "ret5": -10.51
   },
   {
    "sym": "AWL",
    "from": "READY",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 200.64
+   "price": 200.64,
+   "ret5": -3.12
   },
   {
    "sym": "AJANTPHARM",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 3554.9
+   "price": 3554.9,
+   "ret5": -1.41
   },
   {
    "sym": "BLUESTARCO",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 1515.0
+   "price": 1515.0,
+   "ret5": -1.59
   },
   {
    "sym": "CRISIL",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 4480.0
+   "price": 4480.0,
+   "ret5": 7.8
   },
   {
    "sym": "EXIDEIND",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 448.75
+   "price": 448.75,
+   "ret5": -2.79
   },
   {
    "sym": "FORTIS",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 923.95
+   "price": 923.95,
+   "ret5": -0.97
   },
   {
    "sym": "HINDPETRO",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 373.2
+   "price": 373.2,
+   "ret5": -2.71
   },
   {
    "sym": "KPRMILL",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 1120.0
+   "price": 1120.0,
+   "ret5": 3.44
   },
   {
    "sym": "MRF",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 132295.0
+   "price": 132295.0,
+   "ret5": 0.03
   },
   {
    "sym": "OFSS",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 11729.0
+   "price": 11729.0,
+   "ret5": 3.9
   },
   {
    "sym": "PREMIERENE",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 1036.0
+   "price": 1036.0,
+   "ret5": -2.23
   },
   {
    "sym": "SAIL",
    "from": "READY",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 184.59
+   "price": 184.59,
+   "ret5": 4.56
   },
   {
    "sym": "SUPREMEIND",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 3593.0
+   "price": 3593.0,
+   "ret5": 0.33
   },
   {
    "sym": "TATAELXSI",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 3665.9
+   "price": 3665.9,
+   "ret5": -0.76
   },
   {
    "sym": "TATAINVEST",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 644.35
+   "price": 644.35,
+   "ret5": -1.66
   },
   {
    "sym": "TORNTPOWER",
    "from": "NEUTRAL",
    "to": "RED",
    "date": "2026-08-25",
-   "price": 1243.9
+   "price": 1243.9,
+   "ret5": -1.98
   },
   {
    "sym": "TIINDIA",
    "from": "RED",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 2888.0
+   "price": 2888.0,
+   "ret5": -4.32
   },
   {
    "sym": "ACE",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 1154.8
+   "price": 1154.8,
+   "ret5": -5.28
   },
   {
    "sym": "AFFLE",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 1710.8
+   "price": 1710.8,
+   "ret5": -8.52
   },
   {
    "sym": "BSOFT",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 291.0
+   "price": 291.0,
+   "ret5": 1.65
   },
   {
    "sym": "BLUEDART",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 4994.5
+   "price": 4994.5,
+   "ret5": 2.21
   },
   {
    "sym": "CGCL",
    "from": "READY",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 239.67
+   "price": 239.67,
+   "ret5": 4.69
   },
   {
    "sym": "CHALET",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 894.05
+   "price": 894.05,
+   "ret5": 0.39
   },
   {
    "sym": "CHENNPETRO",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 1401.2
+   "price": 1401.2,
+   "ret5": -1.01
   },
   {
    "sym": "CLEAN",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 821.9
+   "price": 821.9,
+   "ret5": 0.63
   },
   {
    "sym": "CYIENT",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 979.05
+   "price": 979.05,
+   "ret5": 18.95
   },
   {
    "sym": "DCMSHRIRAM",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 1052.9
+   "price": 1052.9,
+   "ret5": -2.14
   },
   {
    "sym": "EMAMILTD",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 402.7
+   "price": 402.7,
+   "ret5": -6.47
   },
   {
    "sym": "FSL",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 275.4
+   "price": 275.4,
+   "ret5": -3.41
   },
   {
    "sym": "IDBI",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 88.31
+   "price": 88.31,
+   "ret5": 4.25
   },
   {
    "sym": "JBMA",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 647.55
+   "price": 647.55,
+   "ret5": -3.97
   },
   {
    "sym": "KEC",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 426.35
+   "price": 426.35,
+   "ret5": -2.19
   },
   {
    "sym": "MANAPPURAM",
    "from": "RED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 367.45
+   "price": 367.45,
+   "ret5": -8.29
   },
   {
    "sym": "MINDACORP",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 703.55
+   "price": 703.55,
+   "ret5": 1.26
   },
   {
    "sym": "PVRINOX",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 1231.0
+   "price": 1231.0,
+   "ret5": -0.23
   },
   {
    "sym": "RRKABEL",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 2801.2
+   "price": 2801.2,
+   "ret5": 2.45
   },
   {
    "sym": "RAILTEL",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 280.8
+   "price": 280.8,
+   "ret5": -1.03
   },
   {
    "sym": "RKFORGE",
    "from": "CONFIRMED",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 721.1
+   "price": 721.1,
+   "ret5": 4.51
   },
   {
    "sym": "SCHNEIDER",
    "from": "NEUTRAL",
    "to": "RED",
    "date": "2026-08-25",
-   "price": 1146.4
+   "price": 1146.4,
+   "ret5": 3.65
   },
   {
    "sym": "TATATECH",
    "from": "READY",
    "to": "NEUTRAL",
    "date": "2026-08-25",
-   "price": 798.5
+   "price": 798.5,
+   "ret5": 2.06
   },
   {
    "sym": "TEGA",
    "from": "NEUTRAL",
    "to": "READY",
    "date": "2026-08-25",
-   "price": 1674.6
+   "price": 1674.6,
+   "ret5": -6.22
   },
   {
    "sym": "ZYDUSWELL",
    "from": "NEUTRAL",
    "to": "CONFIRMED",
    "date": "2026-08-25",
-   "price": 525.45
+   "price": 525.45,
+   "ret5": 0.64
   },
   {
    "sym": "MAHABANK",
@@ -12900,6 +13045,167 @@
    "to": "RED",
    "date": "2026-08-31",
    "price": 662.4
+  },
+  {
+   "sym": "BDL",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 1250.0
+  },
+  {
+   "sym": "INDIANB",
+   "from": "NEUTRAL",
+   "to": "READY",
+   "date": "2026-09-01",
+   "price": 881.75
+  },
+  {
+   "sym": "KEI",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 5348.0
+  },
+  {
+   "sym": "KPITTECH",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 590.0
+  },
+  {
+   "sym": "LAURUSLABS",
+   "from": "CONFIRMED",
+   "to": "RED",
+   "date": "2026-09-01",
+   "price": 1861.6
+  },
+  {
+   "sym": "PAYTM",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 1633.5
+  },
+  {
+   "sym": "SBICARD",
+   "from": "NEUTRAL",
+   "to": "RED",
+   "date": "2026-09-01",
+   "price": 632.4
+  },
+  {
+   "sym": "SAIL",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 193.0
+  },
+  {
+   "sym": "TORNTPOWER",
+   "from": "RED",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 1219.3
+  },
+  {
+   "sym": "AAVAS",
+   "from": "NEUTRAL",
+   "to": "RED",
+   "date": "2026-09-01",
+   "price": 1248.4
+  },
+  {
+   "sym": "AFCONS",
+   "from": "NEUTRAL",
+   "to": "READY",
+   "date": "2026-09-01",
+   "price": 285.25
+  },
+  {
+   "sym": "BBTC",
+   "from": "RED",
+   "to": "READY",
+   "date": "2026-09-01",
+   "price": 1539.0
+  },
+  {
+   "sym": "CUB",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-09-01",
+   "price": 234.99
+  },
+  {
+   "sym": "ELGIEQUIP",
+   "from": "NEUTRAL",
+   "to": "CONFIRMED",
+   "date": "2026-09-01",
+   "price": 628.9
+  },
+  {
+   "sym": "HINDCOPPER",
+   "from": "NEUTRAL",
+   "to": "READY",
+   "date": "2026-09-01",
+   "price": 526.65
+  },
+  {
+   "sym": "KFINTECH",
+   "from": "RED",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 937.5
+  },
+  {
+   "sym": "MMTC",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 62.32
+  },
+  {
+   "sym": "MRPL",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 171.42
+  },
+  {
+   "sym": "NAVA",
+   "from": "RED",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 563.6
+  },
+  {
+   "sym": "TATATECH",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 814.95
+  },
+  {
+   "sym": "TTML",
+   "from": "NEUTRAL",
+   "to": "READY",
+   "date": "2026-09-01",
+   "price": 38.92
+  },
+  {
+   "sym": "TRAVELFOOD",
+   "from": "READY",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 1270.5
+  },
+  {
+   "sym": "WOCKPHARMA",
+   "from": "CONFIRMED",
+   "to": "NEUTRAL",
+   "date": "2026-09-01",
+   "price": 1850.6
   }
  ]
 }
