@@ -1,361 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-26",
-   "deals": [
-    {
-     "symbol": "CYIENT",
-     "side": "BUY",
-     "qty": 528376.0,
-     "kind": "bulk",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 22000003.0,
-     "kind": "bulk",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 2945863.0,
-     "kind": "bulk",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "CYIENT",
-     "side": "SELL",
-     "qty": 522908.0,
-     "kind": "bulk",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "GROWW",
-     "side": "SELL",
-     "qty": 63169322.0,
-     "kind": "bulk",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "GROWW",
-     "side": "SELL",
-     "qty": 49942079.0,
-     "kind": "bulk",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "SELL",
-     "qty": 46698120.0,
-     "kind": "bulk",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "SELL",
-     "qty": 6000000.0,
-     "kind": "bulk",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 2352677.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 2352783.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 272929.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 6123236.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 164286.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 2123686.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 283535.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 22000003.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 60084.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 2123694.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 567357.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 2123689.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 442432.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 186143.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 2123692.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "BUY",
-     "qty": 3397894.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 1492.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 120549.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 17600.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 162000.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 60600.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 157000.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 3264.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 159731.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 7438.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 41391.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 12870.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 443268.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 142400.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 8301.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 7244.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 40184.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 109900.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 373577.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 2945863.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 123000.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 151256.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 841675.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "BUY",
-     "qty": 369397.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "PWL",
-     "side": "SELL",
-     "qty": 46698120.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "SELL",
-     "qty": 6000000.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    },
-    {
-     "symbol": "WELCORP",
-     "side": "SELL",
-     "qty": 300000.0,
-     "kind": "block",
-     "date": "26-AUG-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-27",
    "deals": [
     {
@@ -1114,6 +759,179 @@
      "qty": 2088766.0,
      "kind": "bulk",
      "date": "01-SEP-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "deals": [
+    {
+     "symbol": "ASTERDM",
+     "side": "BUY",
+     "qty": 4609800.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "IFCI",
+     "side": "BUY",
+     "qty": 13512615.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "IFCI",
+     "side": "BUY",
+     "qty": 15628262.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "IFCI",
+     "side": "BUY",
+     "qty": 14694475.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "IFCI",
+     "side": "BUY",
+     "qty": 21355787.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 10315925.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "ASTERDM",
+     "side": "SELL",
+     "qty": 4609800.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "IFCI",
+     "side": "SELL",
+     "qty": 11288955.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "IFCI",
+     "side": "SELL",
+     "qty": 21356050.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "IFCI",
+     "side": "SELL",
+     "qty": 15628262.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "IFCI",
+     "side": "SELL",
+     "qty": 14812881.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "SELL",
+     "qty": 35456317.0,
+     "kind": "bulk",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "ASTERDM",
+     "side": "BUY",
+     "qty": 4609800.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 10315925.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 4531963.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 2578981.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 4162862.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 4132253.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 2450000.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 1611865.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 2448742.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "BUY",
+     "qty": 3223726.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "ASTERDM",
+     "side": "SELL",
+     "qty": 4609800.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
+    },
+    {
+     "symbol": "PINELABS",
+     "side": "SELL",
+     "qty": 35456317.0,
+     "kind": "block",
+     "date": "02-SEP-2026"
     }
    ]
   }
