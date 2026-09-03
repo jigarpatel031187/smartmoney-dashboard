@@ -1,116 +1,6 @@
 {
  "sessions": [
   {
-   "date": "2026-08-27",
-   "deals": [
-    {
-     "symbol": "APOLLOTYRE",
-     "side": "BUY",
-     "qty": 5632000.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "APOLLOTYRE",
-     "side": "BUY",
-     "qty": 19080000.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "BBTC",
-     "side": "BUY",
-     "qty": 620149.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "BBTC",
-     "side": "BUY",
-     "qty": 795485.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "BBTC",
-     "side": "BUY",
-     "qty": 375552.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "BBTC",
-     "side": "BUY",
-     "qty": 448910.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "APOLLOTYRE",
-     "side": "SELL",
-     "qty": 27010000.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "BBTC",
-     "side": "SELL",
-     "qty": 620149.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "BBTC",
-     "side": "SELL",
-     "qty": 448910.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "BBTC",
-     "side": "SELL",
-     "qty": 375552.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "BBTC",
-     "side": "SELL",
-     "qty": 795485.0,
-     "kind": "bulk",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "APOLLOTYRE",
-     "side": "BUY",
-     "qty": 2298000.0,
-     "kind": "block",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "APOLLOTYRE",
-     "side": "BUY",
-     "qty": 5632000.0,
-     "kind": "block",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "APOLLOTYRE",
-     "side": "BUY",
-     "qty": 19080000.0,
-     "kind": "block",
-     "date": "27-AUG-2026"
-    },
-    {
-     "symbol": "APOLLOTYRE",
-     "side": "SELL",
-     "qty": 27010000.0,
-     "kind": "block",
-     "date": "27-AUG-2026"
-    }
-   ]
-  },
-  {
    "date": "2026-08-28",
    "deals": [
     {
@@ -932,6 +822,340 @@
      "qty": 35456317.0,
      "kind": "block",
      "date": "02-SEP-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "deals": [
+    {
+     "symbol": "MEESHO",
+     "side": "SELL",
+     "qty": 35317328.0,
+     "kind": "bulk",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "SELL",
+     "qty": 44682672.0,
+     "kind": "bulk",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 331100.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 913300.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 84700.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 3072600.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 58600.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 114400.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 169145.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1498142.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 4832713.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 5300000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 6000000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1211828.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1081780.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2773147.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 64907.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1113810.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 216356.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 80800.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2000000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 380000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 760000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2000000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2050000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 65665.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1856158.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 160849.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 169145.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 4832714.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1498141.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2250000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2250000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 6000000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 2250000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 3300000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 3400000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 850000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 8000000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 1250000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "BUY",
+     "qty": 760000.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "SELL",
+     "qty": 44682672.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
+    },
+    {
+     "symbol": "MEESHO",
+     "side": "SELL",
+     "qty": 35317328.0,
+     "kind": "block",
+     "date": "03-SEP-2026"
     }
    ]
   }
