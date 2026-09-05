@@ -1,5 +1,5 @@
 {
- "asof": "2026-08-29T15:55:59.908973+05:30",
+ "asof": "2026-09-05T13:23:52.632398+05:30",
  "data": {
   "360ONE": {
    "available": true,
@@ -862,7 +862,7 @@
      "pat": 2325650000.0
     }
    ],
-   "sector": "Consumer Cyclical",
+   "sector": "Industrials",
    "next_earnings": "2026-11-13"
   },
   "BHEL": {
@@ -8613,7 +8613,7 @@
      "pat": 1722380000.0
     }
    ],
-   "sector": "Communication Services",
+   "sector": "Consumer Cyclical",
    "next_earnings": "2026-10-16"
   },
   "IEX": {
